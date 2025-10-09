@@ -177,7 +177,7 @@ CacheControl::preventCaching();
                     <div class="invest-bar-content">
                         <!-- <a href="/webinar" class="theme-btn orange-btn">Watch the Webinar</a> -->
                          <div></div>
-                        <a href="/invest" class="theme-btn orange-btn text-uppercase">Invest in CancerVax!</a>
+                        <a href="https://invest.cancervax.com/schedule-call" target="_blank" class="theme-btn orange-btn text-uppercase">Learn how you can help us!</a>
                         <div class="tSocial d-none d-md-block">
                             <a href="https://www.facebook.com/people/Cancervax/100090179828482/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
                             <a href="https://www.instagram.com/cancervaxbiotech/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
