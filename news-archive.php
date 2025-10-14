@@ -17,6 +17,14 @@ include('header.php'); ?>
         <div class="row">
         <div class="col-lg-6">
                 <div class="news-item">
+                    <a href="cancervax-precision-therapy-successfully-avoids-healthy-liver-cells.php"></a>
+                    <span>October 14, 2025 </span>
+                    <h3>CancerVax Precision Therapy Successfully Avoids Healthy Liver Cells</h3>
+                    <p>CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that recent in-vitro studies have confirmed that the Company’s technology could significantly reduce liver toxicity, a major problem with other cancer drugs</p>
+                </div>
+            </div>
+        <div class="col-lg-6">
+                <div class="news-item">
                     <a href="legendary-scientist-and-biotech-veteran-joins-cancervax-as-strategic-advisor.php"></a>
                     <span>September 3, 2025 </span>
                     <h3>Legendary Scientist and Biotech Veteran Joins CancerVax as Strategic Advisor</h3>
