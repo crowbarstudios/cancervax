@@ -4233,3 +4233,8 @@ label.error {
         }
     }
 }
+.health-liver-cells-img{
+  @media (min-width: 768px) {
+    max-width: 600px;
+  }
+}
