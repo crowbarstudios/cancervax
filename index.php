@@ -86,7 +86,7 @@ include('header.php'); ?>
                             <span>Watch video</span>
                         </a>
                     </div>
-                    <div class="banner-news d-lg-none">
+                    <div class="banner-news d-lg-none mx-auto">
                         <h2 class="banner-news-head">Breaking News</h2>
                         <div class="banner-news-thumbnail">
                             <a href="https://cancervax.com/cancervax-successfully-disguises-cancer-cells-and-tricks-immune-cells-into-attacking-them.php"><img src="./assets/img/Rectangle1.png" alt="news-thumbnail"></a>
