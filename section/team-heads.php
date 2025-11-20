@@ -6,7 +6,7 @@
 
         <div class="team-wrapper">
             <div class="row justify-content-center">
-                <div class="col-md-6 col-xl-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="team-box">
                         <div class="team-box-img">
                             <a href="#">
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="team-box">
                         <div class="team-box-img">
                             <a href="#">
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="team-box">
                         <div class="team-box-img">
                             <a href="#">
@@ -99,7 +99,7 @@
         <div class="team-wrapper">
             <div class="row my-4 justify-content-center">
 
-                <div class="col-md-6 col-xl-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="team-box">
                         <div class="team-box-img">
                             <a href="#">
@@ -123,7 +123,7 @@
                         </div>
                     </div>
                     </div>
-                    <div class="col-md-6 col-xl-3">
+                    <div class="col-md-6 col-lg-3">
                         <div class="team-box">
                             <div class="team-box-img">
                                 <a href="#">
@@ -148,7 +148,7 @@
                     </div>
                     <div class="row my-4 justify-content-center">
 
-                        <div class="col-md-6 col-xl-3">
+                        <div class="col-md-6 col-lg-3">
                             <div class="team-box">
                                 <div class="team-box-img">
                                     <a href="#">
@@ -180,7 +180,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-xl-3">
+                        <div class="col-md-6 col-lg-3">
                             <div class="team-box">
                                 <div class="team-box-img">
                                     <a href="#">
@@ -211,7 +211,7 @@
                     </div>
                     <div class="row my-4 justify-content-center">
 
-                        <div class="col-md-6 col-xl-3">
+                        <div class="col-md-6 col-lg-3">
                             <div class="team-box">
                                 <div class="team-box-img">
                                     <a href="#">
@@ -245,7 +245,7 @@
 
 
 
-                        <div class="col-md-6 col-xl-3">
+                        <div class="col-md-6 col-lg-3">
                             <div class="team-box">
                                 <div class="team-box-img">
                                     <a href="#">
