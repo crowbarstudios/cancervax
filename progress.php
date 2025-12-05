@@ -200,6 +200,47 @@ include('header.php'); ?>
     </div>
 </section>
 
+<section class="dev-milestones">
+    <div class="container">
+        <div class="dev-milestones-body">
+            <h5>October 15, 2025 – Smart mRNA Successfully Avoided Healthy Liver Cells to Reduce Liver Toxicity </h5>
+            <div class="dev-white-bg lipid-nanoparticle-wrap">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="lipid-nanoparticle d-flex flex-column justify-content-between">
+                            <img src="./assets/img/dev-progress-4.png?v=<?php echo filemtime('./assets/img/dev-progress-4.png'); ?>" alt="lipid-nanoparticle">
+                          
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="theme-list">
+                            <li>The liver is the main site for drug metabolism. Many cancer therapies fail in clinical trials because a significant portion of the drug ends up in the liver and causes liver damage or liver failure.
+
+                            </li>
+                            <li>Recent in-vitro tests confirmed that our Smart mRNAs targeting pancreatic and liver cancers were dramatically deactivated in healthy human liver cells. 
+                            </li>
+                            <li><strong>In other words, CancerVax will not make healthy liver cells look like measles! </strong></li>
+                        </ul>
+                       
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                    
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-center mt-lg-5">
+                            <a href="cancervax-precision-therapy-successfully-avoids-healthy-liver-cells.php" class="theme-btn">Press Release</a>
+                        </div>
+                    </div>
+                </div>
+           
+
+        </div>
+    </div>
+</section>
+
 
 
 <?php
