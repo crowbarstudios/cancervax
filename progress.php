@@ -203,7 +203,7 @@ include('header.php'); ?>
 <section class="dev-milestones">
     <div class="container">
         <div class="dev-milestones-body">
-            <h5>October 15, 2025 – Smart mRNA Successfully Avoided Liver Cells to Reduce Liver Toxicity </h5>
+            <h5>October 15, 2025 – Smart mRNA Successfully Avoided Healthy Liver Cells to Reduce Liver Toxicity </h5>
             <div class="dev-white-bg lipid-nanoparticle-wrap">
                 <div class="row">
                     <div class="col-lg-6">
