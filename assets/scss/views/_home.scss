@@ -4239,3 +4239,8 @@ label.error {
     max-width: 600px;
   }
 }
+.nanoparticle-component-img{
+  @media (min-width: 768px) {
+    max-width: 80%;
+  }
+}

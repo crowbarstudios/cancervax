@@ -21,7 +21,7 @@ include('header.php'); ?>
 
         <p>In recent in-vitro studies using pancreatic and liver cancer cell lines, the Company received two compelling results that provided confidence in moving forward with animal studies using tumor bearing mice. The first was that the Marker1 LNPs were absorbed into cancer cells with high efficiency. The second was that Marker2 Smart mRNAs were  strongly activated in cancer cells and strongly deactivated in healthy human liver cells.</p>
 
-        <img src="./assets/img/nanoparticle-component.png" alt="liver-toxicity" class="my-4 d-sm-block d-none mx-auto health-liver-cells-img">
+        <img src="./assets/img/nanoparticle-component.png" alt="liver-toxicity" class="my-4 d-sm-block d-none mx-auto nanoparticle-component-img">
 
         <div class="d-sm-none d-block">
         <img src="./assets/img/nanoparticle-component1.png" alt="nanoparticle-component" class="my-4 d-block mx-auto health-liver-cells-img">
