@@ -21,7 +21,14 @@ include('header.php'); ?>
 
         <p>In recent in-vitro studies using pancreatic and liver cancer cell lines, the Company received two compelling results that provided confidence in moving forward with animal studies using tumor bearing mice. The first was that the Marker1 LNPs were absorbed into cancer cells with high efficiency. The second was that Marker2 Smart mRNAs were  strongly activated in cancer cells and strongly deactivated in healthy human liver cells.</p>
 
-        <img src="./assets/img/health-liver-cells.png" alt="liver-toxicity" class="my-4 d-block mx-auto health-liver-cells-img">
+        <img src="./assets/img/nanoparticle-component.png" alt="liver-toxicity" class="my-4 d-sm-block d-none mx-auto health-liver-cells-img">
+
+        <div class="d-sm-none d-block">
+        <img src="./assets/img/nanoparticle-component1.png" alt="nanoparticle-component" class="my-4 d-block mx-auto health-liver-cells-img">
+        <img src="./assets/img/nanoparticle-component2.png" alt="nanoparticle-component" class="my-4 d-block mx-auto health-liver-cells-img">
+
+        </div>
+        
 
         <p>Dr. George Katibah, Chief Scientific Officer of CancerVax, commented, “These in vitro results support the core design of our platform and development objectives: a targeted lipid nanoparticle that is preferentially taken up by cancer cells, paired with a Smart mRNA payload that is selectively active in tumor cells while sparing healthy tissue. Together, this enables a novel CancerVax nanoparticle designed to mark cancer cells for immune recognition by leveraging established immune memory pathways. Our mRNA-LNP foundation is built on clinically validated and commercially established technologies. We combined proprietary LNP modifications with novel mRNA programming to target cancer in a new and differentiated way.”</p>
 
