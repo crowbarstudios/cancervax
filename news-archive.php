@@ -17,6 +17,14 @@ include('header.php'); ?>
         <div class="row">
         <div class="col-lg-6">
                 <div class="news-item">
+                    <a href="cancervax-reports-nanoparticle-component-success-in-preparation-for-animal-studies.php"></a>
+                    <span>December 17, 2025 </span>
+                    <h3>CancerVax Reports Nanoparticle Component Success in Preparation for Animal Studies</h3>
+                    <p>CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that recent in-vitro studies have confirmed that two key components of the Company’s novel technology performed exceptionally well. The next step is to put them together into a complete therapeutic lipid nanoparticle (“LNP”) for animal testing</p>
+                </div>
+            </div>
+        <div class="col-lg-6">
+                <div class="news-item">
                     <a href="cancervax-precision-therapy-successfully-avoids-healthy-liver-cells.php"></a>
                     <span>October 14, 2025 </span>
                     <h3>CancerVax Precision Therapy Successfully Avoids Healthy Liver Cells</h3>
