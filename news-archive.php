@@ -17,6 +17,14 @@ include('header.php'); ?>
         <div class="row">
         <div class="col-lg-6">
                 <div class="news-item">
+                    <a href="cancervax-reviews-major-scientific-and-strategic-milestones-achieved-in-2025.php"></a>
+                    <span>December 23, 2025</span>
+                    <h3>CancerVax Reviews Major Scientific and Strategic Milestones Achieved in 2025</h3>
+                    <p>CancerVax, Inc., the developer of a breakthrough Universal Cancer Treatment Platform that uses the body’s immune system to treat cancer, today released a year-end summary highlighting significant advancements made throughout 2025. These achievements mark a transformative period in the Company’s development as it accelerates its mission to create safe, targeted, and broadly adaptable cancer treatments</p>
+                </div>
+            </div>
+        <div class="col-lg-6">
+                <div class="news-item">
                     <a href="cancervax-reports-nanoparticle-component-success-in-preparation-for-animal-studies.php"></a>
                     <span>December 17, 2025 </span>
                     <h3>CancerVax Reports Nanoparticle Component Success in Preparation for Animal Studies</h3>
