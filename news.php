@@ -17,6 +17,14 @@ include('header.php'); ?>
         <div class="row">
         <div class="col-lg-6">
                 <div class="news-item">
+                    <a href="world-renowned-immunologist-and-distinguished-scientist-joins-cancervax-as-senior-scientific-advisor.php"></a>
+                    <span>January 7, 2026</span>
+                    <h3>World-renowned Immunologist and Distinguished Scientist Joins CancerVax as Senior Scientific Advisor</h3>
+                    <p>CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that Mark M. Davis, PhD will serve as the Company’s Senior Scientific Advisor</p>
+                </div>
+            </div>
+        <div class="col-lg-6">
+                <div class="news-item">
                     <a href="cancervax-reviews-major-scientific-and-strategic-milestones-achieved-in-2025.php"></a>
                     <span>December 23, 2025</span>
                     <h3>CancerVax Reviews Major Scientific and Strategic Milestones Achieved in 2025</h3>
@@ -39,15 +47,6 @@ include('header.php'); ?>
                     <p>CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that recent in-vitro studies have confirmed that the Company’s technology could significantly reduce liver toxicity, a major problem with other cancer drugs</p>
                 </div>
             </div>
-        <div class="col-lg-6">
-                <div class="news-item">
-                    <a href="legendary-scientist-and-biotech-veteran-joins-cancervax-as-strategic-advisor.php"></a>
-                    <span>September 3, 2025 </span>
-                    <h3>Legendary Scientist and Biotech Veteran Joins CancerVax as Strategic Advisor</h3>
-                    <p>CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that Gordon Ringold, PhD, has joined the Company and will serve as Strategic Advisor</p>
-                </div>
-            </div>
-
      
         </div>
         <div class="news-see-archive">
