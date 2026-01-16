@@ -1,4 +1,4 @@
-<section class="bg-white py-[100px]">
+<section class="bg-white py-[40px]">
     <div class="container">
         <div class="text-center max-w-4xl mx-auto mb-[30px]">
             <h3 class="text-black font-medium">Our Scientific Team</h3>
@@ -6,18 +6,18 @@
 
 
         <div class="max-w-[970px] mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 justify-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 justify-center max-w-[717px] mx-auto">
                 <div class="text-center w-auto mx-auto team-item">
                     <div class="h-auto w-full mx-auto mb-[25px] team-target">
                         <a href="#">
-                            <img src="<?php echo  $full_url; ?>assets/images/george.png" class="w-[307px] h-[325px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
+                            <img src="<?php echo  $full_url; ?>assets/images/george.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
                     </div>
 
-                    <h5 class="text-sm font-medium mb-1 cursor-pointer text-black underline leading-tight team-target">
+                    <h5 class="text-base font-semibold mb-1 cursor-pointer text-black leading-tight tracking-[1.2px] team-target">
                         George Katibah, <span>PhD</span>
                     </h5>
-                    <p class="text-black text-[15px] font-medium underline text-center cursor-pointer team-target">
+                    <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
                         Chief Scientific Officer
                     </p>
                     <div class="team-description hidden">
@@ -38,13 +38,13 @@
                 <div class="text-center w-auto mx-auto team-item">
                     <div class="h-auto w-full mx-auto mb-[25px] team-target">
                         <a href="#">
-                            <img src="<?php echo  $full_url; ?>assets/images/adam-grant.png" class="w-[307px] h-[325px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
+                            <img src="<?php echo  $full_url; ?>assets/images/adam-grant.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
                     </div>
-                    <h5 class="text-sm font-medium mb-1 cursor-pointer text-black underline leading-tight team-target">
+                    <h5 class="text-base font-semibold mb-1 cursor-pointer text-black leading-tight tracking-[1.2px] team-target">
                         Adam Grant, <span>PhD</span>
                     </h5>
-                    <p class="text-black text-[15px] font-medium underline text-center cursor-pointer team-target">
+                    <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
                         Principal Scientist
                     </p>
                     <div class="team-description hidden">
@@ -61,17 +61,17 @@
                         </ul>
                     </div>
                 </div>
-                <div class="text-center w-auto mx-auto team-item">
+                <div class="text-center w-auto mx-auto team-itemg col-span-1 md:col-span-2 xl:col-span-1">
                     <div class="h-auto w-full mx-auto mb-[25px] team-target">
                         <a href="#">
-                            <img src="<?php echo  $full_url; ?>assets/images/sumant-ramachandra.png" class="w-[307px] h-[325px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
+                            <img src="<?php echo  $full_url; ?>assets/images/sumant-ramachandra.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
                     </div>
-                    <h5 class="text-sm font-medium mb-1 cursor-pointer text-black underline leading-tight team-target">
+                    <h5 class="text-base font-semibold mb-1 cursor-pointer text-black leading-tight tracking-[1.2px] team-target">
                         Sumant Ramachandra, <span>MD, PhD, MBA</span>
 
                     </h5>
-                    <p class="text-black text-[15px] font-medium underline text-center cursor-pointer team-target">
+                    <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
                         Chief Scientific Advisor
                     </p>
 
@@ -80,7 +80,7 @@
                         <div class="px-4">
                             <h5 class="text-black text-xl leading-normal font-medium">Founder: SR Global Health, LLC</h5>
                         </div>
-                        <img src="<?php echo  $full_url; ?>assets/images/sumant-ramachandra.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px">
+                        <img src="<?php echo  $full_url; ?>assets/images/sumant-ramachandra.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
                         <p class="py-2 text-base text-black px-6">Sumant Ramachandra serves as an Independent Director on the Board of Lyell Immunopharma (“Lyell”), following Lyell’s acquisition of ImmPACT Bio (“ImmPACT”) in October 2024. As CEO of ImmPACT from November 2021 until its acquisition, he led capital raises, secured clinical grants, and built a team that achieved FDA clearance for three Investigational New Drug (IND) applications, established manufacturing capabilities, and advanced multiple clinical studies. </p>
                         <p class="py-2 text-base text-black px-6">In addition, Dr. Ramachandra currently serves as an advisor to private equity funds on companies in the pharmaceuticals, biotechnology, and medical devices/software spaces. <br> Previously, Dr. Ramachandra served as Chief Science, Technology, and Medical Officer at Baxter International, starting in June 2017. He was also appointed President of Baxter Pharmaceuticals in 2019. Prior to Baxter, he held the role of Senior Vice President, Head of Research & Development, at Pfizer Essential Health, and served as Chief Scientific Officer at Hospira from 2008 until Pfizer acquired Hospira in 2015. Earlier in his career, Dr. Ramachandra held senior roles at Pfizer and Merck & Co., specializing in oncology, global product development, medical affairs, business development, and clinical pharmacology. He began his medical career as an intern and resident physician at Massachusetts General Hospital, Harvard Medical School.</p>
                         <p class="pt-2 pb-6 text-base text-black px-6">Dr. Ramachandra earned his undergraduate degree in biochemistry, a PhD in experimental pathology (with a focus on chronic lymphocytic leukemia), and an MD from Rutgers University. He also holds an MBA from the Wharton School, University of Pennsylvania.</p>
@@ -88,46 +88,60 @@
                 </div>
             </div>
         </div>
-        <div class="xl:max-w-[614px] mx-auto">
+        <div class="w-full md:max-w-[720px] xl:max-w-[470px] mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center my-6">
                 <div class="text-center w-auto mx-auto team-item">
                     <div class="h-auto w-full mx-auto mb-[25px] team-target">
                         <a href="#">
-                            <img src="<?php echo  $full_url; ?>assets/images/amit-indap.png" class="w-[307px] h-[325px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
+                            <img src="<?php echo  $full_url; ?>assets/images/mark-davis.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="Mark Davis">
                         </a>
                     </div>
-                    <h5 class="text-sm font-medium mb-1 cursor-pointer text-black underline leading-tight team-target">
-                        Amit Indap, <span>PhD</span>
+                    <h5 class="text-base font-semibold mb-1 cursor-pointer text-black leading-tight tracking-[1.2px] team-target">
+                        Mark M. Davis, <span>PhD</span>
                     </h5>
-                    <p class="text-black text-[15px] font-medium underline text-center cursor-pointer team-target">
-                        Scientific Advisor
+                    <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
+                        Senior Scientific Advisor
                     </p>
+
+
                     <div class="team-description hidden">
-                        <img src="<?php echo  $full_url; ?>assets/images/amit-indap.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
-                        <ul class="theme-list px-6 pb-6 [&>li]:text-black">
-                            <li>
-                                Expert in immuno-oncology involving mRNA vaccine development for cancer and COVID, CDx development using comprehensive genomic profiling of tumors, ctDNA analysis of clinical samples, NGS based antibody discovery, and single cell RNAseq analysis</li>
-                            <li>Formerly Principal Scientist at Pfizer</li>
-                            <li>Formerly Scientist at Good Start Genetics</li>
-                            <li>Formerly Research Scientist at Human Longevity, Inc.</li>
-                            <li>Formerly Bioinformatics Scientist at Illumina</li>
-                            <li>Formerly Senior Manager of Bioinformatics at Xencor</li>
-                            <li>Received his B.S. in Molecular and Cellular Biology and minor in Computer Science From University of Arizona</li>
-                            <li>Received his M.S. degree in bioinformatics from Medical College of Wisconsin</li>
-                            <li>Received his PhD in Biology from Boston College</li>
-                        </ul>
+                        <img src="<?php echo  $full_url; ?>assets/images/mark-davis.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
+                        <p class="py-2 text-base text-black px-6">Mark M. Davis, PhD. is the Director of the Stanford Institute for Immunology, Transplantation and Infection (ITI), which has become an international leader in the development of transformative technologies and approaches to better understand the human immune system and its responses to infectious diseases and autoimmunity. He also serves as a Professor of Microbiology and Immunology at Stanford and is a Howard Hughes Medical Institute Investigator.</p>
+                        <p class="py-2 text-base text-black px-6">Dr. Davis is well known for identifying the first T-cell receptor genes, which are responsible for T lymphocytes ability to “see” foreign pathogens, such as viruses, solving a major mystery in immunology at that time. He and his research group have made many subsequent discoveries about this type of molecule, demonstrating that T-cells are able to detect and respond to even a single molecule of their ligand-fragments of antigens bound to Major Histocompatibility Complex cell surface molecules. He also developed a novel way of labeling specific T lymphocytes according to the molecules that they recognize, and this procedure is now an important method in many clinical and basic studies of T-cell activity, as are other technologies developed by his group.</p>
+                        <p class="py-2 text-base text-black px-6">According to research.com, Dr. Davis has authored over 680 publications with over 110,000 citations. He has received numerous awards and honors for his work, including memberships in the National Academy of Sciences, The National Academy of Medicine and the Royal Society.</p>
                     </div>
                 </div>
                 <div class="text-center w-auto mx-auto team-item">
                     <div class="h-auto w-full mx-auto mb-[25px] team-target">
                         <a href="#">
-                            <img src="<?php echo  $full_url; ?>assets/images/lakey.png" class="w-[307px] h-[325px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
+                            <img src="<?php echo  $full_url; ?>assets/images/gordon-ringold.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
                     </div>
-                    <h5 class="text-sm font-medium mb-1 cursor-pointer text-black underline leading-tight team-target">
+                    <h5 class="text-base font-semibold mb-1 cursor-pointer text-black leading-tight tracking-[1.2px] team-target">
+                        Gordon Ringold, <span>PhD</span>
+
+                    </h5>
+                    <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
+                        Strategic Advisor
+                    </p>
+
+
+                    <div class="team-description hidden">
+                        <img src="<?php echo  $full_url; ?>assets/images/gordon-ringold.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
+                        <p class="py-2 text-base text-black px-6">Dr. Gordon Ringold is currently CEO of Quadriga BioSciences, a clinical phase cancer biotech company developing a novel L-type Amino Acid Transporter 1 (LAT1) for delivering chemotherapeutic agents across the blood brain barrier and into rapidly growing cancer cells. He is also the Founder and Executive Chairman of Maxymune, a biopharma company developing differentiated treatments to transform the lives of those affected by serious immunological diseases. He is currently on the board of directors of Okava Pharmaceuticals. From 1997 to 2015, he served in various capacities as Co-Founder and/or CEO of Maxygen, SurroMed, Alexza, and Alavita. From 1991 to 2000, Dr. Ringold was CEO and Scientific Director of Affymax Research Institute (acquired by Glaxo in 1995) where he managed the development of novel technologies to accelerate the pace of drug discovery; prior to that he was VP and Director of the Institute for Cancer and Developmental Biology at Syntex Corporation (1986-1991).</p>
+                        <p class="py-2 text-base text-black px-6">Dr. Ringold received his Ph.D. in the laboratory of Dr. Harold Varmus (University of California, San Francisco), before joining the Stanford University School of Medicine, Department of Pharmacology (1978-1987). While on the Stanford faculty he invented technologies for manufacturing of recombinant proteins in mammalian cells, now widely used for production of dozens of therapeutic products and received the John J. Abel Award as the best Pharmacologist in the US under the age of 35. Dr. Ringold is an alumnus of Crown College, University of California, Santa Cruz, 1972.</p>
+                    </div>
+                </div>
+                <div class="text-center w-auto mx-auto team-item">
+                    <div class="h-auto w-full mx-auto mb-[25px] team-target">
+                        <a href="#">
+                            <img src="<?php echo  $full_url; ?>assets/images/lakey.png" class="w-[307px] xl:w-[224px] h-auto rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
+                        </a>
+                    </div>
+                    <h5 class="text-base font-semibold mb-1 cursor-pointer text-black leading-tight tracking-[1.2px] team-target">
                         Jonathan Lakey, <span>PhD</span>
                     </h5>
-                    <p class="text-black text-[15px] font-medium underline text-center cursor-pointer team-target">
+                    <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
                         Scientific Advisor
                     </p>
                     <div class="team-description hidden">
@@ -148,19 +162,45 @@
                         </ul>
                     </div>
                 </div>
+                <div class="text-center w-auto mx-auto team-item">
+                    <div class="h-auto w-full mx-auto mb-[25px] team-target">
+                        <a href="#">
+                            <img src="<?php echo  $full_url; ?>assets/images/steven-warner.png" class="w-[307px] xl:w-[224px] h-auto rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
+                        </a>
+                    </div>
+                    <h5 class="text-base font-semibold mb-1 cursor-pointer text-black leading-tight tracking-[1.2px] team-target">
+                        Steven Warner, <span>PhD</span>
+                    </h5>
+                    <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
+                        Scientific Advisor
+                    </p>
+                    <div class="team-description hidden">
+                        <img src="<?php echo  $full_url; ?>assets/images/steven-warner.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
+                        <ul class="theme-list px-6 pb-6 [&>li]:text-black">
+                            <li>Specializes in small molecule drug discovery, new screening platforms in drug discovery, and translational research focusing on cancer therapeutics</li>
+                            <li>He is an expert in the discovery of novel cancer agents and has played integral roles in moving multiple compounds into clinical trials.</li>
+                            <li>Currently Senior VP and Head of US Research at Sumitomo Pharma America</li>
+                            <li>Formerly Manager of Discovery Biology at SuperGen</li>
+                            <li>Formerly Senior Manager of Drug Discovery at Huntsman Cancer Institute</li>
+                            <li>Formerly VP of Drug Discovery at Tolero Pharmaceuticals</li>
+                            <li>Received his B.S. in Biology from Brigham Young University</li>
+                            <li>Received his PhD in Pharmaceutical Sciences from the University of Arizona</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center my-6">
 
                 <div class="text-center w-auto mx-auto team-item">
                     <div class="h-auto w-full mx-auto mb-[25px] team-target">
                         <a href="#">
-                            <img src="<?php echo  $full_url; ?>assets/images/matthew-spear.png" class="w-[307px] h-[325px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
+                            <img src="<?php echo  $full_url; ?>assets/images/matthew-spear.png" class="w-[307px] xl:w-[224px] h-auto rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
                     </div>
-                    <h5 class="text-sm font-medium mb-1 cursor-pointer text-black underline leading-tight team-target">
+                    <h5 class="text-base font-semibold mb-1 cursor-pointer text-black leading-tight tracking-[1.2px] team-target">
                         Matthew Spear, <span>MD</span>
                     </h5>
-                    <p class="text-black text-[15px] font-medium underline text-center cursor-pointer team-target">
+                    <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
                         Scientific Advisor
                     </p>
                     <div class="team-description hidden">
@@ -183,26 +223,27 @@
                 <div class="text-center w-auto mx-auto team-item">
                     <div class="h-auto w-full mx-auto mb-[25px] team-target">
                         <a href="#">
-                            <img src="<?php echo  $full_url; ?>assets/images/steven-warner.png" class="w-[307px] h-[325px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
+                            <img src="<?php echo  $full_url; ?>assets/images/amit-indap.png" class="w-[307px] xl:w-[224px] h-auto rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
                     </div>
-                    <h5 class="text-sm font-medium mb-1 cursor-pointer text-black underline leading-tight team-target">
-                        Steven Warner, <span>PhD</span>
+                    <h5 class="text-base font-semibold mb-1 cursor-pointer text-black leading-tight tracking-[1.2px] team-target">
+                        Amit Indap, <span>PhD</span>
                     </h5>
-                    <p class="text-black text-[15px] font-medium underline text-center cursor-pointer team-target">
+                    <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
                         Scientific Advisor
                     </p>
                     <div class="team-description hidden">
-                        <img src="<?php echo  $full_url; ?>assets/images/steven-warner.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
+                        <img src="<?php echo  $full_url; ?>assets/images/amit-indap.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
                         <ul class="theme-list px-6 pb-6 [&>li]:text-black">
-                            <li>Specializes in small molecule drug discovery, new screening platforms in drug discovery, and translational research focusing on cancer therapeutics</li>
-                            <li>He is an expert in the discovery of novel cancer agents and has played integral roles in moving multiple compounds into clinical trials.</li>
-                            <li>Currently Senior VP and Head of US Research at Sumitomo Pharma America</li>
-                            <li>Formerly Manager of Discovery Biology at SuperGen</li>
-                            <li>Formerly Senior Manager of Drug Discovery at Huntsman Cancer Institute</li>
-                            <li>Formerly VP of Drug Discovery at Tolero Pharmaceuticals</li>
-                            <li>Received his B.S. in Biology from Brigham Young University</li>
-                            <li>Received his PhD in Pharmaceutical Sciences from the University of Arizona</li>
+                            <li>Expert in immuno-oncology involving mRNA vaccine development for cancer and COVID, CDx development using comprehensive genomic profiling of tumors, ctDNA analysis of clinical samples, NGS based antibody discovery, and single cell RNAseq analysis</li>
+                            <li>Formerly Principal Scientist at Pfizer</li>
+                            <li>Formerly Scientist at Good Start Genetics</li>
+                            <li>Formerly Research Scientist at Human Longevity, Inc.</li>
+                            <li>Formerly Bioinformatics Scientist at Illumina</li>
+                            <li>Formerly Senior Manager of Bioinformatics at Xencor</li>
+                            <li>Received his B.S. in Molecular and Cellular Biology and minor in Computer Science From University of Arizona</li>
+                            <li>Received his M.S. degree in bioinformatics from Medical College of Wisconsin</li>
+                            <li>Received his PhD in Biology from Boston College</li>
                         </ul>
                     </div>
                 </div>

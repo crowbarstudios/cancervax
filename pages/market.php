@@ -1,4 +1,4 @@
-<section class="pt-32 pb-20 md:py-24 bg-center bg-cover text-center relative bg-market-bg bg-black bg-opacity-50">
+<section class="py-24 md:py-28 bg-[top_center] bg-cover text-center relative bg-market-bg bg-black bg-opacity-50">
     <div class="container">
     <h1 class="relative z-10 text-white font-medium">Market</h1>
     </div>
@@ -51,10 +51,10 @@
 </section>
 <section class="pt-20 pb-28">
     <div class="container">
-        <div class="bg-market-cta bg-cover bg-center bg-no-repeat pt-20 pb-28">
-        <div class="mx-auto max-w-[900px]">
-                <h2 class=" text-white text-6xl font-medium mb-5">CancerVax Vision</h2>
-                <p class="text-white text-2xl mb-6 leading-9">To become a recognized leader in the field of cancer immunotherapies and vaccines by accelerating the translation of scientific knowledge into effective and commercially available cancer treatments.</p>
+        <div class="bg-market-cta bg-cover bg-center bg-no-repeat py-8 sm:py-[70px] lg:pt-20 lg:pb-28">
+        <div class="mx-auto max-w-[900px] px-8 sm:px-[70px] lg:px-0">
+                <h2 class=" text-white text-3xl sm:text-6xl font-medium mb-5">CancerVax Vision</h2>
+                <p class="text-white text-xl sm:text-2xl mb-6 !leading-normal">To become a recognized leader in the field of cancer immunotherapies and vaccines by accelerating the translation of scientific knowledge into effective and commercially available cancer treatments.</p>
             </div>
         </div>
     </div>

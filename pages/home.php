@@ -1,16 +1,15 @@
 <?php $videos = include "./data/carousel-videos.php"; ?>
 
-<section class="pt-11 sm:pt-0">
-    <div class="bg-banner-mobile md:bg-banner bg-white bg-no-repeat bg-center bg-cover h-[245px] sm:h-[480px] md:h-[850px] banner-home-up">
+<section class="pt-11 md:pt-0">
+    <div class="bg-banner-mobile md:bg-banner bg-white bg-no-repeat bg-[top_center] bg-cover h-[245px] sm:h-[480px] md:h-[850px] banner-home-up">
         <div class="container">
             <div class="max-w-screen-sm text-center mx-auto sm:pt-14 -top-7 sm:top-0 relative">
-                <h1 style="color: #295d6e" class="text-[33px] sm:text-[50px] xl:text-[64px] font-medium">A Revolutionary Way
-                    to Fight Cancer</h1>
+                <h1 style="color: #295d6e" class="text-[33px] sm:text-[50px] xl:text-[64px] font-medium">A Revolutionary Way to Treat Cancer</h1>
             </div>
             <div class="pt-[50px] xl:pt-4 max-w-[530px] xl:max-w-[615px]">
                 <p class="hidden md:block mt-0 text-black text-2xl xl:text-[32px] font-medium mb-4">The CancerVax Way
                 </p>
-                <ul class="hidden md:block list-disc pl-[30px] max-w-[50%] lg:max-w-[81%] xl:max-w-[98%] space-y-2.5 [&>li]:text-black [&>li]:text-xl xl:[&>li]:text-[25px] [&>li]:leading-tight">
+                <ul class="hidden md:block list-disc pl-[30px] max-w-[50%] lg:max-w-[81%] xl:max-w-[98%] space-y-2.5 [&>li]:text-black [&>li]:text-xl xl:[&>li]:text-2xl [&>li]:leading-tight">
                     <li>10 million people died last year because the body does not easily recognize and kill cancer cells.</li>
                     <li>However, the body is very good at killing diseases that it recognizes, such as measles.</li>
                     <li>Our unique technology disguises cancer cells to look like measles and “tricks” the body into killing them.</li>
@@ -22,7 +21,7 @@
                     <div>
                         <img src="<?php echo  $full_url; ?>assets/images/home-video-thumbnail.jpg" alt="thumbnail">
                     </div>
-                    <a href="http://www.youtube.com/watch?v=PXBNJe3nHp0" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-red-500 border-red-500 popup-youtube">
+                    <a href="http://www.youtube.com/watch?v=PXBNJe3nHp0" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
                         <i class="far fa-play-circle"></i>
                         <span>Watch video</span>
                     </a>
@@ -57,18 +56,34 @@
                         <div>
                             <img src="<?php echo  $full_url; ?>assets/images/home-video-thumbnail.jpg" alt="thumbnail">
                         </div>
-                        <a href="http://www.youtube.com/watch?v=PXBNJe3nHp0" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-red-500 border-red-500 popup-youtube">
+                        <a href="http://www.youtube.com/watch?v=PXBNJe3nHp0" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
                             <i class="far fa-play-circle"></i>
                             <span>Watch video</span>
                         </a>
                     </div>
-                    <h2 class="text-custom-teal-100 text-xl sm:text-2xl text-center font-semibold mb-4 lg:hidden">Webinar: Exciting Update on <br> our
-                        Revolutionary Cancer Treatment</h2>
-                    <div class="mb-9 border-[10px] sm:border-[12px] border-custom-teal-100 rounded-xl relative max-w-full lg:hidden">
+                    <!-- <h2 class="text-custom-teal-100 text-xl sm:text-2xl text-center font-semibold mb-4 lg:hidden">Webinar: Exciting Update on <br> our
+                        Revolutionary Cancer Treatment</h2> -->
+                    <!-- <div class="mb-9 border-[10px] sm:border-[12px] border-custom-teal-100 rounded-xl relative max-w-full lg:hidden">
                         <div>
                             <img src="//img.youtube.com/vi/FPUKs3cjQ8A/maxresdefault.jpg" alt="thumbnail">
                         </div>
-                        <a href="http://www.youtube.com/watch?v=FPUKs3cjQ8A" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-red-500 border-red-500 popup-youtube">
+                        <a href="http://www.youtube.com/watch?v=FPUKs3cjQ8A" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
+                            <i class="far fa-play-circle"></i>
+                            <span>Watch video</span>
+                        </a>
+                    </div> -->
+                    <h2 class="bg-[#ff0000] text-white p-2 mx-auto max-w-[300px] text-4xl font-semibold mb-4 uppercase lg:hidden">Breaking News</h2>
+                    <div class="mb-9 border-[10px] sm:border-[12px] border-custom-teal-100 rounded-xl relative max-w-full lg:hidden">
+                        <a href="https://cancervax.com/cancervax-successfully-disguises-cancer-cells-and-tricks-immune-cells-into-attacking-them.php">
+                            <img src="./assets/images/Rectangle1.png" class="w-full" alt="news-thumbnail">
+                        </a>
+                    </div>
+                    <h2 class="bg-[#ff0000] text-white py-2 px-3 text-xl sm:text-2xl text-center font-semibold mb-4 lg:hidden">Scientific Team Discusses the Breakthrough</h2>
+                    <div class="mb-9 border-[10px] sm:border-[12px] border-custom-teal-100 rounded-xl relative max-w-full lg:hidden">
+                        <div>
+                            <img src="//img.youtube.com/vi/EyANY8BXCX4/maxresdefault.jpg" alt="thumbnail">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=EyANY8BXCX4" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
                             <i class="far fa-play-circle"></i>
                             <span>Watch video</span>
                         </a>
@@ -93,27 +108,43 @@
                         <div>
                             <img src="<?php echo  $full_url; ?>assets/images/home-video-thumbnail.jpg" alt="thumbnail">
                         </div>
-                        <a href="http://www.youtube.com/watch?v=PXBNJe3nHp0" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-red-500 border-red-500 popup-youtube">
+                        <a href="http://www.youtube.com/watch?v=PXBNJe3nHp0" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
                             <i class="far fa-play-circle"></i>
                             <span>Watch video</span>
                         </a>
                     </div>
-                    <h2 class="text-custom-teal-100 text-2xl text-center font-semibold mb-4 hidden lg:block">Webinar: Exciting Update on <br> our
+                    <!-- <h2 class="text-custom-teal-100 text-2xl text-center font-semibold mb-4 hidden lg:block">Webinar: Exciting Update on <br> our
                         Revolutionary Cancer Treatment</h2>
                     <div class="mb-9 border-[12px] border-custom-teal-100 rounded-xl relative max-w-[500px] hidden lg:block">
                         <div>
                             <img src="//img.youtube.com/vi/FPUKs3cjQ8A/maxresdefault.jpg" alt="thumbnail">
                         </div>
-                        <a href="http://www.youtube.com/watch?v=FPUKs3cjQ8A" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-red-500 border-red-500 popup-youtube">
+                        <a href="http://www.youtube.com/watch?v=FPUKs3cjQ8A" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
+                            <i class="far fa-play-circle"></i>
+                            <span>Watch video</span>
+                        </a>
+                    </div> -->
+                    <h2 class="bg-[#ff0000] text-white p-2 mx-auto max-w-[300px] text-4xl font-semibold mb-4 hidden uppercase lg:block">Breaking News</h2>
+                    <div class="mb-9 mx-auto border-[12px] border-custom-teal-100 rounded-xl relative max-w-[500px] hidden lg:block">
+                        <a href="https://cancervax.com/cancervax-successfully-disguises-cancer-cells-and-tricks-immune-cells-into-attacking-them.php">
+                            <img src="./assets/images/Rectangle1.png" class="w-full" alt="news-thumbnail">
+                        </a>
+                    </div>
+                    <h2 class="bg-[#ff0000] text-white py-2 px-3 text-2xl text-center font-semibold mb-4 hidden lg:block">Scientific Team Discusses the Breakthrough</h2>
+                    <div class="mb-9 mx-auto border-[12px] border-custom-teal-100 rounded-xl relative max-w-[500px] hidden lg:block">
+                        <div>
+                            <img src="//img.youtube.com/vi/EyANY8BXCX4/maxresdefault.jpg" alt="thumbnail">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=EyANY8BXCX4" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
                             <i class="far fa-play-circle"></i>
                             <span>Watch video</span>
                         </a>
                     </div>
-                    <div class="bg-custom-gray-100 rounded-2xl p-6 border-[10px] sm:border-[16px] border-custom-teal-100 relative lg:max-w-[500px] sm:mt-9 text-center">
-                        <h4 class="text-red-500 font-semibold mb-2 text-[23px] md:text-[30px]">Breaking News</h4>
+                    <!-- <div class="bg-custom-gray-100 rounded-2xl p-6 border-[10px] sm:border-[16px] border-custom-teal-100 relative lg:max-w-[500px] sm:mt-9 text-center">
+                        <h4 class="text-[#ff0000] font-semibold mb-2 text-[23px] md:text-[30px]">Breaking News</h4>
                         <p class="text-custom-dark-100 text-xl text-center font-medium">CancerVax Announces Successful Tests of its Smart mRNA Technology</p>
                         <a href="cancervax-announces-successful-tests-of-its-smart-mrna-technology.php" class="theme-btn px-[30px] py-[15px] mt-4 text-base leading-none bg-custom-teal-100 border-custom-teal-100 rounded-[10px] hover:bg-custom-teal-100 hover:border-custom-teal-100 hover:text-white">Learn More</a>
-                    </div>
+                    </div> -->
 
 
                 </div>
@@ -124,7 +155,7 @@
 
 </section>
 
-<section class="bg-team-first bg-white bg-no-repeat bg-center bg-cover py-20 sm:py-40">
+<section class="bg-team-first bg-white bg-no-repeat bg-center bg-cover py-10">
     <div class="container">
         <h2 class="text-center text-4xl leading-none sm:text-[54px] text-custom-teal-300 font-medium">We have assembled a world-class team of
             experienced cancer scientists and advisors to help
@@ -147,7 +178,7 @@
                 </div>
                 <div class="col-span-8">
 
-                    <p class="text-black text-[18px] leading-normal">Flashpoint was founded on nanotechnology developed over the past 10 years in the laboratory of Chad Mirkin, Director of the International Institute for Nanotechnology at Northwestern University and 2024 winner of the prestigious Kavli Prize in Nanoscience. <strong>Flashpoint’s groundbreaking nanotechnology discovery platform</strong> enables the development of therapeutic candidates with superior product profiles. Validated in numerous in-vivo models, this technology has transformed components that are ineffective in conventional formulations into curative cancer immunotherapies. CancerVax is working with Flashpoint to deliver its novel Universal Cancer Treatment therapies using Flashpoint’s nanoparticle technology.
+                    <p class="text-black text-[18px] leading-6">Flashpoint was founded on nanotechnology developed over the past 10 years in the laboratory of Chad Mirkin, Director of the International Institute for Nanotechnology at Northwestern University and 2024 winner of the prestigious Kavli Prize in Nanoscience. <strong>Flashpoint’s groundbreaking nanotechnology discovery platform</strong> enables the development of therapeutic candidates with superior product profiles. Validated in numerous in-vivo models, this technology has transformed components that are ineffective in conventional formulations into curative cancer immunotherapies. CancerVax is working with Flashpoint to deliver its novel Universal Cancer Treatment therapies using Flashpoint’s nanoparticle technology.
                     </p>
                 </div>
             </div>
@@ -158,7 +189,7 @@
                     </div>
                 </div>
                 <div class="col-span-8">
-                    <p class="text-black text-[18px] leading-normal">Cytiva, formerly Precision NanoSystems, is a part of Danaher (NYSE: DHR) and a global leader in advancing and accelerating therapeutics. With a strong presence in life sciences research and bioprocessing, Cytiva provides innovative technologies and expertise to help companies bring life-changing treatments to market. The company specializes in biomanufacturing solutions, lipid nanoparticle (LNP) development, and cutting-edge analytical tools. CancerVax is working with Cytiva to leverage its clinically proven LNPs to to create a complete CancerVax therapeutic nanoparticle.
+                    <p class="text-black text-[18px] leading-6">Cytiva, formerly Precision NanoSystems, is a part of Danaher (NYSE: DHR) and a global leader in advancing and accelerating therapeutics. With a strong presence in life sciences research and bioprocessing, Cytiva provides innovative technologies and expertise to help companies bring life-changing treatments to market. The company specializes in biomanufacturing solutions, lipid nanoparticle (LNP) development, and cutting-edge analytical tools. CancerVax is working with Cytiva to leverage its clinically proven LNPs to to create a complete CancerVax therapeutic nanoparticle.
                     </p>
                 </div>
             </div>
@@ -169,7 +200,7 @@
                     </div>
                 </div>
                 <div class="col-span-8">
-                    <p class="text-black text-[18px] leading-normal">Axis Bio is a preclinical contract research organisation with specialist capabilities in oncology, inflammation and respiratory diseases. Services range from in vitro efficacy and mechanistic studies, to in vivo target engagement, with each study tailored to the unique requirements of the client. Our clients are spread across the globe and include pharmaceutical and biotech businesses, university-based research organisations and virtual/semi-virtual development companies. We listen, guide and advise clients through every step of the preclinical efficacy testing process, to deliver clear and robust results in a timely and cost-effective manner. This approach applies whether we are simply carrying out the in-life phase of a study or providing a complete package of analysis including flow cytometry analysis, bioanalysis and blood analysis, along with a detailed interpretation of results and recommendations.
+                    <p class="text-black text-[18px] leading-6">Axis Bio is a preclinical contract research organisation with specialist capabilities in oncology, inflammation and respiratory diseases. Services range from in vitro efficacy and mechanistic studies, to in vivo target engagement, with each study tailored to the unique requirements of the client. Our clients are spread across the globe and include pharmaceutical and biotech businesses, university-based research organisations and virtual/semi-virtual development companies. We listen, guide and advise clients through every step of the preclinical efficacy testing process, to deliver clear and robust results in a timely and cost-effective manner. This approach applies whether we are simply carrying out the in-life phase of a study or providing a complete package of analysis including flow cytometry analysis, bioanalysis and blood analysis, along with a detailed interpretation of results and recommendations.
                     </p>
                 </div>
             </div>
@@ -180,7 +211,7 @@
                     </div>
                 </div>
                 <div class="col-span-8">
-                    <p class="text-black text-[18px] leading-normal">TriLink BioTechnologies, a Maravai LifeSciences company, is a global leader in nucleic acid and mRNA solutions. TriLink delivers unrivaled chemical and biological experience, CDMO services, and high-quality readymade and custom materials, including its patented CleanCap® mRNA capping technology. Pharmaceutical leaders, biotech disruptors, and world governments depend on TriLink to meet their greatest challenges, from delivering the COVID-19 vaccine at warp speed to empowering innovative treatments in oncology, infectious diseases, cardiology, and neurological disorders to enabling future pandemic response plans.
+                    <p class="text-black text-[18px] leading-6">TriLink BioTechnologies, a Maravai LifeSciences company, is a global leader in nucleic acid and mRNA solutions. TriLink delivers unrivaled chemical and biological experience, CDMO services, and high-quality readymade and custom materials, including its patented CleanCap® mRNA capping technology. Pharmaceutical leaders, biotech disruptors, and world governments depend on TriLink to meet their greatest challenges, from delivering the COVID-19 vaccine at warp speed to empowering innovative treatments in oncology, infectious diseases, cardiology, and neurological disorders to enabling future pandemic response plans.
                     </p>
                 </div>
             </div>
@@ -197,7 +228,7 @@
             <div class="market-opp">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center pt-4 md:pt-12">
                     <div class="lg:col-span-8">
-                        <h4 class="mb-4 leading-snug text-[26px] sm:text-[30px] text-white">How big is the biotechnology market?</h4>
+                        <h4 class="mb-4 leading-snug text-[26px] sm:text-[30px] text-white font-medium">How big is the biotechnology market?</h4>
                         <p class="text-[18px] leading-snug text-white">According to Precedence Research, the global biotechnology market is projected to grow from $1.3 trillion in 2023 to <span>$3.2 trillion by 2030</span>.
                         </p>
                     </div>
@@ -211,7 +242,7 @@
                 </div>
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center pt-4 md:pt-6">
                     <div class="lg:col-span-8">
-                        <h4 class="mb-4 leading-snug text-[26px] sm:text-[30px] text-white">How big is the cancer drug development market?</h4>
+                        <h4 class="mb-4 leading-snug text-[26px] sm:text-[30px] text-white font-medium">How big is the cancer drug development market?</h4>
                         <p class="text-[18px] leading-snug text-white">According to Fortune Business Insights, the global oncology drugs market is projected to grow from $205 billion in 2023 to <span>$484 billion by 2030</span>.
                         </p>
                     </div>
@@ -350,30 +381,30 @@
 <section class="bg-white pt-[70px]">
     <div class="container">
         <h4 class="mb-9 text-xl text-black">News Highlights</h4>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-7">
             <div class="bg-custom-gray-200 min-h-full p-4 sm:p-10 relative ">
-                <a href="top-biotech-exec-joins-cancervax-as-chief-scientific-advisor.php" class="absolute inset-0 w-full h-full"></a>
-                <span class="text-custom-teal-200 text-sm uppercase font-medium tracking-widest block">February 27, 2025 </span>
-                <h3 class="text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight">Top Biotech Exec Joins CancerVax as Chief Scientific Advisor</h3>
-                <p class="text-black text-xl sm:text-base leading-normal">CancerVax, Inc., the developer of a revolutionary universal cancer treatment platform that will use the body’s immune system to fight cancer, announced today that Sumant Ramachandra, MD, PhD, MBA and founder of SR Global Health, LLC, a healthcare advisory firm, will serve as the Company’s new Chief Scientific Advisor</p>
+                <a href="https://cancervax.com/world-renowned-immunologist-and-distinguished-scientist-joins-cancervax-as-senior-scientific-advisor.php" class="absolute inset-0 w-full h-full"></a>
+                <span class="text-custom-teal-200 text-sm uppercase font-medium tracking-widest block">January 7, 2026</span>
+                <h3 class="text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight">World-renowned Immunologist and Distinguished Scientist Joins CancerVax as Senior Scientific Advisor</h3>
+                <p class="text-black text-xl sm:text-base leading-normal">CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that Mark M. Davis, PhD will serve as the Company’s Senior Scientific Advisor.</p>
             </div>
             <div class="bg-custom-gray-200 min-h-full p-4 sm:p-10 relative ">
-                <a href="cancervax-announces-successful-tests-of-its-smart-mrna-technology.php" class="absolute inset-0 w-full h-full"></a>
-                <span class="text-custom-teal-200 text-sm uppercase font-medium tracking-widest block">February 25, 2025</span>
-                <h3 class="text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight">CancerVax Announces Successful Tests of its Smart mRNA Technology</h3>
-                <p class="text-black text-xl sm:text-base leading-normal">CancerVax, Inc., the developer of a breakthrough universal cancer treatment (UCT) platform that will use the body’s immune system to fight cancer, today announced the successful functional validation of its innovative Smart mRNA (messenger RNA) technology in lab tests</p>
+                <a href="https://cancervax.com/cancervax-reviews-major-scientific-and-strategic-milestones-achieved-in-2025.php" class="absolute inset-0 w-full h-full"></a>
+                <span class="text-custom-teal-200 text-sm uppercase font-medium tracking-widest block">December 23, 2025</span>
+                <h3 class="text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight">CancerVax Reviews Major Scientific and Strategic Milestones Achieved in 2025</h3>
+                <p class="text-black text-xl sm:text-base leading-normal">CancerVax, Inc., the developer of a breakthrough Universal Cancer Treatment Platform that uses the body’s immune system to treat cancer, today released a year-end summary highlighting significant advancements made throughout 2025. These achievements mark a transformative period in the Company’s development as it accelerates its mission to create safe, targeted, and broadly adaptable cancer treatments.</p>
             </div>
             <div class="bg-custom-gray-200 min-h-full p-4 sm:p-10 relative ">
-                <a href="cancervax-targets-hard-to-treat-pancreatic-cancer.php" class="absolute inset-0 w-full h-full"></a>
-                <span class="text-custom-teal-200 text-sm uppercase font-medium tracking-widest block">December 11, 2024 </span>
-                <h3 class="text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight">CancerVax Targets Hard to Treat Pancreatic Cancer</h3>
-                <p class="text-black text-xl sm:text-base leading-normal">CancerVax, Inc., the developer of a breakthrough universal cancer treatment (UCT) platform that will use the body’s immune system to fight cancer, announced today that the Company has selected Pancreatic Ductal Adenocarcinoma (PDAC) as one of its first targets for preclinical development</p>
+                <a href="https://cancervax.com/cancervax-reports-nanoparticle-component-success-in-preparation-for-animal-studies.php" class="absolute inset-0 w-full h-full"></a>
+                <span class="text-custom-teal-200 text-sm uppercase font-medium tracking-widest block">December 17, 2025 </span>
+                <h3 class="text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight">CancerVax Reports Nanoparticle Component Success in Preparation for Animal Studies</h3>
+                <p class="text-black text-xl sm:text-base leading-normal">CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that recent in-vitro studies have confirmed that two key components of the Company’s novel technology performed exceptionally well. The next step is to put them together into a complete therapeutic lipid nanoparticle (“LNP”) for animal testing</p>
             </div>
             <div class="bg-custom-gray-200 min-h-full p-4 sm:p-10 relative ">
-                <a href="dr-george-katibah-to-serve-as-the-company-chief-scientific-officer.php" class="absolute inset-0 w-full h-full"></a>
-                <span class="text-custom-teal-200 text-sm uppercase font-medium tracking-widest block">November 19, 2024 </span>
-                <h3 class="text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight">Dr. George Katibah to serve as the Company’s Chief Scientific Officer</h3>
-                <p class="text-black text-xl sm:text-base leading-normal">CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that will use the body’s immune system to fight cancer, announced today that Dr. George Katibah will serve as the company’s Chief Scientific Officer</p>
+                <a href="https://cancervax.com/cancervax-precision-therapy-successfully-avoids-healthy-liver-cells.php" class="absolute inset-0 w-full h-full"></a>
+                <span class="text-custom-teal-200 text-sm uppercase font-medium tracking-widest block">October 14, 2025</span>
+                <h3 class="text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight">CancerVax Precision Therapy Successfully Avoids Healthy Liver Cells</h3>
+                <p class="text-black text-xl sm:text-base leading-normal">CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that recent in-vitro studies have confirmed that the Company’s technology could significantly reduce liver toxicity, a major problem with other cancer drugs</p>
             </div>
         </div>
     </div>

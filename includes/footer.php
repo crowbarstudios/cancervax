@@ -9,7 +9,6 @@ if ($page !== "prep") {
                     <form action="https://submit.jotform.com/submit/242775392698071/" method="POST" class="relative">
                         <input type="hidden" name="formID" value="242775392698071" />
                         <input type="email" id="input_3" name="q3_email" class="bg-custom-gray-200 text-black text-[17px] rounded-[30px] h-[60px] border-0 px-[30px] block w-full font-normal leading-normal focus:outline-none focus:ring-0 focus:shadow-none" placeholder="Your email address..." required />
-
                         <div class="form-line control-formnew mt-2 jf-required text-left" data-type="control_captcha" id="id_4">
                             <label class="text-black text-[15px] font-normal leading-relaxed text-left"  id="label_4" for="input_4" aria-hidden="false">
                                 Please verify that you are human<span class="form-required">*</span>
@@ -118,7 +117,7 @@ if ($page !== "prep") {
                 </div>
             </div>
             <div class="pt-6">
-                <p class="text-sm mb-0 text-black text-right">© 2025 CancerVax. All rights reserved</p>
+                <p class="text-sm mb-0 text-black text-center sm:text-right">© 2025 CancerVax. All rights reserved</p>
             </div>
         </div>
     </footer>

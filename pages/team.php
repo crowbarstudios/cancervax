@@ -1,12 +1,18 @@
-<section class="bg-team-bg bg-black bg-top bg-cover bg-no-repeat h-screen flex items-end pb-12">
+<!-- <section class="bg-team-bg bg-black bg-top bg-cover bg-no-repeat h-screen flex items-end pb-12">
     <div class="container">
         <div class="max-w-[1150px] mx-auto">
             <h1 class="text-white text-[28px] leading-snug font-light">CancerVax is a pre-clinical biotech company developing a novel Universal Cancer Treatment Platform that will be customizable as an injection, to treat many types of cancer. Powered by artificial intelligence, our revolutionary approach DETECTS, MARKS, and KILLS only cancer cells using the body’s own immune system. Other immunotherapies have had very limited success trying to teach the immune system how to recognize cancer cells. Instead, we intend to make cancer cells look like a common disease that it already recognizes, such as measles, and “trick” the body into killing these “disguised” cancer cells with strength. We look forward to the day when treating cancer will be as simple as getting a shot.</h1>
         </div>
     </div>
+</section> -->
+
+<section class="py-24 md:py-28 bg-center bg-cover text-center bg-team-bg">
+    <div class="container">
+        <h2 class="font-medium text-white">Team</h2>
+    </div>
 </section>
 
-<section class="bg-team-first bg-white bg-no-repeat bg-center bg-cover py-20 sm:py-40">
+<section class="bg-team-first bg-white bg-no-repeat bg-center bg-cover py-10">
     <div class="container">
         <h2 class="text-center leading-none text-4xl sm:text-[54px] text-custom-teal-300 font-medium">We have assembled a world-class team of
             experienced cancer scientists and advisors to help
