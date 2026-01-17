@@ -32,6 +32,7 @@
                             <li>Formerly Senior Scientist and Head of Biochemistry at Aduro Biotech</li>
                             <li>Received his B.S. in Plant Sciences from the University of California, Santa Cruz</li>
                             <li>Received his PhD in Molecular and Cell Biology from the University of California, Berkeley</li>
+                            <li>A Co-inventor of the Company's Universal Cancer Treatment platform</li>
                         </ul>
                     </div>
                 </div>
@@ -50,7 +51,6 @@
                     <div class="team-description hidden">
                         <img src="<?php echo  $full_url; ?>assets/images/adam-grant.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
                         <ul class="theme-list px-6 pb-6 [&>li]:text-black">
-                            <li>An inventor of the Company’s Universal Cancer Treatment platform</li>
                             <li>Expert computational biologist using next generation sequencing data to identify new drug targets and biomarkers of response to cancer therapeutics </li>
                             <li>Formerly Bioinformatician at Xenter Medical Technologies</li>
                             <li>Formerly Computational Scientist at RAPT Therapeutics</li>
@@ -58,10 +58,11 @@
                             <li>Invented a gene-signature approach to select treatment for breast cancer</li>
                             <li>Received his B.S in Bioinformatics from Brigham Young University</li>
                             <li>Received his PhD in Cancer Biology with an emphasis in Bioinformatics from the University of Arizona</li>
+                            <li>A Co-inventor of the Company's Universal Cancer Treatment platform</li>
                         </ul>
                     </div>
                 </div>
-                <div class="text-center w-auto mx-auto team-itemg col-span-1 md:col-span-2 xl:col-span-1">
+                <div class="text-center w-auto mx-auto team-item col-span-1 md:col-span-2 xl:col-span-1">
                     <div class="h-auto w-full mx-auto mb-[25px] team-target">
                         <a href="#">
                             <img src="<?php echo  $full_url; ?>assets/images/sumant-ramachandra.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">

@@ -1,7 +1,7 @@
 <?php
 $videos = include "./data/podcast-data.php";
 ?>
-<section class="pt-32 pb-20 md:py-24 bg-top bg-cover text-center relative bg-video-bg bg-black bg-opacity-50 after:content-[''] after:absolute after:inset-0 after:bg-black after:bg-opacity-70">
+<section class="py-24 md:py-28 bg-top bg-cover text-center relative bg-video-bg bg-black bg-opacity-50 after:content-[''] after:absolute after:inset-0 after:bg-black after:bg-opacity-70">
     <div class="container">
         <h1 class="relative z-10 text-white font-medium">Videos</h1>
     </div>
@@ -22,8 +22,8 @@ $videos = include "./data/podcast-data.php";
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-4">
-            <div class="relative border-[3px] border-custom-teal-500 sm:w-[416px] lg:ml-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-6 mb-6">
+            <div class="relative border-[3px] border-custom-teal-500 w-full mx-auto">
                 <a href="#news-commentary">
                     <div class="h-[278px] relative">
                         <img src="./assets/images/news-commentary.png" alt="video" class="w-full h-full object-cover">
@@ -32,9 +32,9 @@ $videos = include "./data/podcast-data.php";
                 </a>
             </div>
 
-            <div class="relative border-[3px] border-custom-teal-500 sm:w-[416px] lg:mr-auto">
+            <div class="relative border-[3px] border-custom-teal-500 w-full mx-auto">
                     <a href="#short-videos">
-                    <div class="h-[278px] relative">
+                        <div class="h-[278px] relative">
                             <img src="./assets/images/short-videos.png" alt="video" class="w-full h-full object-cover">
                         </div>
                         <span class="bg-custom-teal-500 bg-opacity-70 text-white absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-[27px] leading-tight text-center font-bold w-full min-h-[90px] flex items-center justify-center">Short
@@ -42,14 +42,49 @@ $videos = include "./data/podcast-data.php";
                         </span>
                     </a>
             </div>
+
+            <div class="relative col-span-1 md:col-span-2 lg:col-span-1 border-[3px] border-custom-teal-500 w-full md:w-[336px] lg:w-full mx-auto">
+                    <a href="#webinars">
+                        <div class="h-[278px] relative">
+                            <img src="./assets/images/webinars.png" alt="video" class="w-full h-full object-cover">
+                        </div>
+                        <span class="bg-custom-teal-500 bg-opacity-70 text-white absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-[27px] leading-tight text-center font-bold w-full min-h-[90px] flex items-center justify-center">Webinars</span>
+                    </a>
+            </div>
         </div>
     </div>
 </div>
 
+<section class="py-24" id="webinars">
+    <div class="container">
+        <div>
+            <h3 class="text-black text-xl sm:text-[40px] leading-10 font-medium mb-12">Webinars</h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-6">
+            <div class="cchat-box mb-4">
+                <a href="https://cancervax.com/webinar-feb-25-2025" class="relative">
+                    <div class="cchat-thumbnail thumbnail-overlay h-auto">
+                        <img src="https://vumbnail.com/1074009289.png" alt="Thumbnail">
+                    </div>
+                    <i class="far fa-play-circle  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
+                </a>
+            </div>
+            <div class="cchat-box mb-4">
+                <a href="https://cancervax.com/webinar-may-31-2025" class="relative">
+                    <div class="cchat-thumbnail thumbnail-overlay h-auto">
+                        <img src="https://vumbnail.com/1088764643/6170b7e696.png" alt="Thumbnail">
+                    </div>
+                    <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="py-24" id="news-commentary">
     <div class="container">
         <div class="flex items-center justify-between mb-10">
-            <h3 class="text-black text-[40px] font-medium">News Commentary</h3>
+            <h3 class="text-black text-xl sm:text-[40px] leading-10 font-medium">News Commentary</h3>
             <a href="./news-commentary" class="text-custom-teal-100 underline text-lg">See All</a>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
@@ -85,7 +120,7 @@ $videos = include "./data/podcast-data.php";
                 </div>
                 <i class=\"far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]\"></i>
             </div>            
-            <p class=\"text-lg text-black font-bold leading-tight\" >{$title}</p>
+            <p class=\"text-xl sm:text-lg text-black font-bold leading-normal sm:leading-tight\" >{$title}</p>
             </div>";
             }
             ?>
@@ -94,13 +129,13 @@ $videos = include "./data/podcast-data.php";
     </div>
 </section>
 
-<section class="pt-24 pb-0">
+<section class="pt-24 pb-0" id="short-videos">
     <div class="container">
         <div class="flex items-center justify-between mb-10">
-            <h3 class="text-black text-[40px] font-medium">Short Videos</h3>
+            <h3 class="text-black text-xl sm:text-[40px] leading-10 font-medium">Short Videos</h3>
             <a href="https://www.youtube.com/@CancerVAX/shorts" target="_blank" class="text-custom-teal-100 underline text-lg">See All</a>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
 
             <?php
             $filteredlatestCancerSurvivorStories = array_filter($videos, function ($item) {
@@ -124,15 +159,15 @@ $videos = include "./data/podcast-data.php";
                 </div>
                 <i class=\"far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]\"></i>
             </div>            
-            <p class=\"text-lg text-black font-bold leading-tight\" >{$title}</p>
+            <p class=\"text-xl sm:text-lg text-black font-bold leading-normal sm:leading-tight\" >{$title}</p>
             </div>";
             }
             ?>
-        </div>
+        </div> -->
     </div>
 </section>
 
-<section class="py-24" id="short-videos">
+<section class="pb-24">
     <div class="container">
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
@@ -163,7 +198,7 @@ $videos = include "./data/podcast-data.php";
                 </div>
                 <i class=\"far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]\"></i>
             </div>            
-            <p class=\"text-lg text-black font-bold leading-tight\" >{$title}</p>
+            <p class=\"text-xl sm:text-lg text-black font-bold leading-normal sm:leading-tight\" >{$title}</p>
             </div>";
             }
             ?>

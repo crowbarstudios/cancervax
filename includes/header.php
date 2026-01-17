@@ -112,12 +112,12 @@
 
 <body class="<?php echo ($page === 'home') ? 'home' : ''; ?>">
     <div class="sticky top-0 z-20 bg-white transition-all duration-300 ease-in-out border-b border-custom-teal-100">
-        <div class="bg-custom-teal-100 p-2.5 sm:py-2 sm:px-8 min-h-16 hidden sm:block">
+        <div class="bg-custom-teal-100 p-2.5 sm:py-2 sm:px-8 min-h-16">
             <div class="container-fluid">
                 <div class="flex items-center justify-between">
                     <div></div>
                     <!-- <a href="/webinar" class="theme-btn orange-btn tracking-normal">Watch the Webinar</a> -->
-                    <a href="https://cancervax.com/invest" class="theme-btn orange-btn !border-0 !text-[15px] tracking-normal !uppercase">Learn how you can help us!</a>
+                    <a href="https://cancervax.com/invest" class="theme-btn orange-btn !border-0 !text-[15px] tracking-normal !uppercase mx-auto md:mx-0">Learn how you can help us!</a>
                     <div class="hidden md:block space-x-3">
                         <a href="https://www.facebook.com/people/Cancervax/100090179828482/" target="_blank" rel="noopener noreferrer" class="text-white text-xl hover:text-white"><i class="fab fa-facebook-square"></i></a>
                         <a href="https://www.instagram.com/cancervaxbiotech/" target="_blank" rel="noopener noreferrer" class="text-white text-xl hover:text-white"><i class="fab fa-instagram"></i></a>
@@ -149,7 +149,7 @@
                     </div>
                     <div class="flex flex-1 items-center justify-start md:items-stretch md:justify-between">
                         <div class="flex shrink-0 items-center">
-                            <a href="/" class="max-w-48 xl:max-w-72">
+                            <a href="/" class="max-w-[210px] sm:max-w-[300px]">
                                 <img class="w-auto inline-flex" src="<?php echo  $full_url; ?>/assets/images/light-logo.png" alt="Cancervax">
                             </a>
 
