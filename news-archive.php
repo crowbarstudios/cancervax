@@ -19,7 +19,7 @@ include('header.php'); ?>
                 <div class="news-item">
                     <a href="biotech-veteran-and-virologist-joins-cancervax-as-senior-scientific-advisor.php"></a>
                     <span>January 27, 2026</span>
-                    <h3>World-renowned Immunologist and Distinguished Scientist Joins CancerVax as Senior Scientific Advisor</h3>
+                    <h3>Biotech Veteran and Virologist Joins CancerVax as Senior Scientific Advisor</h3>
                     <p>CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that George Kemble, PhD will serve as a Senior Scientific Advisor</p>
                 </div>
             </div>
