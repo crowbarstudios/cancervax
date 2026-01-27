@@ -98,7 +98,29 @@
         </div>
         <div class="team-wrapper">
             <div class="row my-4 justify-content-center">
+            <div class="col-md-6 col-lg-3">
+                        <div class="team-box">
+                            <div class="team-box-img">
+                                <a href="#">
+                                    <img src="./assets/img/gordon-ringold.png" class="object-fit-cover" style="object-position: 100% 0;" alt="john">
+                                </a>
+                            </div>
+                            <h5>
+                                Gordon Ringold,
+                                <span>PhD</span>
 
+                            </h5>
+                            <p>
+                                Strategic Advisor
+                            </p>
+                            <div class="team-description">
+                                <img src="./assets/img/gordon-ringold.png" alt="Team Image" class="team-head">
+                                <p class="py-2">Dr. Gordon Ringold is currently CEO of Quadriga BioSciences, a clinical phase cancer biotech company developing a novel L-type Amino Acid Transporter 1 (LAT1) for delivering chemotherapeutic agents across the blood brain barrier and into rapidly growing cancer cells. He is also the Founder and Executive Chairman of Maxymune, a biopharma company developing differentiated treatments to transform the lives of those affected by serious immunological diseases. He is currently on the board of directors of Okava Pharmaceuticals. From 1997 to 2015, he served in various capacities as Co-Founder and/or CEO of Maxygen, SurroMed, Alexza, and Alavita. From 1991 to 2000, Dr. Ringold was CEO and Scientific Director of Affymax Research Institute (acquired by Glaxo in 1995) where he managed the development of novel technologies to accelerate the pace of drug discovery; prior to that he was VP and Director of the Institute for Cancer and Developmental Biology at Syntex Corporation (1986-1991).
+                                </p>
+                                <p class="py-2">Dr. Ringold received his Ph.D. in the laboratory of Dr. Harold Varmus (University of California, San Francisco), before joining the Stanford University School of Medicine, Department of Pharmacology (1978-1987). While on the Stanford faculty he invented technologies for manufacturing of recombinant proteins in mammalian cells, now widely used for production of dozens of therapeutic products and received the John J. Abel Award as the best Pharmacologist in the US under the age of 35. Dr. Ringold is an alumnus of Crown College, University of California, Santa Cruz, 1972.</p>
+                            </div>
+                        </div>
+                    </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="team-box">
                         <div class="team-box-img">
@@ -123,26 +145,27 @@
                         </div>
                     </div>
                     </div>
+                   
                     <div class="col-md-6 col-lg-3">
                         <div class="team-box">
                             <div class="team-box-img">
                                 <a href="#">
-                                    <img src="./assets/img/gordon-ringold.png" class="object-fit-cover" style="object-position: 100% 0;" alt="john">
+                                    <img src="./assets/img/george-kemble.png" class="object-fit-cover" style="object-position: 100% 0;" alt="john">
                                 </a>
                             </div>
                             <h5>
-                                Gordon Ringold,
+                            George Kemble,
                                 <span>PhD</span>
 
                             </h5>
                             <p>
-                                Strategic Advisor
+                            Senior Scientific Advisor
                             </p>
                             <div class="team-description">
-                                <img src="./assets/img/gordon-ringold.png" alt="Team Image" class="team-head">
-                                <p class="py-2">Dr. Gordon Ringold is currently CEO of Quadriga BioSciences, a clinical phase cancer biotech company developing a novel L-type Amino Acid Transporter 1 (LAT1) for delivering chemotherapeutic agents across the blood brain barrier and into rapidly growing cancer cells. He is also the Founder and Executive Chairman of Maxymune, a biopharma company developing differentiated treatments to transform the lives of those affected by serious immunological diseases. He is currently on the board of directors of Okava Pharmaceuticals. From 1997 to 2015, he served in various capacities as Co-Founder and/or CEO of Maxygen, SurroMed, Alexza, and Alavita. From 1991 to 2000, Dr. Ringold was CEO and Scientific Director of Affymax Research Institute (acquired by Glaxo in 1995) where he managed the development of novel technologies to accelerate the pace of drug discovery; prior to that he was VP and Director of the Institute for Cancer and Developmental Biology at Syntex Corporation (1986-1991).
+                                <img src="./assets/img/george-kemble.png" alt="Team Image" class="team-head">
+                                <p class="py-2">George Kemble, PhD is a veteran biotech executive and scientist with a specialty focus in the areas of virology, vaccines and small molecule biologics. Dr. Kemble is currently the Chairman of the Board at Sagimet Biosciences Inc. (NASDAQ: SGMT), a clinical-stage biopharmaceutical company developing novel fatty acid synthase (FASN) inhibitors for cancer treatment, liver fibrosis, acne and other diseases. He joined Sagimet in August 2011 as its chief scientific officer and served as CEO from October 2015 until October 2022, when he transitioned to the role of executive chairman. In May 2025, Dr. Kemble moved into the role of non-executive Chair of the Board. At Sagimet, he directed medicinal chemistry, research, translational and CMC groups, and worked on several programs including the lead product candidate, denifanstat. 
                                 </p>
-                                <p class="py-2">Dr. Ringold received his Ph.D. in the laboratory of Dr. Harold Varmus (University of California, San Francisco), before joining the Stanford University School of Medicine, Department of Pharmacology (1978-1987). While on the Stanford faculty he invented technologies for manufacturing of recombinant proteins in mammalian cells, now widely used for production of dozens of therapeutic products and received the John J. Abel Award as the best Pharmacologist in the US under the age of 35. Dr. Ringold is an alumnus of Crown College, University of California, Santa Cruz, 1972.</p>
+                                <p class="py-2">Prior to Sagimet, Dr. Kemble served as the senior vice president of R&D and head of research at MedImmune, Inc., a subsidiary of AstraZeneca PLC. During his tenure, he was responsible for a large group of scientists dedicated to the research and development of programs across a number of therapeutic areas, including the launch of FluMist®, the first innovation in influenza vaccines in over 60 years. Dr. Kemble received a BS degree from the University of Santa Clara, a PhD from Stanford University and completed post-doctoral training at UCSF, where he worked on various human viruses.</p>
                             </div>
                         </div>
                     </div>
