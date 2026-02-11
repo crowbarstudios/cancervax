@@ -58,7 +58,7 @@ include('header.php'); ?>
             <li> Designed several Smart mRNAs for targeting multiple cancer types​</li>
             <li>Lab tests successfully validated Smart mRNAs worked in actual cancer cells (Q1 2025)</li>
             <li> Complete therapeutic nanoparticles for the above cancer indications (Q3 2025)</li>
-            <li> Complete pre-IND animal studies to determine toxicity and efficacy of the above cancer treatments (Q1 2026)</li>
+            <li> Complete pre-IND animal studies to determine toxicity and efficacy of the above cancer treatments (2026)</li>
         </ul>
     </div>
 </section>
