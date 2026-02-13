@@ -8,20 +8,20 @@ $videos = include "./data/podcast-data.php";
     </div>
 </section>
 
-<section class="py-[70px] sm:pt-[140px] sm:pb-20 bg-black">
+<section class="py-[70px] sm:pt-[140px] sm:pb-20 bg-white">
     <div class="container">
         <div class="max-w-[600px] mx-auto flex items-center justify-center gap-5 flex-col sm:flex-row">
             <div class="min-w-[160px]">
                 <img src="./assets/images/byron-cvax.png" class="w-full" alt="ryan">
             </div>
-            <p class="text-gray-400 text-base leading-7 text-center">Watch our CMO, Byron Elton, cover the most important news and developments in the cancer industry</p>
+            <p class="text-black text-base leading-7 text-center">Watch our CMO, Byron Elton, cover the most important news and developments in the cancer industry</p>
         </div>
     </div>
 </section>
 
-<section class="bg-black pb-20 sm:pb-32">
+<section class="bg-white pb-20 sm:pb-32">
     <div class="container">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 text-gray-500">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 text-black">
             <?php
                 $categories = ['news-commentary'];
 
@@ -54,7 +54,7 @@ $videos = include "./data/podcast-data.php";
                     </div>
                     <i class=\"far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-[100px] lg:text-6xl xl:text-[100px] [text-shadow:1px_0_6px_rgba(0,0,0,.3)]\"></i>
                 </div>            
-                <p class=\"text-xl sm:text-lg text-gray-400 font-bold leading-normal sm:leading-tight\" >{$title}</p>
+                <p class=\"text-xl sm:text-lg text-black font-bold leading-normal sm:leading-tight\" >{$title}</p>
                 </div>";
                 }
             ?>

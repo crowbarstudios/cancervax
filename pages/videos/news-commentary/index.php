@@ -17,7 +17,7 @@ if ($slug) {
             echo '
             <section class="xl:pt-[100px] pt-20 pb-[135px]">
                 <div class="mx-auto lg:max-w-screen-lg xl:max-w-screen-xl px-2 sm:px-4">
-                    <h1 class="max-w-[950px] mx-auto w-full text-[50px] text-center">' . htmlspecialchars($video['title']) . '</h1>
+                    <h1 class="max-w-[950px] mx-auto w-full leading-tight text-3xl font-medium md:text-[50px] text-gray-400 text-center">' . htmlspecialchars($video['title']) . '</h1>
                     <div class="mt-[89px]">
                         <iframe width="560" height="315" class="h-64 sm:h-[600px] w-full" src="https://www.youtube.com/embed/' . htmlspecialchars($video['videoID']) . '?autoplay=1" 
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
