@@ -7,11 +7,11 @@ if ($slug) {
     $videos = include $basePath . '/podcast-data.php';
     $category = basename(__DIR__);
 
+
     // Find the video matching the slug
     $filteredVideos = array_filter($videos, function ($item) use ($slug, $category) {
-        return $item['category'] === "short-video" && strtolower($item['slug']) === strtolower($slug);
+        return $item['category'] === $category && strtolower($item['slug']) === strtolower($slug);
     });
-
 
     if (!empty($filteredVideos)) {
         foreach ($filteredVideos as $video) {

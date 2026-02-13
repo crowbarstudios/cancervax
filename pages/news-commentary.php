@@ -48,7 +48,7 @@ $videos = include "./data/podcast-data.php";
                 <div>
                 <div class=\"relative mb-6\">
                 <a class=\"popup-youtube getThumbnail w-full h-full block absolute inset-0 z-10\" href=\"https://www.youtube.com/watch?v={$video['videoID']}\"></a>
-                <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"news-commentary/single-video.php?id={$video['slug']}\"></a>
+                <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"videos/news-commentary/{$video['slug']}\"></a>
                     <div class=\"relative h-auto md:h-[394px] lg:h-[260px] xl:h-[394px]\">
                     <img src=\"//img.youtube.com/vi/{$video['videoID']}/maxresdefault.jpg\" alt=\"Thumbnail\" class=\"w-full h-full object-cover\">
                     </div>

@@ -62,7 +62,7 @@ $videos = include "./data/podcast-data.php";
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-6">
             <div class="mb-4">
-                <a href="https://cancervax.com/webinar-feb-25-2025" class="relative">
+                <a href="webinar-feb-25-2025" class="relative">
                     <div class="h-auto">
                         <img src="https://vumbnail.com/1074009289.png" alt="Thumbnail">
                     </div>
@@ -70,7 +70,7 @@ $videos = include "./data/podcast-data.php";
                 </a>
             </div>
             <div class="mb-4">
-                <a href="https://cancervax.com/webinar-may-31-2025" class="relative">
+                <a href="webinar-may-31-2025" class="relative">
                     <div class="h-auto">
                         <img src="https://vumbnail.com/1088764643/6170b7e696.png" alt="Thumbnail">
                     </div>
@@ -114,7 +114,7 @@ $videos = include "./data/podcast-data.php";
             <div>
             <div class=\"relative mb-6\">
             <a class=\"popup-youtube getThumbnail w-full h-full block absolute inset-0 z-10\" href=\"https://www.youtube.com/watch?v={$video['videoID']}\"></a>
-            <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"single-video.php?id={$video['slug']}\"></a>
+            <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"videos/news-commentary/{$video['slug']}\"></a>
                 <div class=\"relative h-[225px]\">
                  <img src=\"//img.youtube.com/vi/{$video['videoID']}/maxresdefault.jpg\" alt=\"Thumbnail\" class=\"w-full h-full object-cover\">
                 </div>
@@ -135,35 +135,7 @@ $videos = include "./data/podcast-data.php";
             <h3 class="text-black text-xl sm:text-[40px] leading-10 font-medium">Short Videos</h3>
             <a href="https://www.youtube.com/@CancerVAX/shorts" target="_blank" class="text-custom-teal-100 underline text-lg">See All</a>
         </div>
-        <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-
-            <?php
-            $filteredlatestCancerSurvivorStories = array_filter($videos, function ($item) {
-                return $item['category'] === 'cancer-survivor-stories' && $item['scope'] === 'public';
-            });
-            usort($filteredlatestCancerSurvivorStories, function ($a, $b) {
-                return strtotime($b['date']) - strtotime($a['date']);
-            });
-
-            $latestCancerSurvivorStories = array_slice($filteredlatestCancerSurvivorStories, 0, 4);
-            foreach ($latestCancerSurvivorStories as $video) {
-                $temp1 = strtolower($video['title']);
-                $string = str_replace(' ', '-', $temp1);
-                echo "
-            <div>
-            <div class=\"relative mb-6\">
-            <a class=\"popup-youtube getThumbnail w-full h-full block absolute inset-0 z-10\" href=\"https://www.youtube.com/watch?v={$video['videoID']}\"></a>
-            <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"cancer-survivor-stories/{$video['slug']}\"></a>
-                <div class=\"relative h-[225px]\">
-                 <img src=\"//img.youtube.com/vi/{$video['videoID']}/maxresdefault.jpg\" alt=\"Thumbnail\" class=\"w-full h-full object-cover\">
-                </div>
-                <i class=\"far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]\"></i>
-            </div>            
-            <p class=\"text-xl sm:text-lg text-black font-bold leading-normal sm:leading-tight\" >{$title}</p>
-            </div>";
-            }
-            ?>
-        </div> -->
+       
     </div>
 </section>
 
@@ -176,10 +148,6 @@ $videos = include "./data/podcast-data.php";
             $filteredlatestShortVideos = array_filter($videos, function ($item) {
                 return $item['category'] === 'short-videos' && $item['scope'] === 'public';
             });
-            // usort($filteredlatestShortVideos, function ($a, $b) {
-            //     return strtotime($b['date']) - strtotime($a['date']);
-            // });
-
             $latestCancerShortVideos = array_slice($filteredlatestShortVideos, 0, 4);
             foreach ($latestCancerShortVideos as $video) {
 
@@ -192,8 +160,8 @@ $videos = include "./data/podcast-data.php";
             <div>
             <div class=\"relative mb-6\">
             <a class=\"popup-youtube getThumbnail w-full h-full block absolute inset-0 z-10\" href=\"https://www.youtube.com/watch?v={$video['videoID']}\"></a>
-            <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"short-videos/{$video['slug']}\"></a>
-                <div class=\"relative h-[540px]\">
+                <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"videos/short-videos/{$video['slug']}\"></a>
+                    <div class=\"relative h-[540px]\">
                  <img src=\"//img.youtube.com/vi/{$video['videoID']}/maxresdefault.jpg\" alt=\"Thumbnail\" class=\"w-full h-full object-cover\">
                 </div>
                 <i class=\"far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]\"></i>
