@@ -3,12 +3,10 @@
         <div class="text-center max-w-4xl mx-auto mb-[30px]">
             <h3 class="text-black font-medium">Our Scientific Team</h3>
         </div>
-
-
         <div class="max-w-[970px] mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 justify-center max-w-[717px] mx-auto">
-                <div class="text-center w-auto mx-auto team-item">
-                    <div class="h-auto w-full mx-auto mb-[25px] team-target">
+                <div class="text-center w-auto mx-auto team-box">
+                    <div class="h-auto w-full mx-auto mb-[25px] team-box-img">
                         <a href="#">
                             <img src="<?php echo  $full_url; ?>assets/images/george.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
@@ -36,8 +34,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="text-center w-auto mx-auto team-item">
-                    <div class="h-auto w-full mx-auto mb-[25px] team-target">
+                <div class="text-center w-auto mx-auto team-box">
+                    <div class="h-auto w-full mx-auto mb-[25px] team-box-img">
                         <a href="#">
                             <img src="<?php echo  $full_url; ?>assets/images/adam-grant.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
@@ -62,8 +60,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="text-center w-auto mx-auto team-item col-span-1 md:col-span-2 xl:col-span-1">
-                    <div class="h-auto w-full mx-auto mb-[25px] team-target">
+                <div class="text-center w-auto mx-auto team-box col-span-1 md:col-span-2 xl:col-span-1">
+                    <div class="h-auto w-full mx-auto mb-[25px] team-box-img">
                         <a href="#">
                             <img src="<?php echo  $full_url; ?>assets/images/sumant-ramachandra.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
@@ -89,10 +87,28 @@
                 </div>
             </div>
         </div>
-        <div class="w-full md:max-w-[720px] xl:max-w-[470px] mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center my-6">
-                <div class="text-center w-auto mx-auto team-item">
-                    <div class="h-auto w-full mx-auto mb-[25px] team-target">
+        <div class="max-w-[970px] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 justify-center max-w-[717px] mx-auto">
+                <div class="text-center w-auto mx-auto team-box">
+                    <div class="h-auto w-full mx-auto mb-[25px] team-box-img">
+                        <a href="#">
+                            <img src="<?php echo  $full_url; ?>assets/images/gordon-ringold.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
+                        </a>
+                    </div>
+                    <h5 class="text-base font-semibold mb-1 cursor-pointer text-black leading-tight tracking-[1.2px] team-target">
+                        Gordon Ringold, <span>PhD</span>
+                    </h5>
+                    <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
+                        Strategic Advisor
+                    </p>
+                    <div class="team-description hidden">
+                        <img src="<?php echo  $full_url; ?>assets/images/gordon-ringold.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
+                        <p class="py-2 text-base text-black px-6">Dr. Gordon Ringold is currently CEO of Quadriga BioSciences, a clinical phase cancer biotech company developing a novel L-type Amino Acid Transporter 1 (LAT1) for delivering chemotherapeutic agents across the blood brain barrier and into rapidly growing cancer cells. He is also the Founder and Executive Chairman of Maxymune, a biopharma company developing differentiated treatments to transform the lives of those affected by serious immunological diseases. He is currently on the board of directors of Okava Pharmaceuticals. From 1997 to 2015, he served in various capacities as Co-Founder and/or CEO of Maxygen, SurroMed, Alexza, and Alavita. From 1991 to 2000, Dr. Ringold was CEO and Scientific Director of Affymax Research Institute (acquired by Glaxo in 1995) where he managed the development of novel technologies to accelerate the pace of drug discovery; prior to that he was VP and Director of the Institute for Cancer and Developmental Biology at Syntex Corporation (1986-1991).</p>
+                        <p class="py-2 text-base text-black px-6">Dr. Ringold received his Ph.D. in the laboratory of Dr. Harold Varmus (University of California, San Francisco), before joining the Stanford University School of Medicine, Department of Pharmacology (1978-1987). While on the Stanford faculty he invented technologies for manufacturing of recombinant proteins in mammalian cells, now widely used for production of dozens of therapeutic products and received the John J. Abel Award as the best Pharmacologist in the US under the age of 35. Dr. Ringold is an alumnus of Crown College, University of California, Santa Cruz, 1972.</p>
+                    </div>
+                </div>
+                <div class="text-center w-auto mx-auto team-box">
+                    <div class="h-auto w-full mx-auto mb-[25px] team-box-img">
                         <a href="#">
                             <img src="<?php echo  $full_url; ?>assets/images/mark-davis.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="Mark Davis">
                         </a>
@@ -103,8 +119,6 @@
                     <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
                         Senior Scientific Advisor
                     </p>
-
-
                     <div class="team-description hidden">
                         <img src="<?php echo  $full_url; ?>assets/images/mark-davis.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
                         <p class="py-2 text-base text-black px-6">Mark M. Davis, PhD. is the Director of the Stanford Institute for Immunology, Transplantation and Infection (ITI), which has become an international leader in the development of transformative technologies and approaches to better understand the human immune system and its responses to infectious diseases and autoimmunity. He also serves as a Professor of Microbiology and Immunology at Stanford and is a Howard Hughes Medical Institute Investigator.</p>
@@ -112,29 +126,32 @@
                         <p class="py-2 text-base text-black px-6">According to research.com, Dr. Davis has authored over 680 publications with over 110,000 citations. He has received numerous awards and honors for his work, including memberships in the National Academy of Sciences, The National Academy of Medicine and the Royal Society.</p>
                     </div>
                 </div>
-                <div class="text-center w-auto mx-auto team-item">
-                    <div class="h-auto w-full mx-auto mb-[25px] team-target">
+                <div class="text-center w-auto mx-auto team-box col-span-1 md:col-span-2 xl:col-span-1">
+                    <div class="h-auto w-full mx-auto mb-[25px] team-box-img">
                         <a href="#">
-                            <img src="<?php echo  $full_url; ?>assets/images/gordon-ringold.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
+                            <img src="<?php echo  $full_url; ?>assets/images/george-kemble.png" class="w-[307px] xl:w-[224px] rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
                     </div>
                     <h5 class="text-base font-semibold mb-1 cursor-pointer text-black leading-tight tracking-[1.2px] team-target">
-                        Gordon Ringold, <span>PhD</span>
-
+                        George Kemble,<span>PhD</span>
                     </h5>
                     <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
-                        Strategic Advisor
+                        Senior Scientific Advisor
                     </p>
 
 
                     <div class="team-description hidden">
-                        <img src="<?php echo  $full_url; ?>assets/images/gordon-ringold.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
-                        <p class="py-2 text-base text-black px-6">Dr. Gordon Ringold is currently CEO of Quadriga BioSciences, a clinical phase cancer biotech company developing a novel L-type Amino Acid Transporter 1 (LAT1) for delivering chemotherapeutic agents across the blood brain barrier and into rapidly growing cancer cells. He is also the Founder and Executive Chairman of Maxymune, a biopharma company developing differentiated treatments to transform the lives of those affected by serious immunological diseases. He is currently on the board of directors of Okava Pharmaceuticals. From 1997 to 2015, he served in various capacities as Co-Founder and/or CEO of Maxygen, SurroMed, Alexza, and Alavita. From 1991 to 2000, Dr. Ringold was CEO and Scientific Director of Affymax Research Institute (acquired by Glaxo in 1995) where he managed the development of novel technologies to accelerate the pace of drug discovery; prior to that he was VP and Director of the Institute for Cancer and Developmental Biology at Syntex Corporation (1986-1991).</p>
-                        <p class="py-2 text-base text-black px-6">Dr. Ringold received his Ph.D. in the laboratory of Dr. Harold Varmus (University of California, San Francisco), before joining the Stanford University School of Medicine, Department of Pharmacology (1978-1987). While on the Stanford faculty he invented technologies for manufacturing of recombinant proteins in mammalian cells, now widely used for production of dozens of therapeutic products and received the John J. Abel Award as the best Pharmacologist in the US under the age of 35. Dr. Ringold is an alumnus of Crown College, University of California, Santa Cruz, 1972.</p>
+                        <img src="<?php echo  $full_url; ?>assets/images/george-kemble.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
+                        <p class="py-2 text-base text-black px-6">George Kemble, PhD is a veteran biotech executive and scientist with a specialty focus in the areas of virology, vaccines and small molecule biologics. Dr. Kemble is currently the Chairman of the Board at Sagimet Biosciences Inc. (NASDAQ: SGMT), a clinical-stage biopharmaceutical company developing novel fatty acid synthase (FASN) inhibitors for cancer treatment, liver fibrosis, acne and other diseases. He joined Sagimet in August 2011 as its chief scientific officer and served as CEO from October 2015 until October 2022, when he transitioned to the role of executive chairman. In May 2025, Dr. Kemble moved into the role of non-executive Chair of the Board. At Sagimet, he directed medicinal chemistry, research, translational and CMC groups, and worked on several programs including the lead product candidate, denifanstat. </p>
+                        <p class="pt-2 pb-6 text-base text-black px-6">Prior to Sagimet, Dr. Kemble served as the senior vice president of R&D and head of research at MedImmune, Inc., a subsidiary of AstraZeneca PLC. During his tenure, he was responsible for a large group of scientists dedicated to the research and development of programs across a number of therapeutic areas, including the launch of FluMist®, the first innovation in influenza vaccines in over 60 years. Dr. Kemble received a BS degree from the University of Santa Clara, a PhD from Stanford University and completed post-doctoral training at UCSF, where he worked on various human viruses.</p>
                     </div>
                 </div>
-                <div class="text-center w-auto mx-auto team-item">
-                    <div class="h-auto w-full mx-auto mb-[25px] team-target">
+            </div>
+        </div>
+        <div class="w-full md:max-w-[720px] xl:max-w-[470px] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center my-6">
+                <div class="text-center w-auto mx-auto team-box">
+                    <div class="h-auto w-full mx-auto mb-[25px] team-box-img">
                         <a href="#">
                             <img src="<?php echo  $full_url; ?>assets/images/lakey.png" class="w-[307px] xl:w-[224px] h-auto rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
@@ -163,8 +180,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="text-center w-auto mx-auto team-item">
-                    <div class="h-auto w-full mx-auto mb-[25px] team-target">
+                <div class="text-center w-auto mx-auto team-box">
+                    <div class="h-auto w-full mx-auto mb-[25px] team-box-img">
                         <a href="#">
                             <img src="<?php echo  $full_url; ?>assets/images/steven-warner.png" class="w-[307px] xl:w-[224px] h-auto rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
@@ -192,8 +209,8 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center my-6">
 
-                <div class="text-center w-auto mx-auto team-item">
-                    <div class="h-auto w-full mx-auto mb-[25px] team-target">
+                <div class="text-center w-auto mx-auto team-box">
+                    <div class="h-auto w-full mx-auto mb-[25px] team-box-img">
                         <a href="#">
                             <img src="<?php echo  $full_url; ?>assets/images/matthew-spear.png" class="w-[307px] xl:w-[224px] h-auto rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
@@ -221,8 +238,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="text-center w-auto mx-auto team-item">
-                    <div class="h-auto w-full mx-auto mb-[25px] team-target">
+                <div class="text-center w-auto mx-auto team-box">
+                    <div class="h-auto w-full mx-auto mb-[25px] team-box-img">
                         <a href="#">
                             <img src="<?php echo  $full_url; ?>assets/images/amit-indap.png" class="w-[307px] xl:w-[224px] h-auto rounded-lg object-cover" style="object-position: 100% 0;" alt="john">
                         </a>
@@ -249,8 +266,6 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 </section>

@@ -66,10 +66,10 @@
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
                 <div class="lg:col-span-7 flex justify-center">
-                    <a href="https://cancervax.com/webinar-feb-25-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
+                    <a href="/cancervax/webinar-feb-25-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
                 </div>
                 <div class="lg:col-span-5 flex justify-center">
-                    <a href="https://cancervax.com/cancervax-announces-successful-tests-of-its-smart-mrna-technology.php" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                    <a href="/cancervax/single-news.php?id=32" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
                 </div>
             </div>
         </div>
@@ -94,10 +94,10 @@
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
                 <div class="lg:col-span-7 flex justify-center">
-                    <a href="https://cancervax.com/webinar-may-31-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
+                    <a href="/cancervax/webinar-may-31-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
                 </div>
                 <div class="lg:col-span-5 flex justify-center">
-                    <a href="https://cancervax.com/cancerVax-achieves-major-milestone-with-successful-creation-of-cell-targeting-nanoparticle.php" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                    <a href="/cancervax/single-news.php?id=35" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
                 </div>
             </div>
         </div>
@@ -132,10 +132,10 @@
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
                 <div class="lg:col-span-7 flex justify-center">
-                    <a href="https://cancervax.com/update-video-august-5-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
+                    <a href="/cancervax/update-video-august-5-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
                 </div>
                 <div class="lg:col-span-5 flex justify-center">
-                    <a href="https://cancervax.com/cancervax-successfully-disguises-cancer-cells-and-tricks-immune-cells-into-attacking-them.php" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                    <a href="/cancervax/single-news.php?id=38" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
                 </div>
             </div>    
         </div>
@@ -161,7 +161,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
                 <div class="lg:col-span-6"></div>
                 <div class="lg:col-span-6 flex justify-center">
-                    <a href="https://cancervax.com/cancervax-precision-therapy-successfully-avoids-healthy-liver-cells.php" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                    <a href="/cancervax/single-news.php?id=42" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
                 </div>
             </div>
         </div>

@@ -2,15 +2,15 @@
     <div class="container">
         <div>
             <h1 class="text-[32px] leading-snug mb-12 font-medium text-center">May 31, 2025 – Successfully Made Cell Targeting Nanoparticle!</h1>        
-            <div class="relative">
+            <div class="relative video-wrapper">
                 <iframe
-                    title="vimeo-player"
                     data-video-id="1088764643?h=6170b7e696&"
                     src="https://player.vimeo.com/video/1088764643?h=6170b7e696&controls=0&muted=1&playsinline=1"
                     frameborder="0"
                     allow="autoplay; fullscreen; picture-in-picture"
                     allowfullscreen
-                    playsinline class="h-[300px] md:h-[420px] w-full">
+                    playsinline 
+                    class="h-[300px] md:h-[420px] w-full">
                 </iframe>
                 <button type="button" class="vimeo-custom-btn absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 56 56" fill="none">

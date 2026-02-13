@@ -7,7 +7,7 @@
         </div> -->
         <div class="mb-12 text-center">
             <h1 class="text-3xl sm:text-5xl leading-snug font-medium">You can now invest in CancerVax <br class="hidden md:block"> and join our fight to cure cancer!</h1>
-            <div class="max-w-[995px] mx-auto mt-9 relative z-0">
+            <div class="max-w-[995px] mx-auto mt-9 relative video-wrapper z-0">
                 <iframe
                     data-video-id="1086201571"
                     src="https://player.vimeo.com/video/1086201571?controls=0&muted=1&playsinline=1"
@@ -18,7 +18,7 @@
                     class="w-full h-[200px] sm:h-[300px] md:h-[420px] relative"
                 >
                 </iframe>
-                <button type="button" class="vimeo-custom-btn">
+                <button type="button" class="vimeo-custom-btn absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 56 56" fill="none">
                         <circle cx="27.8926" cy="28.1125" r="27.5" fill="white" fill-opacity="0.8"></circle>
                         <path d="M39.1753 28.1126L21.5537 38.2864L21.5537 17.9387L39.1753 28.1126Z" fill="black"></path>

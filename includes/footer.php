@@ -72,38 +72,43 @@ if ($page !== "prep") {
                             <div class="row grid grid-cols-2 sm:grid-cols-3 gap-6">
                                 <div class="footer-link">
                                     <h6 class="sm:hidden text-xs uppercase tracking-[1px] text-black">COMPANY</h6>
+                                    <?php
+                                        $links1 = [
+                                            "team" => "Team",
+                                            "progress" => "Progress",
+                                            "market" => "Market",
+                                            "news" => "Newsroom",
+                                        ];
+
+                                        $links2 = [
+                                            "videos" => "Videos",
+                                            "invest" => "Investors",
+                                            "contact" => "Contact",
+                                            "technology" => "Technology",
+                                            "privacy-policy" => "Privacy Policy",
+                                            "terms-of-use" => "Terms of Use",
+                                        ];
+
+                                        $baseUrl = (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) ? "/cancervax" : "";
+                                    ?>
+                                    <div
+                                        class="hidden sm:ml-6 lg:flex lg:gap-0 gap-2.5 [&>a]:inline-flex [&>a]:items-center [&>a]:border [&>a]:border-transparent [&>a]:text-[15px] [&>a]:font-medium [&>a]:leading-none [&>a]:text-black [&>a]:lg:px-2 [&>a]:xl:px-4 [&>a]:py-2 [&>a]:rounded-full">
+                                    </div>
                                     <ul class="[&>li>a]:text-black [&>li>a]:text-[15px] [&>li>a]:leading-[1.7em]">
-                                        <li>
-                                            <a href="/team">Team</a>
-                                        </li>
-                                        <li>
-                                            <a href="/progress">Progress</a>
-                                        </li>
-                                        <li>
-                                            <a href="/market">Market</a>
-                                        </li>
-                                        <li>
-                                            <a href="/news">Newsroom</a>
-                                        </li>
+                                        <?php foreach ($links1 as $slug => $name): ?>
+                                            <li>
+                                                <a href="<?= $baseUrl ?>/<?= $slug ?>"><?= $name ?></a>
+                                            </li>
+                                        <?php endforeach; ?>
                                     </ul>
                                 </div>
                                 <div class="footer-link">
                                     <ul class="[&>li>a]:text-black [&>li>a]:text-[15px] [&>li>a]:leading-[1.7em]">
-                                        <li>
-                                            <a href="/videos">Videos</a>
-                                        </li>
-                                        <li>
-                                            <a href="/invest">Investors</a>
-                                        </li>
-                                        <li>
-                                            <a href="/contact">Contact</a>
-                                        </li>
-                                        <li>
-                                            <a href="/privacy-policy">Privacy Policy</a>
-                                        </li>
-                                        <li>
-                                            <a href="/terms-of-use">Terms of Use</a>
-                                        </li>
+                                        <?php foreach ($links2 as $slug => $name): ?>
+                                            <li>
+                                                <a href="<?= $baseUrl ?>/<?= $slug ?>"><?= $name ?></a>
+                                            </li>
+                                        <?php endforeach; ?>
                                     </ul>
                                 </div>
                                 <div class="footer-info">
@@ -125,27 +130,12 @@ if ($page !== "prep") {
 
 <?php } ?>
 
-<!-- <div class="modal fade" id="pipeline-img-preview" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header text-end pb-0">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img src="<?php echo  $full_url; ?>./assets/images/pipeline-virus-2-large.png" class="modal_img" alt="pipeline-virus-2">
-            </div>
-        </div>
-    </div>
-</div> -->
-
 <!-- Team popup -->
-<div id="team-popup" class="mfp-hide ">
-    <div class="team-popup-content bg-white max-w-[800px] mx-auto relative rounded-md">
+<div id="team-popup" class="mfp-hide transition-all z-50 bg-[rgba(0,0,0,0.5)] h-screen fixed top-0 left-0 right-0">
+    <div class="team-popup-content bg-white w-auto sm:max-w-[500px] lg:max-w-[800px] my-2 sm:my-7 mx-2 sm:mx-auto relative !rounded-md">
         <h2 class="team-popup-title text-black text-xl leading-normal font-medium p-4"></h2>
-        <button title="Close (Esc)" type="button" class="mfp-close mt-2.5 mr-[5px] text-[44px]">×</button>
-        <div class="team-popup-body overflow-y-auto max-h-[750px]"></div>
+        <button title="Close (Esc)" type="button" class="mfp-close text-black mt-2.5 mr-[5px] text-[44px]">×</button>
+        <div class="team-popup-body overflow-y-auto max-h-[600px]"></div>
     </div>
 </div>
 

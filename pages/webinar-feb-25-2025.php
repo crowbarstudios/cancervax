@@ -2,7 +2,7 @@
     <div class="container">
         <div>
             <h1 class="text-[32px] leading-snug mb-12 font-medium text-center">February 25, 2025 – Smart mRNA Works!</h1>
-            <div class="relative">
+            <div class="relative video-wrapper">
                 <iframe
                     data-video-id="1074009289"
                     src="https://player.vimeo.com/video/1074009289?controls=0&muted=1&playsinline=1"

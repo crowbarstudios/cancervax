@@ -61,17 +61,17 @@ $videos = include "./data/podcast-data.php";
             <h3 class="text-black text-xl sm:text-[40px] leading-10 font-medium mb-12">Webinars</h3>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-6">
-            <div class="cchat-box mb-4">
+            <div class="mb-4">
                 <a href="https://cancervax.com/webinar-feb-25-2025" class="relative">
-                    <div class="cchat-thumbnail thumbnail-overlay h-auto">
+                    <div class="h-auto">
                         <img src="https://vumbnail.com/1074009289.png" alt="Thumbnail">
                     </div>
                     <i class="far fa-play-circle  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
                 </a>
             </div>
-            <div class="cchat-box mb-4">
+            <div class="mb-4">
                 <a href="https://cancervax.com/webinar-may-31-2025" class="relative">
-                    <div class="cchat-thumbnail thumbnail-overlay h-auto">
+                    <div class="h-auto">
                         <img src="https://vumbnail.com/1088764643/6170b7e696.png" alt="Thumbnail">
                     </div>
                     <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
@@ -114,7 +114,7 @@ $videos = include "./data/podcast-data.php";
             <div>
             <div class=\"relative mb-6\">
             <a class=\"popup-youtube getThumbnail w-full h-full block absolute inset-0 z-10\" href=\"https://www.youtube.com/watch?v={$video['videoID']}\"></a>
-            <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"news-commentary/{$video['slug']}\"></a>
+            <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"single-video.php?id={$video['slug']}\"></a>
                 <div class=\"relative h-[225px]\">
                  <img src=\"//img.youtube.com/vi/{$video['videoID']}/maxresdefault.jpg\" alt=\"Thumbnail\" class=\"w-full h-full object-cover\">
                 </div>

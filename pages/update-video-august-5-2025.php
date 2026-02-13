@@ -2,7 +2,7 @@
     <div class="container">
         <div>
             <h1 class="text-[32px] leading-snug mb-12 font-medium text-center">August 5, 2025 – Successfully Disguised Cancer Cells <br class="hidden lg:block"> and Tricked Immune Cells into Attacking Them</h1>
-            <div class="relative">
+            <div class="relative video-wrapper">
                 <iframe
                     data-video-id="1074009289"
                     src="https://player.vimeo.com/video/1110085683?h=9986ef9a2a&controls=0&muted=1&playsinline=1"

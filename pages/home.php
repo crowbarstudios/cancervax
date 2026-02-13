@@ -1,4 +1,6 @@
-<?php $videos = include "./data/carousel-videos.php"; ?>
+<?php 
+$videos = include "./data/carousel-videos.php"; 
+$news = include "./data/news-data.php"?>
 
 <section class="pt-11 md:pt-0">
     <div class="bg-banner-mobile md:bg-banner bg-white bg-no-repeat bg-[top_center] bg-cover h-[245px] sm:h-[480px] md:h-[850px] banner-home-up">
@@ -380,32 +382,23 @@
 
 <section class="bg-white pt-[70px]">
     <div class="container">
-        <h4 class="mb-9 text-xl text-black">News Highlights</h4>
+        <h4 class="mb-9 text-xl font-medium text-black">News Highlights</h4>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-7">
-            <div class="bg-custom-gray-200 min-h-full p-4 sm:p-10 relative ">
-                <a href="https://cancervax.com/world-renowned-immunologist-and-distinguished-scientist-joins-cancervax-as-senior-scientific-advisor.php" class="absolute inset-0 w-full h-full"></a>
-                <span class="text-custom-teal-200 text-sm uppercase font-medium tracking-widest block">January 7, 2026</span>
-                <h3 class="text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight">World-renowned Immunologist and Distinguished Scientist Joins CancerVax as Senior Scientific Advisor</h3>
-                <p class="text-black text-xl sm:text-base leading-normal">CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that Mark M. Davis, PhD will serve as the Company’s Senior Scientific Advisor.</p>
-            </div>
-            <div class="bg-custom-gray-200 min-h-full p-4 sm:p-10 relative ">
-                <a href="https://cancervax.com/cancervax-reviews-major-scientific-and-strategic-milestones-achieved-in-2025.php" class="absolute inset-0 w-full h-full"></a>
-                <span class="text-custom-teal-200 text-sm uppercase font-medium tracking-widest block">December 23, 2025</span>
-                <h3 class="text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight">CancerVax Reviews Major Scientific and Strategic Milestones Achieved in 2025</h3>
-                <p class="text-black text-xl sm:text-base leading-normal">CancerVax, Inc., the developer of a breakthrough Universal Cancer Treatment Platform that uses the body’s immune system to treat cancer, today released a year-end summary highlighting significant advancements made throughout 2025. These achievements mark a transformative period in the Company’s development as it accelerates its mission to create safe, targeted, and broadly adaptable cancer treatments.</p>
-            </div>
-            <div class="bg-custom-gray-200 min-h-full p-4 sm:p-10 relative ">
-                <a href="https://cancervax.com/cancervax-reports-nanoparticle-component-success-in-preparation-for-animal-studies.php" class="absolute inset-0 w-full h-full"></a>
-                <span class="text-custom-teal-200 text-sm uppercase font-medium tracking-widest block">December 17, 2025 </span>
-                <h3 class="text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight">CancerVax Reports Nanoparticle Component Success in Preparation for Animal Studies</h3>
-                <p class="text-black text-xl sm:text-base leading-normal">CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that recent in-vitro studies have confirmed that two key components of the Company’s novel technology performed exceptionally well. The next step is to put them together into a complete therapeutic lipid nanoparticle (“LNP”) for animal testing</p>
-            </div>
-            <div class="bg-custom-gray-200 min-h-full p-4 sm:p-10 relative ">
-                <a href="https://cancervax.com/cancervax-precision-therapy-successfully-avoids-healthy-liver-cells.php" class="absolute inset-0 w-full h-full"></a>
-                <span class="text-custom-teal-200 text-sm uppercase font-medium tracking-widest block">October 14, 2025</span>
-                <h3 class="text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight">CancerVax Precision Therapy Successfully Avoids Healthy Liver Cells</h3>
-                <p class="text-black text-xl sm:text-base leading-normal">CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that recent in-vitro studies have confirmed that the Company’s technology could significantly reduce liver toxicity, a major problem with other cancer drugs</p>
-            </div>
+            <?php
+            $filteredPressleaseNews = array_filter($news, function ($item) {
+                return $item['category'] === 'pressrelease';
+            });
+
+            // Take the latest 4 industry news articles
+            $latestIndustryNews = array_slice($filteredPressleaseNews, 0, 4);
+            foreach ($latestIndustryNews as $item) {
+                echo "<div class=\"bg-custom-gray-200 min-h-full p-4 sm:p-10 relative \">
+                        <a href=\"single-news.php?id={$item['id']}\" class=\"absolute inset-0 w-full h-full\"></a>
+                        <span class=\"text-custom-teal-200 text-sm uppercase font-medium tracking-widest block\">{$item['date']}</span>
+                        <h3 class=\"text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight\">{$item['title']}</h3>
+                        <p class=\"text-black text-xl sm:text-base leading-normal\">{$item['excerpt']}</p>
+                    </div>";
+            } ?>
         </div>
     </div>
 </section>
