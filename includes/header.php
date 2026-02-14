@@ -114,7 +114,7 @@
  
  
 <?php $hideHeaderPages = [
-    '200-billion-reached-in-cancer-treatment-spending.php', 'a-really-big-deal-universal-car-t-cell-platform.php', 'a-run-to-remember.php', 'allstar-joins-board-of-advisors.php', 'best-medical-center-joins-fight.php', 'bonus-shares-available-closing-soon.php', 'breakthrough-universal-cancer-vaccine.php', 'bringing-hope-to-the-masses.php', 'cancer-drug-shortage.php', 'cancer-epidemic-has-a-viable-solution.php', 'ceo-update-about-bonus-shares.php', 'closing-soon-only-3-weeks-left.php', 'cnn-reports-rise-of-cancer-in-women.php', 'critical-progress-in-children-cancer.php', 'do-not-miss-out-on-bonus-share.php', 'enjoy-the-perks.php', 'explosion-of-attention-as-ceo-explains-the-mission.php', 'explosive-market-growth-affirmed.php', 'going-viral-in-the-fight-against-cancer.php', 'harmful-side-effects-unnecessary.php', 'heartbreaking-stories-highlight-the-need-for-change.php', 'hope-for-pediatric-cancer.php', 'important-cancervax-team-meeting.php', 'important-ceo-update-about-bonus-shares.php', 'major-news-outlet-sounds-alaram.php', 'massive-market-opportunity.php', 'oppenheimer-moment-a-pivotal-meeting-at-ucla.php', 'recognized-by-leading-european-media-outlet.php', 'regainvest-backup-for-blank.php', 'research-progress-childrens-cancer.php', 'research-progress-expanded-pipeline-with-ucla.php', 'side-effects-unnecessary.php', 'stragtegy-for-success-detailed-by-ceo.php', 'taking-the-fight-to-cancer.php', 'taking-the-fight-to-children-cancer.php', 'troubling-cancer-increase-in-younger-americans.php', 'white-house-joins-cancer-fight.php', 'who-shares-important-breast-cancer-info.php', 'winning-research-arms-race'
+    '200-billion-reached-in-cancer-treatment-spending', 'a-really-big-deal-universal-car-t-cell-platform', 'a-run-to-remember', 'allstar-joins-board-of-advisors', 'best-medical-center-joins-fight', 'bonus-shares-available-closing-soon', 'breakthrough-universal-cancer-vaccine', 'bringing-hope-to-the-masses', 'cancer-drug-shortage', 'cancer-epidemic-has-a-viable-solution', 'ceo-update-about-bonus-shares', 'closing-soon-only-3-weeks-left', 'cnn-reports-rise-of-cancer-in-women', 'critical-progress-in-children-cancer', 'do-not-miss-out-on-bonus-share', 'enjoy-the-perks', 'explosion-of-attention-as-ceo-explains-the-mission', 'explosive-market-growth-affirmed', 'going-viral-in-the-fight-against-cancer', 'harmful-side-effects-unnecessary', 'heartbreaking-stories-highlight-the-need-for-change', 'hope-for-pediatric-cancer', 'important-cancervax-team-meeting', 'important-ceo-update-about-bonus-shares', 'major-news-outlet-sounds-alaram', 'massive-market-opportunity', 'oppenheimer-moment-a-pivotal-meeting-at-ucla', 'recognized-by-leading-european-media-outlet', 'regainvest-backup-for-blank', 'research-progress-childrens-cancer', 'research-progress-expanded-pipeline-with-ucla', 'side-effects-unnecessary', 'stragtegy-for-success-detailed-by-ceo', 'taking-the-fight-to-cancer', 'taking-the-fight-to-children-cancer', 'troubling-cancer-increase-in-younger-americans', 'white-house-joins-cancer-fight', 'who-shares-important-breast-cancer-info', 'winning-research-arms-race'
 ]; ?>
  
 <?php if (!in_array($page, $hideHeaderPages)): ?>
@@ -157,22 +157,22 @@
                     </div>
                     <div class="flex flex-1 items-center justify-start md:items-stretch md:justify-between">
                         <div class="flex shrink-0 items-center">
-                            <a href="/cancervax" class="max-w-[210px] sm:max-w-[300px]">
+                            <a href="/" class="max-w-[210px] sm:max-w-[300px]">
                                 <img class="w-auto inline-flex" src="<?php echo  $full_url; ?>/assets/images/light-logo.png" alt="Cancervax">
                             </a>
  
                         </div>
                         <?php
                         $links = [
-                            "team.php" => "Team",
-                            "technology.php" => "Technology",
-                            "progress.php" => "Progress",
-                            "immunotherapy.php" => "Immunotherapy",
-                            "market.php" => "Market",
-                            "news.php" => "Newsroom",
-                            "videos.php" => "Videos",
-                            "invest.php" => "Investors",
-                            "contact.php" => "Contact"
+                            "team" => "Team",
+                            "technology" => "Technology",
+                            "progress" => "Progress",
+                            "immunotherapy" => "Immunotherapy",
+                            "market" => "Market",
+                            "news" => "Newsroom",
+                            "videos" => "Videos",
+                            "invest" => "Investors",
+                            "contact" => "Contact"
                         ];
  
                         $baseUrl = (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) ? "/cancervax" : "";

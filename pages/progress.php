@@ -66,7 +66,7 @@
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
                 <div class="lg:col-span-7 flex justify-center">
-                    <a href="/cancervax/webinar-feb-25-2025.php" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
+                    <a href="/cancervax/webinar-feb-25-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
                 </div>
                 <div class="lg:col-span-5 flex justify-center">
                     <a href="/cancervax/single-news.php?id=32" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
@@ -94,7 +94,7 @@
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
                 <div class="lg:col-span-7 flex justify-center">
-                    <a href="/cancervax/webinar-may-31-2025.php" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
+                    <a href="/cancervax/webinar-may-31-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
                 </div>
                 <div class="lg:col-span-5 flex justify-center">
                     <a href="/cancervax/single-news.php?id=35" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
@@ -132,7 +132,7 @@
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
                 <div class="lg:col-span-7 flex justify-center">
-                    <a href="/cancervax/update-video-august-5-2025.php" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
+                    <a href="/cancervax/update-video-august-5-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
                 </div>
                 <div class="lg:col-span-5 flex justify-center">
                     <a href="/cancervax/single-news.php?id=38" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
