@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,20 +18,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet" href="<?php echo  $full_url; ?>assets/css/style.css?v=<?php echo time(); ?>">
-
+ 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7D9TX20JND"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
+ 
         function gtag() {
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
         gtag('config', 'G-7D9TX20JND');
     </script>
-
-
+ 
+ 
     <!-- Meta Pixel Code -->
     <script>
         ! function(f, b, e, v, n, t, s) {
@@ -57,17 +57,17 @@
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=657876116145620&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
-
-
+ 
+ 
     <?php
     $currentURL = $_SERVER['HTTP_HOST'];
     $desiredURL = 'cancervax.com';
-
+ 
     if ($currentURL === $desiredURL) {
         echo '<meta name="facebook-domain-verification" content="z24tdbhlb62wzvjdkr3vdp344a8mqt" />';
     }
     ?>
-
+ 
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
@@ -86,7 +86,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-T6HDQWW7');
     </script>
     <!-- End Google Tag Manager -->
-
+ 
     <script>
         // Immediately scroll to the target section upon page load
         document.addEventListener('DOMContentLoaded', function() {
@@ -98,26 +98,34 @@
                 });
             }
         });
-
+ 
         // Function to extract URL parameter by name
         function getQueryParam(name) {
             var urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(name);
         }
     </script>
-
+ 
 </head>
-
-
-
+ 
+ 
+ 
 <body class="<?php echo ($page === 'home') ? 'home' : ''; ?>">
+ 
+ 
+<?php $hideHeaderPages = [
+    '200-billion-reached-in-cancer-treatment-spending.php', 'a-really-big-deal-universal-car-t-cell-platform.php', 'a-run-to-remember.php', 'allstar-joins-board-of-advisors.php', 'best-medical-center-joins-fight.php', 'bonus-shares-available-closing-soon.php', 'breakthrough-universal-cancer-vaccine.php', 'bringing-hope-to-the-masses.php', 'cancer-drug-shortage.php', 'cancer-epidemic-has-a-viable-solution.php', 'ceo-update-about-bonus-shares.php', 'closing-soon-only-3-weeks-left.php', 'cnn-reports-rise-of-cancer-in-women.php', 'critical-progress-in-children-cancer.php', 'do-not-miss-out-on-bonus-share.php', 'enjoy-the-perks.php', 'explosion-of-attention-as-ceo-explains-the-mission.php', 'explosive-market-growth-affirmed.php', 'going-viral-in-the-fight-against-cancer.php', 'harmful-side-effects-unnecessary.php', 'heartbreaking-stories-highlight-the-need-for-change.php', 'hope-for-pediatric-cancer.php', 'important-cancervax-team-meeting.php', 'important-ceo-update-about-bonus-shares.php', 'major-news-outlet-sounds-alaram.php', 'massive-market-opportunity.php', 'oppenheimer-moment-a-pivotal-meeting-at-ucla.php', 'recognized-by-leading-european-media-outlet.php', 'regainvest-backup-for-blank.php', 'research-progress-childrens-cancer.php', 'research-progress-expanded-pipeline-with-ucla.php', 'side-effects-unnecessary.php', 'stragtegy-for-success-detailed-by-ceo.php', 'taking-the-fight-to-cancer.php', 'taking-the-fight-to-children-cancer.php', 'troubling-cancer-increase-in-younger-americans.php', 'white-house-joins-cancer-fight.php', 'who-shares-important-breast-cancer-info.php', 'winning-research-arms-race'
+]; ?>
+ 
+<?php if (!in_array($page, $hideHeaderPages)): ?>
+ 
     <div class="sticky top-0 z-20 bg-white transition-all duration-300 ease-in-out border-b border-custom-teal-100">
         <div class="bg-custom-teal-100 p-2.5 sm:py-2 sm:px-8 min-h-16">
             <div class="container-fluid">
                 <div class="flex items-center justify-between">
                     <div></div>
                     <!-- <a href="/webinar" class="theme-btn orange-btn tracking-normal">Watch the Webinar</a> -->
-                    <a href="https://cancervax.com/invest" class="theme-btn orange-btn !border-0 !text-[15px] tracking-normal !uppercase mx-auto md:mx-0">Learn how you can help us!</a>
+                    <a href="https://invest.cancervax.com/schedule-call" target="_blank" class="theme-btn orange-btn !border-0 !text-[15px] tracking-normal !uppercase mx-auto md:mx-0">Learn how you can help us!</a>
                     <div class="hidden md:block space-x-3">
                         <a href="https://www.facebook.com/people/Cancervax/100090179828482/" target="_blank" rel="noopener noreferrer" class="text-white text-xl hover:text-white"><i class="fab fa-facebook-square"></i></a>
                         <a href="https://www.instagram.com/cancervaxbiotech/" target="_blank" rel="noopener noreferrer" class="text-white text-xl hover:text-white"><i class="fab fa-instagram"></i></a>
@@ -127,46 +135,46 @@
                 </div>
             </div>
         </div>
-
+ 
         <nav class="sm:py-4 bg-white px-2.5 sm:px-8">
             <div class="container-fluid">
                 <div class="relative flex h-16 justify-between">
                     <div class="absolute inset-y-0 right-0 flex items-center lg:hidden">
-
+ 
                         <!-- Mobile menu button -->
                         <button type="button"
                             class="relative inline-flex items-center justify-center  p-2 text-gray-400 "
                             aria-controls="mobile-menu" aria-expanded="false">
                             <span class="absolute -inset-0.5"></span>
                             <span class="sr-only">Open main menu</span>
-
-
+ 
+ 
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30">
                                 <path stroke="rgba(94, 176, 181, 1)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22" />
                             </svg>
-
-
+ 
+ 
                     </div>
                     <div class="flex flex-1 items-center justify-start md:items-stretch md:justify-between">
                         <div class="flex shrink-0 items-center">
-                            <a href="/" class="max-w-[210px] sm:max-w-[300px]">
+                            <a href="/cancervax" class="max-w-[210px] sm:max-w-[300px]">
                                 <img class="w-auto inline-flex" src="<?php echo  $full_url; ?>/assets/images/light-logo.png" alt="Cancervax">
                             </a>
-
+ 
                         </div>
                         <?php
                         $links = [
-                            "team" => "Team",
-                            "technology" => "Technology",
-                            "progress" => "Progress",
-                            "immunotherapy" => "Immunotherapy",
-                            "market" => "Market",
-                            "news" => "Newsroom",
-                            "videos" => "Videos",
-                            "invest" => "Investors",
-                            "contact" => "Contact"
+                            "team.php" => "Team",
+                            "technology.php" => "Technology",
+                            "progress.php" => "Progress",
+                            "immunotherapy.php" => "Immunotherapy",
+                            "market.php" => "Market",
+                            "news.php" => "Newsroom",
+                            "videos.php" => "Videos",
+                            "invest.php" => "Investors",
+                            "contact.php" => "Contact"
                         ];
-
+ 
                         $baseUrl = (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) ? "/cancervax" : "";
                         ?>
                         <div
@@ -175,11 +183,11 @@
                                 <a href="<?= $baseUrl ?>/<?= $slug ?>" class="hover:text-custom-teal-200 last:pr-0 <?php echo ($page === $slug) ? '!text-custom-teal-200' : ''; ?>"><?= $name ?></a>
                             <?php endforeach; ?>
                         </div>
-
+ 
                     </div>
                 </div>
             </div>
-
+ 
             <!-- Mobile menu, show/hide based on menu state. -->
             <div class="lg:hidden overflow-hidden absolute left-0 w-full bg-white z-10 max-h-0 transition-all duration-300 ease-in-out"
                 id="mobile-menu">
@@ -194,3 +202,4 @@
             </div>
         </nav>
     </div>
+<?php endif; ?>

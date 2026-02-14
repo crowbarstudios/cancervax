@@ -55,7 +55,7 @@ if ($page !== "prep") {
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
                     <div class="col-span-12 lg:col-span-2">
                         <div class="footer-logo">
-                            <a href="/">
+                            <a href="/cancervax">
                                 <img src="<?php echo  $full_url; ?>./assets/images/C-01-1.png" alt="logo">
                             </a>
                         </div>
@@ -74,19 +74,19 @@ if ($page !== "prep") {
                                     <h6 class="sm:hidden text-xs uppercase tracking-[1px] text-black">COMPANY</h6>
                                     <?php
                                         $links1 = [
-                                            "team" => "Team",
-                                            "progress" => "Progress",
-                                            "market" => "Market",
-                                            "news" => "Newsroom",
+                                            "team.php" => "Team",
+                                            "progress.php" => "Progress",
+                                            "market.php" => "Market",
+                                            "news.php" => "Newsroom",
                                         ];
 
                                         $links2 = [
-                                            "videos" => "Videos",
-                                            "invest" => "Investors",
-                                            "contact" => "Contact",
-                                            "technology" => "Technology",
-                                            "privacy-policy" => "Privacy Policy",
-                                            "terms-of-use" => "Terms of Use",
+                                            "videos.php" => "Videos",
+                                            "invest.php" => "Investors",
+                                            "contact.php" => "Contact",
+                                            "technology.php" => "Technology",
+                                            "privacy-policy.php" => "Privacy Policy",
+                                            "terms-of-use.php" => "Terms of Use",
                                         ];
 
                                         $baseUrl = (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) ? "/cancervax" : "";
