@@ -14,7 +14,14 @@ if ($host === 'localhost') {
 
 // Get the requested URI and clean it
 $requestUri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-$path = trim(str_replace($basePath, '', $requestUri), '/');
+// $path = trim(str_replace($basePath, '', $requestUri), '/');
+if ($basePath && strpos($requestUri, $basePath) === 0) {
+    $path = substr($requestUri, strlen($basePath));
+} else {
+    $path = $requestUri;
+}
+
+$path = trim($path, '/');
 
 // Extract path segments
 $pathParts = explode('/', $path);
