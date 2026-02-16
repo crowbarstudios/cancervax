@@ -33,7 +33,7 @@ $news = include __DIR__ . '/../data/news-data.php';
             } ?>
         </div>
         <div class="flex items-center justify-center mt-[46px]">
-            <a href="/cancervax/news-archive" class="text-custom-teal-100 hover:text-custom-teal-100 text-[22px] cursor-pointer leading-5 underline">See All</a>
+            <a href="/news-archive" class="text-custom-teal-100 hover:text-custom-teal-100 text-[22px] cursor-pointer leading-5 underline">See All</a>
         </div>
     </div>
 </section>

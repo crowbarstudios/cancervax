@@ -6,7 +6,7 @@
                 <img src="./assets/images/inpost-26.png" alt="invest post">
             </div>
             <div class="[&>p]:my-[14px] [&>p]:text-sm [&>p]:tracking-[.05px] [&_span]:text-lg [&_span]:!leading-5">
-                <p class="text-center"><a href="https://cancervax.com/videos" class="underline text-purple-900" target="_blank" rel="noopener noreferrer"><strong><span class="!text-2xl">Watch Video</span></strong></a></p>
+                <p class="text-center"><a href="/videos" class="underline text-purple-900" target="_blank" rel="noopener noreferrer"><strong><span class="!text-2xl">Watch Video</span></strong></a></p>
                 <p>Our project pipeline with UCLA now includes:</p>
                 <ul class ="[&>li]:text-sm [&>li]:tracking-[.05px] list-disc pl-10 my-6">
                     <li><strong>Children’s Cancer</strong> – Immunotherapy treatments for Ewing sarcoma, a children’s bone and tissue cancer with a death rate of 100% for recurrence.</li>

@@ -84,7 +84,6 @@ if ($page !== "prep") {
                                             "videos" => "Videos",
                                             "invest" => "Investors",
                                             "contact" => "Contact",
-                                            "technology" => "Technology",
                                             "privacy-policy" => "Privacy Policy",
                                             "terms-of-use" => "Terms of Use",
                                         ];

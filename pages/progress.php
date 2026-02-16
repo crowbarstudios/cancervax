@@ -7,7 +7,7 @@
 
 <section class="bg-white py-20">
     <div class="container">
-        <div class="relative">
+        <div class="relative ">
             <img src="<?php echo  $full_url; ?>assets/images/graph.png" class="hidden md:block w-full" alt="graph">
             <img src="<?php echo  $full_url; ?>assets/images/graph-mobile.png" class="md:hidden" alt="graph">
             <a href="#children-cancer" style="display: inline-block;
@@ -36,7 +36,7 @@
             <li>Designed several Smart mRNAs for targeting multiple cancer types​​</li>
             <li>Lab tests successfully validated Smart mRNAs worked in actual cancer cells (Q1 2025)​</li>
             <li>Complete therapeutic nanoparticles for the above cancer indications (Q3 2025)</li>
-            <li>Complete pre-IND animal studies to determine toxicity and efficacy of the above cancer treatments (Q1 2026)</li>
+            <li>Complete pre-IND animal studies to determine toxicity and efficacy of the above cancer treatments (2026)</li>
         </ul>
     </div>
 </section>
@@ -66,10 +66,10 @@
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
                 <div class="lg:col-span-7 flex justify-center">
-                    <a href="/cancervax/webinar-feb-25-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
+                    <a href="/webinar-feb-25-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
                 </div>
                 <div class="lg:col-span-5 flex justify-center">
-                    <a href="/cancervax/single-news.php?id=32" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                    <a href="/single-news.php?id=32" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
                 </div>
             </div>
         </div>
@@ -94,10 +94,10 @@
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
                 <div class="lg:col-span-7 flex justify-center">
-                    <a href="/cancervax/webinar-may-31-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
+                    <a href="/webinar-may-31-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
                 </div>
                 <div class="lg:col-span-5 flex justify-center">
-                    <a href="/cancervax/single-news.php?id=35" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                    <a href="/single-news.php?id=35" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
                 </div>
             </div>
         </div>
@@ -132,10 +132,10 @@
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
                 <div class="lg:col-span-7 flex justify-center">
-                    <a href="/cancervax/update-video-august-5-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
+                    <a href="/update-video-august-5-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
                 </div>
                 <div class="lg:col-span-5 flex justify-center">
-                    <a href="/cancervax/single-news.php?id=38" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                    <a href="/single-news.php?id=38" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
                 </div>
             </div>    
         </div>
@@ -161,7 +161,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
                 <div class="lg:col-span-6"></div>
                 <div class="lg:col-span-6 flex justify-center">
-                    <a href="/cancervax/single-news.php?id=42" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                    <a href="/single-news.php?id=42" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
                 </div>
             </div>
         </div>

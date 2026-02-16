@@ -88,7 +88,7 @@
             </div>
         </div>
         <div class="max-w-[970px] mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 justify-center max-w-[717px] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 justify-center max-w-[717px] mx-auto my-6">
                 <div class="text-center w-auto mx-auto team-box">
                     <div class="h-auto w-full mx-auto mb-[25px] team-box-img">
                         <a href="#">
@@ -138,8 +138,6 @@
                     <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
                         Senior Scientific Advisor
                     </p>
-
-
                     <div class="team-description hidden">
                         <img src="<?php echo  $full_url; ?>assets/images/george-kemble.png" alt="Team Image" class="max-w-[300px] mx-auto my-4 block rounded-[10px]">
                         <p class="py-2 text-base text-black px-6">George Kemble, PhD is a veteran biotech executive and scientist with a specialty focus in the areas of virology, vaccines and small molecule biologics. Dr. Kemble is currently the Chairman of the Board at Sagimet Biosciences Inc. (NASDAQ: SGMT), a clinical-stage biopharmaceutical company developing novel fatty acid synthase (FASN) inhibitors for cancer treatment, liver fibrosis, acne and other diseases. He joined Sagimet in August 2011 as its chief scientific officer and served as CEO from October 2015 until October 2022, when he transitioned to the role of executive chairman. In May 2025, Dr. Kemble moved into the role of non-executive Chair of the Board. At Sagimet, he directed medicinal chemistry, research, translational and CMC groups, and worked on several programs including the lead product candidate, denifanstat. </p>
@@ -208,7 +206,6 @@
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center my-6">
-
                 <div class="text-center w-auto mx-auto team-box">
                     <div class="h-auto w-full mx-auto mb-[25px] team-box-img">
                         <a href="#">
