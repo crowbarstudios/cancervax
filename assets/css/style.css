@@ -1110,6 +1110,10 @@ a:hover{
   margin-bottom: 0.625rem;
 }
 
+.mb-20{
+  margin-bottom: 5rem;
+}
+
 .mb-24{
   margin-bottom: 6rem;
 }
@@ -1338,6 +1342,14 @@ a:hover{
   height: 100vh;
 }
 
+.h-\[544px\]{
+  height: 544px;
+}
+
+.h-\[546px\]{
+  height: 546px;
+}
+
 .max-h-0{
   max-height: 0px;
 }
@@ -1449,10 +1461,6 @@ a:hover{
 
 .max-w-\[1100px\]{
   max-width: 1100px;
-}
-
-.max-w-\[1124px\]{
-  max-width: 1124px;
 }
 
 .max-w-\[1150px\]{
@@ -2812,6 +2820,10 @@ a:hover{
   font-style: italic;
 }
 
+.\!leading-\[1\.3\]{
+  line-height: 1.3 !important;
+}
+
 .\!leading-\[1\.4\]{
   line-height: 1.4 !important;
 }
@@ -2902,10 +2914,6 @@ a:hover{
 
 .leading-tight{
   line-height: 1.25;
-}
-
-.\!leading-\[1\.3\]{
-  line-height: 1.3 !important;
 }
 
 .tracking-\[\.05\]{

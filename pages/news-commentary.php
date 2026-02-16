@@ -10,6 +10,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
 
 <section class="py-[70px] sm:pt-[140px] sm:pb-20 bg-white">
     <div class="container">
+        <h2 class="text-[40px] leading-none mb-20 font-medium text-black">News Commentary</h2>
         <div class="max-w-[600px] mx-auto flex items-center justify-center gap-5 flex-col sm:flex-row">
             <div class="min-w-[160px]">
                 <img src="./assets/images/byron-cvax.png" class="w-full" alt="ryan">

@@ -7,7 +7,7 @@
             </div>
             <div class="[&>p]:my-[14px] [&>p]:text-sm [&>p]:tracking-[.05px] [&_span]:text-lg [&_span]:!leading-5">
                 <p><br></p>
-                <p><a href="https://www.cancervax.com/perks.php" class="underline text-purple-900" target="_blank" rel="noopener noreferrer">https://www.cancervax.com/perks.php</a></p>
+                <p><a href="/enjoy-the-perks" class="underline text-purple-900" target="_blank" rel="noopener noreferrer">https://www.cancervax.com/perks.php</a></p>
                 <p>In a new video Ryan Davies, CEO of CancerVax, <strong><span style="font-size: 18px;">r</span></strong><span style="font-size: 18px;"><strong>ecently updated investors and urged everyone</strong></span> to take advantage of <span style="font-size: 18px;"><strong>valuable investor perks.&nbsp;</strong></span></p>
                 <p>With up to 30% bonus CancerVax shares available, the more an investor commits, <span style="font-size: 18px;"><strong>the larger discount awarded in the form of bonus shares!</strong></span></p>
                 <p>&nbsp;“We created 5 tiers that allow each investor to pick a level that works for them,” Ryan explained, “and earn valuable bonus shares with <strong><span style="font-size: 18px;">as little as a $500 investment</span></strong> by being a StartEngine Owner’s Bonus member, which awards 10% bonus shares.”</p>
@@ -20,7 +20,7 @@
             </div>
             <div class="flex justify-center items-center"><a href="https://join.cancervax.com/act" target="_blank" rel="noopener noreferrer"><img src="https://d2j6gq8tvnyhoe.cloudfront.net/f50c1cb1-2916-4e4d-a9bf-e4deb3e9f2d7.png"></a></div>
             <div>
-                <p class="text-sm my-[14px] text-center tracking-[.05px]">For more information about CancerVax, please visit <a href="https://www.cancervax.com/" class="underline text-purple-900" target="_blank" rel="noopener noreferrer">https://www.cancervax.com/</a></p>
+                <p class="text-sm my-[14px] text-center tracking-[.05px]">For more information about CancerVax, please visit <a href="/" class="underline text-purple-900" target="_blank" rel="noopener noreferrer">https://www.cancervax.com/</a></p>
                 <h5 class="text-xs leading-5 font-normal text-center tracking-[.05px]">This investment is speculative, illiquid, and involves a high degree of risk, including the possible loss of your entire investment.</h5>
             </div>
         </div>
