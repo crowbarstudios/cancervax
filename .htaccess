@@ -1,8 +1,9 @@
 RewriteEngine On
-RewriteBase /cancervax/
 
+# Don't rewrite if file or directory exists
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+# Rewrite all other requests to index.php (relative path works for both localhost subdir and production root)
 RewriteRule ^(.*)$ index.php [QSA,L]
 
 

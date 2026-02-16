@@ -1,6 +1,6 @@
 <?php 
-$videos = include "./data/carousel-videos.php"; 
-$news = include "./data/news-data.php"?>
+$videos = include __DIR__ . '/../data/carousel-videos.php'; 
+$news = include __DIR__ . '/../data/news-data.php'; ?>
 
 <section class="pt-11 md:pt-0">
     <div class="bg-banner-mobile md:bg-banner bg-white bg-no-repeat bg-[top_center] bg-cover h-[245px] sm:h-[480px] md:h-[850px] banner-home-up">
@@ -165,7 +165,7 @@ $news = include "./data/news-data.php"?>
     </div>
 </section>
 
-<?php include('components/team-heads.php'); ?>
+<?php include __DIR__ . '/../components/team-heads.php'; ?>
 
 <section class="pb-[70px]">
     <div class="container">

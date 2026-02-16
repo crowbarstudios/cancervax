@@ -60,7 +60,7 @@
  
  
     <?php
-    $currentURL = $_SERVER['HTTP_HOST'];
+    $currentURL = $_SERVER['HTTP_HOST'] ?? $_SERVER['SERVER_NAME'] ?? '';
     $desiredURL = 'cancervax.com';
  
     if ($currentURL === $desiredURL) {
@@ -175,7 +175,7 @@
                             "contact" => "Contact"
                         ];
  
-                        $baseUrl = (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) ? "/cancervax" : "";
+                        $baseUrl = (strpos(($_SERVER['HTTP_HOST'] ?? ''), 'localhost') !== false || ($_SERVER['HTTP_HOST'] ?? '') === '127.0.0.1') ? "/cancervax" : "";
                         ?>
                         <div
                             class="hidden sm:ml-6 lg:flex lg:gap-0 gap-2.5 [&>a]:inline-flex [&>a]:items-center [&>a]:border [&>a]:border-transparent [&>a]:text-[15px] [&>a]:font-medium [&>a]:leading-none [&>a]:text-black [&>a]:lg:px-2 [&>a]:xl:px-4 [&>a]:py-2 [&>a]:rounded-full">

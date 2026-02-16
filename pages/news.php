@@ -1,6 +1,6 @@
 <?php
-$videos = include "./data/podcast-data.php";
-$news = include "./data/news-data.php"
+$videos = include __DIR__ . '/../data/podcast-data.php';
+$news = include __DIR__ . '/../data/news-data.php';
 ?>
 
 <section class="py-24 md:py-28 bg-top bg-cover text-center relative bg-news-bg">

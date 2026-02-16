@@ -1,5 +1,5 @@
 <?php
-$news = include "./data/news-data.php";
+$news = include __DIR__ . '/../data/news-data.php';
 if (isset($_GET['id'])) {
     $newsId = $_GET['id'];
     $item = array_filter($news, function ($item) use ($newsId) {

@@ -1,5 +1,5 @@
 <?php
-$videos = include "./data/podcast-data.php";
+$videos = include __DIR__ . '/../data/podcast-data.php';
 ?>
 <section class="py-24 md:py-28 bg-top bg-cover text-center relative bg-video-bg bg-black bg-opacity-50 after:content-[''] after:absolute after:inset-0 after:bg-black after:bg-opacity-70">
     <div class="container">

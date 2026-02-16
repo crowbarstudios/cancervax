@@ -1,19 +1,23 @@
-
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
-$host = $_SERVER['HTTP_HOST'];
-
-if ($host === 'localhost') {
-    $basePath = '/cancervax'; 
+// Only show errors in development (localhost)
+$host = $_SERVER['HTTP_HOST'] ?? $_SERVER['SERVER_NAME'] ?? '';
+$isDev = (strpos($host, 'localhost') !== false || $host === '127.0.0.1');
+if ($isDev) {
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
 } else {
-    $basePath = '';
+    error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
+    ini_set('display_errors', 0);
+    ini_set('log_errors', 1);
 }
 
+$basePath = $isDev ? '/cancervax' : '';
+
 // Get the requested URI and clean it
-$requestUri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$requestUri = $_SERVER['REQUEST_URI'] ?? '/';
+$requestUri = parse_url($requestUri, PHP_URL_PATH);
+$requestUri = $requestUri !== null ? $requestUri : '/';
 // $path = trim(str_replace($basePath, '', $requestUri), '/');
 if ($basePath && strpos($requestUri, $basePath) === 0) {
     $path = substr($requestUri, strlen($basePath));

@@ -1,5 +1,5 @@
 <?php
-$videos = include "./data/podcast-data.php";
+$videos = include __DIR__ . '/../data/podcast-data.php';
 if (isset($_GET['id'])) {
     $videoId = $_GET['id'];
     $video = array_filter($videos, function ($video) use ($videoId) {
