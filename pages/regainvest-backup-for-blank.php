@@ -53,13 +53,13 @@
                             <a href="#terms">Terms</a>
                         </li>
                         <li>
-                            <a href="/news" target="_blank">Updates</a>
+                            <a href="news" target="_blank">Updates</a>
                         </li>
                         <li>
                             <a href="#bonus-shares">Bonus Shares</a>
                         </li>
                         <li>
-                            <a href="/faqs" target="_blank">FAQ</a>
+                            <a href="faqs" target="_blank">FAQ</a>
                         </li>
                     </ul>
                 </div>
@@ -463,7 +463,7 @@
                                     </div>
                                     <div class="term-blo d-flex flex-column">
                                         <div class="text-base sm:text-lg font-normal leading-tight mb-1">OFFERING CIRCULAR</div>
-                                        <a href="/filings" class="text-base sm:text-xl font-semibold leading-tight md:mb-10 last-offer mb-0 underline">Click Here</a>
+                                        <a href="filings" class="text-base sm:text-xl font-semibold leading-tight md:mb-10 last-offer mb-0 underline">Click Here</a>
                                     </div>
                                     <div>
                                         <div class="text-base sm:text-lg font-normal leading-tight mb-1">BROKER DEALER</div>
@@ -553,7 +553,7 @@
 
                             <p class="text-[17px] leading-snug tracking-normal mt-8 font-normal">THIS REG A INVESTMENT IS SPECULATIVE, ILLIQUID, AND INVOLVES A HIGH DEGREE OF RISK, INCLUDING THE POSSIBLE LOSS OF YOUR ENTIRE INVESTMENT. ALL INVESTORS SHOULD MAKE THEIR OWN DETERMINATION, WITH THE ASSISTANCE OF THEIR OWN FINANCIAL OR OTHER ADVISORS, AS TO WHETHER OR NOT TO MAKE ANY INVESTMENT, BASED ON THEIR OWN INDEPENDENT EVALUATION, ANALYSIS AND CIRCUMSTANCES.</p>
 
-                            <p class="text-[17px] leading-snug tracking-normal mt-8 font-normal"> AN OFFERING STATEMENT REGARDING THIS OFFERING HAS BEEN FILED WITH THE SEC. THE SEC HAS QUALIFIED THAT OFFERING STATEMENT, WHICH ONLY MEANS THAT THE COMPANY MAY MAKE SALES OF THE SECURITIES DESCRIBED BY THE OFFERING STATEMENT. IT DOES NOT MEAN THAT THE SEC HAS APPROVED, PASSED UPON THE MERITS OR PASSED UPON THE ACCURACY OR COMPLETENESS OF THE INFORMATION IN THE OFFERING STATEMENT. THE OFFERING CIRCULAR THAT IS PART OF THAT OFFERING STATEMENT IS AT: <a href="/filings">Click Here</a></p>
+                            <p class="text-[17px] leading-snug tracking-normal mt-8 font-normal"> AN OFFERING STATEMENT REGARDING THIS OFFERING HAS BEEN FILED WITH THE SEC. THE SEC HAS QUALIFIED THAT OFFERING STATEMENT, WHICH ONLY MEANS THAT THE COMPANY MAY MAKE SALES OF THE SECURITIES DESCRIBED BY THE OFFERING STATEMENT. IT DOES NOT MEAN THAT THE SEC HAS APPROVED, PASSED UPON THE MERITS OR PASSED UPON THE ACCURACY OR COMPLETENESS OF THE INFORMATION IN THE OFFERING STATEMENT. THE OFFERING CIRCULAR THAT IS PART OF THAT OFFERING STATEMENT IS AT: <a href="filings">Click Here</a></p>
                         </div>
 
                     </div>
@@ -588,7 +588,7 @@
                 <div class="">
                     <a href="#bonus-shares" class="text-lg font-bold underline">Earn Bonus Shares</a>
                     <div>
-                        <a href="/filings" class="text-lg font-bold underline">SEC Filings</a>
+                        <a href="filings" class="text-lg font-bold underline">SEC Filings</a>
                     </div>
                 </div>
                 <div class="flex justify-center w-[378px]">

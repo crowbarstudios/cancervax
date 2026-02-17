@@ -11,7 +11,7 @@
                 <p>Since the stories are so powerful, CancerVax has decided to feature them on the website.</p>
                 <p>As we interact with the public, CancerVax wants to hear from the community.</p>
                 <p>The research is important and <strong><span>the stakes are high</span></strong> on this mission to treat cancer.</p>
-                <p>We welcome you to visit <a href="/videos" class="underline text-purple-900" target="_blank" rel="noopener noreferrer"><strong><span>https://cancervax.com/videos</span></strong></a> and share your story.</p>
+                <p>We welcome you to visit <a href="videos" class="underline text-purple-900" target="_blank" rel="noopener noreferrer"><strong><span>https://cancervax.com/videos</span></strong></a> and share your story.</p>
                 <p>Thank you for your support.</p>
                 <img src="./assets/images/cancer-stories-img.png" alt="cacnerax">
                 <p><br></p>

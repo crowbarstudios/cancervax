@@ -19,7 +19,7 @@ include('../header.php'); ?>
                             <circle cx='32' cy='32' r='32' fill='#4fe653' />
                             <path d='M38 32.5L27 39L27 26L38 32.5Z' fill='black' />
                         </svg>
-                        <a href="/thermoloop-video"></a>
+                        <a href="thermoloop-video"></a>
                     </div>
                     <h4>NewHydrogen Reveals the Key to Its <br> Breakthrough Technology</h4>
                 </div>
