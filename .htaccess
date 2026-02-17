@@ -1,9 +1,14 @@
 RewriteEngine On
 
-# Don't rewrite if the request is for an actual file (e.g. /assets/css/style.css, favicons)
-# We do NOT skip when it's a directory, so /videos is handled by index.php and never shows a directory listing
+# Set the base directory
+# RewriteBase /newhydrogen/
+
+# RewriteCond %{REQUEST_URI} !^/single-news\.php$
+
+# Route all requests to index.php
+
 RewriteCond %{REQUEST_FILENAME} !-f
-# Rewrite all other requests to index.php (relative path works for both localhost subdir and production root)
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php [QSA,L]
 
 
