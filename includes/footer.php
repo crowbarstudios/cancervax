@@ -138,10 +138,17 @@ if ($page !== "prep") {
     </div>
 </div>
 
-<script src="<?php echo $full_url; ?>assets/js/jquery-3.1.1.min.js"></script>
-<script src="<?php echo $full_url; ?>assets/js/jquery.magnific-popup.min.js"></script>
-<script src="<?php echo $full_url; ?>assets/js/slick.min.js"></script>
-<script src="<?php echo $full_url; ?>assets/js/main.js"></script>
+
+<script
+src="https://widgets.leadconnectorhq.com/loader.js"
+data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+data-widget-id="692e23d5fdb7681dffea583c" >
+</script>
+
+<script src="<?php echo $full_url; ?>assets/js/jquery-3.1.1.min.js?v=<?php echo time(); ?>"></script>
+<script src="<?php echo $full_url; ?>assets/js/jquery.magnific-popup.min.js?v=<?php echo time(); ?>"></script>
+<script src="<?php echo $full_url; ?>assets/js/slick.min.js?v=<?php echo time(); ?>"></script>
+<script src="<?php echo $full_url; ?>assets/js/main.js?v=<?php echo time(); ?>"></script>
 
 </body>
 

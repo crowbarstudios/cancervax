@@ -28,14 +28,14 @@
 
             <div>
                 <p class="text-center mt-5 mb-2 text-base">Read to Invest? Click Below:</p>
-                <div class="flex justify-center items-center gap-12">
-                <a href="https://invest.cancervax.com/" target="_blank" class="theme-btn orange-btn !uppercase text-center !text-base !leading-normal tracking-normal">Accredited <br> Investors</a>
-                <a href="https://www.startengine.com/offering/cancervax" target="_blank" class="theme-btn orange-btn !uppercase text-center !text-base !leading-normal tracking-normal">Non-Accredited <br> Investors</a>
+                <div class="flex justify-center items-center flex-col sm:flex-row gap-6 sm:gap-12">
+                <a href="https://invest.cancervax.com/" target="_blank" class="theme-btn orange-btn !uppercase text-center !text-base !leading-normal tracking-normal min-w-48">Accredited <br> Investors</a>
+                <a href="https://www.startengine.com/offering/cancervax" target="_blank" class="theme-btn orange-btn !uppercase text-center !text-base !leading-normal tracking-normal min-w-48">Non-Accredited <br> Investors</a>
                 </div>
             </div>
             <div>
                 <p class="text-center mt-5 mb-2 text-base">Get Your Investment Question Answered</p>
-            <a href="https://invest.cancervax.com/investmentcall" target="_blank" class="theme-btn orange-btn !uppercase text-center !text-base !leading-normal tracking-normal">Schedule a Call Now</a>
+            <a href="https://invest.cancervax.com/investmentcall" target="_blank" class="theme-btn orange-btn !uppercase text-center !text-base !leading-normal tracking-normal min-w-48">Schedule a Call Now</a>
             </div>
         </div>
 

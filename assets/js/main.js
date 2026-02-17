@@ -7,6 +7,10 @@ $(function () {
     }
   });
 
+  $('button[aria-controls="mobile-menu"]').on("click", function(){
+    $("#mobile-menu").toggleClass("show");
+  });
+
   $("[href^='#']").click(function () {
     id = $(this).attr("href");
     $("html, body").animate({
