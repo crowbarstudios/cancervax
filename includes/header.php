@@ -152,7 +152,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30">
                                 <path stroke="rgba(94, 176, 181, 1)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22" />
                             </svg>
- 
+                        </button>
  
                     </div>
                     <div class="flex flex-1 items-center justify-start md:items-stretch md:justify-between">
