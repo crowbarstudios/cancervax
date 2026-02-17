@@ -128,7 +128,7 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
                     </div> -->
                     <h2 class="bg-[#ff0000] text-white p-2 mx-auto max-w-[300px] text-4xl font-semibold mb-4 hidden uppercase lg:block">Breaking News</h2>
                     <div class="mb-9 mx-auto border-[12px] border-custom-teal-100 rounded-xl relative max-w-[500px] hidden lg:block">
-                        <a href="/single-news.php?id=38">
+                        <a href="single-news.php?id=38">
                             <img src="./assets/images/Rectangle1.png" class="w-full" alt="news-thumbnail">
                         </a>
                     </div>

@@ -11,6 +11,7 @@ $requestUriPath = parse_url($requestUri, PHP_URL_PATH);
 $requestUriPath = $requestUriPath !== null ? $requestUriPath : '/';
 
 $basePath = (strpos($host, 'localhost') !== false || $host === '127.0.0.1') ? '/cancervax' : '';
+$baseUrl = $basePath; // For building links in pages (e.g. /team or /cancervax/team)
 $path = trim(str_replace($basePath, '', $requestUriPath), '/');
 $page = $path === '' ? 'home' : $path;
 

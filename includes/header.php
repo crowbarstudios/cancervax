@@ -8,16 +8,16 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="Thu, 01 Jan 1970 00:00:00 GMT">
     <title>Cancervax</title>
-    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo  $full_url; ?>/assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo  $full_url; ?>/assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo  $full_url; ?>/assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="<?php echo  $full_url; ?>/assets/images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="<?php echo  $full_url; ?>/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo $full_url; ?>assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $full_url; ?>assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $full_url; ?>assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo $full_url; ?>assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="<?php echo $full_url; ?>assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-    <link rel="stylesheet" href="<?php echo  $full_url; ?>assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/style.css?v=<?php echo time(); ?>">
  
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7D9TX20JND"></script>
@@ -158,7 +158,7 @@
                     <div class="flex flex-1 items-center justify-start md:items-stretch md:justify-between">
                         <div class="flex shrink-0 items-center">
                             <a href="/" class="max-w-[210px] sm:max-w-[300px]">
-                                <img class="w-auto inline-flex" src="<?php echo  $full_url; ?>/assets/images/light-logo.png" alt="Cancervax">
+                                <img class="w-auto inline-flex" src="<?php echo $full_url; ?>assets/images/light-logo.png" alt="Cancervax">
                             </a>
  
                         </div>
@@ -175,7 +175,7 @@
                             "contact" => "Contact"
                         ];
  
-                        $baseUrl = (strpos(($_SERVER['HTTP_HOST'] ?? ''), 'localhost') !== false || ($_SERVER['HTTP_HOST'] ?? '') === '127.0.0.1') ? "/cancervax" : "";
+                        $baseUrl = $baseUrl ?? (strpos(($_SERVER['HTTP_HOST'] ?? ''), 'localhost') !== false || ($_SERVER['HTTP_HOST'] ?? '') === '127.0.0.1' ? "/cancervax" : "");
                         ?>
                         <div
                             class="hidden sm:ml-6 lg:flex lg:gap-0 gap-2.5 [&>a]:inline-flex [&>a]:items-center [&>a]:border [&>a]:border-transparent [&>a]:text-[15px] [&>a]:font-medium [&>a]:leading-none [&>a]:text-black [&>a]:lg:px-2 [&>a]:xl:px-4 [&>a]:py-2 [&>a]:rounded-full">

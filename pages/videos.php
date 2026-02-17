@@ -26,7 +26,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
             <div class="relative border-[3px] border-custom-teal-500 w-full mx-auto">
                 <a href="#news-commentary">
                     <div class="h-[278px] relative">
-                        <img src="./assets/images/news-commentary.png" alt="video" class="w-full h-full object-cover">
+                        <img src="<?php echo $full_url; ?>assets/images/news-commentary.png" alt="video" class="w-full h-full object-cover">
                     </div>
                     <span class="bg-custom-teal-500 bg-opacity-70 text-white absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-[27px] leading-tight text-center font-bold w-full min-h-[90px] flex items-center justify-center">News Commentary</span>
                 </a>
@@ -35,7 +35,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
             <div class="relative border-[3px] border-custom-teal-500 w-full mx-auto">
                     <a href="#short-videos">
                         <div class="h-[278px] relative">
-                            <img src="./assets/images/short-videos.png" alt="video" class="w-full h-full object-cover">
+                            <img src="<?php echo $full_url; ?>assets/images/short-videos.png" alt="video" class="w-full h-full object-cover">
                         </div>
                         <span class="bg-custom-teal-500 bg-opacity-70 text-white absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-[27px] leading-tight text-center font-bold w-full min-h-[90px] flex items-center justify-center">Short
                             Videos
@@ -46,7 +46,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
             <div class="relative col-span-1 md:col-span-2 lg:col-span-1 border-[3px] border-custom-teal-500 w-full md:w-[336px] lg:w-full mx-auto">
                     <a href="#webinars">
                         <div class="h-[278px] relative">
-                            <img src="./assets/images/webinars.png" alt="video" class="w-full h-full object-cover">
+                            <img src="<?php echo $full_url; ?>assets/images/webinars.png" alt="video" class="w-full h-full object-cover">
                         </div>
                         <span class="bg-custom-teal-500 bg-opacity-70 text-white absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-[27px] leading-tight text-center font-bold w-full min-h-[90px] flex items-center justify-center">Webinars</span>
                     </a>
@@ -62,7 +62,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-6">
             <div class="mb-4">
-                <a href="webinar-feb-25-2025" class="relative">
+                <a href="<?php echo $baseUrl ?? ''; ?>/webinar-feb-25-2025" class="relative">
                     <div class="h-auto">
                         <img src="https://vumbnail.com/1074009289.png" alt="Thumbnail">
                     </div>
@@ -70,7 +70,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
                 </a>
             </div>
             <div class="mb-4">
-                <a href="webinar-may-31-2025" class="relative">
+                <a href="<?php echo $baseUrl ?? ''; ?>/webinar-may-31-2025" class="relative">
                     <div class="h-auto">
                         <img src="https://vumbnail.com/1088764643/6170b7e696.png" alt="Thumbnail">
                     </div>
@@ -85,7 +85,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
     <div class="container">
         <div class="flex items-center justify-between mb-10">
             <h3 class="text-black text-xl sm:text-[40px] leading-10 font-medium">News Commentary</h3>
-            <a href="./news-commentary" class="text-custom-teal-100 underline text-lg">See All</a>
+            <a href="<?php echo $baseUrl ?? ''; ?>/news-commentary" class="text-custom-teal-100 underline text-lg">See All</a>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             <?php
@@ -114,7 +114,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
             <div>
             <div class=\"relative mb-6\">
             <a class=\"popup-youtube getThumbnail w-full h-full block absolute inset-0 z-10\" href=\"https://www.youtube.com/watch?v={$video['videoID']}\"></a>
-            <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"videos/news-commentary/{$video['slug']}\"></a>
+            <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"" . ($baseUrl ?? '') . "/videos/news-commentary/{$video['slug']}\"></a>
                 <div class=\"relative h-[225px]\">
                  <img src=\"//img.youtube.com/vi/{$video['videoID']}/maxresdefault.jpg\" alt=\"Thumbnail\" class=\"w-full h-full object-cover\">
                 </div>
@@ -160,7 +160,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
             <div>
             <div class=\"relative mb-6\">
             <a class=\"popup-youtube getThumbnail w-full h-full block absolute inset-0 z-10\" href=\"https://www.youtube.com/watch?v={$video['videoID']}\"></a>
-                <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"videos/short-videos/{$video['slug']}\"></a>
+                <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"" . ($baseUrl ?? '') . "/videos/short-videos/{$video['slug']}\"></a>
                     <div class=\"relative h-[540px]\">
                  <img src=\"//img.youtube.com/vi/{$video['videoID']}/maxresdefault.jpg\" alt=\"Thumbnail\" class=\"w-full h-full object-cover\">
                 </div>
