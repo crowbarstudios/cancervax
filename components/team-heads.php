@@ -133,7 +133,7 @@
                         </a>
                     </div>
                     <h5 class="text-base font-semibold mb-1 cursor-pointer text-black leading-tight tracking-[1.2px] team-target">
-                        George Kemble,<span>PhD</span>
+                        George Kemble, <span>PhD</span>
                     </h5>
                     <p class="text-black text-sm leading-8 font-medium text-center cursor-pointer team-target">
                         Senior Scientific Advisor
