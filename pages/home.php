@@ -2,6 +2,30 @@
 $videos = include __DIR__ . '/../data/carousel-videos.php'; 
 $news = include __DIR__ . '/../data/news-data.php'; ?>
 
+<section class="bg-[#ff0000] bg-repeat bg-center bg-cover p-6">
+        <div class="text-2xl sm:text-4xl text- text-center text-white leading-none font-bold">CancerVax Reports Successful Initial Mouse Study with Breakthrough Results
+
+        </div>
+        <a href="#" class="text-center block text-white leading-[1.3] font-normal underline text-lg sm:text-2xl mt-4 hover:text-white">Click here to read more</a>
+</section>
+<!-- <section class="bg-coming-soon-bg bg-repeat bg-center bg-cover py-16 md:py-32 bg-[#39757c]">
+    <div class="container">
+        <div class="text-5xl md:text-[64px] text- text-center text-white leading-none font-bold">Webinar Coming Soon </div>
+        <div class="text-center text-white leading-[1.3] font-semibold text-2xl md:text-4xl my-4 md:my-6">The Future of Cancer Treatment
+        <br class="d-none d-md-inline-block" /> A Live Investor Briefing from CancerVax
+        </div>
+        <p class="text-lg md:text-2xl text-center text-white leading-none font-medium">April 9, 2026
+        4:00 PM Pacific Time
+        </p>
+        <form action="https://submit.jotform.com/submit/250306574577058/" method="POST" autocomplete="off" class="relative max-w-[420px] mt-[18px] mx-auto">
+            <input type="hidden" name="formID" value="250306574577058">
+            <input type="email" id="webinar-email" name="q3_webinaremail" placeholder="Enter email address" required class="w-full h-[50px] rounded-xl py-1 pl-4 pr-32 text-base border-0">
+         
+            <button type="submit" class="bg-[#f2a743] text-black px-6 py-2.5 rounded-xl text-base font-semibold leading-[20px] absolute right-0 top-0 h-[50px] border-0">Sign up!</button>
+        </form>
+    </div>
+</section> -->
+
 <section class="pt-11 md:pt-0">
     <div class="bg-banner-mobile md:bg-banner bg-white bg-no-repeat bg-[top_center] bg-cover h-[245px] sm:h-[480px] md:h-[850px] banner-home-up">
         <div class="container">
