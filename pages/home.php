@@ -6,7 +6,7 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
         <div class="text-2xl sm:text-4xl text- text-center text-white leading-none font-bold">CancerVax Reports Successful Initial Mouse Study with Breakthrough Results
 
         </div>
-        <a href="#" class="text-center block text-white leading-[1.3] font-normal underline text-lg sm:text-2xl mt-4 hover:text-white">Click here to read more</a>
+        <a href="single-news.php?id=47" class="text-center block text-white leading-[1.3] font-normal underline text-lg sm:text-2xl mt-4 hover:text-white">Click here to read more</a>
 </section>
 <!-- <section class="bg-coming-soon-bg bg-repeat bg-center bg-cover py-16 md:py-32 bg-[#39757c]">
     <div class="container">
