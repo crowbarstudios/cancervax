@@ -14,7 +14,7 @@ if (isset($_GET['id'])) {
     <div class="container">
         <?php if ($item) : ?>
             <h1 class="text-2xl sm:text-[44px] leading-snug sm:leading-none mb-6 sm:mb-12 font-medium text-custom-teal-300"><?php echo $item['title']; ?></h1>
-            <div class="[&_h3]:text-xl sm:[&_h3]:text-lg md:[&_h3]:text-2xl [&_h3]:font-normal [&_h3]:text-custom-teal-200 md:[&_h3]:text-custom-teal-300 [&_h3]:mt-5 md:[&_h3]:mt-6 [&_h3]:mb-3 [&_p]:text-xl sm:[&_p]:text-base [&_p]:mb-4 [&_p]:tracking-[0.78px] [&_a]:text-xl sm:[&_a]:text-base [&_a]:mb-4 [&_a]:tracking-[0.78px] [&_a]:underline [&_ul]:list-disc [&_ul]:pl-10 [&_ul]:my-6 [&_li]:text-xl sm:[&_li]:text-base">
+            <div class="[&_h3]:text-xl sm:[&_h3]:text-lg md:[&_h3]:text-2xl [&_h3]:font-normal [&_h3]:text-custom-teal-300 [&_h3]:mt-5 md:[&_h3]:mt-6 [&_h3]:mb-3 [&_p]:text-xl sm:[&_p]:text-base [&_p]:mb-4 [&_p]:tracking-[0.78px] [&_a]:text-xl sm:[&_a]:text-base [&_a]:mb-4 [&_a]:tracking-[0.78px] [&_a]:underline [&_ul]:list-disc [&_ul]:pl-10 [&_ul]:my-6 [&_li]:text-xl sm:[&_li]:text-base">
                 <?php
                 foreach ($item['description'] as $paragraph) {
                     echo "{$paragraph[0]}";
