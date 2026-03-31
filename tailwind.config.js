@@ -66,6 +66,7 @@ module.exports = {
         "cold-tumor-bg": "url(../images/cold-tumor-bg.png)",
         "video-bg": "url(../images/ceo-chats-bg.jpg)",
         "news-bg": "url(../images/news-bg.jpg)",
+        "coming-soon-bg": "url(../images/coming-soon-bg.png)",
 
         "breaking-new-bg": "url(../images/breaking-news-bg.png)",
         arrow: "url(../images/arrow.png)",

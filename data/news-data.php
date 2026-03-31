@@ -3,6 +3,51 @@
 
 $news = [
     [
+        'id' => "47",
+        'title' => "CancerVax Reports Successful Initial Mouse Study with Breakthrough Results",
+        'date' => "March 31, 2026",
+        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that the initial biodistribution study of its targeted lipid nanoparticle (“LNP”) in mice was successful",
+        'description' => [
+            
+        ["<h3>First biodistribution study of the Company’s novel targeted lipid nanoparticle achieved systemic circulation with the potential to target many types of cancer 
+</h3>"],
+        ["<p>Lehi, Utah, March 31, 2026 – CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that the initial biodistribution study of its targeted lipid nanoparticle (“LNP”) in mice was successful. </p>"],
+
+        ["<p>Most conventional LNPs get trapped in the liver and cause liver toxicity. This is a major reason why many LNP therapies fail in clinical trials. In this study, a large proportion of CancerVax LNPs did not appear to accumulate in the liver compared to the base conventional LNP formulation. This may indicate systemic circulation and distribution to organs and tissues where cancer might occur.  </p>"],
+        ["<p>The CancerVax platform is designed to harness the body’s existing immunity to detect, mark, and kill cancer cells with precision. At the core of the platform are customizable nanoparticles that use a novel two-step precision cancer targeting mechanism.</p>"],
+        ["<ol class=\"list-[revert] pl-12 [&_li]:pl-3\">
+            <li><p><strong>Detection:</strong> The nanoparticles first bind to surface proteins highly associated with the target cancer cells (“Marker1”).</p> </li>
+            <li><p><strong>Activation:</strong> Once inside the cancer cell, the nanoparticles release proprietary “Smart mRNA” payloads that are only activated in the presence of cancer-specific genetic signatures (“Marker2”). These Smart mRNAs instruct the cancer cells to produce proteins associated with well-immunized diseases like measles. This effectively “tricks” the immune system into killing cancer cells as if they were common diseases.</p></li>
+        </ol>"],
+        ["<p>Marker1 delivers the nanoparticles to cells expressing the corresponding surface protein and Marker2 selects only cancerous cells from that group to activate the mRNA therapeutic payload. Using different combinations of Marker1 and Marker2 will target different cancers to disguise them as known diseases and trick the body into attacking them with strength.</p>"],
+        ["<p>Recently, the Company completed its animal-grade Marker1-LNP and was able to proceed with its much-anticipated mouse studies. The Marker1-LNP was designed to specifically target the previously announced indications of pancreatic cancer and liver cancer.</p>"],
+
+        ["<p>The first mouse study was a biodistribution study where Marker1-LNPs were injected and tracked across numerous tissues. The results exceeded the Company’s expectations.</p>"],
+        ["<p>Some breakthrough results included the following and demonstrated the power and versatility of the CancerVax platform:</p>"],
+
+        ["<ul class=\"list-[revert] pl-12 [&_li]:pl-3\">
+        <li><p><strong>Systemic Circulation of the LNPs:</strong> This will allow the CancerVax therapy to reach many tissues and organs and avoid the common problem of LNP liver accumulation that causes liver damage and liver failure.</p> </li>
+        <li><p><strong>Distribution Noted in Many Organs:</strong> Spleen, Lung, Liver, Kidney, Intestines, Pancreas, Bladder, Heart, Stomach, Ovaries/Testes. This encouraging datapoint will allow the Company to expand its research program to include many more cancer indications for its universal cancer treatment platform. </p></li>
+        <li><p><strong>Dosage Response:</strong> A clear dose response was observed in this study of 24 mice, with signal intensity increasing alongside administered dose levels. Importantly, all animals remained healthy and active during the study, suggesting strong tolerability of the Marker1-LNP formulation.</p></li>
+    </ul>"],
+
+        ["<img src=\"./assets/images/50ug-iv.png\" alt=\"liver-toxicity\" class=\"my-4 hidden sm:block mx-auto w-full md:w-4/5\">"],
+
+        ["<p>Dr. Adam Grant, Principal Scientist, commented, “We leveraged artificial intelligence to identify an optimal Marker1 for targeting pancreatic and liver cancers. The observed systemic distribution of our Marker1-LNP beyond the target tissues represents an important validation of our platform. While early, these results have exceeded our expectations and support advancement of our dual-marker strategy, where Marker1 and Marker2 are designed to enhance targeting precision and reduce off-target exposure to healthy tissues.”
+</p>"],
+        ["<p>“This initial success also expands the potential of our platform across multiple indications. By reducing liver accumulation, our targeted LNP approach may enable flexible substitution of Marker1 while maintaining consistent delivery characteristics. I believe one of our current Marker1+Marker2 LNP constructs may already be primed to target colorectal cancers, highlighting the universality of the CancerVax platform.”</p>"],
+        ["<p>“This is a very exciting time for CancerVax,” said Dr. George Katibah, Chief Scientific Officer. “We have worked diligently to reach this milestone, and we now have high-quality reagents to support the extensive in vivo studies ahead.”</p>"],
+        ["<p>Dr. Katibah continued, “This study demonstrated several important advances. First, conjugation of our Marker1 to the LNP preserved the integrity of the core formulation while improving performance. Second, we observed a significant reduction in liver accumulation—a major limitation of conventional LNP therapies. Third, these results further validate our targeted LNP platform as a foundation for precision cancer therapeutics. As we advance through the in vivo phase of our development program, we will conduct additional animal studies to systematically evaluate the safety and efficacy of our novel therapy. These data will be used to support and strengthen our planned Investigational New Drug (IND) application to the FDA for human clinical trials.”
+</p>"],
+        ["<p>Byron Elton, CEO of CancerVax added, “We would not be here without the work of our amazing science team and the help of our world-class scientific advisors. Over the past year, we have made tremendous progress developing a revolutionary way to treat cancer. The cancer immunotherapy space is very hot right now. In 2025, AbbVie acquired Capstan Therapeutics, a targeted LNP CAR-T therapy company, for $2.1 billion in Phase 1 clinical stage. In 2026, Eli Lilly acquired Orna Therapeutics, a circular RNA and targeted LNP company, for $2.4 billion in preclinical stage. CancerVax is in the targeted LNP, mRNA, cancer immunotherapy and cancer vaccine space. We hope to share our exciting progress with interested strategic partners soon.”</p>"],
+
+        ["<p>To learn more about the CancerVax platform, please watch the Short Explainer Video at <a href=\"/explainer\" rel=\"noopener noreferrer\">https://cancervax.com/explainer</a> </p>"]
+  
+        ],
+        'category' => "pressrelease",
+        'biosolar' => false
+    ],
+    [
         'id' => "46",
         'title' => "Biotech Veteran and Virologist Joins CancerVax as Senior Scientific Advisor",
         'date' => "January 27, 2026",
