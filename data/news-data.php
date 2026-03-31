@@ -31,7 +31,7 @@ $news = [
         <li><p><strong>Dosage Response:</strong> A clear dose response was observed in this study of 24 mice, with signal intensity increasing alongside administered dose levels. Importantly, all animals remained healthy and active during the study, suggesting strong tolerability of the Marker1-LNP formulation.</p></li>
     </ul>"],
 
-        ["<img src=\"./assets/images/50ug-iv.png\" alt=\"liver-toxicity\" class=\"my-4 hidden sm:block mx-auto w-full md:w-4/5\">"],
+        ["<img src=\"./assets/images/50ug-iv.png\" alt=\"liver-toxicity\" class=\"my-4 mx-auto w-full md:w-4/5\">"],
 
         ["<p>Dr. Adam Grant, Principal Scientist, commented, “We leveraged artificial intelligence to identify an optimal Marker1 for targeting pancreatic and liver cancers. The observed systemic distribution of our Marker1-LNP beyond the target tissues represents an important validation of our platform. While early, these results have exceeded our expectations and support advancement of our dual-marker strategy, where Marker1 and Marker2 are designed to enhance targeting precision and reduce off-target exposure to healthy tissues.”
 </p>"],
