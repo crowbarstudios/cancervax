@@ -174,7 +174,7 @@
             <h5 class="text-2xl font-bold mb-8">March 31, 2026 – Breakthrough Mouse Study Showed Reduced LNP Liver Accumulation  </h5>
             <div class="bg-white p-8 grid grid-cols-1 lg:grid-cols-12 gap-[52px]">
                 <div class="lg:col-span-6 flex justify-center items-center xl:px-3">
-                    <img src="./assets/images/breakthrough-mouse.png" alt="lipid-nanoparticle">
+                    <img src="./assets/images/breakthrough-mouse-1.png" alt="lipid-nanoparticle">
                 </div>
                 <div class="lg:col-span-6 lg:pt-6 px-3 xl:pr-[50px]">
                     <ul class="list-disc list-outside [&>li]:text-black [&>li]:font-normal [&>li]:text-xl [&>li]:leading-8">
