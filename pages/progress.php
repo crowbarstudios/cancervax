@@ -79,7 +79,7 @@
  <section>
     <div class="container py-28">
         <div class="bg-custom-aqua-100 px-8 py-9 rounded-[42px]">
-            <h5 class="text-2xl font-bold mb-8">May 31, 2025 – Successfully Made Cell Targeting Nanoparticle!</h5>
+            <h5 class="text-2xl font-bold mb-8">May 31, 2025 – Successfully Made Cell Targeting Lipid Nanoparticle (“LNP”)</h5>
             <div class="bg-white p-8 grid grid-cols-1 lg:grid-cols-12 gap-[52px]">
                 <div class="lg:col-span-6 flex justify-center xl:px-3">
                     <img src="./assets/images/lipid-nanoparticle.png" alt="lipid-nanoparticle">
@@ -143,11 +143,11 @@
 </section>
 
 <section>
-    <div class="container py-28">
+    <div class="container pt-28">
         <div class="bg-custom-aqua-100 px-8 py-9 rounded-[42px]">
             <h5 class="text-2xl font-bold mb-8">October 15, 2025 – Smart mRNA Successfully Avoided Healthy Liver Cells to Reduce Liver Toxicity </h5>
             <div class="bg-white p-8 grid grid-cols-1 lg:grid-cols-12 gap-[52px]">
-                <div class="lg:col-span-6 flex justify-center xl:px-3">
+                <div class="lg:col-span-6 flex justify-center items-center xl:px-3">
                     <img src="./assets/images/dev-progress-4.png" alt="lipid-nanoparticle">
                 </div>
                 <div class="lg:col-span-6 lg:pt-6 px-3 xl:pr-[50px]">
@@ -162,6 +162,34 @@
                 <div class="lg:col-span-6"></div>
                 <div class="lg:col-span-6 flex justify-center">
                     <a href="single-news.php?id=42" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container py-28">
+        <div class="bg-custom-aqua-100 px-8 py-9 rounded-[42px]">
+            <h5 class="text-2xl font-bold mb-8">March 31, 2026 – Breakthrough Mouse Study Showed Reduced LNP Liver Accumulation  </h5>
+            <div class="bg-white p-8 grid grid-cols-1 lg:grid-cols-12 gap-[52px]">
+                <div class="lg:col-span-6 flex justify-center items-center xl:px-3">
+                    <img src="./assets/images/breakthrough-mouse.png" alt="lipid-nanoparticle">
+                </div>
+                <div class="lg:col-span-6 lg:pt-6 px-3 xl:pr-[50px]">
+                    <ul class="list-disc list-outside [&>li]:text-black [&>li]:font-normal [&>li]:text-xl [&>li]:leading-8">
+                        <li><strong class="block">Systemic Circulation of the LNPs</strong>
+Many LNP therapies fail in clinical trials due to liver accumulation and resulting toxicity.  CancerVax LNPs showed dramatically lowered liver accumulation.</li>
+                        <li class="my-5"><strong class="block">Distribution Noted in Many Organs:</strong>
+                        Spleen, Lung, Liver, Kidney, Intestines, Pancreas, Bladder, Heart, Stomach, Ovaries/Testes. </li>
+                        <li><strong class="block">Dosage Response:</strong>A clear dose response was observed in this study of 24 mice, with signal intensity increasing alongside administered dose levels. All animals remained healthy and active during the study suggesting strong tolerability of the Marker1-LNP formulation.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
+                <div class="lg:col-span-6"></div>
+                <div class="lg:col-span-6 flex justify-center">
+                    <a href="single-news.php?id=47" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
                 </div>
             </div>
         </div>
