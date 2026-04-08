@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
 
 @tailwind base;
@@ -8,44 +8,42 @@
 
 @layer base {
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 25px;
     position: relative;
     line-height: 1.2;
     letter-spacing: normal;
     color: black;
   }
-  
+
   h1,
   h2 {
-      @apply text-[50px] md:text-[85px] leading-none text-black;
+    @apply text-[50px] md:text-[85px] leading-none text-black;
   }
-  
+
   h3 {
-      @apply text-6xl leading-none text-black;
+    @apply text-6xl leading-none text-black;
   }
-  
+
   h4 {
-      @apply text-3xl leading-none text-black;
+    @apply text-3xl leading-none text-black;
   }
-  
-  
+
   h6 {
     @apply text-sm font-bold leading-[24px] text-black;
   }
-  
+
   p {
-      @apply text-xl md:text-2xl leading-[31px] text-black text-left font-normal tracking-[0.78px];
+    @apply text-xl md:text-2xl leading-[31px] text-black text-left font-normal tracking-[0.78px];
   }
-  
+
   a {
     @apply text-sm leading-[20px] text-black text-left font-normal;
   }
-  
+
   a:hover {
     @apply text-black;
   }
-  
 
   .theme-list li {
     @apply relative pl-[18px] text-base text-left text-[#ABABAB] leading-relaxed font-normal before:bg-[#ABABAB] before:size-[5px] rounded-full before:absolute before:left-0 before:top-2.5;
@@ -55,25 +53,25 @@
     @apply before:bg-bluelist;
   }
 
-  .theme-check-list li{
-    @apply text-black text-base leading-relaxed relative pl-[30px] before:content-['\f00c'] before:text-custom-teal-200 before:absolute before:inset-0 before:size-4 before:font-awesome before:leading-[1.7em] before:font-[900]; 
+  .theme-check-list li {
+    @apply text-black text-base leading-relaxed relative pl-[30px] before:content-['\f00c'] before:text-custom-teal-300 before:absolute before:inset-0 before:size-4 before:font-awesome before:leading-[1.7em] before:font-[900];
   }
-.theme-list-teal li{
-  @apply text-white text-xl font-normal tracking-[0.3px] leading-[28px] pl-[34px] relative pb-[20px] before:absolute before:size-2.5 before:bg-custom-teal-200 before:left-0 before:rounded-[50%] before:top-0 before:mt-[9px]
-}
+  .theme-list-teal li {
+    @apply text-white text-xl font-normal tracking-[0.3px] leading-[28px] pl-[34px] relative pb-[20px] before:absolute before:size-2.5 before:bg-custom-teal-200 before:left-0 before:rounded-[50%] before:top-0 before:mt-[9px];
+  }
   .no-li-icon {
     @apply before:hidden;
   }
-  .theme-btn{
+  .theme-btn {
     @apply font-medium text-[13px] leading-[2.5em] tracking-[1.3px] uppercase text-white fill-white bg-custom-teal-100 border-custom-teal-100 border-2 border-solid rounded-full px-10 py-3 transition-all duration-300 ease-in-out inline-block;
   }
-  .theme-btn:hover{
+  .theme-btn:hover {
     @apply text-black bg-white shadow-[0_12px_28px_rgb(0_0_0_/_12%)];
-  } 
-  .theme-btn i{
+  }
+  .theme-btn i {
     @apply text-sm mr-2;
   }
-  .theme-btn.orange-btn{
+  .theme-btn.orange-btn {
     @apply bg-custom-orange-100 border-custom-orange-100 text-black px-[18px] py-3 text-sm leading-[1.5] rounded-xl normal-case;
   }
 }
@@ -113,8 +111,6 @@ html {
     font-size: 36px;
   }
 
- 
-
   @media (max-width: 576px) {
     .mfp-iframe-holder .mfp-content {
       max-width: 100%;
@@ -130,44 +126,64 @@ html {
   .noscroll {
     @apply overflow-hidden;
   }
-  .container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
   }
 
   @media (min-width: 576px) {
-    .container,.container-sm {
-      max-width:540px
+    .container,
+    .container-sm {
+      max-width: 540px;
     }
   }
 
   @media (min-width: 768px) {
-    .container,.container-md,.container-sm {
-      max-width:720px
+    .container,
+    .container-md,
+    .container-sm {
+      max-width: 720px;
     }
   }
 
   @media (min-width: 992px) {
-    .container,.container-lg,.container-md,.container-sm {
-      max-width:960px
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+      max-width: 960px;
     }
   }
 
   @media (min-width: 1200px) {
-    .container,.container-lg,.container-md,.container-sm,.container-xl {
-      max-width:1140px
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+      max-width: 1140px;
     }
   }
 
   @media (min-width: 1400px) {
-    .container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl {
-      max-width:1320px
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+      max-width: 1320px;
     }
   }
 }
-
