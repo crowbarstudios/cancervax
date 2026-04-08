@@ -7,7 +7,7 @@
 <section class="py-[70px] bg-white">
     <div class="container">
         <h2 class="text-black font-bold text-2xl sm:text-[40px] leading-none mb-9 text-left">Using the Body’s Immune System to Fight Cancer</h2>
-        <p class="text-custom-teal-200 text-xl sm:text-2xl leading-8">Cancer generally refers to a collection of diseases where cells in the body divide uncontrollably and spread into surrounding tissues, causing internal damage and often death.</p>
+        <p class="text-custom-teal-300 text-xl sm:text-2xl leading-8">Cancer generally refers to a collection of diseases where cells in the body divide uncontrollably and spread into surrounding tissues, causing internal damage and often death.</p>
     </div>
 </section>
 
@@ -16,7 +16,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div class="lg:order-1 order-2">
                 <div>
-                    <h3 class="text-custom-teal-200 lg:text-black font-bold text-2xl sm:text-[40px] leading-none mb-2">Old Paradigm – Chemotherapy and Radiation</h3>
+                    <h3 class="text-custom-teal-300 lg:text-black font-bold text-2xl sm:text-[40px] leading-none mb-2">Old Paradigm – Chemotherapy and Radiation</h3>
                     <p class="text-black text-xl sm:text-base leading-relaxed">For decades, surgery, chemotherapy, and radiation therapy have been the standards of care for cancer treatment and are often the only options. They operate on the basic premise that cancer cells are fast-growing cells, so using powerful toxic chemicals (chemotherapy) or powerful X-rays (radiation), they hope to kill those cells to stop the cancer. The problem is that these treatments are not always very targeted, so they also kill normal fast-growing cells, such as hair cells, intestine cells, mouth-lining cells, and others. This inadvertent side effect of killing healthy cells is what causes the debilitating side effects of chemotherapy and radiation and a reduced quality of life for cancer patients. <br><br>
 
                         Using “chemo” has been likened to throwing a grenade into the body with the hope that it will kill the cancer and not the body.</p>
@@ -57,7 +57,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
                 <div class="lg:col-span-7 lg:order-1 order-2">
                 <div class="space-y-6"> 
-                        <h5 class="font-normal text-custom-teal-200 text-2xl leading-8">Immune Checkpoint Inhibitors</h5>
+                        <h5 class="font-normal text-custom-teal-300 text-2xl leading-8">Immune Checkpoint Inhibitors</h5>
                         <p class="text-xl sm:text-base leading-relaxed text-black">These are drugs that block immune checkpoints. Checkpoints are a normal part of the immune system and keep immune responses from being too strong. By blocking them, these drugs allow immune cells to respond more strongly to cancer.</p>
                         <p class="text-xl sm:text-base leading-relaxed text-black">Example blockbuster immunotherapy drugs:</p>
 
@@ -77,7 +77,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
                 <div class="lg:col-span-7 lg:order-1 order-2">
                 <div class="space-y-6">
-                        <h5 class="font-normal text-custom-teal-200 text-2xl leading-8">T-cell Transfer Therapy (CAR-T)</h5>
+                        <h5 class="font-normal text-custom-teal-300 text-2xl leading-8">T-cell Transfer Therapy (CAR-T)</h5>
                         <p class="text-xl sm:text-base leading-relaxed text-black">This is a personalized treatment that boosts the natural ability of the body’s immune T-cells to fight cancer. In this treatment, immune cells are taken from the tumor. Those that are most active against the cancer are selected or genetically modified in the lab to better attack your cancer cells, grown in large batches, and put back into the body through an injection.</p>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
                 <div class="lg:col-span-7 lg:order-1 order-2">
                 <div class="space-y-6">
-                        <h5 class="font-normal text-custom-teal-200 text-2xl leading-8">Monoclonal Antibodies</h5>
+                        <h5 class="font-normal text-custom-teal-300 text-2xl leading-8">Monoclonal Antibodies</h5>
                         <p class="text-xl sm:text-base leading-relaxed text-black">These are immune system proteins created in the lab that are designed to bind to specific targets on cancer cells. Some monoclonal antibodies mark cancer cells so that they will be better seen and destroyed by the immune system. Such monoclonal antibodies are a type of immunotherapy.</p>
                         <p class="text-xl sm:text-base leading-relaxed text-black">As a point of reference, the Pfizer and Modern COVID-19 vaccines are monoclonal antibodies for the coronavirus.</p>
                     </div>
@@ -104,7 +104,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
                 <div class="lg:col-span-7 lg:order-1 order-2">
                     <div class="space-y-6">
-                        <h5 class="font-normal text-custom-teal-200 text-2xl leading-8">Treatment Vaccines</h5>
+                        <h5 class="font-normal text-custom-teal-300 text-2xl leading-8">Treatment Vaccines</h5>
                         <p class="text-xl sm:text-base leading-relaxed text-black">These work against cancer by boosting the immune system’s response to cancer cells. Treatment vaccines are different from the ones that help prevent diseases.</p>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
                 <div class="lg:col-span-7 lg:order-1 order-2">
                     <div class="space-y-6">
-                        <h5 class="font-normal text-custom-teal-200 text-2xl leading-8">Immune System Modulators</h5>
+                        <h5 class="font-normal text-custom-teal-300 text-2xl leading-8">Immune System Modulators</h5>
                         <p class="text-xl sm:text-base leading-relaxed text-black">These enhance the body’s immune response against cancer. Some of these agents affect specific parts of the immune system, whereas others affect the immune system in a more general way.</p>
                     </div>
                 </div>

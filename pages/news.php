@@ -26,7 +26,7 @@ $news = include __DIR__ . '/../data/news-data.php';
             foreach ($latestIndustryNews as $item) {
                 echo "<div class=\"bg-custom-gray-200 min-h-full p-4 sm:p-10 relative \">
                         <a href=\"single-news.php?id={$item['id']}\" class=\"absolute inset-0 w-full h-full\"></a>
-                        <span class=\"text-custom-teal-200 text-sm uppercase font-medium tracking-widest block\">{$item['date']}</span>
+                        <span class=\"text-custom-teal-300 text-sm uppercase font-medium tracking-widest block\">{$item['date']}</span>
                         <h3 class=\"text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight\">{$item['title']}</h3>
                         <p class=\"text-black text-xl sm:text-base leading-normal\">{$item['excerpt']}</p>
                     </div>";

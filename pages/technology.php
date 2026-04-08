@@ -51,7 +51,7 @@
             </div>
             <div class="col-span-12 lg:col-span-1"></div>
             <div class="col-span-12 lg:col-span-6">
-                <h2 class="text-white text-[34px] md:text-[50px] xl:text-[60px] text-center lg:text-left font-normal leading-[1.1] tracking-[.3px]"><span class="text-custom-teal-200 font-bold">“Tricking the immune system</span> may be just what the doctors needed”</h2>
+                <h2 class="text-white text-[34px] md:text-[50px] xl:text-[60px] text-center lg:text-left font-normal leading-[1.1] tracking-[.3px]"><span class="text-custom-teal-300 font-bold">“Tricking the immune system</span> may be just what the doctors needed”</h2>
             </div>
         </div>
     </div>
@@ -109,15 +109,15 @@
         <h3 class="text-black text-3xl sm:text-5xl font-bold mb-7 pb-6">The Treatment</h3>
         <div class="space-y-14">
             <div>
-                <h4 class="text-custom-teal-200 text-2xl sm:text-[40px] font-bold mb-2 pb-8">Cancer Cell <span class="text-custom-teal-100">Detection​</span></h4>
+                <h4 class="text-custom-teal-300 text-2xl sm:text-[40px] font-bold mb-2 pb-8">Cancer Cell <span class="text-custom-teal-100">Detection​</span></h4>
                 <img src="./assets/images/treatment1.png" alt="treatment">
             </div>
             <div>
-                <h4 class="text-custom-teal-200 text-2xl sm:text-[40px] font-bold mb-2 pb-8">Cancer Cell <span class="text-custom-teal-100">Marking</span>​​</h4>
+                <h4 class="text-custom-teal-300 text-2xl sm:text-[40px] font-bold mb-2 pb-8">Cancer Cell <span class="text-custom-teal-100">Marking</span>​​</h4>
                 <img src="./assets/images/treatment2.png" alt="treatment">
             </div>
             <div class="pb-14">
-                <h4 class="text-custom-teal-200 text-2xl sm:text-[40px] font-bold mb-2 pb-8">Cancer Cell <span class="text-custom-teal-100">Killing​</span>​</h4>
+                <h4 class="text-custom-teal-300 text-2xl sm:text-[40px] font-bold mb-2 pb-8">Cancer Cell <span class="text-custom-teal-100">Killing​</span>​</h4>
                 <img src="./assets/images/treatment3.png" alt="treatment">
             </div>
         </div>
@@ -155,7 +155,7 @@
             </div>
             <div class="order-1 lg:order-2">
                 <div class="rt-content">
-                    <h5 class="text-white !leading-[1.4] font-normal tracking-[.3px] mb-5 text-2xl md:text-3xl"><span class="font-bold text-custom-teal-200">One of the biggest problems with drug delivery today is liver and healthy tissue toxicity.</span> We are addressing this problem in two innovative ways:</h5>
+                    <h5 class="text-white !leading-[1.4] font-normal tracking-[.3px] mb-5 text-2xl md:text-3xl"><span class="font-bold text-custom-teal-300">One of the biggest problems with drug delivery today is liver and healthy tissue toxicity.</span> We are addressing this problem in two innovative ways:</h5>
                     <p class="text-white text-xl pb-5 font-normal tracking-[.3px] ">1. We are working with world class technology partners to customize a nanoparticle that will avoid accumulation in the liver, as it circulates through the body looking for cancer cells.</p>
                     <p class="text-white text-xl pb-5 font-normal tracking-[.3px] ">2. In the event that the nanoparticles are absorbed by the liver or healthy cells, our Smart mRNA will automatically be turned-off, preventing them from being marked as measles.</p>
                 </div>
