@@ -42,7 +42,7 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
                 </ul>
             </div>
             <div class="mt-8 max-w-[450px]">
-                <h2 class="text-custom-teal-100 text-2xl text-center font-semibold mb-4 hidden xl:block">Short Explainer Video</h2>
+                <h2 class="text-custom-teal-300 text-2xl text-center font-semibold mb-4 hidden xl:block">Short Explainer Video</h2>
                 <div class="mb-9 border-[12px] border-custom-teal-100 rounded-xl relative max-w-[500px] hidden xl:block">
                     <div>
                         <img src="<?php echo  $full_url; ?>assets/images/home-video-thumbnail.jpg" alt="thumbnail">
@@ -314,7 +314,7 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
 
 <section class="bg-white py-[100px]">
     <div class="container">
-        <h2 class="text-custom-teal-100 text-xl sm:text-2xl text-center mb-4 font-semibold">One Minute Explainer Videos </h2>
+        <h2 class="text-custom-teal-300 text-xl sm:text-2xl text-center mb-4 font-semibold">One Minute Explainer Videos </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
             <div class="relative mb-6">
                 <a class="popup-youtube getThumbnail w-full h-full block absolute left-0 top-0 z-10" href="https://www.youtube.com/watch?v=SLj-WU08GJQ"></a>

@@ -1,6 +1,6 @@
 <section class="pt-32 pb-44 bg-[#959595]">
     <div class="container">
-        <h1 class="text-5xl sm:text-[80px] text-custom-teal-400 font-extralight uppercase leading-tight mb-8">CancerVax Terms of Use</h1>
+        <h1 class="text-5xl sm:text-[80px] text-custom-teal-300 font-extralight uppercase leading-tight mb-8">CancerVax Terms of Use</h1>
 
         <h2 class="text-white text-4xl leading-snug font-normal mt-8">Introduction</h2>
         <h2 class="text-white text-4xl leading-snug font-normal mt-8">Terms and Conditions of Use</h2>

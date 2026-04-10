@@ -57,7 +57,7 @@
     @apply text-black text-base leading-relaxed relative pl-[30px] before:content-['\f00c'] before:text-custom-teal-300 before:absolute before:inset-0 before:size-4 before:font-awesome before:leading-[1.7em] before:font-[900];
   }
   .theme-list-teal li {
-    @apply text-white text-xl font-normal tracking-[0.3px] leading-[28px] pl-[34px] relative pb-[20px] before:absolute before:size-2.5 before:bg-custom-teal-200 before:left-0 before:rounded-[50%] before:top-0 before:mt-[9px];
+    @apply text-white text-xl font-normal tracking-[0.3px] leading-[28px] pl-[34px] relative pb-[20px] before:absolute before:size-2.5 before:bg-custom-teal-300 before:left-0 before:rounded-[50%] before:top-0 before:mt-[9px];
   }
   .no-li-icon {
     @apply before:hidden;

@@ -12,7 +12,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
         <div class="mb-16">
             <div class="max-w-[640px] mx-auto">
                 <div class="flex justify-center items-center flex-col rounded-2xl overflow-hidden relative">
-                    <h3 class="text-custom-teal-100 text-2xl text-center mb-4 font-semibold">Short Explainer Video</h3>
+                    <h3 class="text-custom-teal-300 text-2xl text-center mb-4 font-semibold">Short Explainer Video</h3>
                     <div class="relative rounded-xl border-[12px] border-custom-teal-100">
                         <a href="https://www.youtube.com/watch?v=PXBNJe3nHp0" class="popup-youtube">
                             <img src="https://i.ytimg.com/vi/PXBNJe3nHp0/maxresdefault.jpg" alt="hero" class="max-w-full h-auto">
@@ -85,7 +85,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
     <div class="container">
         <div class="flex items-center justify-between mb-10">
             <h3 class="text-black text-xl sm:text-[40px] leading-10 font-medium">News Commentary</h3>
-            <a href="<?php echo $baseUrl ?? ''; ?>/news-commentary" class="text-custom-teal-100 underline text-lg">See All</a>
+            <a href="<?php echo $baseUrl ?? ''; ?>/news-commentary" class="text-custom-teal-300 underline text-lg">See All</a>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             <?php
@@ -133,7 +133,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
     <div class="container">
         <div class="flex items-center justify-between mb-10">
             <h3 class="text-black text-xl sm:text-[40px] leading-10 font-medium">Short Videos</h3>
-            <a href="https://www.youtube.com/@CancerVAX/shorts" target="_blank" class="text-custom-teal-100 underline text-lg">See All</a>
+            <a href="https://www.youtube.com/@CancerVAX/shorts" target="_blank" class="text-custom-teal-300 underline text-lg">See All</a>
         </div>
        
     </div>

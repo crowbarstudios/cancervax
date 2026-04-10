@@ -1,6 +1,6 @@
 <section class="pt-32 pb-44 bg-[#959595]">
     <div class="container">
-        <h1 class="text-5xl sm:text-[80px] text-custom-teal-400 font-extralight uppercase leading-tight mb-8">Privacy Policy</h1>
+        <h1 class="text-5xl sm:text-[80px] text-custom-teal-300 font-extralight uppercase leading-tight mb-8">Privacy Policy</h1>
 
         <p class="text-custom-gray-300 text-lg leading-snug tracking-[0.78px] font-normal">At CancerVax, protecting your privacy is very important to us. We value your trust and want you to understand what information we collect, how we use it, and how we protect it. The Gramm-Leach-Bliley Act, passed in November, 1999, requires that all companies distributing financial and insurance products to the public develop and publish a privacy policy. CancerVax’s Privacy Policy provides information relating to how and when we share investor information with unaffiliated third parties. A copy of our Privacy Policy is delivered to investors at the time of investment – either hand-delivered or by mail, and annually thereafter – by mail, to the last known address.</p>
 
