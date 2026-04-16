@@ -3,6 +3,36 @@
 
 $news = [
     [
+        'id' => "48",
+        'title' => "CancerVax to Target Colorectal Cancer Following Recent Biodistribution Breakthroughs",
+        'date' => "April 16, 2026",
+        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced the expansion of its research program to include colorectal cancer as an additional target indication",
+        'description' => [
+            
+        ["<h3>New findings support hypothesis that current nanoparticle designed for pancreatic and liver cancers could also work for colorectal cancer</h3>"],
+        ["<p>LEHI, Utah, April 16, 2026 — CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced the expansion of its research program to include colorectal cancer as an additional target indication.  </p>"],
+
+        ["<p>This decision follows the very positive and recent biodistribution study that indicates the Company’s novel targeted lipid nanoparticle (LNP) demonstrated the ability to circulate systemically and reach tissues beyond the liver, including the colon. </p>"],
+        ["<p>Colorectal cancer remains one of the most significant global health challenges. According to the Cancer Research Institute, more than 1.9 million people are diagnosed with colorectal cancer each year worldwide, making it the third most diagnosed cancer. The disease disproportionately affects older adults, with the average age at diagnosis around 66 years. However, according to the <a href=\"https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.70067\" target=\"_blank\" rel=\"noopener noreferrer\">American Cancer Society's 2026 statistics</a>, colorectal cancer is now the leading cause of cancer death in U.S. men and women under 50 years old.</p>"],
+   
+        ["<p>The CancerVax platform is designed to selectively target cancer cells using a novel nanoparticle that delivers Smart mRNA payloads. The platform aims to mark cancer cells with proteins associated with viruses, activating the immune system with precision and strength.</p>"],
+        ["<p>Recent biodistribution study of the CancerVax’s LNP demonstrated systemic circulation through reduction of liver accumulation. By significantly bypassing the liver, CancerVax LNPs can potentially reach many other organs and tissues, including the digestive tract and colon. Additionally, previous in-vitro studies have demonstrated meaningful selective uptake of CancerVax LNPs by colorectal tumor cell lines. These findings support the strategic expansion into colorectal cancer as part of the company’s universal platform approach.</p>"],
+
+        ["<p>“One of the longstanding challenges in nanoparticle delivery has been avoiding liver accumulation and achieving systemic circulation. These findings suggest we can reach tissues beyond the liver—critical for addressing cancers like colorectal cancer—and significantly expand the scope of our platform,” said Dr. George Katibah, Chief Scientific Officer of CancerVax. </p>"],
+        ["<p>The Company now adds colorectal cancer as a target indication to the previously announced focus on pancreatic ductal adenocarcinoma (PDAC), intrahepatic cholangiocarcinoma (ICC), and hepatocellular carcinoma (HCC), further reinforcing the versatility of its platform.</p>"],
+
+        ["<p>“What’s particularly compelling is that the exact same nanoparticle we designed for PDAC, ICC, HCC, could also target colorectal cancer without changes. We’ve seen this in our computational studies,” said Dr. Adam Grant, Principal Scientist of CancerVax. “Not only can our platform be customized to target different cancers, but a single nanoparticle design can potentially treat multiple cancers. This supports our broader vision of a scalable, multi-indication platform approach rather than a one-drug, one-cancer model.”</p>"],
+        ["<p>Colorectal cancer presents a substantial unmet medical need, particularly in advanced stages where treatment options can be limited with only a 65% 5-year survival rate. By expanding its research into this indication, CancerVax aims to further evaluate how its platform may be leveraged across a wider range of solid tumors.</p>"],
+        ["<p>CancerVax continues its preclinical research with ongoing in vitro and in vivo studies to evaluate safety; targeting specificity, and immune response activation.</p>"],
+        
+
+        ["<p>To learn more about the CancerVax platform, please watch the Short Explainer Video at <a href=\"/explainer\" rel=\"noopener noreferrer\">https://cancervax.com/explainer</a> </p>"]
+  
+        ],
+        'category' => "pressrelease",
+        'biosolar' => false
+    ],
+    [
         'id' => "47",
         'title' => "CancerVax Reports Successful Initial Mouse Study with Breakthrough Results",
         'date' => "March 31, 2026",
