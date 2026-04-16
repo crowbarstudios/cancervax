@@ -2131,11 +2131,6 @@ a:hover{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-custom-green-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(10 224 45 / var(--tw-bg-opacity, 1));
-}
-
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
@@ -3084,11 +3079,6 @@ a:hover{
   color: rgb(42 92 110 / var(--tw-text-opacity, 1));
 }
 
-.text-custom-teal-400{
-  --tw-text-opacity: 1;
-  color: rgb(120 199 201 / var(--tw-text-opacity, 1));
-}
-
 .text-custom-white-100{
   --tw-text-opacity: 1;
   color: rgb(242 246 250 / var(--tw-text-opacity, 1));
@@ -3317,12 +3307,6 @@ html {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(42 92 110 / var(--tw-bg-opacity, 1));
-}
-
-.before\:bg-custom-teal-200::before{
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(42 186 194 / var(--tw-bg-opacity, 1));
 }
 
 .before\:font-awesome::before{
@@ -4523,6 +4507,11 @@ html {
   color: rgb(11 224 46 / var(--tw-text-opacity, 1));
 }
 
+.\[\&\>a\]\:active\:text-custom-teal-300:active>a{
+  --tw-text-opacity: 1;
+  color: rgb(42 92 110 / var(--tw-text-opacity, 1));
+}
+
 @media (min-width: 1024px){
   .\[\&\>a\]\:lg\:px-2>a{
     padding-left: 0.5rem;
@@ -4989,11 +4978,6 @@ html {
 
 .\[\&_span\]\:\!leading-5 span{
   line-height: 1.25rem !important;
-}
-
-.\[\&_span\]\:text-custom-teal-100 span{
-  --tw-text-opacity: 1;
-  color: rgb(29 143 151 / var(--tw-text-opacity, 1));
 }
 
 .\[\&_span\]\:text-custom-teal-300 span{

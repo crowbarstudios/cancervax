@@ -193,7 +193,7 @@
                 id="mobile-menu">
                 <div class="space-y-1">
                     <div
-                        class="sm:p-[38px] p-[14px] flex flex-col gap-4 [&>a]:block [&>a]:items-center [&>a]:border [&>a]:border-transparent [&>a]:text-sm [&>a]:font-normal [&>a]:py-[5px] [&>a]:px-2.5 [&>a]:leading-none [&>a]:text-black [&>a]:active:text-custom-green-400">
+                        class="sm:p-[38px] p-[14px] flex flex-col gap-4 [&>a]:block [&>a]:items-center [&>a]:border [&>a]:border-transparent [&>a]:text-sm [&>a]:font-normal [&>a]:py-[5px] [&>a]:px-2.5 [&>a]:leading-none [&>a]:text-black [&>a]:active:text-custom-teal-300">
                         <?php foreach ($links as $slug => $name): ?>
                             <a href="<?= $baseUrl ?>/<?= $slug ?>" class="<?php echo ($page === $slug) ? '!text-custom-teal-300' : ''; ?>"><?= $name ?></a>
                         <?php endforeach; ?>
