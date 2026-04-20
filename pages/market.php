@@ -29,7 +29,7 @@
                     <p class="text-black text-base leading-normal">
                         Cancer immunotherapy, also known as cancer treatment vaccine, has emerged as a very promising next-generation treatment. Immunotherapy utilizes the body’s own immune system to fight cancer, usually with milder side effects and more targeted than chemotherapy. 
                        </p>
-                    <h5 class="text-custom-teal-200 text-2xl font-normal leading-8 mt-3 mb-2">The rapid growth of the immunotherapy market can be attributed to three primary factors:</h5>
+                    <h5 class="text-custom-teal-300 text-2xl font-normal leading-8 mt-3 mb-2">The rapid growth of the immunotherapy market can be attributed to three primary factors:</h5>
                     <ul class="theme-check-list">
                         <li>Rising cancer incidence worldwide </li>
                         <li> Increased awareness about immunotherapy treatment options beyond traditional chemotherapy, radiation, and surgery</li>

@@ -4,14 +4,14 @@
             <div class="col-span-12 lg:col-span-7">
                 <div class="">
                     <span class="text-lg mb-[18px] block max-w-[603px] leading-snug">CancerVax is a pre-clinical biotech company developing a novel Universal Cancer Treatment platform that will be customizable, as an injection, to treat many types of cancer. Our innovative approach DETECTS, MARKS, and KILLS only cancer cells. By making cancer cells look like well-immunized common diseases such as measles or chickenpox, we intend to use the body’s natural immune system to easily kill the cancer cells. We look forward to the day when treating cancer will be as simple as getting a shot – a better way to treat cancer.</span>
-                    <h1 class="uppercase text-5xl sm:text-[106px] leading-tight font-extralight text-custom-teal-400">Contact us</h1>
-                    <p class="text-[21px] font-bold text-custom-teal-400 pb-4">We would love to hear from you</p>
+                    <h1 class="uppercase text-5xl sm:text-[106px] leading-tight font-extralight text-custom-teal-300">Contact us</h1>
+                    <p class="text-[21px] font-bold text-custom-teal-300 pb-4">We would love to hear from you</p>
                 </div>
                 <div class="">
                     <div class="grid grid-cols-1 sm:grid-cols-12 gap-6">
                         <div class="col-span-12 sm:col-span-5">
                             <div class="mt-6">
-                                <h3 class="text-xs text-custom-teal-400 font-bold mb-2">UTAH</h3>
+                                <h3 class="text-xs text-custom-teal-300 font-bold mb-2">UTAH</h3>
                                 <a href="https://goo.gl/maps/5xZJ6Byy4tZt2P7AA" target="_blank" rel="noopener noreferrer" class="text-[15px] font-normal leading-relaxed mb-2.5 text-black inline-block">
 
                                     1633 W Innovation Way <br> 5th floor, Lehi, UT 84043
@@ -20,7 +20,7 @@
                         </div>
                         <div class="col-span-12 sm:col-span-7">
                             <div class="mt-6">
-                                <h3 class="text-xs text-custom-teal-400 font-bold mb-2">CONTACT</h3>
+                                <h3 class="text-xs text-custom-teal-300 font-bold mb-2">CONTACT</h3>
                                 <div class="flex flex-col">
                                     <a class="text-[15px] font-normal leading-relaxed text-black" href="tel:8053561810">(805) 356-1810</a>
                                     <a class="text-[15px] font-normal leading-relaxed mb-2.5 text-black " href="mailto:info@cancervax.com">info@cancervax.com</a>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-span-12 lg:col-span-5">
                 <div class="contact-form">
-                    <h2 class="text-custom-teal-400 text-[23px] font-bold mb-4 leading-tight">Send a message</h2>
+                    <h2 class="text-custom-teal-300 text-[23px] font-bold mb-4 leading-tight">Send a message</h2>
                     <form action="https://submit.jotform.com/submit/241326885940059/" method="POST">
                         <input type="hidden" name="formID" value="241326885940059" />
                         <div class="mb-4">

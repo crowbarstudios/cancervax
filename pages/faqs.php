@@ -34,7 +34,7 @@
                         <div class="overflow-hidden">
                             <p class="text-base leading-snug tracking-normal px-4 pb-6">
                                 The more you invest, the more Bonus Shares you get, which effectively gives you a discount on $2.10 offering price. The number of Bonus Shares you get is based on your total investment in this entire offering. We will calculate Bonus Shares and issue them every time you increase your investment until the offering is closed. <br> <br>
-                                To learn more about the different tiers of Bonus Shares, <a href="regainvest.php#bonus-shares" class="text-custom-teal-200 text-base">click here</a>. <br><br>
+                                To learn more about the different tiers of Bonus Shares, <a href="regainvest.php#bonus-shares" class="text-custom-teal-300 text-base">click here</a>. <br><br>
                                 Please note that the online investment forms do not automatically calculate Bonus Shares. We will calculate and issue your Bonus Shares after your online investment is complete.
                             </p>
                         </div>
@@ -48,8 +48,8 @@
                     <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
                         <div class="overflow-hidden">
                             <p class="text-base leading-snug tracking-normal px-4 pb-6">
-                                To create an account, visit our landing page (<a href="https://cancervax.com/regainvest" class="text-custom-teal-200 text-base">www.cancervax.com/regainvest</a>), click on the Invest Here button, and follow the instructions to complete your registration. <br>
-                                    <a href="https://cancervax.directinvest.io/purchase/65664bc380017111b27593bf/" class="text-custom-teal-200 text-base">Invest Here</a>
+                                To create an account, visit our landing page (<a href="https://cancervax.com/regainvest" class="text-custom-teal-300 text-base">www.cancervax.com/regainvest</a>), click on the Invest Here button, and follow the instructions to complete your registration. <br>
+                                    <a href="https://cancervax.directinvest.io/purchase/65664bc380017111b27593bf/" class="text-custom-teal-300 text-base">Invest Here</a>
                             </p>
                         </div>
                     </div>
@@ -134,9 +134,9 @@
                                     7840 S 700 E <br>
                                     Sandy, UT 84070
                                     <br><br>
-                                    <strong>Phone:</strong> <a href="tel:801-355-5740" class="text-custom-teal-200 text-base">801-355-5740</a> <br>
-                                    <strong>Fax:</strong> <a href="tel:801-355-6505" class="text-custom-teal-200 text-base">801-355-6505</a> <br>
-                                    <strong>Web:</strong> <a href="https://www.colonialstock.com/contactus.htm" target="_blank" class="text-custom-teal-200 text-base" rel="noopener noreferrer">https://www.colonialstock.com/contactus.htm</a>
+                                    <strong>Phone:</strong> <a href="tel:801-355-5740" class="text-custom-teal-300 text-base">801-355-5740</a> <br>
+                                    <strong>Fax:</strong> <a href="tel:801-355-6505" class="text-custom-teal-300 text-base">801-355-6505</a> <br>
+                                    <strong>Web:</strong> <a href="https://www.colonialstock.com/contactus.htm" target="_blank" class="text-custom-teal-300 text-base" rel="noopener noreferrer">https://www.colonialstock.com/contactus.htm</a>
                             </p>
                         </div>
                     </div>
@@ -150,7 +150,7 @@
                         <div class="overflow-hidden">
                             <p class="text-base leading-snug tracking-normal px-4 pb-6">
                                 CancerVax has engaged Colonial Stock Transfer to act as the Transfer Agent for all
-                                Company Shares. To view your shares purchased through ANY investment offering, please click <a href="https://sh.colonialstock.com/Account/Login/" class="text-custom-teal-200 text-base" target="_blank" rel="noopener noreferrer">here</a> and use the login credentials provided to you by Colonial Stock Transfer via email. If you did not receive that email or cannot find the email sent by Colonial Stock Transfer, please fill out this <a href="https://www.colonialstock.com/contactus.htm#modal1" target="_blank" class="text-custom-teal-200 text-base" rel="noopener noreferrer">form</a> and they will get back to you.
+                                Company Shares. To view your shares purchased through ANY investment offering, please click <a href="https://sh.colonialstock.com/Account/Login/" class="text-custom-teal-300 text-base" target="_blank" rel="noopener noreferrer">here</a> and use the login credentials provided to you by Colonial Stock Transfer via email. If you did not receive that email or cannot find the email sent by Colonial Stock Transfer, please fill out this <a href="https://www.colonialstock.com/contactus.htm#modal1" target="_blank" class="text-custom-teal-300 text-base" rel="noopener noreferrer">form</a> and they will get back to you.
                             </p>
                         </div>
                     </div>
@@ -218,7 +218,7 @@
                     <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
                         <div class="overflow-hidden">
                             <p class="text-base leading-snug tracking-normal px-4 pb-6">
-                                You can monitor your investments through our investment portal, where you will have access to your investment dashboard showing all your investments and their performance. You can also access this <a href="https://cancervax.directinvest.io/purchase/65664bc380017111b27593bf/" target="_blank" rel="noopener noreferrer" class="text-custom-teal-200 text-base">link</a> by going to our website and clicking on Investor Login.
+                                You can monitor your investments through our investment portal, where you will have access to your investment dashboard showing all your investments and their performance. You can also access this <a href="https://cancervax.directinvest.io/purchase/65664bc380017111b27593bf/" target="_blank" rel="noopener noreferrer" class="text-custom-teal-300 text-base">link</a> by going to our website and clicking on Investor Login.
                             </p>
                         </div>
                     </div>

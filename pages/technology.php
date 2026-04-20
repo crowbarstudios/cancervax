@@ -41,7 +41,7 @@
             <div class="col-span-12 lg:col-span-5">
                 <div class="problem-content">
                     <h3 class="text-white text-[30px] md:text-[45px] xl:text-[50px] font-bold pb-[22px] mb-2 leading-none">The Problem​</h3>
-                    <ul class="theme-list-teal">
+                    <ul class="theme-list-teal [&_li]:before:bg-custom-teal-200">
                         <li>The body’s immune system is very good at killing foreign pathogens, such as the measles virus. Unfortunately, it’s not very good at killing cancer cells, because cancer cells were originally healthy cells. This is why cancer grows undetected by the immune system and is so hard to treat.</li>
                         <li>
                             Other cutting-edge immunotherapies such as personalized cancer vaccines try to teach immune cells, resulting in short lived, weak or patient-specific immune response.  
@@ -60,7 +60,7 @@
 <section class="pt-28 pb-40">
     <div class="container">
         <div class="relative text-center mb-16">
-            <h3 class="text-custom-teal-100 pt-2 pb-5 text-6xl font-medium">A Revolutionary Cancer Treatment</h3>
+            <h3 class="text-custom-teal-300 pt-2 pb-5 text-6xl font-medium">A Revolutionary Cancer Treatment</h3>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center lg:items-start">
             <div class="text-center order-2 lg:order-1">
@@ -80,7 +80,7 @@
                 </svg>
                 <img src="./assets/images/solution4.png" class="max-w-[70%] mx-auto" alt="solution4">
                 <div class="flex flex-col items-center lg:hidden">
-                    <h6 class="text-black text-2xl sm:text-3xl pl-9 font-normal mt-9 mb-2 pb-7">Marker1&nbsp;+&nbsp;Marker2&nbsp;=&nbsp;<span class="text-custom-teal-100 font-bold">Cancer Cell</span></h6>
+                    <h6 class="text-black text-2xl sm:text-3xl pl-9 font-normal mt-9 mb-2 pb-7">Marker1&nbsp;+&nbsp;Marker2&nbsp;=&nbsp;<span class="text-custom-teal-300 font-bold">Cancer Cell</span></h6>
                     <img src="./assets/images/solution-marker.png" class="w-[80%] max-w-[334px]" alt="">
                 </div>
             </div>
@@ -96,7 +96,7 @@
                     </ul>
                 </ul>
                 <div class="hidden lg:block">
-                    <h6 class="text-black text-3xl pl-9 font-normal mt-9 mb-2 pb-7">Marker1&nbsp;+&nbsp;Marker2&nbsp;=&nbsp;<span class="text-custom-teal-100 font-bold">Cancer Cell</span></h6>
+                    <h6 class="text-black text-3xl pl-9 font-normal mt-9 mb-2 pb-7">Marker1&nbsp;+&nbsp;Marker2&nbsp;=&nbsp;<span class="text-custom-teal-300 font-bold">Cancer Cell</span></h6>
                     <img src="./assets/images/solution-marker.png" class="pl-9" alt="">
                 </div>
             </div>
@@ -109,15 +109,15 @@
         <h3 class="text-black text-3xl sm:text-5xl font-bold mb-7 pb-6">The Treatment</h3>
         <div class="space-y-14">
             <div>
-                <h4 class="text-custom-teal-200 text-2xl sm:text-[40px] font-bold mb-2 pb-8">Cancer Cell <span class="text-custom-teal-100">Detection​</span></h4>
+                <h4 class="text-custom-teal-300 text-2xl sm:text-[40px] font-bold mb-2 pb-8">Cancer Cell <span class="text-custom-teal-300">Detection​</span></h4>
                 <img src="./assets/images/treatment1.png" alt="treatment">
             </div>
             <div>
-                <h4 class="text-custom-teal-200 text-2xl sm:text-[40px] font-bold mb-2 pb-8">Cancer Cell <span class="text-custom-teal-100">Marking</span>​​</h4>
+                <h4 class="text-custom-teal-300 text-2xl sm:text-[40px] font-bold mb-2 pb-8">Cancer Cell <span class="text-custom-teal-300">Marking</span>​​</h4>
                 <img src="./assets/images/treatment2.png" alt="treatment">
             </div>
             <div class="pb-14">
-                <h4 class="text-custom-teal-200 text-2xl sm:text-[40px] font-bold mb-2 pb-8">Cancer Cell <span class="text-custom-teal-100">Killing​</span>​</h4>
+                <h4 class="text-custom-teal-300 text-2xl sm:text-[40px] font-bold mb-2 pb-8">Cancer Cell <span class="text-custom-teal-300">Killing​</span>​</h4>
                 <img src="./assets/images/treatment3.png" alt="treatment">
             </div>
         </div>
@@ -128,7 +128,7 @@
     <div class="container">
         <div class="max-w-[858px] [&>p]:leading-8 mx-auto">
             <h3 class="text-black text-3xl sm:text-5xl font-bold mb-10">Potential Long-Term Remission</h3>
-            <h6 class="text-black !leading-[1.4] text-2xl sm:text-3xl font-normal mb-5"><span class="font-bold text-custom-teal-100">Every day, hundreds of cells in our body acquire cancerous mutations that are immediately destroyed by the immune system.</span> The problem is when mutations occur in oncogene or tumor suppressor genes that do not activate the immune system. This results in unchecked cell growth and cancer becomes a systemic disease. </h6>
+            <h6 class="text-black !leading-[1.4] text-2xl sm:text-3xl font-normal mb-5"><span class="font-bold text-custom-teal-300">Every day, hundreds of cells in our body acquire cancerous mutations that are immediately destroyed by the immune system.</span> The problem is when mutations occur in oncogene or tumor suppressor genes that do not activate the immune system. This results in unchecked cell growth and cancer becomes a systemic disease. </h6>
             <p class="text-black text-xl font-normal pb-5">Other immunotherapies such as personalized cancer vaccines, cytokine therapy or monoclonal antibodies often do not induce a strong enough immune response or last long enough to overwhelm cancer universally.</p>
             <p class="text-black text-xl font-normal pb-5">By “tricking” the body into mounting a strong initial immune response to cancer, like it does with measles, we believe there will be an enhanced immune memory-based secondary response to provide long-term remission.</p>
         </div>
@@ -184,7 +184,7 @@
                 </div>
             </div>
         </div>
-        <h3 class="text-custom-teal-100 text-center text-4xl sm:text-5xl lg:text-6xl font-normal mt-20">Cancers can escape immune detection, but measles get caught. <span class="font-bold">That’s the trick we use!</span></h3>
+        <h3 class="text-custom-teal-300 text-center text-4xl sm:text-5xl lg:text-6xl font-normal mt-20">Cancers can escape immune detection, but measles get caught. <span class="font-bold">That’s the trick we use!</span></h3>
     </div>
 
 </section>

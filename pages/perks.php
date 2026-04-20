@@ -9,7 +9,7 @@
         <div class="w-full h-full">
             <iframe src="https://www.youtube.com/embed/TNhuPuylpyg?si=QlHa5PYNhRJVkvO8" title="YouTube video player" class="w-full min-h-[260px] sm:min-h-[700px]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <div class="mt-16 max-w-[850px] mx-auto [&_p]:text-lg [&_p]:font-normal [&_p]:leading-6 [&_p]:mt-3 [&_p]:text-gray-400 [&_span]:text-custom-teal-100">
+        <div class="mt-16 max-w-[850px] mx-auto [&_p]:text-lg [&_p]:font-normal [&_p]:leading-6 [&_p]:mt-3 [&_p]:text-gray-400 [&_span]:text-custom-teal-300">
             <p><span>Up to 30% bonus</span> CancerVax shares are available.</p>
             <p>
                 Take advantage of our valuable investor perks. <span>The more you invest, the larger discount you get in the form of bonus shares!</span></p>

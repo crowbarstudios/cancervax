@@ -175,7 +175,7 @@
             </div>
         </div>
         <div class="bg-custom-gray-200 rounded-[20px] px-2 py-10 md:px-12 md:py-12">
-            <div class="text-custom-teal-100 text-xl md:text-[28px] font-semibold mb-2 text-center">
+            <div class="text-custom-teal-300 text-xl md:text-[28px] font-semibold mb-2 text-center">
                 $183 Billion
             </div>
             <div class="flex justify-center">
@@ -184,7 +184,7 @@
                     <span class="hidden lg:block text-base absolute -top-[15px] -right-[20px]">(4)</span>
                 </div>
             </div>
-            <div class="text-custom-teal-100 text-xl md:text-[28px] font-semibold mb-2 text-center">
+            <div class="text-custom-teal-300 text-xl md:text-[28px] font-semibold mb-2 text-center">
                 $246 Billion
             </div>
             <div class="flex justify-center">
@@ -193,7 +193,7 @@
                     <span class="hidden lg:block text-base absolute -top-[15px] -right-[20px]">(4)</span>
                 </div>
             </div>
-            <div class="text-custom-teal-100 text-xl md:text-[28px] font-semibold mb-2 text-center">
+            <div class="text-custom-teal-300 text-xl md:text-[28px] font-semibold mb-2 text-center">
                 $484 Billion
             </div>
             <div class="flex justify-center">
@@ -202,7 +202,7 @@
                     <span class="hidden lg:block text-base absolute -top-[15px] -right-[20px]">(2)</span>
                 </div>
             </div>
-            <div class="text-custom-teal-100 text-xl md:text-[28px] font-semibold mb-2 text-center">
+            <div class="text-custom-teal-300 text-xl md:text-[28px] font-semibold mb-2 text-center">
                 $3.2 Trillion
             </div>
             <div class="flex justify-center">
@@ -281,7 +281,7 @@
     <div class="container">
         <h4 class="text-[23px] sm:text-[28px] font-medium leading-none mb-9">Terms</h4>
         <div class="p-6 md:p-9 mb-10 md:mb-24 rounded-[10px] shadow-[0_6px_10px_4px_rgba(0,0,0,0.15)]">
-            <div class="text-[23px] sm:text-[28px] font-semibold leading-none mb-10 text-custom-teal-100 text-center lg:text-left lg:ml-[28%]">Overview</div>
+            <div class="text-[23px] sm:text-[28px] font-semibold leading-none mb-10 text-custom-teal-300 text-center lg:text-left lg:ml-[28%]">Overview</div>
             <div class="grid grid-cols-1 md:grid-cols-6 gap-6"> 
                 <div></div>
                 <div class="col-span-2">
