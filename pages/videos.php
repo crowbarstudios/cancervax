@@ -64,7 +64,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
             <div class="mb-4">
                 <a href="<?php echo $baseUrl ?? ''; ?>/webinar-feb-25-2025" class="relative">
                     <div class="h-auto">
-                        <img src="https://vumbnail.com/1074009289.png" alt="Thumbnail">
+                        <img src="https://vumbnail.com/1074009289.jpg" alt="Thumbnail">
                     </div>
                     <i class="far fa-play-circle  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
                 </a>
@@ -72,7 +72,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
             <div class="mb-4">
                 <a href="<?php echo $baseUrl ?? ''; ?>/webinar-may-31-2025" class="relative">
                     <div class="h-auto">
-                        <img src="https://vumbnail.com/1088764643/6170b7e696.png" alt="Thumbnail">
+                        <img src="https://vumbnail.com/1088764643/6170b7e696.jpg" alt="Thumbnail">
                     </div>
                     <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
                 </a>
