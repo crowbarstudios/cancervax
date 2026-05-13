@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 @import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
 
@@ -561,7 +561,7 @@ video {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
   position: relative;
   line-height: 1.2;
@@ -689,7 +689,7 @@ a:hover{
   font-weight: 900;
   line-height: 1.7em;
   --tw-text-opacity: 1;
-  color: rgb(42 186 194 / var(--tw-text-opacity, 1));
+  color: rgb(42 92 110 / var(--tw-text-opacity, 1));
   --tw-content: '\f00c';
   content: var(--tw-content);
 }
@@ -717,7 +717,7 @@ a:hover{
   border-radius: 50%;
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(42 186 194 / var(--tw-bg-opacity, 1));
+  background-color: rgb(42 92 110 / var(--tw-bg-opacity, 1));
 }
 
 .no-li-icon::before{
@@ -834,43 +834,64 @@ a:hover{
   overflow: hidden;
 }
 
-.container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl {
+.container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * .5);
-  padding-left: calc(var(--bs-gutter-x) * .5);
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
-  margin-left: auto
+  margin-left: auto;
 }
 
 @media (min-width: 576px) {
-  .container,.container-sm {
-    max-width:540px
+  .container,
+    .container-sm {
+    max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container,.container-md,.container-sm {
-    max-width:720px
+  .container,
+    .container-md,
+    .container-sm {
+    max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container,.container-lg,.container-md,.container-sm {
-    max-width:960px
+  .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+    max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container,.container-lg,.container-md,.container-sm,.container-xl {
-    max-width:1140px
+  .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+    max-width: 1140px;
   }
 }
 
 @media (min-width: 1400px) {
-  .container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl {
-    max-width:1320px
+  .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+    max-width: 1320px;
   }
 }
 
@@ -3003,9 +3024,9 @@ a:hover{
   letter-spacing: 0.1em;
 }
 
-.\!text-custom-teal-200{
+.\!text-custom-teal-300{
   --tw-text-opacity: 1 !important;
-  color: rgb(42 186 194 / var(--tw-text-opacity, 1)) !important;
+  color: rgb(42 92 110 / var(--tw-text-opacity, 1)) !important;
 }
 
 .text-\[\#ABABAB\]{
@@ -3056,11 +3077,6 @@ a:hover{
 .text-custom-teal-300{
   --tw-text-opacity: 1;
   color: rgb(42 92 110 / var(--tw-text-opacity, 1));
-}
-
-.text-custom-teal-400{
-  --tw-text-opacity: 1;
-  color: rgb(120 199 201 / var(--tw-text-opacity, 1));
 }
 
 .text-custom-white-100{
@@ -3287,10 +3303,10 @@ html {
   background-color: rgb(171 171 171 / var(--tw-bg-opacity, 1));
 }
 
-.before\:bg-custom-teal-200::before{
+.before\:bg-custom-teal-300::before{
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(42 186 194 / var(--tw-bg-opacity, 1));
+  background-color: rgb(42 92 110 / var(--tw-bg-opacity, 1));
 }
 
 .before\:font-awesome::before{
@@ -3308,10 +3324,10 @@ html {
   line-height: 1.7em;
 }
 
-.before\:text-custom-teal-200::before{
+.before\:text-custom-teal-300::before{
   content: var(--tw-content);
   --tw-text-opacity: 1;
-  color: rgb(42 186 194 / var(--tw-text-opacity, 1));
+  color: rgb(42 92 110 / var(--tw-text-opacity, 1));
 }
 
 .before\:content-\[\'\\f00c\'\]::before{
@@ -3410,9 +3426,9 @@ html {
   color: rgb(29 143 151 / var(--tw-text-opacity, 1));
 }
 
-.hover\:text-custom-teal-200:hover{
+.hover\:text-custom-teal-300:hover{
   --tw-text-opacity: 1;
-  color: rgb(42 186 194 / var(--tw-text-opacity, 1));
+  color: rgb(42 92 110 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-white:hover{
@@ -4416,9 +4432,9 @@ html {
   }
 }
 
-.\[\&\:hover\]\:text-custom-teal-200:hover{
+.\[\&\:hover\]\:text-custom-teal-300:hover{
   --tw-text-opacity: 1;
-  color: rgb(42 186 194 / var(--tw-text-opacity, 1));
+  color: rgb(42 92 110 / var(--tw-text-opacity, 1));
 }
 
 .\[\&\>a\]\:block>a{
@@ -4489,6 +4505,11 @@ html {
 .\[\&\>a\]\:active\:text-custom-green-400:active>a{
   --tw-text-opacity: 1;
   color: rgb(11 224 46 / var(--tw-text-opacity, 1));
+}
+
+.\[\&\>a\]\:active\:text-custom-teal-300:active>a{
+  --tw-text-opacity: 1;
+  color: rgb(42 92 110 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 1024px){
@@ -4848,6 +4869,12 @@ html {
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
+.\[\&_li\]\:before\:bg-custom-teal-200 li::before{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 186 194 / var(--tw-bg-opacity, 1));
+}
+
 @media (min-width: 640px){
   .sm\:\[\&_li\]\:text-base li{
     font-size: 1rem;
@@ -4953,9 +4980,9 @@ html {
   line-height: 1.25rem !important;
 }
 
-.\[\&_span\]\:text-custom-teal-100 span{
+.\[\&_span\]\:text-custom-teal-300 span{
   --tw-text-opacity: 1;
-  color: rgb(29 143 151 / var(--tw-text-opacity, 1));
+  color: rgb(42 92 110 / var(--tw-text-opacity, 1));
 }
 
 .\[\&_td\]\:border-b td{
@@ -5064,4 +5091,3 @@ html {
 .\[\&_ul\]\:pl-10 ul{
   padding-left: 2.5rem;
 }
-
