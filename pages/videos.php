@@ -151,8 +151,8 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
             $latestCancerShortVideos = array_slice($filteredlatestShortVideos, 0, 4);
             foreach ($latestCancerShortVideos as $video) {
 
-                if ($video['date'] === " ") {
-                    $title = $video['date'] - $video['title'];
+                if ($video['date']) {
+                    $title = $video['date'] . " - " . $video['title'];
                 } else {
                     $title = $video['title'];
                 }
