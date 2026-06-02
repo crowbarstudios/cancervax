@@ -3,12 +3,11 @@ RewriteEngine On
 # Set the base directory
 # RewriteBase /newhydrogen/
 
-# RewriteCond %{REQUEST_URI} !^/single-news\.php$
+# Disable directory browsing (prevents "Index of /videos" when a folder exists on disk)
+Options -Indexes
 
-# Route all requests to index.php
-
+# Route all requests to index.php (only skip rewrite for real files, not directories)
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php [QSA,L]
 
 

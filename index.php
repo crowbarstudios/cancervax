@@ -10,8 +10,8 @@ $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
 $requestUriPath = parse_url($requestUri, PHP_URL_PATH);
 $requestUriPath = $requestUriPath !== null ? $requestUriPath : '/';
 
-$basePath = (strpos($host, 'localhost') !== false || $host === '127.0.0.1') ? '/cancervax' : '';
-$baseUrl = $basePath; // For building links in pages (e.g. /team or /cancervax/team)
+$basePath = '';
+$baseUrl = $basePath;
 $path = trim(str_replace($basePath, '', $requestUriPath), '/');
 $page = $path === '' ? 'home' : $path;
 
@@ -22,9 +22,7 @@ $isHttps = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
 $protocol = $isHttps ? 'https' : 'http';
 $current_url = $protocol . '://' . $host;
 
-$full_url = (strpos($host, 'localhost') !== false || $host === '127.0.0.1')
-    ? $current_url . '/cancervax/'
-    : $current_url . '/';
+$full_url = $current_url . '/';
 
 
 include __DIR__ . '/includes/header.php';
