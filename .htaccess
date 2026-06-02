@@ -1,13 +1,29 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^(www\.)?cancervax\.com [NC]
+RewriteRule ^(.*)$ https://cancervax.com/$1 [L,R=301]
+</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?cancervax\.com [NC]
+RewriteRule .* - [E=UPGRADE]
+    <IfModule mod_headers.c>
+        Header always set Content-Security-Policy "upgrade-insecure-requests;" env=UPGRADE
+    </IfModule>
+</IfModule>
+
 RewriteEngine On
 
 # Set the base directory
 # RewriteBase /newhydrogen/
 
-# Disable directory browsing (prevents "Index of /videos" when a folder exists on disk)
-Options -Indexes
+# RewriteCond %{REQUEST_URI} !^/single-news\.php$
 
-# Route all requests to index.php (only skip rewrite for real files, not directories)
+# Route all requests to index.php
+
 RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php [QSA,L]
 
 
