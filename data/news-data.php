@@ -3,6 +3,37 @@
 
 $news = [
     [
+        'id' => "49",
+        'title' => "CancerVax Successfully Demonstrates Full Nanoparticle Delivery in Mouse Study",
+        'date' => "June 15, 2026",
+        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that \"tricks\" the body's immune system into fighting cancer, today announced that the first ever biodistribution study of its complete novel lipid nanoparticle (\"LNP\") in mice was successful",
+        'description' => [
+
+        ["<h3>First biodistribution study of the Company&#39;s complete cancer targeting nanoparticle avoided many healthy organs</h3>"],
+        ["<p>Lehi, Utah, June 15, 2026 &ndash; CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that &ldquo;tricks&rdquo; the body&rsquo;s immune system into fighting cancer, today announced that the first ever biodistribution study of its complete novel lipid nanoparticle (&ldquo;LNP&rdquo;) in mice was successful. </p>"],
+        ["<p>The CancerVax platform is designed to harness the body&rsquo;s existing immunity to detect, mark, and kill cancer cells with precision. At the core of the platform are customizable nanoparticles that use a novel two-step precision cancer targeting mechanism.</p>"],
+        ["<ol class=\"list-[revert] pl-12 [&_li]:pl-3\">
+            <li><p><strong>Detection:</strong> The nanoparticles first bind to surface proteins highly associated with the target cancer cells (&ldquo;Marker1&rdquo;).</p></li>
+            <li><p><strong>Activation:</strong> Once attached preferentially to the cancer cells via Marker1, the nanoparticles release proprietary &ldquo;Smart mRNA&rdquo; payloads that are activated in cancer cells that carry specific genetic signatures (&ldquo;Marker2&rdquo;) but remain deactivated in healthy cells. These Smart mRNAs instruct the cancer cells to produce proteins associated with well-immunized diseases like measles. This effectively &ldquo;tricks&rdquo; the immune system into killing cancer cells as if they were common diseases.</p></li>
+        </ol>"],
+        ["<p>Most conventional LNP therapies get trapped in the liver and cause liver toxicity. On March 31, 2026, the Company reported the successful biodistribution of a Marker1-LNP, which significantly reduced liver accumulation and suggests systemic circulation to other parts of the body. </p>"],
+        ["<p>This recent biodistribution study relates to the complete, first of a kind, Marker1+Marker2 LNP designed to precisely seek out cancer cells and avoid healthy cells. The specific goal of this study was to prove healthy cell de-targeting. </p>"],
+        ["<p>Based on these results, the study was a resounding success:</p>"],
+        ["<ul class=\"list-[revert] pl-12 [&_li]:pl-3\">
+            <li><p>Marker1 showed signs of directing LNPs into specific cells with matching Marker1 surface proteins and delivered the Smart mRNA payload.</p></li>
+            <li><p>Once inside healthy cells, Marker2 was very effective in deactivating the Smart mRNA.</p></li>
+            <li><p>Marker1+Marker2 LNPs showed significantly lower liver stress markers (ALT/AST and total bilirubin) than conventional LNPs, consistent with the high cell selectivity of the construct.</p></li>
+        </ul>"],
+        ["<img src=\"./assets/images/news/id49/image1.png\" alt=\"Biodistribution study results\" class=\"my-4 mx-auto w-full md:w-4/5\">"],
+        ["<p>&ldquo;We have completed our technology development phase and are fully underway with our preclinical studies,&rdquo; said Dr. George Katibah, Chief Scientific Officer. &ldquo;This early win continues to prove that we&rsquo;re on the right track. These results are compelling because they showed where our LNPs went and that they didn&rsquo;t activate where they&rsquo;re not supposed to. The ALT/AST liver stress signals were striking because our Marker1+Marker2 LNPs have such high cell selectivity that they cause significantly lower liver stress than conventional LNPs. By successfully de-targeting healthy cells and avoiding healthy organs, we now have a clear picture of our therapeutic window &mdash; the dose range where we expect to achieve robust immune activation without triggering off-target liver burden. That gives us a very confident foundation as we advance toward efficacy studies.&rdquo;</p>"],
+        ["<p>Dr. Adam Grant, Principal Scientist, commented, &ldquo;This milestone is the result of nearly two years of work. When we first envisioned a Marker1+Marker2 cancer-targeting nanoparticle, we had only computational data to guide us. But now, with lab data in hand, it&rsquo;s exciting to see how successful Marker1+Marker2 LNPs are at de-targeting numerous off-target healthy tissues while intentionally maintaining spleen expression. The spleen is a key healthy organ we engage on purpose, because that is where the immune response is primed. Spleen uptake should maximize vaccine efficacy and strengthen the immune response. Seeing strong spleen signal and low healthy tissue signal was very satisfying. Through extensive effort, iteration, and teamwork, we have now validated a big part of our thesis in animals. Our novel particle is performing as intended, bringing us one step closer to a precise, universal cancer treatment platform.&rdquo;</p>"],
+        ["<p>To learn more about the CancerVax platform, please watch the Short Explainer Video at <a href=\"/explainer\" rel=\"noopener noreferrer\">https://cancervax.com/explainer</a> </p>"],
+
+        ],
+        'category' => "pressrelease",
+        'biosolar' => false
+    ],
+    [
         'id' => "48",
         'title' => "CancerVax to Target Colorectal Cancer Following Recent Biodistribution Breakthroughs",
         'date' => "April 16, 2026",

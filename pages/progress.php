@@ -171,7 +171,7 @@
 <section>
     <div class="container py-28">
         <div class="bg-custom-aqua-100 px-8 py-9 rounded-[42px]">
-            <h5 class="text-2xl font-bold mb-8">March 31, 2026 – Breakthrough Mouse Study Showed Reduced LNP Liver Accumulation  </h5>
+            <h5 class="text-2xl font-bold mb-8">March 31, 2026 – Breakthrough Mouse Study Showed Reduced LNP Liver Accumulation</h5>
             <div class="bg-white p-8 grid grid-cols-1 lg:grid-cols-12 gap-[52px]">
                 <div class="lg:col-span-6 flex justify-center items-center xl:px-3">
                     <img src="./assets/images/breakthrough-mouse-1.png" alt="lipid-nanoparticle">
@@ -190,6 +190,34 @@ Many LNP therapies fail in clinical trials due to liver accumulation and result
                 <div class="lg:col-span-6"></div>
                 <div class="lg:col-span-6 flex justify-center">
                     <a href="single-news.php?id=47" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container pb-28">
+        <div class="bg-custom-aqua-100 px-8 py-9 rounded-[42px]">
+            <h5 class="text-2xl font-bold mb-8">June 15, 2026 – Successful Biodistribution Study of Complete Nanoparticle</h5>
+            <div class="bg-white p-8 grid grid-cols-1 lg:grid-cols-12 gap-[52px]">
+                <div class="lg:col-span-6 flex justify-center items-center xl:px-3">
+                    <img src="./assets/images/progress-june2026/image1.png" alt="Complete nanoparticle biodistribution study results">
+                </div>
+                <div class="lg:col-span-6 lg:pt-6 px-3 xl:pr-[50px]">
+                    <ul class="list-disc list-outside [&>li]:text-black [&>li]:font-normal [&>li]:text-xl [&>li]:leading-8">
+                        <li class="mb-5">First biodistribution study of the Company's complete cancer targeting nanoparticle avoided many healthy organs.</li>
+                        <li class="mb-5">Marker1 showed signs of directing LNPs into specific cells with matching Marker1 surface proteins and delivered the Smart mRNA payload.</li>
+                        <li class="mb-5">Once inside healthy cells, Marker2 was very effective in deactivating the Smart mRNA.</li>
+                        <li class="mb-5">Marker1+Marker2 LNPs showed significantly lower liver stress markers (ALT/AST and total bilirubin) than conventional LNPs, consistent with the high cell selectivity of the construct.</li>
+                        <li><strong>First of a kind, Marker1+Marker2 nanoparticle worked as expected!</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
+                <div class="lg:col-span-6"></div>
+                <div class="lg:col-span-6 flex justify-center">
+                    <a href="single-news.php?id=49" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
                 </div>
             </div>
         </div>
