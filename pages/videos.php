@@ -62,20 +62,56 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-6">
             <div class="mb-4">
-                <a href="<?php echo $baseUrl ?? ''; ?>/webinar-feb-25-2025" class="relative">
-                    <div class="h-auto">
-                        <img src="https://vumbnail.com/1074009289.jpg" alt="Thumbnail">
-                    </div>
-                    <i class="far fa-play-circle  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
-                </a>
-            </div>
-            <div class="mb-4">
-                <a href="<?php echo $baseUrl ?? ''; ?>/webinar-may-31-2025" class="relative">
-                    <div class="h-auto">
-                        <img src="https://vumbnail.com/1088764643/6170b7e696.jpg" alt="Thumbnail">
+                <div class="relative">
+                    <div class="relative h-[225px]">
+                        <img src="https://img.youtube.com/vi/QMlV134WoE8/maxresdefault.jpg" alt="CancerVax Webinar June 18, 2026" class="w-full h-full object-cover">
                     </div>
                     <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
-                </a>
+                    <a href="https://www.youtube.com/watch?v=QMlV134WoE8" class="popup-youtube absolute inset-0 z-10"></a>
+                </div>
+                <p class="text-lg font-bold mt-3 text-black">CancerVax Webinar June 18, 2026</p>
+            </div>
+            <div class="mb-4">
+                <div class="relative">
+                    <div class="relative h-[225px]">
+                        <img src="https://img.youtube.com/vi/UBFD7bfsCc0/maxresdefault.jpg" alt="CancerVax Webinar April 23, 2026" class="w-full h-full object-cover">
+                    </div>
+                    <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
+                    <a href="https://www.youtube.com/watch?v=UBFD7bfsCc0" class="popup-youtube absolute inset-0 z-10"></a>
+                </div>
+                <p class="text-lg font-bold mt-3 text-black">CancerVax Webinar April 23, 2026</p>
+            </div>
+            <div class="mb-4">
+                <div class="relative">
+                    <div class="relative h-[225px]">
+                        <img src="https://img.youtube.com/vi/0yKU2auecv4/maxresdefault.jpg" alt="CancerVax Webinar April 9, 2026" class="w-full h-full object-cover">
+                    </div>
+                    <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
+                    <a href="https://www.youtube.com/watch?v=0yKU2auecv4" class="popup-youtube absolute inset-0 z-10"></a>
+                </div>
+                <p class="text-lg font-bold mt-3 text-black">CancerVax Webinar April 9, 2026</p>
+            </div>
+            <div class="mb-4">
+                <div class="relative">
+                    <div class="relative h-[225px]">
+                        <img src="https://vumbnail.com/1088764643/6170b7e696.jpg" alt="May 31, 2025 Webinar" class="w-full h-full object-cover">
+                    </div>
+                    <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
+                    <a href="<?php echo $baseUrl ?? ''; ?>/webinar-may-31-2025" class="absolute inset-0 z-10"></a>
+                </div>
+                <p class="text-lg font-bold mt-3 text-black">May 31, 2025 – Successfully Made Cell Targeting LNP</p>
+            </div>
+            <div class="mb-4 md:col-span-2 lg:col-span-1 xl:col-span-2 md:flex md:justify-center lg:block xl:flex xl:justify-center">
+                <div class="w-full md:w-1/2 lg:w-full xl:w-1/2">
+                    <div class="relative">
+                        <div class="relative h-[225px]">
+                            <img src="https://vumbnail.com/1074009289.jpg" alt="February 25, 2025 Webinar" class="w-full h-full object-cover">
+                        </div>
+                        <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
+                        <a href="<?php echo $baseUrl ?? ''; ?>/webinar-feb-25-2025" class="absolute inset-0 z-10"></a>
+                    </div>
+                    <p class="text-lg font-bold mt-3 text-black">February 25, 2025 – Smart mRNA Works!</p>
+                </div>
             </div>
         </div>
     </div>
@@ -151,8 +187,8 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
             $latestCancerShortVideos = array_slice($filteredlatestShortVideos, 0, 4);
             foreach ($latestCancerShortVideos as $video) {
 
-                if ($video['date']) {
-                    $title = $video['date'] . " - " . $video['title'];
+                if ($video['date'] === " ") {
+                    $title = $video['date'] - $video['title'];
                 } else {
                     $title = $video['title'];
                 }
