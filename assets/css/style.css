@@ -3721,11 +3721,6 @@ html {
     line-height: 2.25rem;
   }
 
-  .sm\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .sm\:text-5xl{
     font-size: 3rem;
     line-height: 1;
@@ -3883,6 +3878,10 @@ html {
     display: block;
   }
 
+  .md\:flex{
+    display: flex;
+  }
+
   .md\:hidden{
     display: none;
   }
@@ -3950,6 +3949,10 @@ html {
 
   .md\:items-stretch{
     align-items: stretch;
+  }
+
+  .md\:justify-center{
+    justify-content: center;
   }
 
   .md\:justify-between{
@@ -4309,6 +4312,10 @@ html {
     grid-column: span 1 / span 1;
   }
 
+  .xl\:col-span-2{
+    grid-column: span 2 / span 2;
+  }
+
   .xl\:col-span-5{
     grid-column: span 5 / span 5;
   }
@@ -4321,12 +4328,20 @@ html {
     display: block;
   }
 
+  .xl\:flex{
+    display: flex;
+  }
+
   .xl\:hidden{
     display: none;
   }
 
   .xl\:h-\[394px\]{
     height: 394px;
+  }
+
+  .xl\:w-1\/2{
+    width: 50%;
   }
 
   .xl\:w-1\/4{
@@ -4371,6 +4386,10 @@ html {
 
   .xl\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .xl\:justify-center{
+    justify-content: center;
   }
 
   .xl\:px-3{
@@ -4500,11 +4519,6 @@ html {
 .\[\&\>a\]\:text-black>a{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
-}
-
-.\[\&\>a\]\:active\:text-custom-green-400:active>a{
-  --tw-text-opacity: 1;
-  color: rgb(11 224 46 / var(--tw-text-opacity, 1));
 }
 
 .\[\&\>a\]\:active\:text-custom-teal-300:active>a{
