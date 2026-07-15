@@ -3,6 +3,26 @@
 
 $news = [
     [
+        'id' => "50",
+        'title' => "CancerVax Develops Novel Smart mRNA to Harness Pre-Existing Immunity in 99% of World Population",
+        'date' => "July 14, 2026",
+        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that \"tricks\" the body's immune system into fighting cancer, today announced that it has successfully developed a single Polyepitope Smart mRNA that can disguise cancer cells as multiple viral infections",
+        'description' => [
+
+        ["<h3>Company completes design and in-vitro validation of a single Smart mRNA that disguises cancer as multiple viral infections simultaneously to activate pre-existing T-cell immunity</h3>"],
+        ["<p>Lehi, Utah, July 14, 2026 &ndash; CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that &ldquo;tricks&rdquo; the body&rsquo;s immune system into fighting cancer, today announced that it has successfully developed a single Polyepitope Smart mRNA that can disguise cancer cells as multiple viral infections.</p>"],
+        ["<p>The CancerVax platform is designed to harness the body&rsquo;s existing immunity to detect, mark, and kill cancer cells with precision. At the core of the platform is a Smart mRNA that activates selectively in cancer cells. When activated, this Smart mRNA instructs cancer cells to produce proteins associated with viruses that are highly prevalent in the human population. This effectively disguises cancer cells as familiar viral infections and &ldquo;tricks&rdquo; the immune system into recognizing and killing them.</p>"],
+        ["<p>&ldquo;Our earlier work focused on individual viral epitopes, such as measles,&rdquo; explained Dr. George Katibah, Chief Scientific Officer. &ldquo;With our Polyepitope Smart mRNA design, we have expanded that concept by encoding multiple viral epitopes with broad population immunity, including measles, influenza, CMV and others, into a single mRNA construct. This approach is designed to increase the probability that a patient&rsquo;s existing T-cell immunity will recognize at least one of these viral signals and direct an immune response against the cancer cell. Our recent in vitro results provide encouraging validation of this strategy and represent an important step toward a broadly applicable cancer immunotherapy platform.&rdquo;</p>"],
+        ["<p>Dr. Adam Grant, Principal Scientist, added, &ldquo;Using large-scale immune epitope datasets and AI-assisted analysis, we identified and combined the most viable viral epitopes for our design to maximize the broadest population coverage. With every epitope we add, we increase the likelihood of activating existing T-cells. However, given the physical size constraints of practical mRNA design, we had to be selective. Using computational analysis, we designed a Version 1 Polyepitope Smart mRNA that provided a global population coverage of 96.26%. Since then, we&rsquo;ve expanded our dataset and generated Version 2, which has a population coverage of 99.50%! This is truly a one of a kind mRNA design and we believe this broad and universal approach will be the winner we take to the clinic.&rdquo;</p>"],
+        ["<p>The Immune Epitope Database (&ldquo;IEDB&rdquo;) population coverage algorithm was used to generate the following analysis of V1 and V2 Polyepitope Smart mRNA designs. IEDB, funded by the National Institute of Allergy and Infectious Diseases (NIAID), is the gold standard repository for experimentally validated immune epitope data.</p>"],
+        ["<img src=\"./assets/images/news/id50/image1.png\" alt=\"IEDB population coverage analysis of V1 and V2 Polyepitope Smart mRNA designs\" class=\"my-4 mx-auto w-full md:w-4/5\">"],
+        ["<p>To learn more about the CancerVax platform, please watch the Short Explainer Video at <a href=\"/explainer\" rel=\"noopener noreferrer\">https://cancervax.com/explainer</a></p>"]
+
+        ],
+        'category' => "pressrelease",
+        'biosolar' => false
+    ],
+    [
         'id' => "49",
         'title' => "CancerVax Successfully Demonstrates Full Nanoparticle Delivery in Mouse Study",
         'date' => "June 15, 2026",
