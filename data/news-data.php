@@ -3,10 +3,52 @@
 
 $news = [
     [
+        'id' => "51",
+        'title' => "CancerVax Named a Top Preclinical Biotech Company of 2026 by Life Sciences Review",
+        'date' => "July 28, 2026",
+        'excerpt' => "Independent industry recognition highlights the Company&rsquo;s revolutionary immunotherapy platform and growing momentum in precision cancer treatment.",
+        'category' => "pressrelease",
+        'biosolar' => false,
+        'description' => [
+
+        ["<h3>Independent industry recognition highlights the Company&rsquo;s revolutionary immunotherapy platform and growing momentum in precision cancer treatment</h3>"],
+
+        ["<p>Lehi, Utah, July 28, 2026 &ndash; CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that &ldquo;tricks&rdquo; the body&rsquo;s immune system into fighting cancer, today announced it has been recognized by Life Sciences Review as one of its Top Preclinical Biotech Companies of 2026.</p>"],
+
+        ["<p>As part of the recognition, Life Sciences Review featured CancerVax in its annual showcase highlighting innovative biotechnology companies advancing the future of medicine. The publication also published a second in-depth editorial examining CancerVax&rsquo;s scientific approach and the potential impact of its novel immunotherapy platform.</p>"],
+
+        ["<img src=\"./assets/images/news/id51/image1.jpg\" class=\"mx-auto my-4\" alt=\"Top Pre-Clinical Biotech Company 2026 - CancerVax\">"],
+
+        ["<p>&ldquo;We are honored that Life Sciences Review has recognized the potential of our revolutionary approach,&rdquo; said Byron Elton, Chief Executive Officer of CancerVax. &ldquo;This recognition reflects the tremendous work of our scientific team and advisors who continue to push the boundaries of what may be possible in cancer immunotherapy.&rdquo;</p>"],
+
+        ["<p>Unlike many existing immunotherapies that try to teach the immune system new immunities against cancer, CancerVax is developing a novel platform designed to &ldquo;trick&rdquo; the immune system into attacking cancer. It does that by disguising cancer as common diseases and leveraging pre-existing antiviral immunities in most people. The Company&rsquo;s therapy is intended to selectively activate within cancer cells, causing those cells to display viral proteins that the immune system has previously learned to recognize through natural infections, vaccination, or exposure.</p>"],
+
+        ["<p>Mr. Elton continued, &ldquo;By making cancer cells look like well-immunized common diseases, such as measles or chickenpox, we believe the body&rsquo;s natural immune system can kill cancer with precision and strength.&rdquo;</p>"],
+
+        ["<p>Recent milestones announced by the Company include:</p>"],
+
+        ["<ul class=\"list-disc pl-8 [&_li]:pl-2 space-y-2\">
+            <li><p>Development of a Polyepitope Smart mRNA capable of activating pre-existing anti-viral immunity found across approximately 99% of the world&rsquo;s population.</p></li>
+            <li><p>Successful in vitro validation demonstrating selective activation of the Smart mRNA in cancer cells.</p></li>
+            <li><p>Successful preclinical biodistribution studies demonstrating systemic circulation of the Company&rsquo;s targeted lipid nanoparticle platform.</p></li>
+            <li><p>Continued advancement toward IND-enabling studies for multiple solid tumor indications.</p></li>
+        </ul>"],
+
+        ["<p>The accompanying Life Sciences Review feature article explores CancerVax&rsquo;s vision of expanding the reach of immunotherapy through a platform designed to detect cancer, selectively activate within targeted cancer cells, and harness existing immune memory to help eliminate diseased cells.</p>"],
+
+        ["<p>Mr. Elton concluded, &ldquo;CancerVax has the potential to fundamentally change how cancer is treated, and we are grateful to see that vision recognized by an independent publication covering innovation across the life sciences industry.&rdquo;</p>"],
+
+        ["<p>The Company&rsquo;s profile and feature article are available here through Life Sciences Review.</p>"],
+
+        ["<p>To learn more about the CancerVax platform, please watch the Short Explainer Video at <a href=\"/explainer\" rel=\"noopener noreferrer\">https://cancervax.com/explainer</a></p>"]
+
+        ]
+    ],
+    [
         'id' => "50",
         'title' => "CancerVax Develops Novel Smart mRNA to Harness Pre-Existing Immunity in 99% of World Population",
         'date' => "July 14, 2026",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that \"tricks\" the body's immune system into fighting cancer, today announced that it has successfully developed a single Polyepitope Smart mRNA that can disguise cancer cells as multiple viral infections",
+        'excerpt' => "Company completes design and in-vitro validation of a single Smart mRNA that disguises cancer as multiple viral infections simultaneously to activate pre-existing T-cell immunity",
         'description' => [
 
         ["<h3>Company completes design and in-vitro validation of a single Smart mRNA that disguises cancer as multiple viral infections simultaneously to activate pre-existing T-cell immunity</h3>"],
@@ -26,7 +68,7 @@ $news = [
         'id' => "49",
         'title' => "CancerVax Successfully Demonstrates Full Nanoparticle Delivery in Mouse Study",
         'date' => "June 15, 2026",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that \"tricks\" the body's immune system into fighting cancer, today announced that the first ever biodistribution study of its complete novel lipid nanoparticle (\"LNP\") in mice was successful",
+        'excerpt' => "First biodistribution study of the Company&#39;s complete cancer targeting nanoparticle avoided many healthy organs",
         'description' => [
 
         ["<h3>First biodistribution study of the Company&#39;s complete cancer targeting nanoparticle avoided many healthy organs</h3>"],
@@ -57,7 +99,7 @@ $news = [
         'id' => "48",
         'title' => "CancerVax to Target Colorectal Cancer Following Recent Biodistribution Breakthroughs",
         'date' => "April 16, 2026",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced the expansion of its research program to include colorectal cancer as an additional target indication",
+        'excerpt' => "New findings support hypothesis that current nanoparticle designed for pancreatic and liver cancers could also work for colorectal cancer",
         'description' => [
             
         ["<h3>New findings support hypothesis that current nanoparticle designed for pancreatic and liver cancers could also work for colorectal cancer</h3>"],
@@ -87,7 +129,7 @@ $news = [
         'id' => "47",
         'title' => "CancerVax Reports Successful Initial Mouse Study with Breakthrough Results",
         'date' => "March 31, 2026",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that the initial biodistribution study of its targeted lipid nanoparticle (“LNP”) in mice was successful",
+        'excerpt' => "First biodistribution study of the Company\'s novel targeted lipid nanoparticle achieved systemic circulation with the potential to target many types of cancer",
         'description' => [
             
         ["<h3>First biodistribution study of the Company’s novel targeted lipid nanoparticle achieved systemic circulation with the potential to target many types of cancer 
@@ -132,7 +174,7 @@ $news = [
         'id' => "46",
         'title' => "Biotech Veteran and Virologist Joins CancerVax as Senior Scientific Advisor",
         'date' => "January 27, 2026",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that George Kemble, PhD will serve as a Senior Scientific Advisor",
+        'excerpt' => "Dr. George Kemble, former AstraZeneca executive, to advise the Company on immunological and viral strategies for its novel cancer treatment platform",
         'slug' => "biotech-veteran-and-virologist-joins-cancervax-as-senior-scientific-advisor.php",
         'description' => [
             ["<h3>Dr. George Kemble, former AstraZeneca executive, to advise the Company on immunological and viral strategies for its novel cancer treatment platform</h3>"],
@@ -151,7 +193,7 @@ $news = [
         'id' => "45",
         'title' => "World-renowned Immunologist and Distinguished Scientist Joins CancerVax as Senior Scientific Advisor",
         'date' => "January 7, 2026",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that Mark M. Davis, PhD will serve as the Company’s Senior Scientific Advisor",
+        'excerpt' => "Dr. Mark Davis, discoverer of the first T-cell receptor genes and Stanford Professor, to advise the Company on immunological strategies for its novel cancer treatment platform",
         'slug' => "world-renowned-immunologist-and-distinguished-scientist-joins-cancervax-as-senior-scientific-advisor.php",
         'description' => [
 
@@ -173,7 +215,7 @@ $news = [
         'id' => "44",
         'title' => "CancerVax Reviews Major Scientific and Strategic Milestones Achieved in 2025",
         'date' => "December 23, 2025",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough Universal Cancer Treatment Platform that uses the body’s immune system to treat cancer, today released a year-end summary highlighting significant advancements made throughout 2025. These achievements mark a transformative period in the Company’s development as it accelerates its mission to create safe, targeted, and broadly adaptable cancer treatments",
+        'excerpt' => "Year-End Recap Highlights Breakthrough Discoveries, Platform Advancements, and Strengthened Scientific Leadership",
         'description' => [
             
         ["<h3>Year-End Recap Highlights Breakthrough Discoveries, Platform Advancements, and Strengthened Scientific Leadership</h3>"],
@@ -201,7 +243,7 @@ $news = [
         'id' => "43",
         'title' => "CancerVax Reports Nanoparticle Component Success in Preparation for Animal Studies",
         'date' => "December 17, 2025",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that recent in-vitro studies have confirmed that two key components of the Company’s novel technology performed exceptionally well. The next step is to put them together into a complete therapeutic lipid nanoparticle (“LNP”) for animal testing",
+        'excerpt' => "In-vitro studies confirmed strong uptake of cell-targeting nanoparticles by cancer cells and strong activation of Smart mRNAs inside cancer cells",
         'description' => [
             
         ["<h3>In-vitro studies confirmed strong uptake of cell-targeting nanoparticles by cancer cells and strong activation of Smart mRNAs inside cancer cells</h3>"],
@@ -229,7 +271,7 @@ $news = [
         'id' => "42",
         'title' => "CancerVax Precision Therapy Successfully Avoids Healthy Liver Cells",
         'date' => "October 14, 2025",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that recent in-vitro studies have confirmed that the Company’s technology could significantly reduce liver toxicity, a major problem with other cancer drugs",
+        'excerpt' => "In-vitro studies confirm that the Company\'s novel Smart mRNA could drastically reduce off-target liver toxicity, a major issue affecting many cancer drugs",
         'description' => [
             
         ["<h3>In-vitro studies confirm that the Company’s novel Smart mRNA could drastically reduce off-target liver toxicity, a major issue affecting many cancer drugs</h3>"],
@@ -255,7 +297,7 @@ $news = [
         'id' => "41",
         'title' => "Legendary Scientist and Biotech Veteran Joins CancerVax as Strategic Advisor",
         'date' => "September 3, 2025",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that Gordon Ringold, PhD, has joined the Company and will serve as Strategic Advisor",
+        'excerpt' => "Dr. Gordon Ringold to advise on various strategies related to the development of the Company\'s novel cancer treatment platform",
         'description' => [
             
         ["<h3>Dr. Gordon Ringold to advise on various strategies related to the development of the Company’s novel cancer treatment platform</h3>"],
@@ -275,7 +317,7 @@ $news = [
         'id' => "40",
         'title' => "CancerVax Achieves Major Milestones and Files Foundational Patent Application",
         'date' => "August 26, 2025",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that uses the body’s immune system to treat cancer, today announced that it recently filed a foundational PCT patent application to protect its novel innovations",
+        'excerpt' => "Recent independent analyses confirmed that the Company has successfully created a ligand conjugated nanoparticle that can target specific biomarkers on the surface of cancer cells",
         'description' => [
             
         ["<h3>Recent independent analyses confirmed that the Company has successfully created a ligand conjugated nanoparticle that can target specific biomarkers on the surface of cancer cells</h3>"],
@@ -297,7 +339,7 @@ $news = [
         'id' => "39",
         'title' => "Scientists Discuss the Recent CancerVax Breakthrough",
         'date' => "August 19, 2025",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform designed to use the body’s immune system to treat cancer, today announced the release of a video presentation featuring its scientific team discussing the recent breakthrough",
+        'excerpt' => "The Company\'s scientific team describes how they successfully disguised cancer cells and tricked immune cells into attacking them and reveals the next phase of their development plan",
         'description' => [
             
         ["<h3>The Company's scientific team describes how they successfully disguised cancer cells and tricked immune cells into attacking them and reveals the next phase of their development plan</h3>"],
@@ -343,7 +385,7 @@ $news = [
         'id' => "38",
         'title' => "CancerVax Successfully Disguises Cancer Cells and Tricks Immune Cells into Attacking Them",
         'date' => "August 5, 2025",
-        'excerpt' => "CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform designed to use the body’s immune system to treat cancer, today announced that it has proven a major foundational hypothesis",
+        'excerpt' => "Recent lab results proved the Company\'s hypothesis that disguising cancer cells to look like common infectious diseases can trick immune cells into attacking the malignant cells",
         'description' => [
             
         ["<h3>Recent lab results proved the Company’s hypothesis that disguising cancer cells to look like common infectious diseases can trick immune cells into attacking the malignant cells</h3>"],
