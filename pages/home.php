@@ -95,7 +95,7 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
                     <h2 class="bg-[#ff0000] text-white p-2 mx-auto max-w-[300px] text-4xl font-semibold mb-4 uppercase lg:hidden">Breaking News</h2>
                     <div class="mb-9 border-[10px] sm:border-[12px] border-custom-teal-100 rounded-xl relative max-w-full lg:hidden">
                         <a href="single-news.php?id=51">
-                            <img src="./assets/images/Rectangle1.png" class="w-full" alt="news-thumbnail">
+                            <img src="./assets/images/zee-zee.png" class="w-full" alt="news-thumbnail">
                         </a>
                     </div>
                     <h2 class="bg-[#ff0000] text-white py-2 px-3 text-xl sm:text-2xl text-center font-semibold mb-4 lg:hidden">Scientific Team Discusses the Breakthrough</h2>
@@ -147,7 +147,7 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
                     <h2 class="bg-[#ff0000] text-white p-2 mx-auto max-w-[300px] text-4xl font-semibold mb-4 hidden uppercase lg:block">Breaking News</h2>
                     <div class="mb-9 mx-auto border-[12px] border-custom-teal-100 rounded-xl relative max-w-[500px] hidden lg:block">
                         <a href="single-news.php?id=51">
-                            <img src="./assets/images/Rectangle1.png" class="w-full" alt="news-thumbnail">
+                            <img src="./assets/images/zee-zee.png" class="w-full" alt="news-thumbnail">
                         </a>
                     </div>
                     <h2 class="bg-[#ff0000] text-white py-2 px-3 text-2xl text-center font-semibold mb-4 hidden lg:block">Scientific Team Discusses the Breakthrough</h2>
