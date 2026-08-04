@@ -1423,12 +1423,12 @@ a:hover{
   width: 110px;
 }
 
-.w-\[133px\]{
-  width: 133px;
+.w-\[130px\]{
+  width: 130px;
 }
 
-.w-\[180px\]{
-  width: 180px;
+.w-\[133px\]{
+  width: 133px;
 }
 
 .w-\[200px\]{
@@ -1642,6 +1642,10 @@ a:hover{
 
 .flex-1{
   flex: 1 1 0%;
+}
+
+.flex-shrink-0{
+  flex-shrink: 0;
 }
 
 .shrink-0{
@@ -4382,8 +4386,8 @@ html {
     width: 25%;
   }
 
-  .xl\:w-\[210px\]{
-    width: 210px;
+  .xl\:w-\[150px\]{
+    width: 150px;
   }
 
   .xl\:w-\[224px\]{

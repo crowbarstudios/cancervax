@@ -31,14 +31,13 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
                 <h1 style="color: #295d6e" class="text-[33px] sm:text-[50px] xl:text-[64px] font-medium">A Revolutionary Way to Treat Cancer</h1>
             </div>
             <div class="pt-[50px] xl:pt-4 max-w-[530px] xl:max-w-[615px]">
-                <!-- Desktop badge: centered above The CancerVax Way -->
-                <div class="hidden md:flex justify-center mb-6">
+                <!-- Desktop badge + "The CancerVax Way" side by side, vertically centered -->
+                <div class="hidden md:flex items-center gap-4 mb-4">
                     <img src="./assets/images/cancervax-top-preclinical-biotech-2026.png"
                          alt="Top Pre-Clinical Biotech Company 2026"
-                         class="w-[180px] xl:w-[210px]">
+                         class="w-[130px] xl:w-[150px] flex-shrink-0">
+                    <p class="mt-0 text-black text-2xl xl:text-[32px] font-medium">The CancerVax Way</p>
                 </div>
-                <p class="hidden md:block mt-0 text-black text-2xl xl:text-[32px] font-medium mb-4">The CancerVax Way
-                </p>
                 <ul class="hidden md:block list-disc pl-[30px] max-w-[50%] lg:max-w-[81%] xl:max-w-[98%] space-y-2.5 [&>li]:text-black [&>li]:text-xl xl:[&>li]:text-2xl [&>li]:leading-tight">
                     <li>10 million people died last year because the body does not easily recognize and kill cancer cells.</li>
                     <li>However, the body is very good at killing diseases that it recognizes, such as measles.</li>
