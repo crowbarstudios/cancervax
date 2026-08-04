@@ -1419,12 +1419,8 @@ a:hover{
   width: 75%;
 }
 
-.w-\[110px\]{
-  width: 110px;
-}
-
-.w-\[130px\]{
-  width: 130px;
+.w-\[132px\]{
+  width: 132px;
 }
 
 .w-\[133px\]{
@@ -1433,6 +1429,10 @@ a:hover{
 
 .w-\[200px\]{
   width: 200px;
+}
+
+.w-\[272px\]{
+  width: 272px;
 }
 
 .w-\[300px\]{
@@ -1642,10 +1642,6 @@ a:hover{
 
 .flex-1{
   flex: 1 1 0%;
-}
-
-.flex-shrink-0{
-  flex-shrink: 0;
 }
 
 .shrink-0{
@@ -2446,11 +2442,6 @@ a:hover{
   padding-bottom: 2.25rem;
 }
 
-.py-\[100px\]{
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .py-\[15px\]{
   padding-top: 15px;
   padding-bottom: 15px;
@@ -2771,10 +2762,6 @@ a:hover{
 
 .text-\[18px\]{
   font-size: 18px;
-}
-
-.text-\[20px\]{
-  font-size: 20px;
 }
 
 .text-\[21px\]{
@@ -3257,10 +3244,6 @@ a:hover{
   text-shadow: 1px 0 6px rgb(0 0 0 / 0.3);
 }
 
-.\[text-shadow\:_1px_0_6px_rgba\(0\2c _0\2c _0\2c _\.3\)\]{
-  text-shadow: 1px 0 6px rgba(0, 0, 0, .3);
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -3578,8 +3561,8 @@ html {
     min-height: 700px;
   }
 
-  .sm\:w-\[200px\]{
-    width: 200px;
+  .sm\:w-\[240px\]{
+    width: 240px;
   }
 
   .sm\:w-fit{
@@ -4386,12 +4369,12 @@ html {
     width: 25%;
   }
 
-  .xl\:w-\[150px\]{
-    width: 150px;
-  }
-
   .xl\:w-\[224px\]{
     width: 224px;
+  }
+
+  .xl\:w-\[304px\]{
+    width: 304px;
   }
 
   .xl\:max-w-\[470px\]{
