@@ -21,7 +21,7 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
 </section> -->
 
 <section class="pt-11 md:pt-0">
-    <div class="bg-banner-mobile md:bg-banner bg-white bg-no-repeat bg-[top_center] bg-cover h-[245px] sm:h-[480px] md:h-[850px] banner-home-up relative">
+    <div class="bg-banner-mobile md:bg-banner bg-white bg-no-repeat bg-[top_center] bg-cover h-[245px] sm:h-[480px] md:h-[850px] xl:!h-auto xl:min-h-[900px] banner-home-up relative">
         <!-- Mobile badge overlay: shows only on mobile/tablet, positioned in hero image white space -->
         <img src="./assets/images/cancervax-top-preclinical-biotech-2026.png"
              alt="Top Pre-Clinical Biotech Company 2026"
