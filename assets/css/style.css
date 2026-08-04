@@ -968,6 +968,10 @@ a:hover{
   left: 50%;
 }
 
+.left-\[2\%\]{
+  left: 2%;
+}
+
 .right-0{
   right: 0px;
 }
@@ -982,6 +986,10 @@ a:hover{
 
 .top-\[160px\]{
   top: 160px;
+}
+
+.top-\[28\%\]{
+  top: 28%;
 }
 
 .top-\[300px\]{
@@ -1419,6 +1427,10 @@ a:hover{
   width: 133px;
 }
 
+.w-\[180px\]{
+  width: 180px;
+}
+
 .w-\[200px\]{
   width: 200px;
 }
@@ -1817,6 +1829,12 @@ a:hover{
   --tw-space-y-reverse: 0;
   margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(3.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .space-y-2\.5 > :not([hidden]) ~ :not([hidden]){
@@ -2560,6 +2578,10 @@ a:hover{
 
 .pl-6{
   padding-left: 1.5rem;
+}
+
+.pl-8{
+  padding-left: 2rem;
 }
 
 .pl-9{
@@ -3462,8 +3484,16 @@ html {
     position: sticky;
   }
 
+  .sm\:left-\[3\%\]{
+    left: 3%;
+  }
+
   .sm\:top-0{
     top: 0px;
+  }
+
+  .sm\:top-\[30\%\]{
+    top: 30%;
   }
 
   .sm\:col-span-5{
@@ -3542,6 +3572,10 @@ html {
 
   .sm\:min-h-\[700px\]{
     min-height: 700px;
+  }
+
+  .sm\:w-\[200px\]{
+    width: 200px;
   }
 
   .sm\:w-fit{
@@ -4348,6 +4382,10 @@ html {
     width: 25%;
   }
 
+  .xl\:w-\[210px\]{
+    width: 210px;
+  }
+
   .xl\:w-\[224px\]{
     width: 224px;
   }
@@ -4863,6 +4901,10 @@ html {
     font-size: 1.5rem;
     line-height: 2rem;
   }
+}
+
+.\[\&_li\]\:pl-2 li{
+  padding-left: 0.5rem;
 }
 
 .\[\&_li\]\:pl-3 li{
