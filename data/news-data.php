@@ -3,6 +3,45 @@
 
 $news = [
     [
+        'id' => "52",
+        'title' => "CancerVax Achieves Major Milestone in Activating Human Killer T-Cells Against Cancer",
+        'date' => "August 6, 2026",
+        'excerpt' => "In-vitro studies confirmed that the Company&rsquo;s revolutionary therapy successfully disguised liver cancer cells as virally infected cells and activated pre-existing human antiviral Killer T-cells",
+        'category' => "pressrelease",
+        'biosolar' => false,
+        'description' => [
+
+        ["<h3>In-vitro studies confirmed that the Company&rsquo;s revolutionary therapy successfully disguised liver cancer cells as virally infected cells and activated pre-existing human antiviral Killer T-cells</h3>"],
+
+        ["<p>Lehi, Utah, August 6, 2026 &ndash; CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that &ldquo;tricks&rdquo; the body&rsquo;s immune system into fighting cancer, today announced that it has successfully activated human antiviral memory CD8+ T-cells. Before T-cells can kill cancer cells, they must be first activated. The latest studies validated this important part of the platform.</p>"],
+
+        ["<p>The CancerVax platform is designed to harness the body&rsquo;s existing immunity to detect, mark, and kill cancer cells with precision. At the core of the platform is a Smart mRNA that selectively activates in cancer cells. When activated, this Smart mRNA instructs cancer cells to produce proteins associated with viruses that are highly prevalent in the human population. This effectively disguises cancer cells as familiar viral infections and &ldquo;tricks&rdquo; the immune system into recognizing and killing them.</p>"],
+
+        ["<p>On July 14, 2026, the Company announced that it developed a novel Polyepitope Smart mRNA that can disguise cancer as multiple viral infections. This takes a shot gun approach to immune activation and was confirmed through computational analysis that it can activate pre-existing viral immunity in 99% of the world population. This Polyepitope Smart mRNA was encapsulated into the Company&rsquo;s novel cell-targeting lipid nanoparticles (&ldquo;LNP&rdquo;) and tested against a known liver cancer cell line along with human Peripheral Blood Mononuclear Cells (&ldquo;PBMC&rdquo;).</p>"],
+
+        ["<p>PBMCs are white blood cells primarily comprising lymphocytes (T-cells, B-cells, and Natural Killer cells) and monocytes. A specific type of T-cells, memory CD8+ Killer T-cells, are created by the body after vaccination or natural infection to protect against reinfection. These T-cells circulate in the body from months to years after vaccination or infection. In the case of measles, memory T-cells are expected to persist for decades or even for life. The Polyepitope Smart mRNA was specifically designed to activate Killer CD8+ T-cells against common diseases such as measles, influenza, and more.</p>"],
+
+        ["<p>The study used an ELISpot assay, which counts individual T-cells releasing interferon-gamma, the signal a Killer T-cell sends when it recognizes its target. Human PBMCs were introduced in vitro to liver cancer cells treated with the full CancerVax therapeutic nanoparticles. The data below shows that CD8+ Killer T-cells were strongly activated in a statistically significant manner.</p>"],
+
+        ["<p>Dr. Adam Grant, Principal Scientist of CancerVax, commented, &ldquo;This is a watershed moment for CancerVax and our novel approach to cancer immunotherapy. I&rsquo;ll never forget seeing this data for the first time. These are human immune cells from real donors, not a mouse model, and they woke up to signals emanating from liver cancer cells that had been disguised to look like common diseases and are ready to attack. We took the experiment through multiple steps to make sure the results were what we hypothesized. We stripped out the CD4 T-cells and the response held. We stripped out the CD8+ T-cells and it didn&rsquo;t show activation. That tells us exactly which cells were doing the work. Our next experiments are designed to test how effectively these activated memory CD8+ T-cells kill cancer cells.&rdquo;</p>"],
+
+        ["<p>&ldquo;This study is an important validation of our platform&rsquo;s mechanism,&rdquo; said Dr. George Katibah, Chief Scientific Officer of CancerVax. &ldquo;By showing that our Polyepitope Smart mRNA can cause cancer cells to display familiar viral targets and activate pre-existing human antiviral CD8+ T-cells, we have demonstrated a key biological step in our strategy to redirect immune memory against cancer. Without knowing which specific immunity that the donor PBMCs have, our Polyepitope Smart mRNA made the cancer cells look like many diseases. All we need is one or more matches. These in-vitro findings confirmed that we had a strong epitope hit and support advancing the program into tumor-killing and additional preclinical studies.&rdquo;</p>"],
+
+        ["<p>To learn more about the CancerVax platform, please watch the Short Explainer Video at <a href=\"/explainer\" rel=\"noopener noreferrer\">https://cancervax.com/explainer</a></p>"],
+
+        ["<h3>About CancerVax</h3>"],
+
+        ["<p>CancerVax is a preclinical biotech company developing a revolutionary Universal Cancer Treatment platform that will be customizable, as an injection, to treat many types of cancer. Our novel approach DETECTS, MARKS, and KILLS only cancer cells. By making cancer cells look like well-immunized common diseases, such as measles or chickenpox, we intend to use the body&rsquo;s natural immune system to easily kill the cancer cells. We look forward to the day when treating cancer will be as simple as getting a shot &mdash; a better way to fight cancer. To learn more, please visit <a href=\"https://www.CancerVax.com\" target=\"_blank\" rel=\"noopener noreferrer\">www.CancerVax.com</a></p>"],
+
+        ["<h3>Forward-Looking Statements</h3>"],
+
+        ["<p>This press release may contain &ldquo;forward-looking statements&rdquo; within the meaning of the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995. Forward-looking statements are neither historical facts nor assurances of future performance. Instead, they are based only on our current beliefs, expectations, and assumptions regarding the future of our business, plans and strategies, projections, anticipated events and trends, the economy, and other future conditions. Because forward-looking statements relate to the future, they are subject to inherent uncertainties, risks, and changes in circumstances that are difficult to predict, many of which are outside our control. Our actual results and financial condition may differ materially from those in the forward-looking statements. Therefore, you should not rely on any of these forward-looking statements. Any forward-looking statement made by us in this release is based only on information currently available to us and speaks only as of the date it is made. We undertake no obligation to publicly update any forward-looking statement, whether written or oral, that may be made from time to time, whether as a result of new information, future developments, or otherwise.</p>"],
+
+        ["<p><strong>Press Contact:</strong><br>CancerVax, Inc.<br>Tel: (805) 356-1810<br><a href=\"mailto:communications@CancerVax.com\">communications@CancerVax.com</a></p>"]
+
+        ],
+    ],
+    [
         'id' => "51",
         'title' => "CancerVax Named a Top Preclinical Biotech Company of 2026 by Life Sciences Review",
         'date' => "July 28, 2026",
