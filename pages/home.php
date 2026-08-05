@@ -23,9 +23,11 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
 <section class="pt-11 md:pt-0">
     <div class="bg-banner-mobile md:bg-banner bg-white bg-no-repeat bg-[top_center] bg-cover h-[245px] sm:h-[480px] md:h-[850px] xl:!h-auto xl:min-h-[900px] banner-home-up relative">
         <!-- Mobile badge overlay: shows only on mobile/tablet, positioned in hero image white space -->
-        <img src="./assets/images/cancervax-top-preclinical-biotech-2026.png"
-             alt="Top Pre-Clinical Biotech Company 2026"
-             class="md:hidden absolute top-[28%] sm:top-[30%] left-[2%] sm:left-[3%] w-[132px] sm:w-[240px] z-10">
+        <a href="https://cvax-elderzninja.replit.app/single-news.php?id=51" class="md:hidden absolute top-[28%] sm:top-[30%] left-[2%] sm:left-[3%] w-[132px] sm:w-[240px] z-10">
+            <img src="./assets/images/cancervax-top-preclinical-biotech-2026-v2.png"
+                 alt="Top Pre-Clinical Biotech Company 2026"
+                 class="w-full">
+        </a>
         <div class="container">
             <div class="max-w-screen-sm text-center mx-auto sm:pt-14 -top-7 sm:top-0 relative">
                 <h1 style="color: #295d6e" class="text-[33px] sm:text-[50px] xl:text-[64px] font-medium">A Revolutionary Way to Treat Cancer</h1>
@@ -33,9 +35,11 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
             <div class="pt-[50px] xl:pt-4 max-w-[530px] xl:max-w-[615px]">
                 <!-- Desktop badge: centered above The CancerVax Way -->
                 <div class="hidden md:flex justify-start mb-3">
-                    <img src="./assets/images/cancervax-top-preclinical-biotech-2026.png"
-                         alt="Top Pre-Clinical Biotech Company 2026"
-                         class="w-[272px] xl:w-[304px]">
+                    <a href="https://cvax-elderzninja.replit.app/single-news.php?id=51">
+                        <img src="./assets/images/cancervax-top-preclinical-biotech-2026-v2.png"
+                             alt="Top Pre-Clinical Biotech Company 2026"
+                             class="w-[272px] xl:w-[304px]">
+                    </a>
                 </div>
                 <p class="hidden md:block mt-0 text-black text-2xl xl:text-[32px] font-medium mb-4">The CancerVax Way</p>
                 <ul class="hidden md:block list-disc pl-[30px] max-w-[50%] lg:max-w-[81%] xl:max-w-[98%] space-y-2.5 [&>li]:text-black [&>li]:text-xl xl:[&>li]:text-2xl [&>li]:leading-tight">
