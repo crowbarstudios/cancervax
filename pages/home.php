@@ -21,14 +21,27 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
 </section> -->
 
 <section class="pt-11 md:pt-0">
-    <div class="bg-banner-mobile md:bg-banner bg-white bg-no-repeat bg-[top_center] bg-cover h-[245px] sm:h-[480px] md:h-[850px] banner-home-up">
+    <div class="bg-banner-mobile md:bg-banner bg-white bg-no-repeat bg-[top_center] bg-cover h-[245px] sm:h-[480px] md:h-[850px] xl:!h-auto xl:min-h-[900px] banner-home-up relative">
+        <!-- Mobile badge overlay: shows only on mobile/tablet, positioned in hero image white space -->
+        <a href="https://cvax-elderzninja.replit.app/single-news.php?id=51" class="md:hidden absolute top-[28%] sm:top-[30%] left-[2%] sm:left-[3%] w-[132px] sm:w-[240px] z-10">
+            <img src="./assets/images/cancervax-top-preclinical-biotech-2026-v2.png"
+                 alt="Top Pre-Clinical Biotech Company 2026"
+                 class="w-full">
+        </a>
         <div class="container">
             <div class="max-w-screen-sm text-center mx-auto sm:pt-14 -top-7 sm:top-0 relative">
                 <h1 style="color: #295d6e" class="text-[33px] sm:text-[50px] xl:text-[64px] font-medium">A Revolutionary Way to Treat Cancer</h1>
             </div>
             <div class="pt-[50px] xl:pt-4 max-w-[530px] xl:max-w-[615px]">
-                <p class="hidden md:block mt-0 text-black text-2xl xl:text-[32px] font-medium mb-4">The CancerVax Way
-                </p>
+                <!-- Desktop badge: centered above The CancerVax Way -->
+                <div class="hidden md:flex justify-start mb-3">
+                    <a href="https://cvax-elderzninja.replit.app/single-news.php?id=51">
+                        <img src="./assets/images/cancervax-top-preclinical-biotech-2026-v2.png"
+                             alt="Top Pre-Clinical Biotech Company 2026"
+                             class="w-[272px] xl:w-[304px]">
+                    </a>
+                </div>
+                <p class="hidden md:block mt-0 text-black text-2xl xl:text-[32px] font-medium mb-4">The CancerVax Way</p>
                 <ul class="hidden md:block list-disc pl-[30px] max-w-[50%] lg:max-w-[81%] xl:max-w-[98%] space-y-2.5 [&>li]:text-black [&>li]:text-xl xl:[&>li]:text-2xl [&>li]:leading-tight">
                     <li>10 million people died last year because the body does not easily recognize and kill cancer cells.</li>
                     <li>However, the body is very good at killing diseases that it recognizes, such as measles.</li>
@@ -94,16 +107,14 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
                     </div> -->
                     <h2 class="bg-[#ff0000] text-white p-2 mx-auto max-w-[300px] text-4xl font-semibold mb-4 uppercase lg:hidden">Breaking News</h2>
                     <div class="mb-9 border-[10px] sm:border-[12px] border-custom-teal-100 rounded-xl relative max-w-full lg:hidden">
-                        <a href="single-news.php?id=51">
-                            <img src="./assets/images/zee-zee.png" class="w-full" alt="news-thumbnail">
-                        </a>
+                        <a href="https://staging.cancervax.com/single-news.php?id=52"><img src="./assets/images/zozozo1.png" class="w-full" alt="news-thumbnail"></a>
                     </div>
                     <h2 class="bg-[#ff0000] text-white py-2 px-3 text-xl sm:text-2xl text-center font-semibold mb-4 lg:hidden">Scientific Team Discusses the Breakthrough</h2>
                     <div class="mb-9 border-[10px] sm:border-[12px] border-custom-teal-100 rounded-xl relative max-w-full lg:hidden">
                         <div>
-                            <img src="//img.youtube.com/vi/EyANY8BXCX4/maxresdefault.jpg" alt="thumbnail">
+                            <img src="//img.youtube.com/vi/gP-LNnxOmYA/maxresdefault.jpg" alt="thumbnail">
                         </div>
-                        <a href="https://www.youtube.com/watch?v=EyANY8BXCX4" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
+                        <a href="https://www.youtube.com/watch?v=gP-LNnxOmYA" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
                             <i class="far fa-play-circle"></i>
                             <span>Watch video</span>
                         </a>
@@ -146,16 +157,14 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
                     </div> -->
                     <h2 class="bg-[#ff0000] text-white p-2 mx-auto max-w-[300px] text-4xl font-semibold mb-4 hidden uppercase lg:block">Breaking News</h2>
                     <div class="mb-9 mx-auto border-[12px] border-custom-teal-100 rounded-xl relative max-w-[500px] hidden lg:block">
-                        <a href="single-news.php?id=51">
-                            <img src="./assets/images/zee-zee.png" class="w-full" alt="news-thumbnail">
-                        </a>
+                        <a href="https://staging.cancervax.com/single-news.php?id=52"><img src="./assets/images/zozozo1.png" class="w-full" alt="news-thumbnail"></a>
                     </div>
                     <h2 class="bg-[#ff0000] text-white py-2 px-3 text-2xl text-center font-semibold mb-4 hidden lg:block">Scientific Team Discusses the Breakthrough</h2>
                     <div class="mb-9 mx-auto border-[12px] border-custom-teal-100 rounded-xl relative max-w-[500px] hidden lg:block">
                         <div>
-                            <img src="//img.youtube.com/vi/EyANY8BXCX4/maxresdefault.jpg" alt="thumbnail">
+                            <img src="//img.youtube.com/vi/gP-LNnxOmYA/maxresdefault.jpg" alt="thumbnail">
                         </div>
-                        <a href="https://www.youtube.com/watch?v=EyANY8BXCX4" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
+                        <a href="https://www.youtube.com/watch?v=gP-LNnxOmYA" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
                             <i class="far fa-play-circle"></i>
                             <span>Watch video</span>
                         </a>
@@ -306,125 +315,6 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
     </div>
 </section>
 
-<section class="bg-white py-[100px]">
-    <div class="container">
-        <h2 class="text-custom-teal-300 text-xl sm:text-2xl text-center mb-4 font-semibold">One Minute Explainer Videos </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
-            <div class="relative mb-6">
-                <a class="popup-youtube getThumbnail w-full h-full block absolute left-0 top-0 z-10" href="https://www.youtube.com/watch?v=SLj-WU08GJQ"></a>
-                <div class="relative">
-                    <img src="<?php echo  $full_url; ?>assets/images/short-thumbnail.png" alt="thumbnail">
-                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center p-4 w-full">
-                        <h5 class="text-white text-[20px] font-medium mb-4">CancerVax - Weapon Against Cancer</h5>
-                        <img src="<?php echo  $full_url; ?>assets/images/play-button.png" class="w-[110px] mx-auto" alt="play-button">
-                        <p class="font-bold text-white mt-4 text-base text-center">Play Video</p>
-                    </div>
-                </div>
-            </div>
-            <div class="relative mb-6">
-                <a class="popup-youtube getThumbnail w-full h-full block absolute left-0 top-0 z-10" href="https://www.youtube.com/watch?v=RSgh0qaEUO4"></a>
-                <div class="relative">
-                    <img src="<?php echo  $full_url; ?>assets/images/short-thumbnail.png" alt="thumbnail">
-                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center p-4 w-full">
-                        <h5 class="text-white text-[20px] font-medium mb-4">CancerVax - Making Cancer Look Like Measles</h5>
-                        <img src="<?php echo  $full_url; ?>assets/images/play-button.png" class="w-[110px] mx-auto" alt="play-button">
-                        <p class="font-bold text-white mt-4 text-base text-center">Play Video</p>
-                    </div>
-                </div>
-            </div>
-            <div class="relative mb-6">
-                <a class="popup-youtube getThumbnail w-full h-full block absolute left-0 top-0 z-10" href="https://www.youtube.com/watch?v=kOxGWgLwuDs"></a>
-                <div class="relative">
-                    <img src="<?php echo  $full_url; ?>assets/images/short-thumbnail.png" alt="thumbnail">
-                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center p-4 w-full">
-                        <h5 class="text-white text-[20px] font-medium mb-4">CancerVax - Immune System Memory</h5>
-                        <img src="<?php echo  $full_url; ?>assets/images/play-button.png" class="w-[110px] mx-auto" alt="play-button">
-                        <p class="font-bold text-white mt-4 text-base text-center">Play Video</p>
-                    </div>
-                </div>
-            </div>
-            <div class="relative mb-6">
-                <a class="popup-youtube getThumbnail w-full h-full block absolute left-0 top-0 z-10" href="https://www.youtube.com/watch?v=8ESunhDXzU4"></a>
-                <div class="relative">
-                    <img src="<?php echo  $full_url; ?>assets/images/short-thumbnail.png" alt="thumbnail">
-                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center p-4 w-full">
-                        <h5 class="text-white text-[20px] font-medium mb-4">CancerVax - Let's Talk <br /> About Cancer</h5>
-                        <img src="<?php echo  $full_url; ?>assets/images/play-button.png" class="w-[110px] mx-auto" alt="play-button">
-                        <p class="font-bold text-white mt-4 text-base text-center">Play Video</p>
-                    </div>
-                </div>
-            </div>
-            <div class="relative mb-6">
-                <a class="popup-youtube getThumbnail w-full h-full block absolute left-0 top-0 z-10" href="https://www.youtube.com/watch?v=hmvMkgdIP7E"></a>
-                <div class="relative">
-                    <img src="<?php echo  $full_url; ?>assets/images/short-thumbnail.png" alt="thumbnail">
-                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center p-4 w-full">
-                        <h5 class="text-white text-[20px] font-medium mb-4">CancerVax - Realities of Chemo and Radiation</h5>
-                        <img src="<?php echo  $full_url; ?>assets/images/play-button.png" class="w-[110px] mx-auto" alt="play-button">
-                        <p class="font-bold text-white mt-4 text-base text-center">Play Video</p>
-                    </div>
-                </div>
-            </div>
-            <div class="relative mb-6">
-                <a class="popup-youtube getThumbnail w-full h-full block absolute left-0 top-0 z-10" href="https://www.youtube.com/watch?v=W6fbVgrutxI"></a>
-                <div class="relative">
-                    <img src="<?php echo  $full_url; ?>assets/images/short-thumbnail.png" alt="thumbnail">
-                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center p-4 w-full">
-                        <h5 class="text-white text-[20px] font-medium mb-4">CancerVax - Groundbreaking Treatment</h5>
-                        <img src="<?php echo  $full_url; ?>assets/images/play-button.png" class="w-[110px] mx-auto" alt="play-button">
-                        <p class="font-bold text-white mt-4 text-base text-center">Play Video</p>
-                    </div>
-                </div>
-            </div>
-            <div class="relative mb-6">
-                <a class="popup-youtube getThumbnail w-full h-full block absolute left-0 top-0 z-10" href="https://www.youtube.com/watch?v=SLj-WU08GJQ"></a>
-                <div class="relative">
-                    <img src="<?php echo  $full_url; ?>assets/images/short-thumbnail.png" alt="thumbnail">
-                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center p-4 w-full">
-                        <h5 class="text-white text-[20px] font-medium mb-4">CancerVax - Weapon Against Cancer</h5>
-                        <img src="<?php echo  $full_url; ?>assets/images/play-button.png" class="w-[110px] mx-auto" alt="play-button">
-                        <p class="font-bold text-white mt-4 text-base text-center">Play Video</p>
-                    </div>
-                </div>
-            </div>
-            <div class="relative mb-6">
-                <a class="popup-youtube getThumbnail w-full h-full block absolute left-0 top-0 z-10" href="https://www.youtube.com/watch?v=RSgh0qaEUO4"></a>
-                <div class="relative">
-                    <img src="<?php echo  $full_url; ?>assets/images/short-thumbnail.png" alt="thumbnail">
-                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center p-4 w-full">
-                        <h5 class="text-white text-[20px] font-medium mb-4">CancerVax - Making Cancer Look Like Measles</h5>
-                        <img src="<?php echo  $full_url; ?>assets/images/play-button.png" class="w-[110px] mx-auto" alt="play-button">
-                        <p class="font-bold text-white mt-4 text-base text-center">Play Video</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="pt-12 pb-6">
-    <div class="ceochats-carousel">
-        <?php
-
-        foreach ($videos as $video) :
-            $categoryName = ucwords(str_replace('-', ' ', $video['category']));
-            if ($video['category'] === "ceo-podcast") {
-                $categoryName = "Podcast";
-            }
-        ?>
-            <div class="px-4">
-                <div class="relative">
-                    <a class="popup-youtube getThumbnail w-full h-full block absolute left-0 top-0 z-10" href="https://www.youtube.com/watch?v=<?= $video['videoID'] ?>"></a>
-                    <div class="relative">
-                        <img src="//img.youtube.com/vi/<?= $video['videoID'] ?>/maxresdefault.jpg" alt="Thumbnail">
-                    </div>
-                    <i class="far fa-play-circle absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[100px] text-white [text-shadow:_1px_0_6px_rgba(0,_0,_0,_.3)]"></i>
-                </div>
-                <p class="mt-4 text-xl font-normal text-black"><?= $categoryName ?> - <?= $video['title'] ?></p>
-            </div>
-        <?php endforeach; ?>
-    </div>
-</section>
 
 <section class="bg-white pt-[70px]">
     <div class="container">

@@ -968,6 +968,10 @@ a:hover{
   left: 50%;
 }
 
+.left-\[2\%\]{
+  left: 2%;
+}
+
 .right-0{
   right: 0px;
 }
@@ -982,6 +986,10 @@ a:hover{
 
 .top-\[160px\]{
   top: 160px;
+}
+
+.top-\[28\%\]{
+  top: 28%;
 }
 
 .top-\[300px\]{
@@ -1335,10 +1343,6 @@ a:hover{
   height: 245px;
 }
 
-.h-\[278px\]{
-  height: 278px;
-}
-
 .h-\[300px\]{
   height: 300px;
 }
@@ -1399,10 +1403,6 @@ a:hover{
   min-height: 50px;
 }
 
-.min-h-\[90px\]{
-  min-height: 90px;
-}
-
 .min-h-full{
   min-height: 100%;
 }
@@ -1411,8 +1411,8 @@ a:hover{
   width: 75%;
 }
 
-.w-\[110px\]{
-  width: 110px;
+.w-\[132px\]{
+  width: 132px;
 }
 
 .w-\[133px\]{
@@ -1421,6 +1421,10 @@ a:hover{
 
 .w-\[200px\]{
   width: 200px;
+}
+
+.w-\[272px\]{
+  width: 272px;
 }
 
 .w-\[300px\]{
@@ -1724,10 +1728,6 @@ a:hover{
   flex-wrap: wrap;
 }
 
-.place-items-center{
-  place-items: center;
-}
-
 .items-start{
   align-items: flex-start;
 }
@@ -1817,6 +1817,12 @@ a:hover{
   --tw-space-y-reverse: 0;
   margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(3.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .space-y-2\.5 > :not([hidden]) ~ :not([hidden]){
@@ -1946,10 +1952,6 @@ a:hover{
   border-width: 12px;
 }
 
-.border-\[3px\]{
-  border-width: 3px;
-}
-
 .\!border-b-\[1px\]{
   border-bottom-width: 1px !important;
 }
@@ -2021,11 +2023,6 @@ a:hover{
 .border-custom-teal-200{
   --tw-border-opacity: 1;
   border-color: rgb(42 186 194 / var(--tw-border-opacity, 1));
-}
-
-.border-custom-teal-500{
-  --tw-border-opacity: 1;
-  border-color: rgb(67 190 207 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#00AB2D\]{
@@ -2117,11 +2114,6 @@ a:hover{
   background-color: rgb(42 186 194 / var(--tw-bg-opacity, 1));
 }
 
-.bg-custom-teal-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(67 190 207 / var(--tw-bg-opacity, 1));
-}
-
 .bg-transparent{
   background-color: transparent;
 }
@@ -2133,10 +2125,6 @@ a:hover{
 
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
-}
-
-.bg-opacity-70{
-  --tw-bg-opacity: 0.7;
 }
 
 .bg-banner-mobile{
@@ -2424,11 +2412,6 @@ a:hover{
   padding-bottom: 2.25rem;
 }
 
-.py-\[100px\]{
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .py-\[15px\]{
   padding-top: 15px;
   padding-bottom: 15px;
@@ -2452,10 +2435,6 @@ a:hover{
 .py-\[70px\]{
   padding-top: 70px;
   padding-bottom: 70px;
-}
-
-.pb-0{
-  padding-bottom: 0px;
 }
 
 .pb-12{
@@ -2560,6 +2539,10 @@ a:hover{
 
 .pl-6{
   padding-left: 1.5rem;
+}
+
+.pl-8{
+  padding-left: 2rem;
 }
 
 .pl-9{
@@ -2747,10 +2730,6 @@ a:hover{
   font-size: 18px;
 }
 
-.text-\[20px\]{
-  font-size: 20px;
-}
-
 .text-\[21px\]{
   font-size: 21px;
 }
@@ -2765,10 +2744,6 @@ a:hover{
 
 .text-\[26px\]{
   font-size: 26px;
-}
-
-.text-\[27px\]{
-  font-size: 27px;
 }
 
 .text-\[28px\]{
@@ -3231,10 +3206,6 @@ a:hover{
   text-shadow: 1px 0 6px rgb(0 0 0 / 0.3);
 }
 
-.\[text-shadow\:_1px_0_6px_rgba\(0\2c _0\2c _0\2c _\.3\)\]{
-  text-shadow: 1px 0 6px rgba(0, 0, 0, .3);
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -3462,8 +3433,16 @@ html {
     position: sticky;
   }
 
+  .sm\:left-\[3\%\]{
+    left: 3%;
+  }
+
   .sm\:top-0{
     top: 0px;
+  }
+
+  .sm\:top-\[30\%\]{
+    top: 30%;
   }
 
   .sm\:col-span-5{
@@ -3542,6 +3521,10 @@ html {
 
   .sm\:min-h-\[700px\]{
     min-height: 700px;
+  }
+
+  .sm\:w-\[240px\]{
+    width: 240px;
   }
 
   .sm\:w-fit{
@@ -3904,10 +3887,6 @@ html {
 
   .md\:w-4\/5{
     width: 80%;
-  }
-
-  .md\:w-\[336px\]{
-    width: 336px;
   }
 
   .md\:w-\[600px\]{
@@ -4336,8 +4315,16 @@ html {
     display: none;
   }
 
+  .xl\:\!h-auto{
+    height: auto !important;
+  }
+
   .xl\:h-\[394px\]{
     height: 394px;
+  }
+
+  .xl\:min-h-\[900px\]{
+    min-height: 900px;
   }
 
   .xl\:w-1\/2{
@@ -4350,6 +4337,10 @@ html {
 
   .xl\:w-\[224px\]{
     width: 224px;
+  }
+
+  .xl\:w-\[304px\]{
+    width: 304px;
   }
 
   .xl\:max-w-\[470px\]{
@@ -4863,6 +4854,10 @@ html {
     font-size: 1.5rem;
     line-height: 2rem;
   }
+}
+
+.\[\&_li\]\:pl-2 li{
+  padding-left: 0.5rem;
 }
 
 .\[\&_li\]\:pl-3 li{

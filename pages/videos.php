@@ -22,36 +22,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-6 mb-6">
-            <div class="relative border-[3px] border-custom-teal-500 w-full mx-auto">
-                <a href="#news-commentary">
-                    <div class="h-[278px] relative">
-                        <img src="<?php echo $full_url; ?>assets/images/news-commentary.png" alt="video" class="w-full h-full object-cover">
-                    </div>
-                    <span class="bg-custom-teal-500 bg-opacity-70 text-white absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-[27px] leading-tight text-center font-bold w-full min-h-[90px] flex items-center justify-center">News Commentary</span>
-                </a>
-            </div>
 
-            <div class="relative border-[3px] border-custom-teal-500 w-full mx-auto">
-                    <a href="#short-videos">
-                        <div class="h-[278px] relative">
-                            <img src="<?php echo $full_url; ?>assets/images/short-videos.png" alt="video" class="w-full h-full object-cover">
-                        </div>
-                        <span class="bg-custom-teal-500 bg-opacity-70 text-white absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-[27px] leading-tight text-center font-bold w-full min-h-[90px] flex items-center justify-center">Short
-                            Videos
-                        </span>
-                    </a>
-            </div>
-
-            <div class="relative col-span-1 md:col-span-2 lg:col-span-1 border-[3px] border-custom-teal-500 w-full md:w-[336px] lg:w-full mx-auto">
-                    <a href="#webinars">
-                        <div class="h-[278px] relative">
-                            <img src="<?php echo $full_url; ?>assets/images/webinars.png" alt="video" class="w-full h-full object-cover">
-                        </div>
-                        <span class="bg-custom-teal-500 bg-opacity-70 text-white absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-[27px] leading-tight text-center font-bold w-full min-h-[90px] flex items-center justify-center">Webinars</span>
-                    </a>
-            </div>
-        </div>
     </div>
 </div>
 
@@ -60,10 +31,20 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
         <div>
             <h3 class="text-black text-xl sm:text-[40px] leading-10 font-medium mb-12">Webinars</h3>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="mb-4">
                 <div class="relative">
-                    <div class="relative h-[225px]">
+                    <div class="relative aspect-video">
+                        <img src="https://img.youtube.com/vi/gP-LNnxOmYA/maxresdefault.jpg" alt="Scientific Team Discusses the Breakthrough" class="w-full h-full object-cover">
+                    </div>
+                    <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
+                    <a href="https://www.youtube.com/watch?v=gP-LNnxOmYA" class="popup-youtube absolute inset-0 z-10"></a>
+                </div>
+                <p class="text-lg font-bold mt-3 text-black">Scientific Team Discusses the Breakthrough</p>
+            </div>
+            <div class="mb-4">
+                <div class="relative">
+                    <div class="relative aspect-video">
                         <img src="https://img.youtube.com/vi/QMlV134WoE8/maxresdefault.jpg" alt="CancerVax Webinar June 18, 2026" class="w-full h-full object-cover">
                     </div>
                     <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
@@ -73,7 +54,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
             </div>
             <div class="mb-4">
                 <div class="relative">
-                    <div class="relative h-[225px]">
+                    <div class="relative aspect-video">
                         <img src="https://img.youtube.com/vi/UBFD7bfsCc0/maxresdefault.jpg" alt="CancerVax Webinar April 23, 2026" class="w-full h-full object-cover">
                     </div>
                     <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
@@ -83,7 +64,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
             </div>
             <div class="mb-4">
                 <div class="relative">
-                    <div class="relative h-[225px]">
+                    <div class="relative aspect-video">
                         <img src="https://img.youtube.com/vi/0yKU2auecv4/maxresdefault.jpg" alt="CancerVax Webinar April 9, 2026" class="w-full h-full object-cover">
                     </div>
                     <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
@@ -93,7 +74,7 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
             </div>
             <div class="mb-4">
                 <div class="relative">
-                    <div class="relative h-[225px]">
+                    <div class="relative aspect-video">
                         <img src="https://vumbnail.com/1088764643/6170b7e696.jpg" alt="May 31, 2025 Webinar" class="w-full h-full object-cover">
                     </div>
                     <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
@@ -101,112 +82,16 @@ $videos = include __DIR__ . '/../data/podcast-data.php';
                 </div>
                 <p class="text-lg font-bold mt-3 text-black">May 31, 2025 – Successfully Made Cell Targeting LNP</p>
             </div>
-            <div class="mb-4 md:col-span-2 lg:col-span-1 xl:col-span-2 md:flex md:justify-center lg:block xl:flex xl:justify-center">
-                <div class="w-full md:w-1/2 lg:w-full xl:w-1/2">
-                    <div class="relative">
-                        <div class="relative h-[225px]">
-                            <img src="https://vumbnail.com/1074009289.jpg" alt="February 25, 2025 Webinar" class="w-full h-full object-cover">
-                        </div>
-                        <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
-                        <a href="<?php echo $baseUrl ?? ''; ?>/webinar-feb-25-2025" class="absolute inset-0 z-10"></a>
+            <div class="mb-4">
+                <div class="relative">
+                    <div class="relative aspect-video">
+                        <img src="https://vumbnail.com/1074009289.jpg" alt="February 25, 2025 Webinar" class="w-full h-full object-cover">
                     </div>
-                    <p class="text-lg font-bold mt-3 text-black">February 25, 2025 – Smart mRNA Works!</p>
+                    <i class="far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]"></i>
+                    <a href="<?php echo $baseUrl ?? ''; ?>/webinar-feb-25-2025" class="absolute inset-0 z-10"></a>
                 </div>
+                <p class="text-lg font-bold mt-3 text-black">February 25, 2025 – Smart mRNA Works!</p>
             </div>
-        </div>
-    </div>
-</section>
-
-<section class="py-24" id="news-commentary">
-    <div class="container">
-        <div class="flex items-center justify-between mb-10">
-            <h3 class="text-black text-xl sm:text-[40px] leading-10 font-medium">News Commentary</h3>
-            <a href="<?php echo $baseUrl ?? ''; ?>/news-commentary" class="text-custom-teal-300 underline text-lg">See All</a>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            <?php
-            $categories = ['news-commentary'];
-
-            $filteredNewsCommentaryVideos = array_filter($videos, function ($item) use ($categories) {
-                // Check if the category is in the list and the scope is public, but not "short-videos"
-                return in_array($item['category'], $categories) && $item['scope'] === 'public' && $item['category'] !== 'short-videos';
-            });
-
-            // Sort the filtered videos by date in descending order
-            // usort($filteredNewsCommentaryVideos, function ($a, $b) {
-            //     return strtotime($b['date']) - strtotime($a['date']);
-            // });
-
-            // Take the latest 4 videos for "news-commentary"
-            $latestNewsCommentary = array_slice($filteredNewsCommentaryVideos, 0, 4);
-
-            foreach ($latestNewsCommentary as $video) {
-                if ($video['date']) {
-                    $title = $video['date'] . " - " . $video['title'];
-                } else {
-                    $title = $video['title'];
-                }
-                echo "
-            <div>
-            <div class=\"relative mb-6\">
-            <a class=\"popup-youtube getThumbnail w-full h-full block absolute inset-0 z-10\" href=\"https://www.youtube.com/watch?v={$video['videoID']}\"></a>
-            <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"" . ($baseUrl ?? '') . "/videos/news-commentary/{$video['slug']}\"></a>
-                <div class=\"relative h-[225px]\">
-                 <img src=\"//img.youtube.com/vi/{$video['videoID']}/maxresdefault.jpg\" alt=\"Thumbnail\" class=\"w-full h-full object-cover\">
-                </div>
-                <i class=\"far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]\"></i>
-            </div>            
-            <p class=\"text-xl sm:text-lg text-black font-bold leading-normal sm:leading-tight\" >{$title}</p>
-            </div>";
-            }
-            ?>
-        </div>
-
-    </div>
-</section>
-
-<section class="pt-24 pb-0" id="short-videos">
-    <div class="container">
-        <div class="flex items-center justify-between mb-10">
-            <h3 class="text-black text-xl sm:text-[40px] leading-10 font-medium">Short Videos</h3>
-            <a href="https://www.youtube.com/@CancerVAX/shorts" target="_blank" class="text-custom-teal-300 underline text-lg">See All</a>
-        </div>
-       
-    </div>
-</section>
-
-<section class="pb-24">
-    <div class="container">
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-
-            <?php
-            $filteredlatestShortVideos = array_filter($videos, function ($item) {
-                return $item['category'] === 'short-videos' && $item['scope'] === 'public';
-            });
-            $latestCancerShortVideos = array_slice($filteredlatestShortVideos, 0, 4);
-            foreach ($latestCancerShortVideos as $video) {
-
-                if ($video['date'] === " ") {
-                    $title = $video['date'] - $video['title'];
-                } else {
-                    $title = $video['title'];
-                }
-                echo "
-            <div>
-            <div class=\"relative mb-6\">
-            <a class=\"popup-youtube getThumbnail w-full h-full block absolute inset-0 z-10\" href=\"https://www.youtube.com/watch?v={$video['videoID']}\"></a>
-                <a class=\"w-full h-full block absolute inset-0 z-10\" href=\"" . ($baseUrl ?? '') . "/videos/short-videos/{$video['slug']}\"></a>
-                    <div class=\"relative h-[540px]\">
-                 <img src=\"//img.youtube.com/vi/{$video['videoID']}/maxresdefault.jpg\" alt=\"Thumbnail\" class=\"w-full h-full object-cover\">
-                </div>
-                <i class=\"far fa-play-circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl [text-shadow:1px_0_6px_rgba(0,0,0,.3)]\"></i>
-            </div>            
-            <p class=\"text-xl sm:text-lg text-black font-bold leading-normal sm:leading-tight\" >{$title}</p>
-            </div>";
-            }
-            ?>
-
         </div>
     </div>
 </section>
