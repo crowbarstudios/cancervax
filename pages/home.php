@@ -112,9 +112,9 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
                     <h2 class="bg-[#ff0000] text-white py-2 px-3 text-xl sm:text-2xl text-center font-semibold mb-4 lg:hidden">Scientific Team Discusses the Breakthrough</h2>
                     <div class="mb-9 border-[10px] sm:border-[12px] border-custom-teal-100 rounded-xl relative max-w-full lg:hidden">
                         <div>
-                            <img src="//img.youtube.com/vi/EyANY8BXCX4/maxresdefault.jpg" alt="thumbnail">
+                            <img src="//img.youtube.com/vi/gP-LNnxOmYA/maxresdefault.jpg" alt="thumbnail">
                         </div>
-                        <a href="https://www.youtube.com/watch?v=EyANY8BXCX4" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
+                        <a href="https://www.youtube.com/watch?v=gP-LNnxOmYA" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
                             <i class="far fa-play-circle"></i>
                             <span>Watch video</span>
                         </a>
@@ -162,9 +162,9 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
                     <h2 class="bg-[#ff0000] text-white py-2 px-3 text-2xl text-center font-semibold mb-4 hidden lg:block">Scientific Team Discusses the Breakthrough</h2>
                     <div class="mb-9 mx-auto border-[12px] border-custom-teal-100 rounded-xl relative max-w-[500px] hidden lg:block">
                         <div>
-                            <img src="//img.youtube.com/vi/EyANY8BXCX4/maxresdefault.jpg" alt="thumbnail">
+                            <img src="//img.youtube.com/vi/gP-LNnxOmYA/maxresdefault.jpg" alt="thumbnail">
                         </div>
-                        <a href="https://www.youtube.com/watch?v=EyANY8BXCX4" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
+                        <a href="https://www.youtube.com/watch?v=gP-LNnxOmYA" class="theme-btn uppercase absolute left-1/2 bottom-[92px] transform -translate-x-1/2 py-1 px-3 bg-[#ff0000] border-[#ff0000] popup-youtube">
                             <i class="far fa-play-circle"></i>
                             <span>Watch video</span>
                         </a>
