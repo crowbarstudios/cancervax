@@ -231,9 +231,9 @@ Many LNP therapies fail in clinical trials due to liver accumulation and result
             <div class="bg-white p-8 grid grid-cols-1 lg:grid-cols-12 gap-[52px]">
                 <div class="lg:col-span-6 flex flex-col justify-center items-center xl:px-3">
                     <img src="./assets/images/progress-aug2026/image1.png" alt="ELISpot on CDX Liver Cancer Cells">
-                    <p class="text-sm text-gray-500 mt-3 text-center italic">ELISpot results from left to right</p>
                 </div>
                 <div class="lg:col-span-6 lg:pt-6 px-3 xl:pr-[50px]">
+                    <p class="text-xl font-bold mb-5">ELISpot results from left to right</p>
                     <ul class="list-disc list-outside [&>li]:text-black [&>li]:font-normal [&>li]:text-xl [&>li]:leading-8">
                         <li class="mb-5">Before T-cells can kill cancer cells, they must be first activated. The latest studies validated this important part of our platform.</li>
                         <li class="mb-5">Large amounts of human immune cells (PBMCs) were successfully activated.</li>
