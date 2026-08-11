@@ -239,8 +239,8 @@ Many LNP therapies fail in clinical trials due to liver accumulation and result
                         <li class="mb-5">Large amounts of human immune cells (PBMCs) were successfully activated.</li>
                         <li class="mb-5">CD4 T-cells were depleted to confirm CD8+ Killer T-cells were activated.</li>
                         <li class="mb-5">CD8+ Killer T-cells were isolated and confirmed specific activation.</li>
-                        <li><strong>CancerVax successfully tricked human anti-viral CD8+ Killer T-cells into thinking cancer is a familiar viral infection and should be killed!</strong></li>
                     </ul>
+                    <p class="text-xl font-bold mt-6"><strong>CancerVax successfully tricked human anti-viral CD8+ Killer T-cells into thinking cancer is a familiar viral infection and should be killed!</strong></p>
                 </div>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
