@@ -197,7 +197,7 @@ Many LNP therapies fail in clinical trials due to liver accumulation and result
 </section>
 
 <section>
-    <div class="container pb-28">
+    <div class="container py-28">
         <div class="bg-custom-aqua-100 px-8 py-9 rounded-[42px]">
             <h5 class="text-2xl font-bold mb-8">June 15, 2026 – Successful Biodistribution Study of Complete Nanoparticle</h5>
             <div class="bg-white p-8 grid grid-cols-1 lg:grid-cols-12 gap-[52px]">
@@ -218,6 +218,37 @@ Many LNP therapies fail in clinical trials due to liver accumulation and result
                 <div class="lg:col-span-6"></div>
                 <div class="lg:col-span-6 flex justify-center">
                     <a href="single-news.php?id=49" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container pb-28">
+        <div class="bg-custom-aqua-100 px-8 py-9 rounded-[42px]">
+            <h5 class="text-2xl font-bold mb-8">August 6, 2026 – Major Milestone in Activating Human Killer T-Cells Against Cancer</h5>
+            <div class="bg-white p-8 grid grid-cols-1 lg:grid-cols-12 gap-[52px]">
+                <div class="lg:col-span-6 flex flex-col justify-center items-center xl:px-3">
+                    <img src="./assets/images/progress-aug2026/image1.png" alt="ELISpot on CDX Liver Cancer Cells">
+                    <p class="text-sm text-gray-500 mt-3 text-center italic">ELISpot results from left to right</p>
+                </div>
+                <div class="lg:col-span-6 lg:pt-6 px-3 xl:pr-[50px]">
+                    <ul class="list-disc list-outside [&>li]:text-black [&>li]:font-normal [&>li]:text-xl [&>li]:leading-8">
+                        <li class="mb-5">Before T-cells can kill cancer cells, they must be first activated. The latest studies validated this important part of our platform.</li>
+                        <li class="mb-5">Large amounts of human immune cells (PBMCs) were successfully activated.</li>
+                        <li class="mb-5">CD4 T-cells were depleted to confirm CD8+ Killer T-cells were activated.</li>
+                        <li class="mb-5">CD8+ Killer T-cells were isolated and confirmed specific activation.</li>
+                    </ul>
+                    <p class="text-xl font-bold mt-6"><strong>CancerVax successfully tricked human anti-viral CD8+ Killer T-cells into thinking cancer is a familiar viral infection and should be killed!</strong></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
+                <div class="lg:col-span-7 flex justify-center">
+                    <a href="webinar-august-6-2026" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
+                </div>
+                <div class="lg:col-span-5 flex justify-center">
+                    <a href="single-news.php?id=52" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
                 </div>
             </div>
         </div>
