@@ -125,7 +125,7 @@
                 <div class="flex items-center justify-between">
                     <div></div>
                     <!-- <a href="/webinar" class="theme-btn orange-btn tracking-normal">Watch the Webinar</a> -->
-                    <a href="https://investment.startengine.com/cancervax" target="_blank" class="theme-btn orange-btn !border-0 !text-[15px] tracking-normal !uppercase mx-auto md:mx-0">LEARN HOW TO INVEST IN CANCERVAX</a>
+                    <a href="https://cvax-elderzninja.replit.app" target="_blank" class="theme-btn orange-btn !border-0 !text-[15px] tracking-normal !uppercase mx-auto md:mx-0">LEARN HOW TO INVEST IN CANCERVAX</a>
                     <div class="hidden md:block space-x-3">
                         <a href="https://www.facebook.com/people/Cancervax/100090179828482/" target="_blank" rel="noopener noreferrer" class="text-white text-xl hover:text-white"><i class="fab fa-facebook-square"></i></a>
                         <a href="https://www.instagram.com/cancervaxbiotech/" target="_blank" rel="noopener noreferrer" class="text-white text-xl hover:text-white"><i class="fab fa-instagram"></i></a>
