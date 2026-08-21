@@ -58,7 +58,7 @@ $news = [
 
         ["<p>As part of the recognition, Life Sciences Review featured CancerVax in its annual showcase highlighting innovative biotechnology companies advancing the future of medicine. The publication also published a second in-depth editorial examining CancerVax&rsquo;s scientific approach and the potential impact of its novel immunotherapy platform.</p>"],
 
-        ["<img src=\"./assets/images/news/id51/image1.jpg\" class=\"mx-auto my-4\" alt=\"Top Pre-Clinical Biotech Company 2026 - CancerVax\">"],
+        ["<a href=\"/lifescience-review\"><img src=\"./assets/images/news/id51/image1.jpg\" class=\"mx-auto my-4\" alt=\"Top Pre-Clinical Biotech Company 2026 - CancerVax\"></a>"],
 
         ["<p>&ldquo;We are honored that Life Sciences Review has recognized the potential of our revolutionary approach,&rdquo; said Byron Elton, Chief Executive Officer of CancerVax. &ldquo;This recognition reflects the tremendous work of our scientific team and advisors who continue to push the boundaries of what may be possible in cancer immunotherapy.&rdquo;</p>"],
 
