@@ -23,7 +23,7 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
 <section class="pt-11 md:pt-0">
     <div class="bg-banner-mobile md:bg-banner bg-white bg-no-repeat bg-[top_center] bg-cover h-[245px] sm:h-[480px] md:h-[850px] xl:!h-auto xl:min-h-[900px] banner-home-up relative">
         <!-- Mobile badge overlay: shows only on mobile/tablet, positioned in hero image white space -->
-        <a href="https://cvax-elderzninja.replit.app/single-news.php?id=51" class="md:hidden absolute top-[28%] sm:top-[30%] left-[2%] sm:left-[3%] w-[132px] sm:w-[240px] z-10">
+        <a href="/lifescience-review" class="md:hidden absolute top-[28%] sm:top-[30%] left-[2%] sm:left-[3%] w-[132px] sm:w-[240px] z-10">
             <img src="./assets/images/cancervax-top-preclinical-biotech-2026-v2.png"
                  alt="Top Pre-Clinical Biotech Company 2026"
                  class="w-full">
@@ -35,7 +35,7 @@ $news = include __DIR__ . '/../data/news-data.php'; ?>
             <div class="pt-[50px] xl:pt-4 max-w-[530px] xl:max-w-[615px]">
                 <!-- Desktop badge: centered above The CancerVax Way -->
                 <div class="hidden md:flex justify-start mb-3">
-                    <a href="https://cvax-elderzninja.replit.app/single-news.php?id=51">
+                    <a href="/lifescience-review">
                         <img src="./assets/images/cancervax-top-preclinical-biotech-2026-v2.png"
                              alt="Top Pre-Clinical Biotech Company 2026"
                              class="w-[272px] xl:w-[304px]">
