@@ -3,6 +3,35 @@
 
 $news = [
     [
+        'id' => "53",
+        'title' => "Moderna and Merck Cancer Vaccine Success Is Good News for CancerVax",
+        'date' => "August 24, 2026",
+        'excerpt' => "Positive topline results from Phase 3 trial of personalized cancer vaccine for melanoma de-risk LNP-mRNA therapies such as CancerVax",
+        'category' => "pressrelease",
+        'biosolar' => false,
+        'description' => [
+
+        ["<h3>Positive topline results from Phase 3 trial of personalized cancer vaccine for melanoma de-risk LNP-mRNA therapies such as CancerVax</h3>"],
+
+        ["<p>Lehi, Utah, August 24, 2026 &ndash; CancerVax, Inc., the developer of a breakthrough universal cancer treatment platform that &ldquo;tricks&rdquo; the body&rsquo;s immune system into fighting cancer, welcomed news about the recent positive Phase 3 clinical trial results from Moderna and Merck&rsquo;s INTerpath-001 study of a personalized cancer vaccine for melanoma based on LNP-mRNA technology. The Company believes these results de-risk the mRNA technology used in its own non-personalized, off-the-shelf cancer vaccines currently in pre-clinical development.</p>"],
+
+        ["<p>LNPs (lipid nanoparticles) and mRNAs (messenger ribonucleic acids) form the foundation of both the Moderna/Merck vaccine and the CancerVax platform. The INTerpath-001 readout demonstrates that an mRNA-based approach can help mobilize the immune system against cancer.</p>"],
+
+        ["<p>Personalized cancer vaccines are a new generation of cancer treatments that take samples from patient tumors and genetically sequence them to create custom single-patient therapies in a lab. They are then injected back into patients to induce brand-new immunities against cancer. However, industry analysts and health economists estimate that this highly personalized treatment will likely carry a steep price tag and be challenging to scale.</p>"],
+
+        ["<p>CancerVax is pursuing a fundamentally different architecture that does not rely on creating an individualized treatment for every patient. The Company views its approach as a &ldquo;universal cancer vaccine&rdquo; that disguises cancer as familiar viral infections, such as measles and influenza, and then activates strong existing antiviral immunity in the body against the cancer. Because this approach leverages pre-existing immunity, it may be advantageous in patients whose immune systems have been impacted by prior therapies. In addition, CancerVax therapies are designed to be off-the-shelf injections for many patients and cancer types. This design avoids the expensive individualized drug manufacturing loop.</p>"],
+
+        ["<p>LNP-mRNA is arguably the most extensively deployed novel drug-delivery platform in modern history, with billions of doses administered to humans through COVID-19 vaccinations. As a result, LNP-mRNA technology has been proven in humans at scale and manufacturing has achieved significant economies of scale. Now, Moderna and its partner Merck have demonstrated that the platform can also be used to deliver cancer treatments.</p>"],
+
+        ["<p>&ldquo;The INTerpath-001 results mark an important milestone for the cancer vaccine field,&rdquo; commented Dr. George Katibah, CancerVax Chief Scientific Officer. &ldquo;These results provide important clinical support for several principles underlying modern cancer immunotherapy, such as antigen targeting by LNP-mRNA enabled delivery. CancerVax applies these principles through a different strategy intended to make tumor cells express predetermined immune targets that up to 99% of the human population already recognize. The INTerpath-001 results strengthen the broader scientific rationale for using mRNA to direct immune responses against cancer.&rdquo;</p>"],
+
+        ["<p>Merck and Moderna reported on August 19, 2026, that intismeran autogene (mRNA-4157/V940) plus KEYTRUDA&reg; met the primary endpoint of recurrence-free survival in the Phase 3 INTerpath-001 trial in completely resected stage IIB&ndash;IV melanoma. This is the first positive late-stage result for an mRNA cancer therapy and validates the delivery platform CancerVax is using for a very different approach.</p>"],
+
+        ["<p>To learn more about the CancerVax platform, please watch the Short Explainer Video at <a href=\"/explainer\" rel=\"noopener noreferrer\">https://cancervax.com/explainer</a></p>"]
+
+        ]
+    ],
+    [
         'id' => "52",
         'title' => "CancerVax Achieves Major Milestone in Activating Human Killer T-Cells Against Cancer",
         'date' => "August 6, 2026",
