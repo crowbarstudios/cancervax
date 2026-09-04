@@ -13,7 +13,7 @@ $requestUriPath = $requestUriPath !== null ? $requestUriPath : '/';
 $basePath = '';
 $baseUrl = $basePath;
 $path = trim(str_replace($basePath, '', $requestUriPath), '/');
-$page = $path === '' ? 'home' : $path;
+$page = $path === '' ? 'home-sep-2' : $path;
 
 // For load Assets - handle HTTPS behind proxy (X-Forwarded-Proto)
 $isHttps = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')

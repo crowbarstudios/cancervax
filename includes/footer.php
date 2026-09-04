@@ -1,6 +1,6 @@
 <?php
 if ($page !== "prep") {
-    if ($page != "" && $page != "regainvest" && $page != "webinar" && $page != "home-aug-28-a" && $page != "home-aug-28-b" && $page != "home-aug-28-c") {
+    if ($page != "" && $page != "regainvest" && $page != "webinar" && $page != "home-aug-28-a" && $page != "home-aug-28-b" && $page != "home-aug-28-c" && $page != "home-sep-2") {
 ?>
        <section class="bg-white text-center py-[50px]">
             <div class="container">
