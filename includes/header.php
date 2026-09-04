@@ -105,12 +105,30 @@
             return urlParams.get(name);
         }
     </script>
+
+    <style>
+        .site-invest-cta {
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        @media (min-width: 768px) {
+            .site-invest-cta,
+            .site-invest-cta:hover {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin: 0;
+                transform: translate(-50%, -50%);
+            }
+        }
+    </style>
  
 </head>
  
  
  
-<body class="<?php echo ($page === 'home') ? 'home' : ''; ?>">
+<body class="<?php echo ($page === 'home') ? 'home' : ''; ?><?php echo ($page === 'home-aug-28-c') ? ' home-aug-28-c-page' : ''; ?><?php echo ($page === 'home-sep-2') ? ' home-sep-2-page' : ''; ?>">
  
  
 <?php $hideHeaderPages = [
@@ -120,12 +138,12 @@
 <?php if (!in_array($page, $hideHeaderPages)): ?>
  
     <div class="sticky top-0 z-20 bg-white transition-all duration-300 ease-in-out border-b border-custom-teal-100">
-        <div class="bg-custom-teal-100 p-2.5 sm:py-2 sm:px-8 min-h-16">
+        <div class="relative bg-custom-teal-100 p-2.5 sm:py-2 sm:px-8 min-h-16 <?php echo ($page === 'home-aug-28-c') ? 'home-aug-28-c-topbar' : ''; ?>">
             <div class="container-fluid">
-                <div class="flex items-center justify-between">
+                <div class="flex <?php echo ($page === 'home-aug-28-c') ? 'min-h-11 home-aug-28-c-topbar-content' : ''; ?> items-center justify-between">
                     <div></div>
                     <!-- <a href="/webinar" class="theme-btn orange-btn tracking-normal">Watch the Webinar</a> -->
-                    <a href="https://www.startengine.com/offering/cancervax" target="_blank" class="theme-btn orange-btn !border-0 !text-[15px] tracking-normal !uppercase mx-auto md:mx-0">LEARN HOW TO INVEST IN CANCERVAX</a>
+                    <a href="https://www.startengine.com/offering/cancervax" target="_blank" class="site-invest-cta theme-btn orange-btn !border-0 !text-[15px] tracking-normal !uppercase">LEARN HOW TO INVEST IN CANCERVAX</a>
                     <div class="hidden md:block space-x-3">
                         <a href="https://www.facebook.com/people/Cancervax/100090179828482/" target="_blank" rel="noopener noreferrer" class="text-white text-xl hover:text-white"><i class="fab fa-facebook-square"></i></a>
                         <a href="https://www.instagram.com/cancervaxbiotech/" target="_blank" rel="noopener noreferrer" class="text-white text-xl hover:text-white"><i class="fab fa-instagram"></i></a>

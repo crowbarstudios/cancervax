@@ -1,6 +1,6 @@
 <?php
 if ($page !== "prep") {
-    if ($page != "" && $page != "regainvest" && $page != "webinar") {
+    if ($page != "" && $page != "regainvest" && $page != "webinar" && $page != "home-aug-28-a" && $page != "home-aug-28-b" && $page != "home-aug-28-c" && $page != "home-sep-2") {
 ?>
        <section class="bg-white text-center py-[50px]">
             <div class="container">
@@ -121,7 +121,7 @@ if ($page !== "prep") {
                 </div>
             </div>
             <div class="pt-6">
-                <p class="text-sm mb-0 text-black text-center sm:text-right">© 2025 CancerVax. All rights reserved</p>
+                <p class="text-sm mb-0 text-black text-center sm:text-right">© 2026 CancerVax. All rights reserved</p>
             </div>
         </div>
     </footer>
