@@ -1,4 +1,7 @@
-<?php $isReferenceProgress = in_array($page, ['progress', 'progress2'], true); ?>
+<?php
+$isReferenceProgress = in_array($page, ['progress', 'progress2'], true);
+$isReferenceTechnology = $page === 'technology';
+?>
 <!DOCTYPE html>
 <html lang="en">
  
@@ -8,7 +11,10 @@
     <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="Thu, 01 Jan 1970 00:00:00 GMT">
-    <title><?php echo $page === 'thank-you' ? 'Thank You | CancerVax' : ($isReferenceProgress ? 'Progress | CancerVax' : 'Cancervax'); ?></title>
+    <title><?php echo $isReferenceTechnology ? 'Technology | CancerVax' : ($page === 'thank-you' ? 'Thank You | CancerVax' : ($isReferenceProgress ? 'Progress | CancerVax' : 'Cancervax')); ?></title>
+    <?php if ($isReferenceTechnology): ?>
+        <meta name="description" content="Explore the CancerVax Universal Cancer Treatment Platform and its proposed approach to redirecting existing antiviral immunity.">
+    <?php endif; ?>
     <?php if ($page === 'thank-you'): ?>
         <meta name="robots" content="noindex, nofollow">
     <?php endif; ?>
@@ -24,25 +30,31 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-    <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/style.css?v=<?php echo time(); ?>">
+    <?php // The reference's base stylesheet prevents site-wide typography overrides
+          // from altering this route. All other routes retain their existing CSS. ?>
+    <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/<?php echo $isReferenceTechnology ? 'technology-reference-base.css' : 'style.css'; ?>?v=<?php echo time(); ?>">
     <?php if ($page === 'thank-you'): ?>
         <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/thank-you.css?v=<?php echo time(); ?>">
     <?php endif; ?>
     <?php if ($isReferenceProgress): ?>
         <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/progress2.css?v=<?php echo time(); ?>">
     <?php endif; ?>
-    <?php if (in_array($page, ['technology', 'technology-sep-10'])): ?>
+    <?php if ($page === 'technology-sep-10'): ?>
         <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/technology-sep-10.css?v=<?php echo time(); ?>">
     <?php endif; ?>
  
     <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/shared-footer.css?v=<?php echo filemtime(__DIR__ . '/../assets/css/shared-footer.css'); ?>">
+    <?php if ($isReferenceTechnology): ?>
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/technology-reference.css?v=<?php echo filemtime(__DIR__ . '/../assets/css/technology-reference.css'); ?>">
+        <script defer src="<?php echo $full_url; ?>assets/js/technology-reference.js?v=<?php echo filemtime(__DIR__ . '/../assets/js/technology-reference.js'); ?>"></script>
+    <?php endif; ?>
 <?php
     $redesignPage = $page === 'single-news.php' ? 'single-news' : $page;
-    if (in_array($redesignPage, ['immunotherapy', 'market', 'news', 'videos', 'invest', 'contact', 'single-news'], true)):
+    if (in_array($redesignPage, ['news', 'videos', 'invest', 'contact', 'single-news'], true)):
         $redesignCss = 'assets/css/redesign/' . $redesignPage . '.css';
     ?>
         <link rel="stylesheet" href="/<?= $redesignCss ?>?v=<?= filemtime(__DIR__ . '/../' . $redesignCss) ?>">
-        <?php if (in_array($redesignPage, ['immunotherapy', 'videos', 'contact'], true)): ?>
+        <?php if (in_array($redesignPage, ['videos', 'contact'], true)): ?>
             <?php $redesignJs = 'assets/js/redesign/' . $redesignPage . '.js'; ?>
             <script defer src="/<?= $redesignJs ?>?v=<?= filemtime(__DIR__ . '/../' . $redesignJs) ?>"></script>
         <?php endif; ?>
@@ -163,6 +175,9 @@
     '$200-billion-reached-in-cancer-treatment-spending', 'a-really-big-deal-universal-car-t-cell-platform', 'a-run-to-remember', 'allstar-joins-board-of-advisors', 'best-medical-center-joins-fight', 'bonus-shares-available-closing-soon', 'breakthrough-universal-cancer-vaccine', 'bringing-hope-to-the-masses', 'cancer-drug-shortage', 'cancer-epidemic-has-a-viable-solution', 'ceo-update-about-bonus-shares', 'closing-soon-only-3-weeks-left', 'cnn-reports-rise-of-cancer-in-women', 'critical-progress-in-children-cancer', 'do-not-miss-out-on-bonus-share', 'enjoy-the-perks', 'explosion-of-attention-as-ceo-explains-the-mission', 'explosive-market-growth-affirmed', 'going-viral-in-the-fight-against-cancer', 'harmful-side-effects-unnecessary', 'heartbreaking-stories-highlight-the-need-for-change', 'hope-for-pediatric-cancer', 'important-cancervax-team-meeting', 'important-ceo-update-about-bonus-shares', 'major-news-outlet-sounds-alaram', 'massive-market-opportunity', 'oppenheimer-moment-a-pivotal-meeting-at-ucla', 'prep', 'recognized-by-leading-european-media-outlet', 'research-progress-childrens-cancer', 'research-progress-expanded-pipeline-with-ucla', 'side-effects-unnecessary', 'stragtegy-for-success-detailed-by-ceo', 'taking-the-fight-to-cancer', 'taking-the-fight-to-children-cancer', 'troubling-cancer-increase-in-younger-americans', 'white-house-joins-cancer-fight', 'who-shares-important-breast-cancer-info', 'winning-research-arms-race'
 ]; ?>
  
+<?php if ($isReferenceTechnology): ?>
+    <a class="sr-only focus:not-sr-only" href="#technology">Skip to content</a>
+<?php endif; ?>
 <?php if (!in_array($page, $hideHeaderPages)): ?>
  
     <div class="sticky top-0 z-20 bg-white transition-all duration-300 ease-in-out border-b border-custom-teal-100">
@@ -213,8 +228,6 @@
                             "team" => "Team",
                             "technology" => "Technology",
                             "progress" => "Progress",
-                            "immunotherapy" => "Immunotherapy",
-                            "market" => "Market",
                             "news" => "Newsroom",
                             "videos" => "Videos",
                             "invest" => "Investors",

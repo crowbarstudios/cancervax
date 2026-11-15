@@ -24,6 +24,7 @@ $page = $pathParts[0] ?? '';
 $validPages = ['home', 'home-aug-28-a', 'home-aug-28-b', 'home-aug-28-c', 'home-aug-29', 'home-aug-30', 'home-aug-31', 'home-aug-31-grandma', 'home-sep-1', 'home-sep-2', 'team', 'prep', 'progress', 'progress2', 'progress-sep-8', 'immunotherapy', 'market', 'invest', 'contact', 'technology', 'technology-sep-10', 'news', 'videos', '$200-billion-reached-in-cancer-treatment-spending', 'a-really-big-deal-universal-car-t-cell-platform', 'a-run-to-remember', 'allstar-joins-board-of-advisors', 'best-medical-center-joins-fight', 'bonus-shares-available-closing-soon', 'breakthrough-universal-cancer-vaccine', 'bringing-hope-to-the-masses', 'cancer-drug-shortage', 'cancer-epidemic-has-a-viable-solution', 'cancer-survivor-stories', 'ceo-podcast', 'ceo-update-about-bonus-shares', 'closing-soon-only-3-weeks-left', 'cnn-reports-rise-of-cancer-in-women', 'critical-progress-in-children-cancer', 'do-not-miss-out-on-bonus-share', 'enjoy-the-perks', 'event', 'expanded-ucla-pipeline', 'explainer', 'explosion-of-attention-as-ceo-explains-the-mission', 'explosive-market-growth-affirmed', 'faqs', 'filings', 'going-viral-in-the-fight-against-cancer', 'harmful-side-effects-unnecessary', 'heartbreaking-stories-highlight-the-need-for-change', 'hope-for-pediatric-cancer', 'important-cancervax-team-meeting', 'important-ceo-update-about-bonus-shares', 'major-news-outlet-sounds-alaram', 'massive-market-opportunity', 'news-archive', 'news-commentary', 'offering', 'oppenheimer-moment-a-pivotal-meeting-at-ucla', 'perks', 'privacy-policy', 'recognized-by-leading-european-media-outlet', 'regainvest-backup-for-blank', 'research-progress-childrens-cancer', 'research-progress-expanded-pipeline-with-ucla', 'short-videos', 'side-effects-unnecessary', 'single-news', 'single-video', 'stragtegy-for-success-detailed-by-ceo', 'subscriber-thankyou', 'taking-the-fight-to-cancer', 'taking-the-fight-to-children-cancer', 'terms-of-use', 'thank-you', 'troubling-cancer-increase-in-younger-americans', 'update-video-august-5-2025', 'webinar-feb-25-2025', 'webinar-may-31-2025', 'webinar-august-6-2026', 'lifescience-review', 'webinar', 'white-house-joins-cancer-fight', 'who-shares-important-breast-cancer-info', 'winning-research-arms-race'];
 
 // Dynamic video categories
+$validPages = array_values(array_diff($validPages, ['immunotherapy', 'market']));
 $videoCategories = ['news-commentary', 'ceo-podcast', 'short-videos'];
 
 
@@ -37,10 +38,6 @@ if ($page === '') {
     include __DIR__ . '/../pages/home-sep-2.php';
 } 
 
-// Independently editable copy; keep the original Immunotherapy route intact.
-elseif ($page === 'immunotherapy-nov14z') {
-    include __DIR__ . '/../pages/immunotherapy-nov14z.php';
-}
 
 // Preserve the August 28 homepage as a separately addressable page while
 // reusing the exact homepage markup and behavior.
@@ -103,10 +100,9 @@ elseif ($page === 'home-aug-31-grandma') {
     include __DIR__ . '/../pages/home-aug-31-grandma.php';
 }
 
-// Serve the current Technology design at the canonical /technology URL.
-// Keep /technology-sep-10 available as a compatibility alias.
+// Canonical reference Technology page; retain the September design separately.
 elseif ($page === 'technology') {
-    include __DIR__ . '/../pages/technology-sep-10.php';
+    include __DIR__ . '/../pages/technology.php';
 }
 
 // Promote the approved design while retaining /progress2 as an alias.

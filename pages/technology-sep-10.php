@@ -4,5 +4,5 @@
 // allowing typography changes to stay isolated to this route.
 ?>
 <main class="technology-sep-10-content">
-    <?php include __DIR__ . '/technology.php'; ?>
+    <?php include __DIR__ . '/technology-legacy.php'; ?>
 </main>

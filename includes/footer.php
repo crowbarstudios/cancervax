@@ -13,7 +13,7 @@
 </div><!-- /#cvax-home-reference: homepage content, shared footer and team modal -->
 <?php endif; ?>
 
-<?php if (!in_array($page, ['progress', 'progress2', 'thank-you'], true)): ?>
+<?php if (!in_array($page, ['progress', 'progress2', 'thank-you', 'technology'], true)): ?>
 <script
 src="https://widgets.leadconnectorhq.com/loader.js"
 data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
