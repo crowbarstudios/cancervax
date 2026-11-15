@@ -404,47 +404,4 @@
     </div>
 </section>
 
-    <!-- 7th Section -->
-<section>
-    <div class="bg-custom-gray-100">
-        <div class="container">
-            <div class="py-10 md:py-20 grid grid-cols-1 md:grid-cols-12 md:gap-6">
-                <div class="md:col-span-7">
-                    <div class="text-base md:text-3xl font-bold text-center md:text-left mb-5">Keep up with our progress by subscribing to
-                        our email newsletter!
-                    </div>
-                </div>
-                <div class="md:col-span-5 relative">
-                    <form action="https://submit.jotform.com/submit/242775392698071/" method="POST" class="email-input">
-                        <input type="hidden" name="formID" value="242775392698071" />
-                        <input type="email" id="input_3" name="q3_email" class="w-full border border-custom-teal-100 text-base font-normal p-[10px] rounded-md min-h-[50px] pr-[120px] hidden md:block" placeholder="Enter your email">
-                        <div class="mt-16 md:mt-2" data-type="control_captcha" id="id_4">
-                            <label class="text-[15px] font-normal leading-6" id="label_4" for="input_4" aria-hidden="false"> Please verify that you are human<span>*</span> </label>
-                            <div id="cid_4" class="form-input-wide jf-required" data-layout="full">
-                                <section data-wrapper-react="true">
-                                    <div id="hcaptcha_input_4" class="h-captcha" data-siteKey="772f4a50-7161-425e-8cd5-4d7e361ab765" data-callback="hcaptchaCallbackinput_4" data-expired-callback="hcaptchaExpiredCallbackinput_4"></div><input type="hidden" id="input_4" class="hidden validate[required]" name="hcaptcha_visible" required="" />
-                                    <script type="text/javascript" src="https://hcaptcha.com/1/api.js"></script>
-                                </section>
-                            </div>
-                        </div>
-                        <button type="submit" id="submitNewsletterButton" class="bg-custom-teal-100 text-custom-white-100 cursor-pointer p-[10px] text-xl font-medium border-none rounded-md min-h-[50px] w-full md:w-fit absolute top-0 right-0">Subscribe</button>
-                    </form>
-                    <script>
-                        const submitNewsletterButton = document.getElementById('submitNewsletterButton');
-
-                        function onCaptchaSuccess(token) {
-                            document.getElementById('input_4').value = token;
-                            submitNewsletterButton.disabled = false;
-                        }
-
-                        function onCaptchaExpired() {
-                            document.getElementById('input_4').value = '';
-                            submitNewsletterButton.disabled = true;
-                        }
-                    </script>
-                    <div class="text-xs font-medium my-2">We care about your data in our privacy policy</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php // Newsletter is rendered once by includes/shared-footer.php. ?>

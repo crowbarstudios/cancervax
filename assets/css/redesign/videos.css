@@ -1,0 +1,74 @@
+:root {
+  --cv-dark: #295d6e;
+  --cv-teal: #1d8f97;
+  --cv-line: #c9e2e4;
+}
+body { color: #000; }
+main#main p {
+  color: #30515b;
+  font-size: 16.96px !important;
+  line-height: 32px !important;
+  letter-spacing: .78px;
+}
+#cvax-shared-footer .cv-footer-copy p:not(.cv-footer-kicker) {
+  font-size: 16.96px !important;
+  line-height: 32px !important;
+  letter-spacing: .78px !important;
+}
+@media (max-width: 640px) {
+  main#main p { line-height: 31px !important; }
+  #cvax-shared-footer .cv-footer-copy p:not(.cv-footer-kicker) { line-height: 31px !important; }
+}
+.skip-link { position: fixed; z-index: 30; top: 12px; left: 12px; transform: translateY(-200%); padding: 10px 16px; color: white; background: var(--cv-dark); }
+.skip-link:focus { transform: none; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--cv-teal); outline-offset: 4px; }
+#mobile-menu[data-open] { max-height: calc(100dvh - 130px); overflow-y: auto; border-bottom: 1px solid var(--cv-line); }
+[aria-current="page"] { color: var(--cv-dark) !important; text-decoration: underline; text-underline-offset: 5px; }
+.site-invest-cta { margin-inline: auto; }
+@media (min-width: 768px) {
+  .site-invest-cta, .site-invest-cta:hover { position: absolute; top: 50%; left: 50%; margin: 0; transform: translate(-50%, -50%); }
+}
+#main .video-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 46px;
+  padding: .75rem 18px;
+  border: 2px solid #f2a743;
+  border-radius: .75rem;
+  background: #f2a743;
+  color: #103c47;
+  font-size: .875rem !important;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+}
+#main .video-cta:hover { background: #ffd28f; border-color: #ffd28f; }
+#main .container { max-width: 1180px; }
+.videos-hero { background: linear-gradient(#000a, #000a), #143541 url('/assets/images/redesign/videos/ceo-chats-bg.jpg') center top / cover; }
+.video-feature { padding-block: 56px 62px; background: #e6f3fb; border-bottom: 1px solid #c7dfee; }
+.video-feature-layout { display: grid; align-items: center; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(24px, 6vw, 78px); }
+#main h2 { margin-bottom: 17px; color: #103c47; font-size: clamp(2rem, 3.45vw, 3.4rem); font-weight: 720; line-height: 1.13; letter-spacing: -.053em; }
+.video-feature p { margin-bottom: 23px; }
+.feature-thumbnail { display: block; padding: 10px; background: #174f62; border-radius: 12px; box-shadow: 0 10px 24px #164a7326; }
+.video-thumb { position: relative; background: #174f62; overflow: hidden; border-radius: 5px; aspect-ratio: 16 / 9; }
+.video-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.video-play { display: grid; place-items: center; position: absolute; inset: 50% auto auto 50%; transform: translate(-50%, -50%); width: 51px; height: 42px; border-radius: 8px; background: #103c47ed; }
+.video-play::before { content: ""; border-left: 12px solid white; border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
+a:is(:hover, :focus-visible) .video-play { background: #08747b; }
+.webinar-band { padding-block: clamp(42px, 6vw, 76px); background: #fbfbfc; scroll-margin-top: 165px; }
+.video-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 23px; margin-top: 26px; }
+.video-card { display: block; padding: 9px; border: 1px solid #ccdfdf; border-radius: 10px; background: white; }
+.video-card:hover { border-color: #1d8f97; }
+.video-card h3 { margin: 0; padding: 12px 5px 7px; color: #103c47; font-size: 1.125rem; font-weight: 700; line-height: 1.3; letter-spacing: -.015em; }
+.video-dialog { width: min(900px, calc(100% - 30px)); max-height: calc(100% - 30px); margin: auto; padding: 18px; border: 0; border-radius: 12px; background: #103c47; color: white; }
+.video-dialog::backdrop { background: #0b262de0; }
+.video-dialog-header { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 12px; }
+#video-dialog-title { font-size: 1rem; line-height: 1.3; color: white; }
+.video-dialog button { width: 40px; height: 40px; border-radius: 6px; background: white; color: #103c47; font-size: 24px; }
+.video-player iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; }
+.video-fallback, .video-fallback:hover { display: inline-block; margin-top: 10px; color: white; text-decoration: underline; }
+@media(max-width: 850px) { .video-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media(max-width: 700px) { .video-feature { padding-block: 42px; } .video-feature-layout { grid-template-columns: 1fr; } }
+@media(max-width: 480px) { .video-grid { grid-template-columns: 1fr; gap: 16px; } }

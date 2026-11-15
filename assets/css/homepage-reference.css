@@ -1,0 +1,230 @@
+/* Exact homepage-refresh reference treatment. This boundary starts AFTER the
+   protected webinar and encloses only this homepage's content and footer.
+   Public Sans is already imported by the unchanged shared stylesheet. */
+#cvax-home-reference {
+    --cv-home-ink: #123d4b;
+    --cv-home-copy: #3d5964;
+    --cv-home-teal: #08717b;
+    --cv-home-accent: #d88f32;
+    --cv-home-line: #d5e4e9;
+    --cv-home-ice: #edf6fb;
+    --cv-home-paper: #f8fafb;
+    --cv-home-body-size: var(--body-copy-size, 1.06rem);
+    font-family: "Public Sans", sans-serif;
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: black;
+}
+#cvax-home-reference .home-aug-28-a-hero-title {
+    color: var(--cv-home-ink) !important;
+    font-weight: 730;
+}
+#cvax-home-reference .home-aug-28-a-hero-video-block h2,
+#cvax-home-reference .home-aug-28-a-mobile-video h2 {
+    color: var(--cv-home-ink);
+    font-weight: 720;
+    letter-spacing: -.026em;
+}
+#cvax-home-reference .home-aug-28-a-diamond-list > li {
+    font-size: clamp(var(--cv-home-body-size), 1.5vw, 1.22rem);
+    line-height: 1.48;
+}
+#cvax-home-reference .bg-team-first h2,
+#cvax-home-reference .home-sep-1-team-layout section > .container > .text-center > h3,
+#cvax-home-reference .home-sep-1-development-partners .max-w-4xl > h3,
+#cvax-home-reference section:has(> .container > .grid > div > a[href*="single-news.php"]) .max-w-4xl > h3 {
+    color: var(--cv-home-ink);
+    font-size: clamp(1.9rem, 3.45vw, 3.4rem);
+    font-weight: 730;
+    line-height: 1.12;
+    letter-spacing: -.04em;
+    text-wrap: balance;
+}
+#cvax-home-reference .bg-team-first h2 {
+    max-width: 32ch;
+    margin-inline: auto;
+}
+#cvax-home-reference .home-sep-1-team-layout .team-box > h5,
+#cvax-home-reference .home-sep-1-development-partners article > h3 {
+    color: var(--cv-home-ink);
+    font-weight: 720;
+    letter-spacing: -.015em;
+}
+#cvax-home-reference .home-sep-1-team-layout .team-box > p {
+    color: var(--cv-home-copy);
+    letter-spacing: 0;
+}
+#cvax-home-reference .home-sep-1-development-partners {
+    background-color: var(--cv-home-paper);
+    border-block: 1px solid var(--cv-home-line);
+}
+#cvax-home-reference .home-sep-1-development-partners article {
+    border-color: var(--cv-home-line);
+    box-shadow: 0 2px 10px #164a7310;
+}
+#cvax-home-reference .home-sep-1-development-partners article .home-sep-1-partner-description {
+    color: var(--cv-home-copy) !important;
+    font-size: .94rem !important;
+    font-weight: 400 !important;
+    line-height: 1.45 !important;
+    letter-spacing: 0 !important;
+}
+#cvax-home-reference section:has(> .container > .grid > div > a[href*="single-news.php"]) {
+    --cv-news-card: #f7fafc;
+}
+#cvax-home-reference section:has(> .container > .grid > div > a[href*="single-news.php"]) .grid > div:has(> a[href*="single-news.php"]) {
+    background: var(--cv-news-card);
+    border: 1px solid var(--cv-home-line);
+    border-radius: 9px;
+}
+#cvax-home-reference section:has(> .container > .grid > div > a[href*="single-news.php"]) .grid > div:has(> a[href*="single-news.php"]):hover {
+    border-color: #a9cbd2;
+}
+#cvax-home-reference section:has(> .container > .grid > div > a[href*="single-news.php"]) .grid > div > span {
+    color: var(--cv-home-teal);
+    font-size: .78rem;
+    font-weight: 720;
+}
+#cvax-home-reference section:has(> .container > .grid > div > a[href*="single-news.php"]) .grid > div > h3 {
+    color: var(--cv-home-ink);
+    font-size: clamp(1.25rem, 2vw, 1.68rem);
+    font-weight: 720;
+    line-height: 1.24;
+    letter-spacing: -.024em;
+}
+#cvax-home-reference section:has(> .container > .grid > div > a[href*="single-news.php"]) .grid > div > p,
+#cvax-home-reference #team-popup .team-popup-body :is(p, li) {
+    color: var(--cv-home-copy);
+    font-size: var(--cv-home-body-size) !important;
+    font-weight: 400 !important;
+    line-height: 1.62 !important;
+    letter-spacing: normal !important;
+}
+#cvax-home-reference #team-popup .team-popup-title {
+    color: var(--cv-home-ink);
+    font-weight: 720;
+}
+#cvax-home-reference :is(.home-aug-28-c-card-grid a, .team-box a, .popup-youtube, a[href*="single-news.php"]):focus-visible {
+    outline: 3px solid var(--cv-home-accent);
+    outline-offset: 3px;
+}
+@media (max-width: 479px) {
+    #cvax-home-reference .home-aug-28-a-hero-title {
+        font-size: clamp(1.25rem, 6.65vw, 2rem) !important;
+    }
+}
+#cvax-home-reference .home-newsletter-subscribe {
+    background: linear-gradient(105deg, #114654, #087781);
+    color: #fff;
+}
+#cvax-home-reference .home-newsletter-subscribe-inner {
+    width: min(1160px, calc(100% - 72px));
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 440px);
+    align-items: center;
+    gap: 24px 44px;
+    padding-block: 40px;
+}
+#cvax-home-reference .home-newsletter-subscribe p {
+    color: #e2f3f2;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.62 !important;
+    letter-spacing: normal !important;
+    margin: 0;
+}
+#cvax-home-reference .home-newsletter-subscribe p.home-newsletter-kicker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    color: #b8f1ed;
+    font-size: .875rem !important;
+    font-weight: 800 !important;
+    letter-spacing: .14em !important;
+    text-transform: uppercase;
+}
+#cvax-home-reference .home-newsletter-kicker::before {
+    content: "";
+    width: 28px;
+    height: 2px;
+    background: var(--cv-home-accent);
+    flex: none;
+}
+#cvax-home-reference .home-newsletter-subscribe h2 {
+    color: inherit;
+    margin: 0 0 7px;
+    font-size: clamp(2rem, 3.5vw, 3.15rem);
+    font-weight: 730;
+    line-height: 1.08;
+    letter-spacing: -.045em;
+}
+#cvax-home-reference .home-newsletter-fields {
+    display: flex;
+    gap: 8px;
+}
+#cvax-home-reference .home-newsletter-fields input {
+    flex: 1;
+    min-width: 0;
+    padding: 0 12px;
+    min-height: 46px;
+    background: #fff;
+    color: var(--cv-home-ink);
+    border: 1px solid var(--cv-home-line);
+    border-radius: 7px;
+    font-size: .95rem;
+}
+#cvax-home-reference .home-newsletter-fields button {
+    background: #d9f8f2;
+    color: #084b54;
+    border-radius: 7px;
+    padding-inline: 13px;
+    font-size: .88rem;
+    font-weight: 750;
+}
+#cvax-home-reference .home-newsletter-fields button:disabled {
+    background: #c9e9e6;
+    color: #365b61;
+    cursor: default;
+}
+#cvax-home-reference .home-newsletter-fields :focus-visible {
+    outline: 3px solid #f2a743;
+    outline-offset: 3px;
+}
+#cvax-home-reference .home-newsletter-captcha {
+    height: 55px;
+    margin-top: 7px;
+}
+#cvax-home-reference .home-newsletter-captcha .h-captcha {
+    width: max-content;
+    transform: scale(.68);
+    transform-origin: top left;
+}
+#cvax-home-reference #home-newsletter-updates {
+    scroll-margin-top: 175px;
+}
+/* Restore reference footer typography against the local blanket p !important
+   policy, without changing that policy for the banner or any other route. */
+#cvax-home-reference #site-footer p {
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 31px !important;
+    letter-spacing: .78px !important;
+}
+@media (min-width: 768px) {
+    #cvax-home-reference #site-footer p { line-height: 32px !important; }
+}
+@media (max-width: 900px) {
+    #cvax-home-reference .home-newsletter-subscribe-inner { width: calc(100% - 48px); }
+}
+@media (max-width: 740px) {
+    #cvax-home-reference .home-newsletter-subscribe-inner {
+        grid-template-columns: minmax(0, 1fr);
+        padding-block: 44px;
+    }
+}
+@media (max-width: 590px) {
+    #cvax-home-reference .home-newsletter-subscribe-inner { width: calc(100% - 34px); }
+}

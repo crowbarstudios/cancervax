@@ -1,0 +1,220 @@
+/* Shared homepage-reference footer. Deliberately independent of .container,
+   page typography, and the homepage content boundary. */
+#cvax-shared-footer {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: "Public Sans", sans-serif !important;
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    line-height: 1.2 !important;
+    letter-spacing: normal !important;
+    text-align: left !important;
+    color: #000 !important;
+}
+#cvax-shared-footer,
+#cvax-shared-footer * { box-sizing: border-box; }
+#cvax-shared-footer #subscribe {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: linear-gradient(105deg, #114654, #087781) !important;
+    color: #fff !important;
+    scroll-margin-top: 175px;
+}
+#cvax-shared-footer .cv-footer-newsletter-inner {
+    width: min(1160px, calc(100% - 72px)) !important;
+    max-width: none !important;
+    margin: 0 auto !important;
+    padding: 40px 0 !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 440px) !important;
+    align-items: center !important;
+    gap: 24px 44px !important;
+}
+#cvax-shared-footer .cv-footer-copy p {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #e2f3f2 !important;
+    font: 400 16px/1.62 "Public Sans", sans-serif !important;
+    letter-spacing: normal !important;
+    text-transform: none !important;
+}
+#cvax-shared-footer .cv-footer-copy p.cv-footer-kicker {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    margin: 0 0 12px !important;
+    color: #b8f1ed !important;
+    font: 800 14px/1.62 "Public Sans", sans-serif !important;
+    letter-spacing: .14em !important;
+    text-transform: uppercase !important;
+}
+#cvax-shared-footer .cv-footer-kicker::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 2px;
+    background: #d88f32;
+    flex: none;
+}
+#cvax-shared-footer #cv-footer-heading {
+    margin: 0 0 7px !important;
+    padding: 0 !important;
+    color: #fff !important;
+    font-family: "Public Sans", sans-serif !important;
+    font-size: clamp(32px, 3.5vw, 50.4px) !important;
+    font-weight: 730 !important;
+    line-height: 1.08 !important;
+    letter-spacing: -.045em !important;
+    text-transform: none !important;
+}
+#cvax-shared-footer #cv-footer-form {
+    display: block !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: none !important;
+}
+#cvax-shared-footer .cv-footer-fields { display: flex !important; gap: 8px !important; }
+#cvax-shared-footer #cv-footer-email {
+    position: static !important;
+    display: block !important;
+    flex: 1 !important;
+    width: 0 !important;
+    min-width: 0 !important;
+    min-height: 46px !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 12px !important;
+    background: #fff !important;
+    color: #123d4b !important;
+    border: 1px solid #d5e4e9 !important;
+    border-radius: 7px !important;
+    font: 400 15.2px/1.2 "Public Sans", sans-serif !important;
+    letter-spacing: normal !important;
+    box-shadow: none !important;
+}
+#cvax-shared-footer #cv-footer-email::placeholder { color: #9ca3af; opacity: 1; }
+#cvax-shared-footer #cv-footer-submit {
+    position: static !important;
+    display: block !important;
+    flex: none !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 13px !important;
+    border: 0 !important;
+    border-radius: 7px !important;
+    background: #d9f8f2 !important;
+    color: #084b54 !important;
+    font: 750 14.08px/1.2 "Public Sans", sans-serif !important;
+    letter-spacing: normal !important;
+    text-transform: none !important;
+    box-shadow: none !important;
+    cursor: pointer;
+    opacity: 1 !important;
+}
+#cvax-shared-footer #cv-footer-submit:disabled {
+    background: #c9e9e6 !important;
+    color: #365b61 !important;
+    cursor: default;
+}
+#cvax-shared-footer .cv-footer-captcha { height: 55px !important; margin: 7px 0 0 !important; }
+#cvax-shared-footer #cv-footer-captcha {
+    width: max-content !important;
+    transform: scale(.68) !important;
+    transform-origin: top left !important;
+}
+#cvax-shared-footer .cv-footer-label {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+#cvax-shared-footer #site-footer {
+    display: block !important;
+    margin: 0 !important;
+    padding: 30px 0 !important;
+    border: 0 !important;
+    background: #f1f1f1 !important;
+    color: #000 !important;
+}
+#cvax-shared-footer .cv-footer-legal-container {
+    width: 100% !important;
+    max-width: none;
+    padding: 0 12px !important;
+    margin: 0 auto !important;
+}
+#cvax-shared-footer .cv-footer-legal-inner {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 16px !important;
+    max-width: 1220px !important;
+    margin: 0 auto !important;
+    text-align: center;
+}
+#cvax-shared-footer .cv-footer-legal-nav {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 24px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+}
+#cvax-shared-footer .cv-footer-legal-nav a {
+    color: #000 !important;
+    font: 500 13px/20px "Public Sans", sans-serif !important;
+    letter-spacing: normal !important;
+    text-decoration: none;
+    text-underline-offset: 4px;
+}
+#cvax-shared-footer .cv-footer-legal-nav a:hover { text-decoration: underline; }
+#cvax-shared-footer #site-footer p {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #000 !important;
+    font: 400 13px/31px "Public Sans", sans-serif !important;
+    letter-spacing: .78px !important;
+}
+#cvax-shared-footer :is(input, button, a):focus-visible { outline: 3px solid #f2a743; outline-offset: 3px; }
+@media (min-width: 576px) {
+    #cvax-shared-footer .cv-footer-legal-container { max-width: 540px; }
+}
+@media (min-width: 640px) {
+    #cvax-shared-footer .cv-footer-legal-inner { flex-direction: row; text-align: left; }
+}
+@media (min-width: 768px) {
+    #cvax-shared-footer .cv-footer-legal-container { max-width: 720px; }
+    #cvax-shared-footer #site-footer p { line-height: 32px !important; }
+}
+@media (min-width: 992px) {
+    #cvax-shared-footer .cv-footer-legal-container { max-width: 960px; }
+}
+@media (min-width: 1200px) {
+    #cvax-shared-footer .cv-footer-legal-container { max-width: 1140px; }
+}
+@media (min-width: 1400px) {
+    #cvax-shared-footer .cv-footer-legal-container { max-width: 1320px; }
+}
+@media (max-width: 900px) {
+    #cvax-shared-footer .cv-footer-newsletter-inner { width: calc(100% - 48px) !important; }
+}
+@media (max-width: 740px) {
+    #cvax-shared-footer .cv-footer-newsletter-inner { grid-template-columns: minmax(0, 1fr) !important; padding-block: 44px !important; }
+}
+@media (max-width: 590px) {
+    #cvax-shared-footer .cv-footer-newsletter-inner { width: calc(100% - 34px) !important; }
+}

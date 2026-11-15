@@ -1,8 +1,11 @@
-<section class="pt-24 pb-44">
-    <div class="container">
-        <h1 class="text-5xl mb-8 font-medium leading-none">Thank you for getting in touch!</h1>
-        <a href="/" class="theme-btn bg-custom-teal-200 border-custom-teal-200">
-            Go back to home
-        </a>
+<main class="cv-thank-you" aria-labelledby="cv-thanks-title">
+    <div class="container cv-thank-you__inner">
+        <div class="cv-thank-you__status">
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m3 8 3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Submission received
+        </div>
+        <h1 class="cv-thank-you__title" id="cv-thanks-title">Thank you for getting in touch!</h1>
+        <p class="cv-thank-you__copy">We appreciate your interest in CancerVax.</p>
+        <a class="cv-thank-you__home" href="/"><span aria-hidden="true">←</span> Back to home</a>
     </div>
-</section>
+</main>

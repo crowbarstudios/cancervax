@@ -1,62 +1,79 @@
-<section class="py-24 md:py-28 bg-[top_center] bg-cover text-center relative bg-market-bg bg-black bg-opacity-50">
-    <div class="container">
-    <h1 class="relative z-10 text-white font-medium">Market</h1>
-    </div>
-</section>
-<section class="pt-24">
-    <div class="container">
-        <div class="mb-10 space-y-3 [&>p]:text-base [&>p]:leading-normal [&>p]:text-black">
-            <p>According to the World Health Organization, <strong>cancer is the second leading cause</strong> of death globally and was responsible for an estimated 10 million deaths in 2023.  
-            </p>
-            <p>The American Cancer Society estimates that 1.95 million new cases of cancer were diagnosed and that 609,820 cancer deaths occurred in the United States in 2023. 
- 
-            </p>
-            <p>Conventional cancer treatment methods such as surgery, chemotherapy, and radiation therapy often have limited efficacy and serious side effects. The “war on cancer” continues.
+<main id="main">
+  <section class="market-hero py-24 md:py-28 text-center" aria-labelledby="page-title">
+    <div class="container"><h1 class="text-white font-medium" id="page-title">Market</h1></div>
+  </section>
 
-            </p>
-            <p>According to a 2024 report from Statista, the global cancer immunotherapy market will grow from $83 billion in 2023 to $231 billion by 2031.
-
-            </p>
+  <section class="market-opening" aria-labelledby="market-outlook">
+    <div class="container market-overview">
+      <div class="market-copy market-overview-head">
+        <h2 id="market-outlook">The cancer immunotherapy market</h2>
+        <p>Immunotherapy uses the body’s immune system to fight cancer. As more treatments become available, CancerVax expects the market to expand.</p>
+        <a class="theme-btn orange-btn market-cta" href="#drivers">Explore the growth drivers <span aria-hidden="true">↓</span></a>
+      </div>
+      <figure class="market-chart" aria-labelledby="forecast-title">
+        <h3 id="forecast-title">Global market size</h3>
+        <div class="market-bar-row">
+          <span>2023 estimate</span><strong>$83B</strong>
+          <div class="market-track" aria-hidden="true"><div class="market-bar market-bar-estimate"></div></div>
         </div>
-        <div class="grid grid-cols-1 xl:grid-cols-12 gap-6">
-            <div class="xl:col-span-5">
-                <div>
-                    <img src="./assets/images/market-1.png" alt="market">
-                </div>
-            </div>
-            <div class="xl:col-span-7">
-                <div class="mcontent-text">
-                    <p class="text-black text-base leading-normal">
-                        Cancer immunotherapy, also known as cancer treatment vaccine, has emerged as a very promising next-generation treatment. Immunotherapy utilizes the body’s own immune system to fight cancer, usually with milder side effects and more targeted than chemotherapy. 
-                       </p>
-                    <h5 class="text-custom-teal-300 text-2xl font-normal leading-8 mt-3 mb-2">The rapid growth of the immunotherapy market can be attributed to three primary factors:</h5>
-                    <ul class="theme-check-list">
-                        <li>Rising cancer incidence worldwide </li>
-                        <li> Increased awareness about immunotherapy treatment options beyond traditional chemotherapy, radiation, and surgery</li>
-                        <li>Increasing patient and physician interest in newly invented advanced treatments</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="market-bar-row">
+          <span>2031 forecast</span><strong>$231B</strong>
+          <div class="market-track" aria-hidden="true"><div class="market-bar"></div></div>
         </div>
-  <br><br>
-        <div class="mt-10 space-y-10">
-            <p class="text-black text-base leading-normal">
-                The two biggest immunotherapy drugs – Keytruda from Merck (NYSE: MRK) and Opdivo from Bristol-Myers Squibb (NYSE: BMY) – started out as niche products for incurable lung cancer and gradually expanded into blockbuster drugs with multiple cancer indications. Their robust sales are strong testaments to the science and market potential of immunotherapy – using the body’s immune system to fight cancer.
-            </p>
-            <p class="text-black text-base leading-normal">
-                While there is no single magic “cure-all” cancer vaccine, disease-specific immunotherapy has proven to be effective in improving patient quality of life and survival rates. This translates into a large and growing market with many winning opportunities for biotech companies and many drug options for patients.
-            </p>
-        </div>
+        <figcaption>Source <a href="/market">CancerVax’s Market page</a>, which cites a 2024 Statista report.</figcaption>
+      </figure>
     </div>
-</section>
-<section class="pt-20 pb-28">
+  </section>
+
+  <section class="market-section market-burden" aria-labelledby="burden-title">
     <div class="container">
-        <div class="bg-market-cta bg-cover bg-center bg-no-repeat py-8 sm:py-[70px] lg:pt-20 lg:pb-28">
-        <div class="mx-auto max-w-[900px] px-8 sm:px-[70px] lg:px-0">
-                <h2 class=" text-white text-3xl sm:text-6xl font-medium mb-5">CancerVax Vision</h2>
-                <p class="text-white text-xl sm:text-2xl mb-6 !leading-normal">To become a recognized leader in the field of cancer immunotherapies and vaccines by accelerating the translation of scientific knowledge into effective and commercially available cancer treatments.</p>
-            </div>
-        </div>
+      <h2 id="burden-title">The burden of cancer</h2>
+      <div>
+      <div class="market-table">
+        <table>
+          <thead><tr><th scope="col">Population</th><th scope="col">New cases</th><th scope="col">Deaths</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Worldwide, 2022</th><td>20 million</td><td>9.7 million</td></tr>
+            <tr><th scope="row">United States, 2023</th><td>1,958,310</td><td>609,820</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="market-sources">Estimates from <a href="https://www.iarc.who.int/news-events/global-cancer-burden-growing-amidst-mounting-need-for-services/">IARC</a> and the <a href="https://doi.org/10.3322/caac.21763">American Cancer Society</a>.</div>
+      </div>
     </div>
-</section>
+  </section>
 
+  <section class="market-section market-drivers" id="drivers" aria-labelledby="drivers-title">
+    <div class="container">
+      <h2 id="drivers-title">What’s driving market growth?</h2>
+      <div class="driver-grid">
+        <article id="cancer-incidence">
+          <span class="driver-label">Cancer incidence</span>
+          <h3>A growing need for treatment</h3>
+          <p>Population growth and aging are expected to increase the number of people diagnosed with cancer. The scale of that burden underscores the need for more treatment options.</p>
+        </article>
+        <article id="treatment-options">
+          <span class="driver-label">Treatment options</span>
+          <h3>A wider range of approaches</h3>
+          <p>Immunotherapy includes checkpoint inhibitors, cell therapies, and treatment vaccines. As these options develop, patients and clinicians have more approaches to consider for certain cancers.</p>
+        </article>
+        <article id="clinical-adoption">
+          <span class="driver-label">Clinical adoption</span>
+          <h3>From initial approvals to wider use</h3>
+          <p>Keytruda and Opdivo are examples of checkpoint inhibitors that gained approvals across multiple cancer types. Their expansion illustrates how a treatment can reach more patients as evidence builds for additional uses.</p>
+        </article>
+      </div>
+      <a class="market-related" href="/immunotherapy#checkpoint">Explore the types of immunotherapy <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <section class="market-section market-vision" aria-labelledby="vision-title">
+    <div class="container market-split">
+      <h2 id="vision-title">CancerVax Vision</h2>
+      <div class="market-copy">
+        <p>CancerVax aims to turn advances in immunotherapy and cancer vaccine research into treatments that can reach patients.</p>
+        <a class="theme-btn orange-btn market-cta" href="/progress">See our progress <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+</main>

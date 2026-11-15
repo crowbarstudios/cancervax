@@ -70,7 +70,11 @@ $teamMarkup = str_replace(
     $teamMarkup
 );
 
-echo '<div class="home-sep-1-team-layout">' . $teamMarkup . '</div>';
+$teamMarkup = str_replace('<a href="#">', '<a href="/team">', $teamMarkup);
+
+// Keep the same canonical team-heads.php biographies and homepage portrait
+// transformation above; the ID supplies a /team-only styling boundary.
+echo '<div id="cvax-team-reference" class="home-sep-1-team-layout">' . $teamMarkup . '</div>';
 
 $developmentPartners = [
     [

@@ -100,17 +100,8 @@ if ($cardGridReplacementCount !== 1) {
     throw new RuntimeException('Unable to replace the Adrian card grid with the home-aug-29 version.');
 }
 
-$adrianPage = preg_replace(
-    '/\s*<section class="bg-white text-center py-\[50px\]">.*?(?=<style>\s*body\.home-sep-1-impact-people-page)/s',
-    '',
-    $adrianPage,
-    1,
-    $newsletterRemovalCount
-);
-
-if ($newsletterRemovalCount !== 1) {
-    throw new RuntimeException('Unable to remove the Adrian newsletter section.');
-}
+// Newsletter removal is no longer a page-specific transform: the source
+// templates now defer to the single shared footer on every route.
 
 $adrianPage = str_replace(
     'Developing A Revolutionary<br><span class="home-aug-28-c-story-title-second-line">Cancer Treatment</span>',

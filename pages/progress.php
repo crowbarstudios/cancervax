@@ -104,11 +104,12 @@ $isRedesignedProgress = in_array($page ?? '', ['progress', 'progress-sep-8'], tr
     <div class="container py-28">
         <div class="bg-custom-aqua-100 px-8 py-9 rounded-[42px]">
             <h5 class="text-2xl font-bold mb-8">May 31, 2025 – Successfully Made Cell Targeting Lipid Nanoparticle (“LNP”)</h5>
-            <div class="bg-white p-8 grid grid-cols-1 lg:grid-cols-12 gap-[52px]">
-                <div class="lg:col-span-6 flex justify-center xl:px-3">
-                    <img src="./assets/images/lipid-nanoparticle.png" alt="lipid-nanoparticle">
+            <div class="bg-white p-8 grid progress-may-2025-layout">
+                <div class="flex flex-col justify-center items-center xl:px-3">
+                    <h6 class="text-2xl font-bold mb-5 text-center">Lipid Nanoparticle</h6>
+                    <img class="progress-may-2025-lnp-image" src="<?php echo $full_url; ?>assets/images/lipid-nanoparticle-marker1.png" alt="Blue lipid nanoparticle displaying Marker1 targeting molecules">
                 </div>
-                <div class="lg:col-span-6 lg:pt-6 px-3 xl:pr-[50px]">
+                <div class="px-3">
                     <ul class="list-disc list-outside [&>li]:text-black [&>li]:font-normal [&>li]:text-xl [&>li]:leading-8">
                         <li>Independent analysis confirmed efficient and successful attachment of Marker1 onto lipid nanoparticles</li>
                         <li class="my-5">Marker1 is a molecule that will seek out  specific proteins on cancer cell surface and deliver our Smart mRNA payload</li>
@@ -116,11 +117,11 @@ $isRedesignedProgress = in_array($page ?? '', ['progress', 'progress-sep-8'], tr
                     </ul>
                 </div>
             </div>
-            <div class="progress-two-actions grid grid-cols-1 lg:grid-cols-12 mt-12 gap-12">
-                <div class="lg:col-span-7 flex justify-center">
+            <div class="progress-may-2025-actions grid mt-12">
+                <div class="flex justify-center">
                     <a href="webinar-may-31-2025" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Update Video</a>
                 </div>
-                <div class="lg:col-span-5 flex justify-center">
+                <div class="flex justify-center">
                     <a href="single-news.php?id=35" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
                 </div>
             </div>
@@ -273,6 +274,37 @@ Many LNP therapies fail in clinical trials due to liver accumulation and result
                 </div>
                 <div class="lg:col-span-5 flex justify-center">
                     <a href="single-news.php?id=52" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="november-2026-milestone">
+    <div class="container pb-28">
+        <div class="bg-custom-aqua-100 px-8 py-9 rounded-[42px]">
+            <h5 class="text-2xl font-bold mb-8">November 17, 2026 – Successfully Killed Cancer Cells in Landmark Test</h5>
+            <div class="bg-white p-8 grid grid-cols-1 lg:grid-cols-12 gap-[52px]">
+                <div class="lg:col-span-6 flex flex-col justify-center gap-8 xl:px-3">
+                    <img
+                        src="<?php echo $full_url; ?>assets/images/progress-nov-2026-cell-killing-chart.png"
+                        alt="Cancer-cell killing over 68 hours, with antiviral T-cell test results approaching 100 percent cytolysis">
+                    <img
+                        src="<?php echo $full_url; ?>assets/images/progress-nov-2026-cell-killing-process.png"
+                        alt="Four-step real-time cell-killing test: seed liver cancer cells, add CancerVax nanoparticles, wash the media, then add antiviral T-cells">
+                </div>
+                <div class="lg:col-span-6 lg:pt-6 px-3 xl:pr-[50px]">
+                    <h6 class="text-2xl font-bold mb-5">Real-Time Cell Killing on the xCELLigence Machine</h6>
+                    <ul class="list-disc list-outside [&>li]:text-black [&>li]:font-normal [&>li]:text-xl [&>li]:leading-8">
+                        <li class="mb-5">Human liver cancer cells were seeded on gold electrodes.</li>
+                        <li class="mb-5">CancerVax treatment nanoparticles were added and left for 24 hours.</li>
+                        <li class="mb-5">The media was washed before human antiviral T-cells were added.</li>
+                        <li>The cells were monitored in real time as the T-cells attacked.</li>
+                    </ul>
+                    <p class="milestone-callout text-xl font-bold mt-6"><strong>After 68 hours, nearly 100% of the cancer cells were killed.</strong></p>
+                    <div class="mt-8 flex justify-center lg:justify-start">
+                        <a href="single-news.php?id=54" class="theme-btn orange-btn !text-[18px] font-medium tracking-normal">Press Release</a>
+                    </div>
                 </div>
             </div>
         </div>

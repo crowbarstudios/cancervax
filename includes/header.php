@@ -1,3 +1,4 @@
+<?php $isReferenceProgress = in_array($page, ['progress', 'progress2'], true); ?>
 <!DOCTYPE html>
 <html lang="en">
  
@@ -7,7 +8,13 @@
     <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="Thu, 01 Jan 1970 00:00:00 GMT">
-    <title>Cancervax</title>
+    <title><?php echo $page === 'thank-you' ? 'Thank You | CancerVax' : ($isReferenceProgress ? 'Progress | CancerVax' : 'Cancervax'); ?></title>
+    <?php if ($page === 'thank-you'): ?>
+        <meta name="robots" content="noindex, nofollow">
+    <?php endif; ?>
+    <?php if ($isReferenceProgress): ?>
+        <meta name="description" content="Follow the preclinical development of CancerVax’s investigational cancer immunotherapy platform.">
+    <?php endif; ?>
     <link rel="apple-touch-icon" sizes="114x114" href="<?php echo $full_url; ?>assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $full_url; ?>assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $full_url; ?>assets/images/favicon/favicon-16x16.png">
@@ -18,10 +25,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/style.css?v=<?php echo time(); ?>">
+    <?php if ($page === 'thank-you'): ?>
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/thank-you.css?v=<?php echo time(); ?>">
+    <?php endif; ?>
+    <?php if ($isReferenceProgress): ?>
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/progress2.css?v=<?php echo time(); ?>">
+    <?php endif; ?>
     <?php if (in_array($page, ['technology', 'technology-sep-10'])): ?>
         <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/technology-sep-10.css?v=<?php echo time(); ?>">
     <?php endif; ?>
  
+    <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/shared-footer.css?v=<?php echo filemtime(__DIR__ . '/../assets/css/shared-footer.css'); ?>">
+<?php
+    $redesignPage = $page === 'single-news.php' ? 'single-news' : $page;
+    if (in_array($redesignPage, ['immunotherapy', 'market', 'news', 'videos', 'invest', 'contact', 'single-news'], true)):
+        $redesignCss = 'assets/css/redesign/' . $redesignPage . '.css';
+    ?>
+        <link rel="stylesheet" href="/<?= $redesignCss ?>?v=<?= filemtime(__DIR__ . '/../' . $redesignCss) ?>">
+        <?php if (in_array($redesignPage, ['immunotherapy', 'videos', 'contact'], true)): ?>
+            <?php $redesignJs = 'assets/js/redesign/' . $redesignPage . '.js'; ?>
+            <script defer src="/<?= $redesignJs ?>?v=<?= filemtime(__DIR__ . '/../' . $redesignJs) ?>"></script>
+        <?php endif; ?>
+    <?php endif; ?>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7D9TX20JND"></script>
     <script>
@@ -131,7 +156,7 @@
  
  
  
-<body class="<?php echo ($page === 'home') ? 'home' : ''; ?><?php echo in_array($page, ['home-aug-28-c', 'home-aug-29', 'home-aug-30', 'home-aug-31']) ? ' home-aug-28-c-page' : ''; ?><?php echo in_array($page, ['home-sep-1-impact-people', 'home-sep-1-impact-people-alternate']) ? ' home-sep-1-impact-people-page' : ''; ?><?php echo ($page === 'home-sep-1-impact-people-alternate') ? ' home-sep-1-impact-people-alternate-page' : ''; ?><?php echo ($page === 'home-sep-1-adrian') ? ' home-sep-1-adrian-page' : ''; ?><?php echo ($page === 'home-sep-2') ? ' home-sep-2-page' : ''; ?><?php echo ($page === 'privacy-policy') ? ' privacy-policy-page' : ''; ?><?php echo in_array($page, ['progress', 'progress-sep-8']) ? ' progress-sep-8-page' : ''; ?>">
+    <body class="<?php echo ($page === 'home') ? 'home' : ''; ?><?php echo in_array($page, ['home-aug-28-c', 'home-aug-29', 'home-aug-30', 'home-aug-31']) ? ' home-aug-28-c-page' : ''; ?><?php echo in_array($page, ['home-sep-1-impact-people', 'home-sep-1-impact-people-alternate']) ? ' home-sep-1-impact-people-page' : ''; ?><?php echo ($page === 'home-sep-1-impact-people-alternate') ? ' home-sep-1-impact-people-alternate-page' : ''; ?><?php echo ($page === 'home-sep-1-adrian') ? ' home-sep-1-adrian-page' : ''; ?><?php echo ($page === 'home-sep-2') ? ' home-sep-2-page' : ''; ?><?php echo ($page === 'privacy-policy') ? ' privacy-policy-page' : ''; ?><?php echo ($page === 'progress-sep-8') ? ' progress-sep-8-page' : ''; ?><?php echo $isReferenceProgress ? ' progress2-page' : ''; ?>">
  
  
 <?php $hideHeaderPages = [
@@ -195,7 +220,9 @@
                             "invest" => "Investors",
                             "contact" => "Contact"
                         ];
-                        $activeNavPage = ($page === 'technology-sep-10') ? 'technology' : $page;
+                        $activeNavPage = in_array($page, ['technology-sep-10', 'progress2'], true)
+                            ? ($page === 'progress2' ? 'progress' : 'technology')
+                            : $page;
  
                         $baseUrl = $baseUrl ?? (strpos(($_SERVER['HTTP_HOST'] ?? ''), 'localhost') !== false || ($_SERVER['HTTP_HOST'] ?? '') === '127.0.0.1' ? "/cancervax" : "");
                         ?>
