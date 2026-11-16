@@ -55,7 +55,7 @@
                 value: element.style.getPropertyValue('font-size'),
                 priority: element.style.getPropertyPriority('font-size')
             });
-            element.style.setProperty('font-size', `${size * 1.1025}px`, 'important');
+            element.style.setProperty('font-size', `${size * 1.157625}px`, 'important');
         });
     }
 
