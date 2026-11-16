@@ -19,8 +19,8 @@
                 </div>
                 <div class="figures">
                     <figure>
-                        <a href="<?php echo $full_url; ?>assets/images/progress2/nov-2026-cell-killing.webp" class="figure-link" aria-label="Enlarge figure: Cancer-cell killing by antiviral T cells over 68 hours">
-                            <img fetchpriority="high" src="<?php echo $full_url; ?>assets/images/progress2/nov-2026-cell-killing.webp" alt="Line chart showing cancer-cell killing by antiviral T cells over 68 hours" width="844" height="606">
+                        <a href="<?php echo $full_url; ?>assets/images/progress2/nov-2026-cell-killing-box.png" class="figure-link" aria-label="Enlarge figure: Cancer-cell killing by antiviral T cells over 68 hours">
+                            <img fetchpriority="high" src="<?php echo $full_url; ?>assets/images/progress2/nov-2026-cell-killing-box.png" alt="Line chart showing cancer-cell killing by antiviral T cells over 68 hours" width="844" height="606">
                         </a>
                         <figcaption>Real-time measurement of cancer-cell killing over 68 hours.</figcaption>
                     </figure>
