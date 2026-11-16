@@ -212,10 +212,21 @@ body.progress2-page .subscribe-captcha .h-captcha{width:max-content;transform:sc
 
 /* Match the reference page's small editorial text despite global site type rules. */
 body.progress2-page #main .cv-progress-content .eyebrow{
-  font-size:11.68px!important;
-  line-height:16.352px!important;
-  letter-spacing:1.6352px!important;
+  /* Match Technology's .tech-kicker without loading its page-wide styles. */
+  font-family:"Public Sans",sans-serif!important;
+  font-size:14px!important;
+  line-height:22.68px!important;
+  letter-spacing:1.96px!important;
   font-weight:800!important;
+  color:#d88f32;
+  text-transform:uppercase;
+  gap:10px;
+}
+body.progress2-page #main .cv-progress-content .eyebrow i{
+  width:28px;
+  height:2px;
+  background:#d88f32;
+  flex:none;
 }
 body.progress2-page #main .cv-progress-content .latest-copy>p:not(.eyebrow):not(.resource-note){
   font-size:16.96px!important;

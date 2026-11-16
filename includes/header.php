@@ -50,7 +50,7 @@ $isReferenceTechnology = $page === 'technology';
     <?php endif; ?>
 <?php
     $redesignPage = $page === 'single-news.php' ? 'single-news' : $page;
-    if (in_array($redesignPage, ['news', 'videos', 'invest', 'contact', 'single-news'], true)):
+    if (in_array($redesignPage, ['market', 'news', 'videos', 'invest', 'contact', 'single-news'], true)):
         $redesignCss = 'assets/css/redesign/' . $redesignPage . '.css';
     ?>
         <link rel="stylesheet" href="/<?= $redesignCss ?>?v=<?= filemtime(__DIR__ . '/../' . $redesignCss) ?>">
@@ -228,6 +228,7 @@ $isReferenceTechnology = $page === 'technology';
                             "team" => "Team",
                             "technology" => "Technology",
                             "progress" => "Progress",
+                            "market" => "Market",
                             "news" => "Newsroom",
                             "videos" => "Videos",
                             "invest" => "Investors",
