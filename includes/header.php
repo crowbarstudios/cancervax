@@ -1,6 +1,7 @@
 <?php
 $isReferenceProgress = in_array($page, ['progress', 'progress2'], true);
 $isReferenceTechnology = $page === 'technology';
+$isReferenceMarket = $page === 'market';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +12,10 @@ $isReferenceTechnology = $page === 'technology';
     <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="Thu, 01 Jan 1970 00:00:00 GMT">
-    <title><?php echo $isReferenceTechnology ? 'Technology | CancerVax' : ($page === 'thank-you' ? 'Thank You | CancerVax' : ($isReferenceProgress ? 'Progress | CancerVax' : 'Cancervax')); ?></title>
+    <title><?php echo $isReferenceMarket ? 'Market | CancerVax' : ($isReferenceTechnology ? 'Technology | CancerVax' : ($page === 'thank-you' ? 'Thank You | CancerVax' : ($isReferenceProgress ? 'Progress | CancerVax' : 'Cancervax'))); ?></title>
+    <?php if ($isReferenceMarket): ?>
+        <meta name="description" content="Explore the global burden of cancer, the market for cancer immunotherapy, and where CancerVax’s preclinical platform fits.">
+    <?php endif; ?>
     <?php if ($isReferenceTechnology): ?>
         <meta name="description" content="Explore the CancerVax Universal Cancer Treatment Platform and its proposed approach to redirecting existing antiviral immunity.">
     <?php endif; ?>
@@ -32,7 +36,7 @@ $isReferenceTechnology = $page === 'technology';
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <?php // The reference's base stylesheet prevents site-wide typography overrides
           // from altering this route. All other routes retain their existing CSS. ?>
-    <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/<?php echo $isReferenceTechnology ? 'technology-reference-base.css' : 'style.css'; ?>?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/<?php echo $isReferenceMarket ? 'market-reference-base.css' : ($isReferenceTechnology ? 'technology-reference-base.css' : 'style.css'); ?>?v=<?php echo time(); ?>">
     <?php if ($page === 'thank-you'): ?>
         <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/thank-you.css?v=<?php echo time(); ?>">
     <?php endif; ?>
@@ -44,13 +48,19 @@ $isReferenceTechnology = $page === 'technology';
     <?php endif; ?>
  
     <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/shared-footer.css?v=<?php echo filemtime(__DIR__ . '/../assets/css/shared-footer.css'); ?>">
+    <?php if ($isReferenceMarket): ?>
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/market-reference-template.css?v=<?= filemtime(__DIR__ . '/../assets/css/market-reference-template.css') ?>">
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/market-reference.css?v=<?= filemtime(__DIR__ . '/../assets/css/market-reference.css') ?>">
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/market-reference-integration.css?v=<?= filemtime(__DIR__ . '/../assets/css/market-reference-integration.css') ?>">
+        <script defer src="<?php echo $full_url; ?>assets/js/market-reference.js?v=<?= filemtime(__DIR__ . '/../assets/js/market-reference.js') ?>"></script>
+    <?php endif; ?>
     <?php if ($isReferenceTechnology): ?>
         <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/technology-reference.css?v=<?php echo filemtime(__DIR__ . '/../assets/css/technology-reference.css'); ?>">
         <script defer src="<?php echo $full_url; ?>assets/js/technology-reference.js?v=<?php echo filemtime(__DIR__ . '/../assets/js/technology-reference.js'); ?>"></script>
     <?php endif; ?>
 <?php
     $redesignPage = $page === 'single-news.php' ? 'single-news' : $page;
-    if (in_array($redesignPage, ['market', 'news', 'videos', 'invest', 'contact', 'single-news'], true)):
+    if (in_array($redesignPage, ['news', 'videos', 'invest', 'contact', 'single-news'], true)):
         $redesignCss = 'assets/css/redesign/' . $redesignPage . '.css';
     ?>
         <link rel="stylesheet" href="/<?= $redesignCss ?>?v=<?= filemtime(__DIR__ . '/../' . $redesignCss) ?>">
@@ -177,6 +187,9 @@ $isReferenceTechnology = $page === 'technology';
  
 <?php if ($isReferenceTechnology): ?>
     <a class="sr-only focus:not-sr-only" href="#technology">Skip to content</a>
+<?php endif; ?>
+<?php if ($isReferenceMarket): ?>
+    <a class="sr-only focus:not-sr-only" href="#main">Skip to content</a>
 <?php endif; ?>
 <?php if (!in_array($page, $hideHeaderPages)): ?>
  

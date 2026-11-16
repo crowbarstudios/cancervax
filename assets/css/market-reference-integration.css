@@ -1,0 +1,17 @@
+/* Loaded on Market only: retain the working shared Jotform while matching
+   the reference's .cv-tech newsletter typography exactly. */
+#cvax-shared-footer #cv-footer-heading {
+    font-size: clamp(2rem, 4.6vw, 3.6rem) !important;
+}
+#cvax-shared-footer #subscribe {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+}
+#cvax-shared-footer #cv-footer-email,
+#cvax-shared-footer #cv-footer-submit {
+    line-height: 1.6 !important;
+}
+#cvax-shared-footer #subscribe :focus-visible {
+    outline: 3px solid #d38226;
+    outline-offset: 3px;
+}

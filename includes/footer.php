@@ -13,13 +13,11 @@
 </div><!-- /#cvax-home-reference: homepage content, shared footer and team modal -->
 <?php endif; ?>
 
-<?php if (!in_array($page, ['progress', 'progress2', 'thank-you', 'technology'], true)): ?>
 <script
 src="https://widgets.leadconnectorhq.com/loader.js"
 data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
 data-widget-id="692e23d5fdb7681dffea583c" >
 </script>
-<?php endif; ?>
 
 <script src="<?php echo $full_url; ?>assets/js/jquery-3.1.1.min.js?v=<?php echo time(); ?>"></script>
 <script src="<?php echo $full_url; ?>assets/js/jquery.magnific-popup.min.js?v=<?php echo time(); ?>"></script>
