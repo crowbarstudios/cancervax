@@ -208,7 +208,7 @@ body.progress2-page .subscribe-captcha .h-captcha{width:max-content;transform:sc
 .cv-progress-content .roadmap-section .section{padding-block:clamp(42px,5vw,60px)}
 .cv-progress-content .roadmap-section .section-heading{grid-template-columns:minmax(0,1fr);align-items:start;gap:10px;margin-bottom:22px}
 .cv-progress-content .roadmap-section .section-heading>p{max-width:78ch;padding:0;font-size:1rem;line-height:1.55;letter-spacing:normal}
-.cv-progress-content .roadmap-section .roadmap-emphasis{color:var(--amber);font-weight:750;font-size:1.125em}
+.cv-progress-content .roadmap-section .roadmap-emphasis{color:#d88f32;font-weight:750;font-size:1.125em}
 
 /* Match the reference page's small editorial text despite global site type rules. */
 body.progress2-page #main .cv-progress-content .eyebrow{

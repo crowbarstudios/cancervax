@@ -1,38 +1,33 @@
-<?php
-$videos = include __DIR__ . '/../data/podcast-data.php';
-$news = include __DIR__ . '/../data/news-data.php';
-?>
+<main id="main">
+  <section class="news-hero py-24 md:py-28 text-center" aria-labelledby="page-title">
+    <div class="container"><h1 class="text-white font-medium" id="page-title">Newsroom</h1></div>
+  </section>
 
-<section class="py-24 md:py-28 bg-top bg-cover text-center relative bg-news-bg">
+  <section class="release-band" aria-labelledby="releases-title">
     <div class="container">
-        <h1 class="relative z-10 text-white font-medium">Newsroom</h1>
+      <div class="release-heading">
+        <h2 id="releases-title">Press releases</h2>
+        <a class="archive-link" href="/news"><span aria-hidden="true">←</span> Back to newsroom</a>
+      </div>
+      <div class="release-list">
+        <?php
+        $news = require __DIR__ . '/../data/news-data.php';
+        $pressReleases = array_filter($news, static function ($item) {
+            return ($item['category'] ?? '') === 'pressrelease';
+        });
+        foreach ($pressReleases as $item):
+            $timestamp = strtotime($item['date']);
+        ?>
+        <article class="release">
+          <time<?php if ($timestamp !== false): ?> datetime="<?= date('Y-m-d', $timestamp) ?>"<?php endif; ?>><?= htmlspecialchars($item['date'], ENT_QUOTES, 'UTF-8') ?></time>
+          <div class="release-copy">
+            <h3><a href="/single-news.php?id=<?= rawurlencode((string) $item['id']) ?>"><?= htmlspecialchars($item['title'], ENT_QUOTES, 'UTF-8', false) ?></a></h3>
+            <p><?= htmlspecialchars($item['excerpt'], ENT_QUOTES, 'UTF-8', false) ?></p>
+          </div>
+          <span class="release-arrow" aria-hidden="true">→</span>
+        </article>
+        <?php endforeach; ?>
+      </div>
     </div>
-</section>
-
-<section class="py-24">
-    <div class="container">
-        <!-- Latest Press Release News -->
-        <div>
-            <h2 class="text-2xl sm:text-[40px] leading-10 mb-5 sm:mb-10 font-medium">Press Releases</h2>
-        </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-7">
-            <?php
-            $filteredPressleaseNews = array_filter($news, function ($item) {
-                return $item['category'] === 'pressrelease';
-            });
-
-            // Take the latest 4 industry news articles
-            // $latestIndustryNews = array_slice($filteredPressleaseNews, 0, 4);
-            foreach ($filteredPressleaseNews as $item) {
-                echo "<div class=\"bg-custom-gray-200 min-h-full p-4 sm:p-10 relative \">
-                        <a href=\"single-news.php?id={$item['id']}\" class=\"absolute inset-0 w-full h-full\"></a>
-                        <span class=\"text-custom-teal-300 text-sm uppercase font-medium tracking-widest block\">{$item['date']}</span>
-                        <h3 class=\"text-lg sm:text-[28px] font-semibold my-4 text-black leading-tight\">{$item['title']}</h3>
-                        <p class=\"text-black text-xl sm:text-base leading-normal\">{$item['excerpt']}</p>
-                    </div>";
-            } ?>
-
-        </div>
-
-    </div>
-</section>
+  </section>
+</main>

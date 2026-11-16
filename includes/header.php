@@ -59,7 +59,7 @@ $isReferenceMarket = $page === 'market';
         <script defer src="<?php echo $full_url; ?>assets/js/technology-reference.js?v=<?php echo filemtime(__DIR__ . '/../assets/js/technology-reference.js'); ?>"></script>
     <?php endif; ?>
 <?php
-    $redesignPage = $page === 'single-news.php' ? 'single-news' : $page;
+    $redesignPage = $page === 'news-archive' ? 'news' : ($page === 'single-news.php' ? 'single-news' : $page);
     if (in_array($redesignPage, ['news', 'videos', 'invest', 'contact', 'single-news'], true)):
         $redesignCss = 'assets/css/redesign/' . $redesignPage . '.css';
     ?>
@@ -174,6 +174,9 @@ $isReferenceMarket = $page === 'market';
         }
     </style>
  
+    <?php if (in_array($page, ['team', 'technology', 'progress', 'progress2', 'market', 'news', 'news-archive', 'videos'], true)): ?>
+        <link rel="stylesheet" href="/assets/css/title-banners.css?v=<?= filemtime(__DIR__ . '/../assets/css/title-banners.css') ?>">
+    <?php endif; ?>
 </head>
  
  
