@@ -96,16 +96,6 @@ body.progress2-page > section.bg-white.text-center{display:none}
 .cv-progress-content .latest .eyebrow{margin-bottom:17px}
 .cv-progress-content .latest .actions{margin-top:19px}
 .cv-progress-content .section-heading{gap:11px;margin-bottom:21px}
-.cv-progress-content .table-shell{background:none;border:0;overflow:visible}
-.cv-progress-content table{min-width:0;display:block}
-.cv-progress-content thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
-.cv-progress-content tbody{display:grid;gap:9px}
-.cv-progress-content tbody tr{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:white}
-.cv-progress-content tbody tr td{display:none}
-.cv-progress-content tbody tr td.current{display:block;border:0;padding:9px 8px}
-.cv-progress-content tbody tr th:first-child{border:0;width:auto;padding:9px 8px 9px 11px}
-.cv-progress-content .status{font-size:0}
-.cv-progress-content .status:after{content:"Preclinical";font-size:.71rem}
 .cv-progress-content .archive .section-heading{margin-bottom:22px}
 .cv-progress-content .year-group{grid-template-columns:1fr;gap:16px;padding-top:18px}
 .cv-progress-content .year-group+.year-group{margin-top:12px}
@@ -138,10 +128,6 @@ body.progress2-page > section.bg-white.text-center{display:none}
 .cv-progress-content .archive .eyebrow i{background:#18878b}
 .cv-progress-content .year-group,.cv-progress-content .entry+.entry{border-color:#e1e6e9}
 .cv-progress-content .year-group>h3{color:#08727b}
-@media(max-width:640px){
-.cv-progress-content .table-shell{border:0}
-.cv-progress-content tbody tr{border-color:#b0cfd7}
-}
 .cv-progress-content .latest-copy>p.resource-note{font-size:.78rem;margin-top:7px;color:var(--muted)}
 .cv-progress-content .platform-table .pipeline-parent th,.cv-progress-content .platform-table .pipeline-parent td:not(.current){background:#e8f2f8}
 .cv-progress-content .platform-table .pipeline-parent th{color:#123e4d;font-weight:800}
@@ -149,24 +135,11 @@ body.progress2-page > section.bg-white.text-center{display:none}
 .cv-progress-content .platform-table .pipeline-group th:first-child{width:auto;background:#f3f9fb;color:#356170;font-size:.73rem;letter-spacing:.065em;text-transform:uppercase;font-weight:800;padding:9px 20px}
 .cv-progress-content .platform-table .pipeline-child th:first-child{padding-left:68px}
 .cv-progress-content .platform-table .stage-mobile{display:none}
-@media(min-width:641px) and (max-width:740px){
-.cv-progress-content .platform-table{overflow:visible}
-.cv-progress-content .platform-table table{min-width:0}
-.cv-progress-content .platform-table th,.cv-progress-content .platform-table td{padding-inline:8px}
-.cv-progress-content .platform-table th:first-child{padding-left:12px}
-.cv-progress-content .platform-table .pipeline-child th:first-child{padding-left:45px}
-}
-@media(max-width:640px){
-.cv-progress-content .platform-table tbody+tbody{margin-top:14px}
-.cv-progress-content .platform-table .pipeline-parent th{font-weight:800}
-.cv-progress-content .platform-table .pipeline-parent th,.cv-progress-content .platform-table .pipeline-parent td{border-bottom:0}
-.cv-progress-content .platform-table .pipeline-group{display:block;border:0;background:transparent}
-.cv-progress-content .platform-table .pipeline-group th:first-child{display:block;background:transparent;padding:0 0 1px 10px}
-.cv-progress-content .platform-table .pipeline-child{margin-left:10px}
-.cv-progress-content .platform-table .pipeline-child th:first-child{padding-left:24px}
-.cv-progress-content .platform-table .status::after{content:none}
-.cv-progress-content .platform-table .stage-desktop{display:none}
-.cv-progress-content .platform-table .stage-mobile{display:inline;font-size:.71rem}
+.cv-progress-content .roadmap-scroll-hint{display:none}
+@media(max-width:740px){
+.cv-progress-content .platform-table{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+.cv-progress-content .platform-table table{min-width:740px}
+body.progress2-page #main .cv-progress-content .roadmap-scroll-hint{display:block;margin:0 0 8px;font-size:12px!important;line-height:1.4!important;letter-spacing:normal!important;color:#426068}
 }
 
 

@@ -34,7 +34,8 @@
                     <div><p class="eyebrow"><i></i> Development roadmap</p><h2 id="roadmap-title">Where we are today</h2></div>
                     <p>Our <strong class="roadmap-emphasis">single lead therapeutic candidate</strong>, developed from the CancerVax platform, can potentially treat multiple indications. Clinical studies have not started.</p>
                 </div>
-                <div class="table-shell platform-table">
+                <p class="roadmap-scroll-hint">← Scroll to view</p>
+                <div class="table-shell platform-table" tabindex="0" role="region" aria-label="Development roadmap, horizontally scrollable">
                     <table aria-label="Universal Cancer Treatment Platform and its target indications">
                         <thead><tr><th scope="col">Platform &amp; indications</th><th scope="col">Discovery</th><th scope="col">Optimization</th><th scope="col" class="current">Preclinical</th><th scope="col">Clinical</th></tr></thead>
                         <tbody>

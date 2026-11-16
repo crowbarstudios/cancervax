@@ -180,6 +180,7 @@ $isReferenceMarket = $page === 'market';
     <?php if (in_array($page, ['team', 'technology', 'progress', 'progress2', 'market', 'news', 'news-archive', 'videos'], true)): ?>
         <link rel="stylesheet" href="/assets/css/title-banners.css?v=<?= filemtime(__DIR__ . '/../assets/css/title-banners.css') ?>">
     <?php endif; ?>
+    <script defer src="/assets/js/mobile-body-copy.js?v=<?= filemtime(__DIR__ . '/../assets/js/mobile-body-copy.js') ?>"></script>
 </head>
  
  
