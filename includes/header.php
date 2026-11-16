@@ -69,6 +69,9 @@ $isReferenceMarket = $page === 'market';
             <script defer src="/<?= $redesignJs ?>?v=<?= filemtime(__DIR__ . '/../' . $redesignJs) ?>"></script>
         <?php endif; ?>
     <?php endif; ?>
+    <?php if (isset($cvPublicGroup)): ?>
+        <link rel="stylesheet" href="/assets/css/redesign/legacy-public.css?v=<?= filemtime(__DIR__ . '/../assets/css/redesign/legacy-public.css') ?>">
+    <?php endif; ?>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7D9TX20JND"></script>
     <script>

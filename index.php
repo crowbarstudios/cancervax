@@ -32,6 +32,13 @@ $current_url = $protocol . '://' . $host;
 $full_url = $current_url . '/';
 
 
+include __DIR__ . '/includes/legacy-public.php';
 include __DIR__ . '/includes/header.php';
+if ($cvPublicGroup !== null) {
+    echo '<div id="cv-public-content" class="' . htmlspecialchars($cvPublicClasses, ENT_QUOTES, 'UTF-8') . '">';
+}
 include __DIR__ . '/includes/router.php';
+if ($cvPublicGroup !== null) {
+    echo '</div>';
+}
 include __DIR__ . '/includes/footer.php';
