@@ -1,7 +1,6 @@
 <?php
-// The reference intentionally predates article 54. Keep this homepage selection
-// stable without changing the newsroom, article data, or other home variants.
-$referenceNews = array_values(array_filter($news, static fn ($item) => in_array((string) $item['id'], ['53', '52', '51', '50'], true)));
+// Keep four homepage highlights, newest first, including the November 17 article.
+$referenceNews = array_values(array_filter($news, static fn ($item) => in_array((string) $item['id'], ['54', '53', '52', '51'], true)));
 usort($referenceNews, static fn ($a, $b) => (int) $b['id'] <=> (int) $a['id']);
 ?>
 <section class="bg-white pt-[70px]">

@@ -2674,9 +2674,9 @@
     },
     {
       "path": "pages/home-reference-news.php",
-      "sha256": "c35fc2d73e3bffc79403f05dc2eddb472663ca5cfe86fe7936cc128c71bbe4ee",
-      "previous_sha256": null,
-      "git_blob": "fdeff71b6027ee5887f2840ec8c20d1cafa5394a"
+      "sha256": "ec32a7cbaf69b185d75a538d6fdec3c3835c2babfd92f5b4e4cdb6757b443f21",
+      "previous_sha256": "c35fc2d73e3bffc79403f05dc2eddb472663ca5cfe86fe7936cc128c71bbe4ee",
+      "git_blob": "9d23b3c0a4344642228b6a572243c8d9c1ef6724"
     },
     {
       "path": "pages/home-reference-newsletter.php",
