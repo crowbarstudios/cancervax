@@ -1,4 +1,6 @@
 <?php
+// Keep response headers writable until route/content validation finishes.
+ob_start();
 header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
 header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
@@ -31,6 +33,10 @@ $current_url = $protocol . '://' . $host;
 
 $full_url = $current_url . '/';
 
+if (in_array($path, ['robots.txt', 'sitemap.xml'], true)) {
+    require __DIR__ . '/includes/search-index.php';
+    exit;
+}
 
 include __DIR__ . '/includes/legacy-public.php';
 include __DIR__ . '/includes/header.php';
@@ -42,3 +48,4 @@ if ($cvPublicGroup !== null) {
     echo '</div>';
 }
 include __DIR__ . '/includes/footer.php';
+ob_end_flush();

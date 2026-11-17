@@ -1,6 +1,6 @@
 {
-  "stage_commit": "95ff060e0c60ea724ba19421f5769eca0e21629b",
-  "main_commit": "ce9a6464899724d3ca2bac6553a80201420368f4",
+  "stage_commit": "2bec0a51e7557a0542b7d1b73eb9bb346a045331",
+  "main_commit": "1c36d79256a98bddb8d61d6652c61430176d4f09",
   "files": [
     {
       "path": "assets/css/homepage-reference.css",
@@ -2308,9 +2308,9 @@
     },
     {
       "path": "assets/js/main.js",
-      "sha256": "9218928994e17cf2d1301ffc332887ea8efcaae5aa704ac11e232309f90073a7",
+      "sha256": "5b21c43440255853fcfd66a77705291da00142d9b1caec6d233c52332ea34576",
       "previous_sha256": "9218928994e17cf2d1301ffc332887ea8efcaae5aa704ac11e232309f90073a7",
-      "git_blob": "4cc9bb981e4745e0c8c2be8b08995aeac9348406"
+      "git_blob": "ce5ebde694beb8cc5f5cac7d0801b8203e88457e"
     },
     {
       "path": "assets/js/market-reference.js",
@@ -2428,9 +2428,9 @@
     },
     {
       "path": "includes/router.php",
-      "sha256": "921fa9f298e7e677eb471a21453f016a2c9aba38bd8ee19d15b60fbb764de5cc",
-      "previous_sha256": "abf2b0a7146de3bebb5426ccba997c6c0b1df5403c2fcc54dfa2d455ae6d4be3",
-      "git_blob": "f87118079fb1180b29d2661aced3d4593e6b1d92"
+      "sha256": "c4707ad7e162e558c148c9ac753225b87e914e206954acf3f2f459b621458a10",
+      "previous_sha256": "921fa9f298e7e677eb471a21453f016a2c9aba38bd8ee19d15b60fbb764de5cc",
+      "git_blob": "4466f80fa34d4b36b4c86b54c1ad612ffb12bf16"
     },
     {
       "path": "includes/shared-footer.php",
@@ -2440,9 +2440,9 @@
     },
     {
       "path": "index.php",
-      "sha256": "cb4dfb2c2252c3d5bb7db3b4c0a62ec8e9ce1740ef8b48ee87177c9f1414198b",
-      "previous_sha256": "298420de4fdafff9f4514e416200fcc6085211d729b9b6b85827ba9b61a13e1b",
-      "git_blob": "3b8800cc52bebc4c1c072de5297a0fec6056e01b"
+      "sha256": "e490adf8449bf19ca06744922355d9c2860674d35639ccbae6cd5d29516c040a",
+      "previous_sha256": "cb4dfb2c2252c3d5bb7db3b4c0a62ec8e9ce1740ef8b48ee87177c9f1414198b",
+      "git_blob": "8d6de6ed840723e51000b4d3b521839de14ab693"
     },
     {
       "path": "logo.png",
@@ -2458,9 +2458,9 @@
     },
     {
       "path": "pages/404.php",
-      "sha256": "82d62d2f1352c7e89bdfa4998f7a502902bdb0142c4141eabd654083e7158fb4",
+      "sha256": "85a34b6a0bcf2de97e608727ea8cb3fafa09d2535619fa7085b456512cfb4374",
       "previous_sha256": "82d62d2f1352c7e89bdfa4998f7a502902bdb0142c4141eabd654083e7158fb4",
-      "git_blob": "cf8849937c33d287e6463edb150bd0ba2a21f38d"
+      "git_blob": "4d8a34fff2bb90979d99a675e2217e3ddbb63130"
     },
     {
       "path": "pages/a-really-big-deal-universal-car-t-cell-platform.php",
@@ -2818,9 +2818,9 @@
     },
     {
       "path": "pages/privacy-policy.php",
-      "sha256": "0bbce8399c769d1d37b9fdcfa4e49e35d9abe475d14dfd3abe461f21656fdd41",
+      "sha256": "8404f9101940ae0d0a36c94d3b8bb6b56971aef4d6d39262d44aed2f8794e338",
       "previous_sha256": "0bbce8399c769d1d37b9fdcfa4e49e35d9abe475d14dfd3abe461f21656fdd41",
-      "git_blob": "7ada5505c805f812b7d57d00e19093dafee81e5e"
+      "git_blob": "465aa9b7afc8ae64031ac80934c9b7465699c1c0"
     },
     {
       "path": "pages/progress-sep-8.php",
@@ -2878,15 +2878,15 @@
     },
     {
       "path": "pages/single-news.php",
-      "sha256": "de7130e93ec60d3697fa5a894e5a01c6f3750e6f6895c626ae90f2164f314aac",
-      "previous_sha256": "e0a8cc8eded07c0b797624087ce4578c42ac22f0ab0cec21cc6dd654c799e2be",
-      "git_blob": "466c98c260cf1138b9329b3424c50a0025aae48c"
+      "sha256": "aff2152970fbd6dc1390b6b58a0b535f830def50c1a05d2a9cf7616ef8de2e73",
+      "previous_sha256": "de7130e93ec60d3697fa5a894e5a01c6f3750e6f6895c626ae90f2164f314aac",
+      "git_blob": "f2547b2b36bf24126f84e57071a0a52ff6bea27f"
     },
     {
       "path": "pages/single-video.php",
-      "sha256": "ea4595138466c6871c260a5053df34f5d158eac48db2e779588e07350894524b",
+      "sha256": "abcc0a7d97bd17f1f8f31b11f398e48ff5ec5b85b5959fdbdd634f44db24cf4e",
       "previous_sha256": "ea4595138466c6871c260a5053df34f5d158eac48db2e779588e07350894524b",
-      "git_blob": "dfa068a181a84e1397a83eacd83f6e1d518a08e3"
+      "git_blob": "d1ae08ba5388a671da1b85b65af4da2e5a3f4331"
     },
     {
       "path": "pages/stragtegy-for-success-detailed-by-ceo.php",
@@ -2938,9 +2938,9 @@
     },
     {
       "path": "pages/terms-of-use.php",
-      "sha256": "8d7d300e1a9a5b380ca287db75259b1d0bbdbbc57e70fcbfb7db632a0699bda6",
+      "sha256": "f248bfd6b918eb58c7ca80dff7dbbef91d75e4af42624b05fbf19c195970d7fb",
       "previous_sha256": "8d7d300e1a9a5b380ca287db75259b1d0bbdbbc57e70fcbfb7db632a0699bda6",
-      "git_blob": "52336265fe843ac88c5a46bd4109e7ef21b6cba9"
+      "git_blob": "3d52dd22519b38a8e589b39536ba875e415d7be6"
     },
     {
       "path": "pages/thank-you.php",
@@ -3037,6 +3037,12 @@
       "sha256": "15dc4e58da46b2315a3b0373a532af257c6f5f8953b25ed720de6826ba6d5229",
       "previous_sha256": "15dc4e58da46b2315a3b0373a532af257c6f5f8953b25ed720de6826ba6d5229",
       "git_blob": "0845ffbe232bd7a39d2850bc5a8795887f0370fd"
+    },
+    {
+      "path": "includes/search-index.php",
+      "sha256": "8c277f2eef336c3dfce0dbd8838ea146f1bcc6573a14b691c91b2fd08010389e",
+      "previous_sha256": null,
+      "git_blob": "cab60301377f9ee7d1051978e54c0b12e7128b64"
     }
   ],
   "retired": [
