@@ -70,7 +70,11 @@ $teamMarkup = str_replace(
     $teamMarkup
 );
 
-echo '<div class="home-sep-1-team-layout">' . $teamMarkup . '</div>';
+$teamMarkup = str_replace('<a href="#">', '<a href="/team">', $teamMarkup);
+
+// Keep the same canonical team-heads.php biographies and homepage portrait
+// transformation above; the ID supplies a /team-only styling boundary.
+echo '<div id="cvax-team-reference" class="home-sep-1-team-layout">' . $teamMarkup . '</div>';
 
 $developmentPartners = [
     [
@@ -125,7 +129,7 @@ $developmentPartners = [
                             <img src="<?php echo $full_url . $partner['image']; ?>" alt="<?php echo htmlspecialchars($partner['name'], ENT_QUOTES, 'UTF-8'); ?>" class="max-h-[82px] max-w-[230px] w-auto object-contain">
                         </div>
                         <h3 class="mt-5 text-[17px] font-semibold leading-tight text-[#14213d]"><?php echo $partner['name']; ?></h3>
-                        <p class="mt-3 text-center text-[15px] leading-[1.45] text-black"><?php echo $partner['description']; ?></p>
+                        <p class="caption-text mt-3 text-center text-black"><?php echo $partner['description']; ?></p>
                     </article>
                 <?php endforeach; ?>
             </div>
@@ -137,7 +141,7 @@ $developmentPartners = [
                             <img src="<?php echo $full_url . $partner['image']; ?>" alt="<?php echo htmlspecialchars($partner['name'], ENT_QUOTES, 'UTF-8'); ?>" class="max-h-[82px] max-w-[230px] w-auto object-contain">
                         </div>
                         <h3 class="mt-5 text-[17px] font-semibold leading-tight text-[#14213d]"><?php echo $partner['name']; ?></h3>
-                        <p class="mt-3 text-center text-[15px] leading-[1.45] text-black"><?php echo $partner['description']; ?></p>
+                        <p class="caption-text mt-3 text-center text-black"><?php echo $partner['description']; ?></p>
                     </article>
                 <?php endforeach; ?>
             </div>

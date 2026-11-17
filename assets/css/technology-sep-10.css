@@ -1,0 +1,359 @@
+/* Match the typography conventions used by /immunotherapy. */
+.technology-sep-10-content > section:not(:first-of-type) {
+    background-color: #fff !important;
+    background-image: none !important;
+    border-top: 1px solid #d6e5e7;
+    padding-top: clamp(4rem, 7vw, 7rem) !important;
+    padding-bottom: clamp(4rem, 7vw, 7rem) !important;
+}
+
+.technology-sep-10-content > section:nth-of-type(even) {
+    background-color: #f8fbfc !important;
+}
+
+.technology-sep-10-content > section:nth-of-type(2)::after {
+    display: none !important;
+}
+
+.technology-sep-10-content > section:nth-of-type(3) h2,
+.technology-sep-10-content > section:nth-of-type(3) h3,
+.technology-sep-10-content > section:nth-of-type(3) li,
+.technology-sep-10-content > section:nth-of-type(7) h3,
+.technology-sep-10-content > section:nth-of-type(7) h5,
+.technology-sep-10-content > section:nth-of-type(7) p {
+    color: #000 !important;
+}
+
+.technology-sep-10-content > section:nth-of-type(2) .container > div:first-child {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.technology-sep-10-content > section:nth-of-type(2) .container > div:first-child,
+.technology-sep-10-content > section:nth-of-type(4) .container > div:first-child,
+.technology-sep-10-content > section:nth-of-type(6) .container > div:first-child,
+.technology-sep-10-content > section:nth-of-type(8) .container > div:first-child,
+.technology-sep-10-content > section:nth-of-type(9) .container {
+    position: relative;
+}
+
+.technology-sep-10-content h2,
+.technology-sep-10-content h3,
+.technology-sep-10-content h4 {
+    letter-spacing: -0.02em;
+}
+
+.technology-sep-10-content h2,
+.technology-sep-10-content h3,
+.technology-sep-10-content h4 {
+    margin-top: 0 !important;
+    margin-bottom: 2rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.technology-sep-10-content h5,
+.technology-sep-10-content h6 {
+    margin-top: 0 !important;
+    margin-bottom: 1.25rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.technology-sep-10-content p {
+    margin-bottom: 1.25rem !important;
+    padding-bottom: 0 !important;
+    letter-spacing: normal !important;
+}
+
+.technology-sep-10-content ul {
+    margin-top: 0 !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.technology-sep-10-content > section:not(:first-of-type) .container > .grid {
+    row-gap: clamp(2rem, 4vw, 4rem);
+}
+
+.technology-sep-10-content > section:not(:first-of-type) img {
+    border-radius: 20px;
+}
+
+.technology-sep-10-content > section:nth-of-type(2) .ct-img {
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.technology-sep-10-content > section:nth-of-type(3) .problem-content,
+.technology-sep-10-content > section:nth-of-type(3) .grid > div:last-child,
+.technology-sep-10-content > section:nth-of-type(4) .solution-content,
+.technology-sep-10-content > section:nth-of-type(7) .rt-content {
+    border: 1px solid #d6e5e7;
+    border-radius: 24px;
+    background: #fff;
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.technology-sep-10-content > section:nth-of-type(3) .grid > div:last-child {
+    border-left: 4px solid #2a5c6e;
+}
+
+.technology-sep-10-content > section:nth-of-type(4) .relative.text-center {
+    margin-bottom: clamp(2.5rem, 5vw, 4rem) !important;
+}
+
+.technology-sep-10-content > section:nth-of-type(5) img,
+.technology-sep-10-content > section:nth-of-type(7) img,
+.technology-sep-10-content > section:nth-of-type(8) img {
+    border-radius: 24px;
+}
+
+.technology-sep-10-content > section:nth-of-type(5) img {
+    background: #fff;
+    padding: clamp(0.75rem, 2vw, 1.25rem);
+    box-shadow: 0 12px 30px rgba(42, 92, 110, 0.08);
+}
+
+.technology-sep-10-content > section:nth-of-type(8) h5 {
+    margin-bottom: 1.5rem !important;
+}
+
+.technology-sep-10-content > section:nth-of-type(8) h3 {
+    max-width: 760px;
+}
+
+.technology-sep-10-content > section:nth-of-type(8) .max-w-\[638px\] {
+    max-width: 720px !important;
+}
+
+.technology-sep-10-content > section:nth-of-type(9) h3 {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.technology-sep-10-content h1 {
+    font-size: 50px !important;
+    line-height: 1 !important;
+    font-weight: 500 !important;
+}
+
+.technology-sep-10-content h2 {
+    font-size: 1.5rem !important;
+    line-height: 1 !important;
+    font-weight: 700 !important;
+}
+
+.technology-sep-10-content h3,
+.technology-sep-10-content h4 {
+    font-size: 1.5rem !important;
+    line-height: 1 !important;
+    font-weight: 700 !important;
+}
+
+.technology-sep-10-content h5 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+    font-weight: 400 !important;
+}
+
+.technology-sep-10-content h6 {
+    font-size: 1.25rem !important;
+    line-height: 1.5 !important;
+}
+
+.technology-sep-10-content p,
+.technology-sep-10-content li {
+    font-size: 1.25rem !important;
+    line-height: 1.625 !important;
+}
+
+.technology-sep-10-content p:not([class*="text-white"]):not([class*="text-custom-"]) {
+    color: #000 !important;
+}
+
+.technology-sep-10-content h2:not([class*="text-white"]):not([class*="text-custom-"]),
+.technology-sep-10-content h3:not([class*="text-white"]):not([class*="text-custom-"]),
+.technology-sep-10-content h4:not([class*="text-white"]):not([class*="text-custom-"]),
+.technology-sep-10-content h5:not([class*="text-white"]):not([class*="text-custom-"]),
+.technology-sep-10-content h6:not([class*="text-white"]):not([class*="text-custom-"]) {
+    color: #000 !important;
+}
+
+.technology-sep-10-content > section:nth-of-type(2) > .container > div:first-child > p {
+    color: rgb(42 92 110) !important;
+}
+
+.technology-sep-10-content a.theme-btn {
+    font-size: 1.25rem !important;
+    line-height: 1.2 !important;
+}
+
+@media (min-width: 640px) {
+    .technology-sep-10-content h1 {
+        font-size: 85px !important;
+    }
+
+    .technology-sep-10-content h2,
+    .technology-sep-10-content h3,
+    .technology-sep-10-content h4 {
+        font-size: 40px !important;
+    }
+
+    .technology-sep-10-content p,
+    .technology-sep-10-content li {
+        font-size: 1rem !important;
+    }
+
+    .technology-sep-10-content > section:nth-of-type(2) > .container > div:first-child > p {
+        font-size: 20px !important;
+        line-height: 32px !important;
+    }
+}
+
+/* Final typography lock: three text sizes and one content text color. */
+.technology-sep-10-content h5,
+.technology-sep-10-content h6,
+.technology-sep-10-content p,
+.technology-sep-10-content li {
+    font-size: 20px !important;
+    line-height: 1.625 !important;
+}
+
+.technology-sep-10-content > section:not(:first-of-type) h1,
+.technology-sep-10-content > section:not(:first-of-type) h2,
+.technology-sep-10-content > section:not(:first-of-type) h3,
+.technology-sep-10-content > section:not(:first-of-type) h4,
+.technology-sep-10-content > section:not(:first-of-type) h5,
+.technology-sep-10-content > section:not(:first-of-type) h6,
+.technology-sep-10-content > section:not(:first-of-type) p,
+.technology-sep-10-content > section:not(:first-of-type) li,
+.technology-sep-10-content > section:not(:first-of-type) [class*="text-custom-"] {
+    color: #000 !important;
+}
+
+.technology-sep-10-content > section:first-of-type h1 {
+    color: #fff !important;
+}
+
+.technology-sep-10-content > section:nth-of-type(2) > .container > div:first-child > p {
+    color: #2a5c6e !important;
+}
+
+@media (min-width: 640px) {
+    .technology-sep-10-content h5,
+    .technology-sep-10-content h6,
+    .technology-sep-10-content p,
+    .technology-sep-10-content li {
+        font-size: 1rem !important;
+    }
+}
+
+/* Match the current homepage's "Our Development Partners" heading treatment. */
+.technology-sep-10-content h2,
+.technology-sep-10-content h3 {
+    color: #000 !important;
+    font-size: 3.0375rem !important;
+    font-weight: 500 !important;
+    line-height: 1 !important;
+    margin-bottom: 30px !important;
+    text-align: center !important;
+}
+
+/* Treatment item headings use the same standard section-header treatment. */
+.technology-sep-10-content h4 {
+    color: #000 !important;
+    font-size: 3.0375rem !important;
+    font-weight: 500 !important;
+    line-height: 1 !important;
+    margin-bottom: 30px !important;
+    text-align: center !important;
+}
+
+/* The Treatment is the parent label, separated from its standard headers. */
+.technology-sep-10-content > section:nth-of-type(5) > .container > h3 {
+    align-items: center;
+    display: flex;
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+    gap: 1.25rem;
+    justify-content: center;
+    letter-spacing: 0.12em !important;
+    line-height: 1.2 !important;
+    margin: 0 auto 4rem !important;
+    max-width: 1100px;
+    text-transform: uppercase;
+}
+
+.technology-sep-10-content > section:nth-of-type(5) > .container > h3::before,
+.technology-sep-10-content > section:nth-of-type(5) > .container > h3::after {
+    background: #2a5c6e;
+    content: "";
+    flex: 1 1 0%;
+    height: 1px;
+}
+
+@media (min-width: 640px) {
+    .technology-sep-10-content > section:nth-of-type(5) > .container > h3 {
+        font-size: 2.5rem !important;
+    }
+}
+
+/* Give The Treatment its own distinct callout box on the clone route. */
+.technology-sep-10-content > section:nth-of-type(5) > .container > h3 {
+    background: linear-gradient(135deg, #173f52 0%, #2a5c6e 100%);
+    border: 1px solid #173f52;
+    border-radius: 18px;
+    box-shadow: 0 14px 28px rgba(23, 63, 82, 0.2);
+    color: #fff !important;
+    display: block;
+    font-size: 3.0375rem !important;
+    letter-spacing: 0.12em !important;
+    margin: 0 auto 7rem !important;
+    max-width: max-content;
+    padding: 1.25rem 2.5rem !important;
+    text-align: center !important;
+}
+
+.technology-sep-10-content > section:nth-of-type(5) > .container > h3::before,
+.technology-sep-10-content > section:nth-of-type(5) > .container > h3::after {
+    display: none;
+}
+
+@media (max-width: 639px) {
+    .technology-sep-10-content > section:nth-of-type(5) > .container > h3 {
+        font-size: 1.5rem !important;
+        margin-bottom: 5rem !important;
+        padding: 1rem 1.5rem !important;
+    }
+}
+
+/* The marked technology copy uses the site's regular body-text scale. */
+.technology-sep-10-content .body-text,
+.technology-sep-10-content > section:nth-of-type(2) p,
+.technology-sep-10-content > section:nth-of-type(6) p,
+.technology-sep-10-content > section:nth-of-type(7) .rt-content h5,
+.technology-sep-10-content > section:nth-of-type(7) .rt-content p,
+.technology-sep-10-content > section:nth-of-type(8) .max-w-\[638px\] h5,
+.technology-sep-10-content > section:nth-of-type(8) .max-w-\[638px\] p {
+    font-size: 1.25rem !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.78px !important;
+    line-height: 32px !important;
+}
+
+.technology-sep-10-content > section:nth-of-type(2) > .container > div:first-child > p.body-text {
+    color: #000 !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.78px !important;
+    line-height: 32px !important;
+}
+
+/* Use a white-backed clone of the remission diagram on this route only. */
+.technology-sep-10-content > section:nth-of-type(6) img[src*="remission.png"] {
+    content: url("../images/remission-technology-sep-10.png");
+    background: #fff;
+}

@@ -15,6 +15,13 @@ $baseUrl = $basePath;
 $path = trim(str_replace($basePath, '', $requestUriPath), '/');
 $page = $path === '' ? 'home-sep-2' : $path;
 
+// Retired pages and their former direct-template URLs now lead to the homepage.
+$retiredPage = preg_replace('/\.php$/i', '', preg_replace('#^pages/#', '', $path));
+if (in_array($retiredPage, ['immunotherapy', 'immunotherapy-nov14z'], true)) {
+    header('Location: /', true, 301);
+    exit;
+}
+
 // For load Assets - handle HTTPS behind proxy (X-Forwarded-Proto)
 $isHttps = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
     || (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https')
@@ -25,6 +32,13 @@ $current_url = $protocol . '://' . $host;
 $full_url = $current_url . '/';
 
 
+include __DIR__ . '/includes/legacy-public.php';
 include __DIR__ . '/includes/header.php';
+if ($cvPublicGroup !== null) {
+    echo '<div id="cv-public-content" class="' . htmlspecialchars($cvPublicClasses, ENT_QUOTES, 'UTF-8') . '">';
+}
 include __DIR__ . '/includes/router.php';
+if ($cvPublicGroup !== null) {
+    echo '</div>';
+}
 include __DIR__ . '/includes/footer.php';

@@ -1,3 +1,8 @@
+<?php
+$isReferenceProgress = in_array($page, ['progress', 'progress2'], true);
+$isReferenceTechnology = $page === 'technology';
+$isReferenceMarket = $page === 'market';
+?>
 <!DOCTYPE html>
 <html lang="en">
  
@@ -7,7 +12,19 @@
     <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="Thu, 01 Jan 1970 00:00:00 GMT">
-    <title>Cancervax</title>
+    <title><?php echo $isReferenceMarket ? 'Market | CancerVax' : ($isReferenceTechnology ? 'Technology | CancerVax' : ($page === 'thank-you' ? 'Thank You | CancerVax' : ($isReferenceProgress ? 'Progress | CancerVax' : 'Cancervax'))); ?></title>
+    <?php if ($isReferenceMarket): ?>
+        <meta name="description" content="Explore the global burden of cancer, the market for cancer immunotherapy, and where CancerVax’s preclinical platform fits.">
+    <?php endif; ?>
+    <?php if ($isReferenceTechnology): ?>
+        <meta name="description" content="Explore the CancerVax Universal Cancer Treatment Platform and its proposed approach to redirecting existing antiviral immunity.">
+    <?php endif; ?>
+    <?php if ($page === 'thank-you'): ?>
+        <meta name="robots" content="noindex, nofollow">
+    <?php endif; ?>
+    <?php if ($isReferenceProgress): ?>
+        <meta name="description" content="Follow the preclinical development of CancerVax’s investigational cancer immunotherapy platform.">
+    <?php endif; ?>
     <link rel="apple-touch-icon" sizes="114x114" href="<?php echo $full_url; ?>assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $full_url; ?>assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $full_url; ?>assets/images/favicon/favicon-16x16.png">
@@ -17,8 +34,44 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-    <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/style.css?v=<?php echo time(); ?>">
+    <?php // The reference's base stylesheet prevents site-wide typography overrides
+          // from altering this route. All other routes retain their existing CSS. ?>
+    <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/<?php echo $isReferenceMarket ? 'market-reference-base.css' : ($isReferenceTechnology ? 'technology-reference-base.css' : 'style.css'); ?>?v=<?php echo time(); ?>">
+    <?php if ($page === 'thank-you'): ?>
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/thank-you.css?v=<?php echo time(); ?>">
+    <?php endif; ?>
+    <?php if ($isReferenceProgress): ?>
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/progress2.css?v=<?php echo time(); ?>">
+    <?php endif; ?>
+    <?php if ($page === 'technology-sep-10'): ?>
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/technology-sep-10.css?v=<?php echo time(); ?>">
+    <?php endif; ?>
  
+    <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/shared-footer.css?v=<?php echo filemtime(__DIR__ . '/../assets/css/shared-footer.css'); ?>">
+    <?php if ($isReferenceMarket): ?>
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/market-reference-template.css?v=<?= filemtime(__DIR__ . '/../assets/css/market-reference-template.css') ?>">
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/market-reference.css?v=<?= filemtime(__DIR__ . '/../assets/css/market-reference.css') ?>">
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/market-reference-integration.css?v=<?= filemtime(__DIR__ . '/../assets/css/market-reference-integration.css') ?>">
+        <script defer src="<?php echo $full_url; ?>assets/js/market-reference.js?v=<?= filemtime(__DIR__ . '/../assets/js/market-reference.js') ?>"></script>
+    <?php endif; ?>
+    <?php if ($isReferenceTechnology): ?>
+        <link rel="stylesheet" href="<?php echo $full_url; ?>assets/css/technology-reference.css?v=<?php echo filemtime(__DIR__ . '/../assets/css/technology-reference.css'); ?>">
+        <script defer src="<?php echo $full_url; ?>assets/js/technology-reference.js?v=<?php echo filemtime(__DIR__ . '/../assets/js/technology-reference.js'); ?>"></script>
+    <?php endif; ?>
+<?php
+    $redesignPage = $page === 'news-archive' ? 'news' : ($page === 'single-news.php' ? 'single-news' : $page);
+    if (in_array($redesignPage, ['news', 'videos', 'invest', 'contact', 'single-news'], true)):
+        $redesignCss = 'assets/css/redesign/' . $redesignPage . '.css';
+    ?>
+        <link rel="stylesheet" href="/<?= $redesignCss ?>?v=<?= filemtime(__DIR__ . '/../' . $redesignCss) ?>">
+        <?php if (in_array($redesignPage, ['videos', 'contact'], true)): ?>
+            <?php $redesignJs = 'assets/js/redesign/' . $redesignPage . '.js'; ?>
+            <script defer src="/<?= $redesignJs ?>?v=<?= filemtime(__DIR__ . '/../' . $redesignJs) ?>"></script>
+        <?php endif; ?>
+    <?php endif; ?>
+    <?php if (isset($cvPublicGroup)): ?>
+        <link rel="stylesheet" href="/assets/css/redesign/legacy-public.css?v=<?= filemtime(__DIR__ . '/../assets/css/redesign/legacy-public.css') ?>">
+    <?php endif; ?>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7D9TX20JND"></script>
     <script>
@@ -124,17 +177,27 @@
         }
     </style>
  
+    <?php if (in_array($page, ['team', 'technology', 'progress', 'progress2', 'market', 'news', 'news-archive', 'videos'], true)): ?>
+        <link rel="stylesheet" href="/assets/css/title-banners.css?v=<?= filemtime(__DIR__ . '/../assets/css/title-banners.css') ?>">
+    <?php endif; ?>
+    <script defer src="/assets/js/mobile-body-copy.js?v=<?= filemtime(__DIR__ . '/../assets/js/mobile-body-copy.js') ?>"></script>
 </head>
  
  
  
-<body class="<?php echo ($page === 'home') ? 'home' : ''; ?><?php echo in_array($page, ['home-aug-28-c', 'home-aug-29', 'home-aug-30', 'home-aug-31']) ? ' home-aug-28-c-page' : ''; ?><?php echo in_array($page, ['home-sep-1-impact-people', 'home-sep-1-impact-people-alternate']) ? ' home-sep-1-impact-people-page' : ''; ?><?php echo ($page === 'home-sep-1-impact-people-alternate') ? ' home-sep-1-impact-people-alternate-page' : ''; ?><?php echo ($page === 'home-sep-1-adrian') ? ' home-sep-1-adrian-page' : ''; ?><?php echo ($page === 'home-sep-2') ? ' home-sep-2-page' : ''; ?><?php echo ($page === 'privacy-policy') ? ' privacy-policy-page' : ''; ?><?php echo in_array($page, ['progress', 'progress-sep-8']) ? ' progress-sep-8-page' : ''; ?>">
+    <body class="<?php echo ($page === 'home') ? 'home' : ''; ?><?php echo in_array($page, ['home-aug-28-c', 'home-aug-29', 'home-aug-30', 'home-aug-31']) ? ' home-aug-28-c-page' : ''; ?><?php echo in_array($page, ['home-sep-1-impact-people', 'home-sep-1-impact-people-alternate']) ? ' home-sep-1-impact-people-page' : ''; ?><?php echo ($page === 'home-sep-1-impact-people-alternate') ? ' home-sep-1-impact-people-alternate-page' : ''; ?><?php echo ($page === 'home-sep-1-adrian') ? ' home-sep-1-adrian-page' : ''; ?><?php echo ($page === 'home-sep-2') ? ' home-sep-2-page' : ''; ?><?php echo ($page === 'privacy-policy') ? ' privacy-policy-page' : ''; ?><?php echo ($page === 'progress-sep-8') ? ' progress-sep-8-page' : ''; ?><?php echo $isReferenceProgress ? ' progress2-page' : ''; ?>">
  
  
 <?php $hideHeaderPages = [
     '$200-billion-reached-in-cancer-treatment-spending', 'a-really-big-deal-universal-car-t-cell-platform', 'a-run-to-remember', 'allstar-joins-board-of-advisors', 'best-medical-center-joins-fight', 'bonus-shares-available-closing-soon', 'breakthrough-universal-cancer-vaccine', 'bringing-hope-to-the-masses', 'cancer-drug-shortage', 'cancer-epidemic-has-a-viable-solution', 'ceo-update-about-bonus-shares', 'closing-soon-only-3-weeks-left', 'cnn-reports-rise-of-cancer-in-women', 'critical-progress-in-children-cancer', 'do-not-miss-out-on-bonus-share', 'enjoy-the-perks', 'explosion-of-attention-as-ceo-explains-the-mission', 'explosive-market-growth-affirmed', 'going-viral-in-the-fight-against-cancer', 'harmful-side-effects-unnecessary', 'heartbreaking-stories-highlight-the-need-for-change', 'hope-for-pediatric-cancer', 'important-cancervax-team-meeting', 'important-ceo-update-about-bonus-shares', 'major-news-outlet-sounds-alaram', 'massive-market-opportunity', 'oppenheimer-moment-a-pivotal-meeting-at-ucla', 'prep', 'recognized-by-leading-european-media-outlet', 'research-progress-childrens-cancer', 'research-progress-expanded-pipeline-with-ucla', 'side-effects-unnecessary', 'stragtegy-for-success-detailed-by-ceo', 'taking-the-fight-to-cancer', 'taking-the-fight-to-children-cancer', 'troubling-cancer-increase-in-younger-americans', 'white-house-joins-cancer-fight', 'who-shares-important-breast-cancer-info', 'winning-research-arms-race'
 ]; ?>
  
+<?php if ($isReferenceTechnology): ?>
+    <a class="sr-only focus:not-sr-only" href="#technology">Skip to content</a>
+<?php endif; ?>
+<?php if ($isReferenceMarket): ?>
+    <a class="sr-only focus:not-sr-only" href="#main">Skip to content</a>
+<?php endif; ?>
 <?php if (!in_array($page, $hideHeaderPages)): ?>
  
     <div class="sticky top-0 z-20 bg-white transition-all duration-300 ease-in-out border-b border-custom-teal-100">
@@ -185,20 +248,22 @@
                             "team" => "Team",
                             "technology" => "Technology",
                             "progress" => "Progress",
-                            "immunotherapy" => "Immunotherapy",
                             "market" => "Market",
                             "news" => "Newsroom",
                             "videos" => "Videos",
                             "invest" => "Investors",
                             "contact" => "Contact"
                         ];
+                        $activeNavPage = in_array($page, ['technology-sep-10', 'progress2'], true)
+                            ? ($page === 'progress2' ? 'progress' : 'technology')
+                            : $page;
  
                         $baseUrl = $baseUrl ?? (strpos(($_SERVER['HTTP_HOST'] ?? ''), 'localhost') !== false || ($_SERVER['HTTP_HOST'] ?? '') === '127.0.0.1' ? "/cancervax" : "");
                         ?>
                         <div
                             class="hidden sm:ml-6 lg:flex lg:gap-0 gap-2.5 [&>a]:inline-flex [&>a]:items-center [&>a]:border [&>a]:border-transparent [&>a]:text-[15px] [&>a]:font-medium [&>a]:leading-none [&>a]:text-black [&>a]:lg:px-2 [&>a]:xl:px-4 [&>a]:py-2 [&>a]:rounded-full">
                             <?php foreach ($links as $slug => $name): ?>
-                                <a href="<?= $baseUrl ?>/<?= $slug ?>" class="hover:text-custom-teal-300 last:pr-0 <?php echo ($page === $slug) ? '!text-custom-teal-300' : ''; ?>"><?= $name ?></a>
+                                <a href="<?= $baseUrl ?>/<?= $slug ?>" class="hover:text-custom-teal-300 last:pr-0 <?php echo ($activeNavPage === $slug) ? '!text-custom-teal-300' : ''; ?>"><?= $name ?></a>
                             <?php endforeach; ?>
                         </div>
  
@@ -213,7 +278,7 @@
                     <div
                         class="sm:p-[38px] p-[14px] flex flex-col gap-4 [&>a]:block [&>a]:items-center [&>a]:border [&>a]:border-transparent [&>a]:text-sm [&>a]:font-normal [&>a]:py-[5px] [&>a]:px-2.5 [&>a]:leading-none [&>a]:text-black [&>a]:active:text-custom-teal-300">
                         <?php foreach ($links as $slug => $name): ?>
-                            <a href="<?= $baseUrl ?>/<?= $slug ?>" class="<?php echo ($page === $slug) ? '!text-custom-teal-300' : ''; ?>"><?= $name ?></a>
+                            <a href="<?= $baseUrl ?>/<?= $slug ?>" class="<?php echo ($activeNavPage === $slug) ? '!text-custom-teal-300' : ''; ?>"><?= $name ?></a>
                         <?php endforeach; ?>
                     </div>
                 </div>

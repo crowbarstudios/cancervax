@@ -612,40 +612,4 @@ echo $teamMarkup;
     </div>
 </section>
 
-<section class="bg-white text-center py-[50px]">
-    <div class="container">
-        <div class="max-w-[600px] mx-auto">
-            <h2 class="text-[51px] font-normal uppercase text-black mb-2">SUBSCRIBE</h2>
-            <p class="text-black pt-2.5 mb-6 text-[17px] tracking-[0.78px] text-center">Keep up with our progress by subscribing to our email newsletter!</p>
-            <form action="https://submit.jotform.com/submit/242775392698071/" method="POST" class="relative">
-                <input type="hidden" name="formID" value="242775392698071" />
-                <input type="email" id="input_3" name="q3_email" class="bg-custom-gray-200 text-black text-[17px] rounded-[30px] h-[60px] border-0 px-[30px] block w-full font-normal leading-normal focus:outline-none focus:ring-0 focus:shadow-none" placeholder="Your email address...">
-
-                <div class="form-line control-formnew mt-2 jf-required text-left" data-type="control_captcha" id="id_4">
-                    <label class="block text-black text-[15px] font-normal leading-relaxed text-center" id="label_4" for="input_4" aria-hidden="false"> Please verify that you are human<span class="form-required">*</span> </label>
-
-                    <div id="cid_4" class="form-input-wide jf-required" data-layout="full">
-                        <section data-wrapper-react="true" class="flex justify-center">
-                            <div id="hcaptcha_input_4" class="h-captcha" data-siteKey="772f4a50-7161-425e-8cd5-4d7e361ab765" data-callback="onCaptchaSuccess" data-expired-callback="onCaptchaExpired"></div><input type="hidden" id="input_4" class="hidden validate[required]" name="hcaptcha_visible" required="" />
-                            <script type="text/javascript" src="https://hcaptcha.com/1/api.js"></script>
-                        </section>
-                    </div>
-                </div>
-                <button type="submit" id="submitNewsletterButton" class="bg-custom-green-100 text-white border-0 text-center text-[17px] p-0 h-[60px] mb-0 rounded-[30px] font-bold w-[133px] absolute right-0 top-0" disabled>Subscribe</button>
-            </form>
-            <script>
-                const submitNewsletterButton = document.getElementById('submitNewsletterButton');
-
-                function onCaptchaSuccess(token) {
-                    document.getElementById('input_4').value = token;
-                    submitNewsletterButton.disabled = false;
-                }
-
-                function onCaptchaExpired() {
-                    document.getElementById('input_4').value = '';
-                    submitNewsletterButton.disabled = true;
-                }
-            </script>
-        </div>
-    </div>
-</section>
+<?php // Newsletter is rendered once by includes/shared-footer.php. ?>

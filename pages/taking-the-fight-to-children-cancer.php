@@ -1,7 +1,7 @@
 <section class="py-20 bg-[#fafdfa]">
     <div class="container">
         <div class="max-w-[516px] md:max-w-[696px] xl:max-w-[856px] bg-white mx-auto px-6 pt-10 pb-6 shadow-2xl rounded-2xl">
-            <h1 class ="text-2xl sm:text-[34px] mb-2 sm:leading-10 tracking-[.05px] font-bold text-orange-600">Taking the fight to children’s cancer</h1>
+            <h1 class ="text-2xl sm:text-[34px] mb-2 sm:leading-10 tracking-[.05px] font-bold text-black">Taking the fight to children’s cancer</h1>
             <div class="my-[14px] pt-6">
                 <img src="./assets/images/inpost-2.png" alt="invest post">
             </div>

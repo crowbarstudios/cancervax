@@ -172,7 +172,7 @@
   }
 
   h3 {
-    @apply text-6xl leading-none text-black;
+    @apply text-[48.6px] leading-none text-black;
   }
 
   h4 {
@@ -184,7 +184,7 @@
   }
 
   p {
-    @apply text-xl md:text-2xl leading-[31px] text-black text-left font-normal tracking-[0.78px];
+    @apply text-xl leading-8 text-black text-left font-normal tracking-[0.78px];
   }
 
   a {

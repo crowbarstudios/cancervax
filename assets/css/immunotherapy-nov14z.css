@@ -1,0 +1,97 @@
+/* Route-only editorial system. Type roles mirror the complete Progress cascade,
+   including its final !important body/eyebrow overrides. No shared UI selectors. */
+#cv-immunotherapy-nov14z {
+  --ink:#103c47;--copy:#30515b;--muted:#435f68;--teal:#075d67;
+  --line:#ccdfdf;--wash:#edf6fa;--amber:#f2a743;
+  font-family:"Public Sans",sans-serif;color:var(--ink);font-size:16px;line-height:1.6;
+  background:#fbfbfc;
+}
+#cv-immunotherapy-nov14z .imm-wrap{width:100%;max-width:1180px;margin-inline:auto;padding-inline:24px}
+#cv-immunotherapy-nov14z h1,#cv-immunotherapy-nov14z h2,#cv-immunotherapy-nov14z h3,#cv-immunotherapy-nov14z p,#cv-immunotherapy-nov14z figure{margin:0}
+#cv-immunotherapy-nov14z .imm-hero{position:relative;isolation:isolate;padding-block:96px;background:#dcecf0 url("../images/immunotherapy-bg.jpg") center top/cover no-repeat;text-align:center}
+#cv-immunotherapy-nov14z .imm-hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(232,244,249,.94),rgba(232,244,249,.62),rgba(232,244,249,.87))}
+#cv-immunotherapy-nov14z h1{font-size:50px;font-weight:500;line-height:1;letter-spacing:normal;color:var(--ink)}
+#cv-immunotherapy-nov14z h2{font-size:clamp(2rem,3.45vw,3.4rem);font-weight:720;line-height:1.13;letter-spacing:-.053em;color:var(--ink)}
+#cv-immunotherapy-nov14z h3{font-size:clamp(1.22rem,2vw,1.54rem);font-weight:700;line-height:1.2;letter-spacing:-.027em;color:var(--ink)}
+#cv-immunotherapy-nov14z p,#cv-immunotherapy-nov14z li{font-size:16px!important;font-weight:400!important;line-height:25.6px!important;letter-spacing:normal!important;color:var(--copy)}
+#cv-immunotherapy-nov14z .imm-eyebrow{display:flex;align-items:center;gap:10px;font-size:11.68px!important;line-height:16.352px!important;letter-spacing:1.6352px!important;font-weight:800!important;text-transform:uppercase;color:var(--teal);margin-bottom:18px}
+#cv-immunotherapy-nov14z .imm-eyebrow::before{content:"";width:23px;height:2px;flex:none;background:#24989e}
+#cv-immunotherapy-nov14z .imm-section{padding-block:76px}
+#cv-immunotherapy-nov14z .imm-intro{background:#e6f3fb;border-bottom:1px solid #c7dfee}
+#cv-immunotherapy-nov14z .imm-intro-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:70px;align-items:end}
+#cv-immunotherapy-nov14z .imm-intro .imm-lead{font-size:16.96px!important;line-height:32px!important;letter-spacing:.78px!important}
+#cv-immunotherapy-nov14z .imm-jump{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:32px;padding-top:22px;border-top:1px solid #bcd8e4}
+#cv-immunotherapy-nov14z .imm-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;font-size:.88rem;font-weight:750;line-height:1.3;color:var(--teal);text-decoration:none}
+#cv-immunotherapy-nov14z .imm-link span{display:inline-block;transition:transform 180ms ease}
+#cv-immunotherapy-nov14z .imm-link:hover{text-decoration:underline;text-underline-offset:5px}
+#cv-immunotherapy-nov14z .imm-link:hover span{transform:translateX(3px)}
+#cv-immunotherapy-nov14z :focus-visible{outline:3px solid #e9902d;outline-offset:5px}
+#cv-immunotherapy-nov14z [id]{scroll-margin-top:180px}
+#cv-immunotherapy-nov14z .imm-paradigm{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:64px;align-items:start}
+#cv-immunotherapy-nov14z .imm-copy>p{margin-top:20px}
+#cv-immunotherapy-nov14z .imm-image{margin-top:5px;padding:12px;background:#edf6fa;border:1px solid var(--line);border-radius:10px}
+#cv-immunotherapy-nov14z img{display:block;width:100%;max-width:100%;height:auto;border-radius:4px}
+#cv-immunotherapy-nov14z .imm-new{background:var(--wash);border-block:1px solid var(--line)}
+#cv-immunotherapy-nov14z .imm-new-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:76px}
+#cv-immunotherapy-nov14z .imm-new .imm-copy>p:first-child{margin-top:0}
+#cv-immunotherapy-nov14z .imm-new .imm-copy>p+p{margin-top:20px}
+#cv-immunotherapy-nov14z .imm-section-heading{display:grid;grid-template-columns:1fr minmax(240px,345px);gap:40px;align-items:end;padding-bottom:36px}
+#cv-immunotherapy-nov14z .imm-section-heading>p{padding-bottom:3px}
+#cv-immunotherapy-nov14z .imm-therapy{display:grid;grid-template-columns:56px minmax(0,1.22fr) minmax(0,1fr);gap:28px;padding-block:42px;border-top:1px solid var(--line);align-items:center}
+#cv-immunotherapy-nov14z .imm-number{align-self:start;display:flex;align-items:center;justify-content:center;width:42px;height:42px;background:#e2f1f2;border-radius:50%;font-size:.83rem;font-weight:650;line-height:1.6;color:var(--teal)}
+#cv-immunotherapy-nov14z .imm-therapy .imm-copy>p{margin-top:14px}
+#cv-immunotherapy-nov14z .imm-therapy figure{padding:12px;background:#f3f8f8;border:1px solid var(--line);border-radius:10px}
+#cv-immunotherapy-nov14z .imm-therapy ul{margin:12px 0 0;padding-left:20px;list-style:disc}
+#cv-immunotherapy-nov14z .imm-therapy li+li{margin-top:5px}
+#cv-immunotherapy-nov14z .imm-therapy li::marker{color:#18878b}
+#cv-immunotherapy-nov14z .imm-videos{background:#edf6fa;border-block:1px solid var(--line)}
+#cv-immunotherapy-nov14z .imm-video-layout{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:64px;align-items:start}
+#cv-immunotherapy-nov14z .imm-video-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+#cv-immunotherapy-nov14z .imm-video-card{min-width:0}
+#cv-immunotherapy-nov14z .imm-video-media{position:relative;overflow:hidden;border-radius:10px;background:#103c47}
+#cv-immunotherapy-nov14z .imm-video-media img{border-radius:0;transition:transform 220ms ease}
+#cv-immunotherapy-nov14z .imm-video-media>a{position:absolute;inset:0;z-index:2;border-radius:10px}
+#cv-immunotherapy-nov14z .imm-video-media:has(a:hover) img{transform:scale(1.025)}
+#cv-immunotherapy-nov14z .imm-video-media:has(a:focus-visible){outline:3px solid #e9902d;outline-offset:5px}
+#cv-immunotherapy-nov14z .imm-play{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+#cv-immunotherapy-nov14z .imm-play::before{content:"";width:58px;height:58px;border:2px solid #edf6fa;border-radius:50%;background:#103c47d9;box-shadow:0 2px 16px #103c4740}
+#cv-immunotherapy-nov14z .imm-play::after{content:"";position:absolute;margin-left:4px;border-left:13px solid #edf6fa;border-block:8px solid transparent}
+#cv-immunotherapy-nov14z .imm-video-card h3{margin-top:19px}
+#cv-immunotherapy-nov14z .imm-video-card .imm-link{margin-top:8px}
+#cv-immunotherapy-nov14z .imm-mission{padding-block:76px 90px}
+#cv-immunotherapy-nov14z .imm-mission-inner{border-top:3px solid var(--amber);padding:40px;background:#e6f3fb;display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:start;border-radius:0 0 10px 10px}
+@media(min-width:768px){
+  #cv-immunotherapy-nov14z .imm-hero{padding-block:112px}
+  #cv-immunotherapy-nov14z h1{font-size:85px}
+}
+@media(max-width:1000px){
+  #cv-immunotherapy-nov14z .imm-intro-grid,#cv-immunotherapy-nov14z .imm-paradigm,#cv-immunotherapy-nov14z .imm-new-grid{gap:32px}
+  #cv-immunotherapy-nov14z .imm-therapy{grid-template-columns:42px minmax(0,1.2fr) minmax(0,1fr);gap:20px}
+  #cv-immunotherapy-nov14z .imm-video-layout{gap:32px;grid-template-columns:.7fr 1.3fr}
+  #cv-immunotherapy-nov14z .imm-mission-inner{gap:32px;padding:32px}
+}
+@media(max-width:767px){
+  #cv-immunotherapy-nov14z .imm-wrap{padding-inline:22px}
+  #cv-immunotherapy-nov14z .imm-intro-grid,#cv-immunotherapy-nov14z .imm-paradigm,#cv-immunotherapy-nov14z .imm-new-grid,#cv-immunotherapy-nov14z .imm-section-heading,#cv-immunotherapy-nov14z .imm-video-layout,#cv-immunotherapy-nov14z .imm-mission-inner{grid-template-columns:minmax(0,1fr);gap:24px}
+  #cv-immunotherapy-nov14z .imm-therapy{grid-template-columns:42px minmax(0,1fr);align-items:start}
+  #cv-immunotherapy-nov14z .imm-therapy figure{grid-column:2;max-width:440px;width:100%}
+  #cv-immunotherapy-nov14z .imm-video-grid{max-width:560px;gap:22px}
+  #cv-immunotherapy-nov14z .imm-mission-inner{padding:28px}
+}
+@media(max-width:640px){
+  #cv-immunotherapy-nov14z .imm-section{padding-block:49px}
+  #cv-immunotherapy-nov14z .imm-intro .imm-lead{line-height:31px!important}
+  #cv-immunotherapy-nov14z .imm-jump{gap:4px 20px;margin-top:24px;padding-top:14px}
+  #cv-immunotherapy-nov14z .imm-section-heading{padding-bottom:24px}
+  #cv-immunotherapy-nov14z .imm-therapy{padding-block:30px;gap:16px}
+  #cv-immunotherapy-nov14z .imm-number{width:34px;height:34px}
+  #cv-immunotherapy-nov14z .imm-mission{padding-block:49px}
+}
+@media(max-width:440px){
+  #cv-immunotherapy-nov14z .imm-video-grid{grid-template-columns:minmax(0,1fr);gap:34px}
+  #cv-immunotherapy-nov14z .imm-video-media{max-width:250px}
+  #cv-immunotherapy-nov14z .imm-therapy figure{grid-column:1/-1}
+}
+@media(prefers-reduced-motion:reduce){
+  #cv-immunotherapy-nov14z *,#cv-immunotherapy-nov14z *::before,#cv-immunotherapy-nov14z *::after{transition:none!important;scroll-behavior:auto!important}
+}

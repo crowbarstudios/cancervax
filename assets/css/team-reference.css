@@ -1,0 +1,83 @@
+/* /team only: reproduce the rendered homepage team treatment, without loading
+   its hero, partner, news, newsletter or footer rules on this route. */
+#cvax-team-introduction,
+#cvax-team-reference {
+    font-family: "Public Sans", sans-serif;
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: black;
+}
+
+#cvax-team-introduction h2,
+#cvax-team-reference section > .container > .text-center > h3 {
+    color: #123d4b;
+    font-size: clamp(1.9rem, 3.45vw, 3.4rem) !important;
+    font-weight: 730;
+    line-height: 1.12 !important;
+    letter-spacing: -.04em;
+    text-wrap: balance;
+}
+
+#cvax-team-introduction h2 {
+    max-width: 32ch;
+    margin-inline: auto;
+}
+
+#cvax-team-reference .team-box > h5 {
+    color: #123d4b;
+    font-weight: 720;
+    letter-spacing: -.015em;
+}
+
+#cvax-team-reference .team-box > p {
+    color: #3d5964;
+    letter-spacing: 0;
+}
+
+#cvax-team-reference .team-box a:focus-visible {
+    outline: 3px solid #d88f32;
+    outline-offset: 3px;
+}
+
+/* The shared modal lives outside the team section. This selector scopes it to
+   /team without moving or modifying the shared footer/modal markup or script.
+   The ID specificity deliberately beats the blanket body-copy !important rule. */
+body:has(#cvax-team-reference) #team-popup .team-popup-body :is(p, li) {
+    color: #3d5964;
+    font-size: var(--body-copy-size, 1.06rem) !important;
+    font-weight: 400 !important;
+    line-height: 1.62 !important;
+    letter-spacing: normal !important;
+}
+
+body:has(#cvax-team-reference) #team-popup .team-popup-title {
+    color: #123d4b;
+    font-weight: 720;
+}
+
+/* Both homepage tablet ranges use the same continuous two-column layout:
+   display:contents removes the legacy 3/3/2/2 grouping only below desktop. */
+@media (min-width: 768px) and (max-width: 1279px) {
+    #cvax-team-reference .container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: start;
+        gap: 24px;
+    }
+
+    #cvax-team-reference .home-sep-1-team-group,
+    #cvax-team-reference .home-sep-1-team-grid {
+        display: contents;
+    }
+
+    #cvax-team-reference .container > .text-center {
+        grid-column: 1 / -1;
+    }
+
+    #cvax-team-reference .team-box {
+        grid-column: span 1 !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,22 @@
+/* Shared title-banner sizing; excludes homepage and content sections. */
+section:is(.bg-team-bg, .bg-technology-banner, .bg-progress-bg, .news-hero, .videos-hero) {
+  box-sizing: border-box;
+  height: 184.3px;
+  min-height: 184.3px;
+  padding-block: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section:is(.bg-team-bg, .bg-technology-banner, .bg-progress-bg, .news-hero, .videos-hero) :is(h1, h2) {
+  margin-block: 0;
+  padding-block: 0;
+}
+
+@media (min-width: 768px) {
+  section:is(.bg-team-bg, .bg-technology-banner, .bg-progress-bg, .news-hero, .videos-hero) {
+    height: 234.65px;
+    min-height: 234.65px;
+  }
+}

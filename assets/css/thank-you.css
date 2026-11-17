@@ -1,0 +1,86 @@
+.cv-thank-you {
+    background: #edf6fb;
+    border-block: 1px solid #d5e4e9;
+    padding-block: clamp(58px, 8.5vw, 116px);
+    color: #123d4b;
+}
+.cv-thank-you__inner { max-width: 1160px; }
+.cv-thank-you .cv-thank-you__title { max-width: 22ch; }
+.cv-thank-you__status {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
+    margin-bottom: 19px;
+    color: #0d6069;
+    font-size: .78rem;
+    font-weight: 750;
+    line-height: 1.4;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.cv-thank-you__status svg {
+    flex: none;
+    padding: 9px;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #bfe0e2;
+    border-radius: 50%;
+    background: #e6f4f3;
+}
+.cv-thank-you .cv-thank-you__title {
+    margin: 0;
+    color: #123d4b;
+    font-size: clamp(2.15rem, 5vw, 3.35rem);
+    font-weight: 730;
+    line-height: 1.08;
+    letter-spacing: -.045em;
+}
+.cv-thank-you .cv-thank-you__copy {
+    margin: 14px 0 0;
+    color: #3d5964;
+    font-size: 1.06rem;
+    font-size: var(--body-copy-size, 1.06rem);
+    line-height: 1.55;
+    letter-spacing: normal;
+}
+.cv-thank-you .cv-thank-you__home {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    margin-top: 24px;
+    padding: 9px 16px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: #f2a743;
+    color: #182b31;
+    font-size: .91rem;
+    font-weight: 750;
+    line-height: 1.3;
+    text-decoration: none;
+}
+.cv-thank-you .cv-thank-you__home:hover { background: #f6b657; }
+.cv-thank-you .cv-thank-you__home:focus-visible {
+    outline: 3px solid #08717b;
+    outline-offset: 3px;
+}
+
+/* Restore the reference typography over the local shared !important copy rule. */
+#cv-thanks-title + .cv-thank-you__copy {
+    font-size: var(--body-copy-size, 1.06rem) !important;
+    font-weight: 400 !important;
+    line-height: 1.55 !important;
+    letter-spacing: normal !important;
+}
+.cv-thank-you + #site-footer p {
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 31px !important;
+    letter-spacing: .78px !important;
+}
+@media (min-width: 768px) {
+    .cv-thank-you + #site-footer p {
+        line-height: 32px !important;
+    }
+}
