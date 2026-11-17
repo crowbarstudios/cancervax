@@ -28,8 +28,14 @@ $validPages = array_values(array_diff($validPages, ['immunotherapy']));
 $videoCategories = ['news-commentary', 'ceo-podcast', 'short-videos'];
 
 
-if (strpos($requestUri, 'single-news.php') !== false && isset($_GET['id'])) {
+if ($path === 'single-news.php' && isset($_GET['id'])) {
     include __DIR__ . '/../pages/single-news.php';
+    return;
+}
+
+// Reject extra segments rather than serving a valid page for an invalid URL.
+if (count($pathParts) > 1 && !($page === 'videos' && count($pathParts) === 3 && in_array($pathParts[1], $videoCategories, true))) {
+    include __DIR__ . '/../pages/404.php';
     return;
 }
 
@@ -113,7 +119,16 @@ elseif ($page === 'progress') {
 // Handle dynamic video category pages (e.g., /videos/news-commentary/slug)
 elseif ($page === 'videos' && isset($pathParts[1]) && in_array($pathParts[1], $videoCategories) && isset($pathParts[2])) {
     $category = $pathParts[1];
-    $_GET['slug'] = $pathParts[2];
+    $_GET['slug'] = rawurldecode($pathParts[2]);
+    $catalog = include __DIR__ . '/../data/podcast-data.php';
+    $matches = array_filter($catalog, function ($entry) use ($category) {
+        return ($entry['category'] ?? '') === $category
+            && strcasecmp($entry['slug'] ?? '', $_GET['slug']) === 0;
+    });
+    if (!$matches) {
+        include __DIR__ . '/../pages/404.php';
+        return;
+    }
     include __DIR__ . '/../pages/videos/' . $category . '/index.php';
 } 
 

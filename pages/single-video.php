@@ -1,5 +1,6 @@
 <?php
 $videos = include __DIR__ . '/../data/podcast-data.php';
+$video = false;
 if (isset($_GET['id'])) {
     $videoId = $_GET['id'];
     $video = array_filter($videos, function ($video) use ($videoId) {
@@ -8,6 +9,9 @@ if (isset($_GET['id'])) {
     $video = reset($video);
 }
 
+if (!$video) {
+    http_response_code(404);
+}
 ?>
 
 <section class="pt-28 pb-2">

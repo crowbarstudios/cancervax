@@ -15,6 +15,9 @@ if (isset($_GET['id'])) {
         $item = reset($legacyItem);
     }
 }
+if (!$item) {
+    http_response_code(404);
+}
 ?>
 
 

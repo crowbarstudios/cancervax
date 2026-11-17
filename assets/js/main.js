@@ -9,6 +9,9 @@ $(function () {
 
   $('button[aria-controls="mobile-menu"]').on("click", function(){
     $("#mobile-menu").toggleClass("show");
+    const isOpen = $("#mobile-menu").hasClass("show");
+    $('button[aria-controls="mobile-menu"]').attr("aria-expanded", String(isOpen));
+    $(this).find(".sr-only").text(isOpen ? "Close main menu" : "Open main menu");
   });
 
   $("[href^='#']").click(function () {

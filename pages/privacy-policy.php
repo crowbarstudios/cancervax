@@ -44,7 +44,7 @@
 
         <h2 class="text-black text-4xl leading-snug font-normal mt-8">Questions?</h2>
 
-        <p class="text-black text-lg leading-snug tracking-[0.78px] font-normal mt-6">Email <a href="mailto:invest@CancerVax.com" class="text-black text-lg leading-snug">invest@CancerVax.com</a> | ©2024 CancerVax. All rights reserved. <a href="#" class="text-black text-lg leading-snug">Privacy Policy</a> | <a href="#" class="text-black text-lg leading-snug">Terms of Use</a></p>
+        <p class="text-black text-lg leading-snug tracking-[0.78px] font-normal mt-6">Email <a href="mailto:invest@CancerVax.com" class="text-black text-lg leading-snug">invest@CancerVax.com</a> | ©2024 CancerVax. All rights reserved. <a href="/privacy-policy" class="text-black text-lg leading-snug">Privacy Policy</a> | <a href="/terms-of-use" class="text-black text-lg leading-snug">Terms of Use</a></p>
 
         <p class="text-black text-lg leading-snug tracking-[0.78px] font-normal mt-6">* GENERALLY, NO SALE MAY BE MADE TO YOU IN THIS OFFERING IF THE AGGREGATE PURCHASE PRICE YOU PAY IS MORE THAN 10% OF THE GREATER OF YOUR ANNUAL INCOME OR NET WORTH. DIFFERENT RULES APPLY TO ACCREDITED INVESTORS AND NON-NATURAL PERSONS. BEFORE MAKING ANY REPRESENTATION THAT YOUR INVESTMENT DOES NOT EXCEED APPLICABLE THRESHOLDS, WE ENCOURAGE YOU TO REVIEW RULE 251(d)(2)(i)(C) OF REGULATION A. FOR GENERAL INFORMATION ON INVESTING, WE ENCOURAGE YOU TO REFER TO <a href="http://www.investor.gov" class="text-black text-lg leading-snug">WWW.INVESTOR.GOV</a>.</p>
 
