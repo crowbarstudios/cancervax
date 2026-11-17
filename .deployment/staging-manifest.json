@@ -1,0 +1,3065 @@
+{
+  "version": 1,
+  "approved_commit": "ef12a4cc9b62bccda6b28fd1ffccedcbcbcd2a74",
+  "previous_approved_commit": "4664646faebf742701f5dc1838c41eb561403d95",
+  "repository": "/home/up51j258kry3/cancervax-staging-deploy",
+  "target": "/home/up51j258kry3/staging.cancervax.com",
+  "file_count": 507,
+  "files": [
+    {
+      "path": "assets/css/homepage-reference.css",
+      "sha256": "a840f9abb28b4ca9fa04928d79c76960069711e2b6a541af135b5ed9f4d0790d",
+      "previous_sha256": "a840f9abb28b4ca9fa04928d79c76960069711e2b6a541af135b5ed9f4d0790d",
+      "git_blob": "3a15c37ddd3a12235cce74842f196430218b9716"
+    },
+    {
+      "path": "assets/css/immunotherapy-nov14z.css",
+      "sha256": "08266a71d7ba6482ce3024e658cf6292171fc026986c637274dcec860dc3136d",
+      "previous_sha256": "08266a71d7ba6482ce3024e658cf6292171fc026986c637274dcec860dc3136d",
+      "git_blob": "7d4b345e1637d487a91470ea1c66a757ae99de26"
+    },
+    {
+      "path": "assets/css/magnific-popup.min.css",
+      "sha256": "3d92e113ac3031b838001ddddf965d045f470ff748ff2e116b30378910eeaecb",
+      "previous_sha256": "3d92e113ac3031b838001ddddf965d045f470ff748ff2e116b30378910eeaecb",
+      "git_blob": "c00c6ff9f0338c6db3ade3b9c6235a0289ac23ed"
+    },
+    {
+      "path": "assets/css/market-reference-base.css",
+      "sha256": "6b04bd02a38bed66599fbd1515d4e25b1bdee1b9c29451e341d611ad2a02a650",
+      "previous_sha256": "6b04bd02a38bed66599fbd1515d4e25b1bdee1b9c29451e341d611ad2a02a650",
+      "git_blob": "b0b01acf933b32eeadf37bfb9cfc1ef429fff6e5"
+    },
+    {
+      "path": "assets/css/market-reference-integration.css",
+      "sha256": "d284cd4dbdabd9dcc1e4581eedfb4ae518c4b6271c0162a84f96349d601d5a73",
+      "previous_sha256": "d284cd4dbdabd9dcc1e4581eedfb4ae518c4b6271c0162a84f96349d601d5a73",
+      "git_blob": "da3fb8322352cb67748c6270776ffe0ada3567b9"
+    },
+    {
+      "path": "assets/css/market-reference-template.css",
+      "sha256": "d0af8e00e2ab4132f121bc2c8a1aa57ab66d7a651b00a9a0c609f8a507058f66",
+      "previous_sha256": "d0af8e00e2ab4132f121bc2c8a1aa57ab66d7a651b00a9a0c609f8a507058f66",
+      "git_blob": "5ffb05291f32472f51c0ef12a1a2167121c9de2c"
+    },
+    {
+      "path": "assets/css/market-reference.css",
+      "sha256": "f87c28c89c344a19fd7a342a234fcb4c033b5ce32b74f1647f03c8f4c861a6f9",
+      "previous_sha256": "f87c28c89c344a19fd7a342a234fcb4c033b5ce32b74f1647f03c8f4c861a6f9",
+      "git_blob": "db6513be8d921e5a3f8c5a8d124fcd4ca139ffc7"
+    },
+    {
+      "path": "assets/css/progress2.css",
+      "sha256": "d8f27ffc34711998e386f274acf88af34f7b4e4efd093d31943efcd7cd3b63d1",
+      "previous_sha256": "d8f27ffc34711998e386f274acf88af34f7b4e4efd093d31943efcd7cd3b63d1",
+      "git_blob": "bacad17df1c9be9b50df993ff724980fb4981ca8"
+    },
+    {
+      "path": "assets/css/redesign/contact.css",
+      "sha256": "719f6f50151f030e4c946a09f5aba54dd9159b380b2d90045c4b9043b8ee143c",
+      "previous_sha256": "719f6f50151f030e4c946a09f5aba54dd9159b380b2d90045c4b9043b8ee143c",
+      "git_blob": "3058c460eef37788b16ac4a80e3cbdb0adf679d3"
+    },
+    {
+      "path": "assets/css/redesign/immunotherapy.css",
+      "sha256": "d247a80ca849d343426654e189a8abe8c739e39f8de5fcc28ac59887f67d6921",
+      "previous_sha256": "d247a80ca849d343426654e189a8abe8c739e39f8de5fcc28ac59887f67d6921",
+      "git_blob": "e95183197fb6f20a17a294d0b59755db454acc0a"
+    },
+    {
+      "path": "assets/css/redesign/invest.css",
+      "sha256": "cad1a9e33e2a331783d6dbe52fbb8cee108abd4e8741682bd0a09dfd052dc768",
+      "previous_sha256": "cad1a9e33e2a331783d6dbe52fbb8cee108abd4e8741682bd0a09dfd052dc768",
+      "git_blob": "103a51bfd278bcef934ec5d2ea6e67d82d290480"
+    },
+    {
+      "path": "assets/css/redesign/legacy-public.css",
+      "sha256": "07e108ecada386c688bcc95beeb6f9ba9b384538385d29543b7724a9510de4b4",
+      "previous_sha256": "07e108ecada386c688bcc95beeb6f9ba9b384538385d29543b7724a9510de4b4",
+      "git_blob": "762ba959af544200ee93d05e12ca707a8bdcdbf3"
+    },
+    {
+      "path": "assets/css/redesign/market.css",
+      "sha256": "500846111a956c9f92324e879a3bedfc16d96eb360973141d57049438d932314",
+      "previous_sha256": "500846111a956c9f92324e879a3bedfc16d96eb360973141d57049438d932314",
+      "git_blob": "c0358efc3dfdecc0d5f7b32862d88381be3c5ca3"
+    },
+    {
+      "path": "assets/css/redesign/news.css",
+      "sha256": "d0841434bb417e3339b238513a8e71afc40bf6debceae5288f8efc762f8a558f",
+      "previous_sha256": "d0841434bb417e3339b238513a8e71afc40bf6debceae5288f8efc762f8a558f",
+      "git_blob": "d783e7c1ee0f0a63108e4bc4caa9faec85325eab"
+    },
+    {
+      "path": "assets/css/redesign/single-news.css",
+      "sha256": "d0891fa5898c16a91a8050e8bc827eafeefcbd984f1eac13ef891c8f016c3235",
+      "previous_sha256": "d0891fa5898c16a91a8050e8bc827eafeefcbd984f1eac13ef891c8f016c3235",
+      "git_blob": "33ca2c6c3e2117e157720939a1b4eec128cc916b"
+    },
+    {
+      "path": "assets/css/redesign/videos.css",
+      "sha256": "b8b03aa7b0cec75271f56939d20105722a91a733fb8edbd7ee49fb97b97c2528",
+      "previous_sha256": "b8b03aa7b0cec75271f56939d20105722a91a733fb8edbd7ee49fb97b97c2528",
+      "git_blob": "f6e64f64fe56036b2b77276288a444264e0eb3dc"
+    },
+    {
+      "path": "assets/css/shared-footer.css",
+      "sha256": "2c306ff2c33e028b2e482b82c8b73d23be0239b8ea8c277c2c3e23c0564a6913",
+      "previous_sha256": "2c306ff2c33e028b2e482b82c8b73d23be0239b8ea8c277c2c3e23c0564a6913",
+      "git_blob": "4059a229b42cc375ae64c1a547fee92e5239ce34"
+    },
+    {
+      "path": "assets/css/slick-theme.min.css",
+      "sha256": "1692027da4ffa4661163a7a4aba59db1bf54bd1662895ef3fa9673fcb52b9055",
+      "previous_sha256": "1692027da4ffa4661163a7a4aba59db1bf54bd1662895ef3fa9673fcb52b9055",
+      "git_blob": "23d4f29586c53d29c786806b75b7c6ab74b9d9d6"
+    },
+    {
+      "path": "assets/css/slick.min.css",
+      "sha256": "91eec6fb0152bb7bfe03606d151c2079cfd5878f96c78a02a8f75d8371d18c68",
+      "previous_sha256": "91eec6fb0152bb7bfe03606d151c2079cfd5878f96c78a02a8f75d8371d18c68",
+      "git_blob": "f2465cb699114e131e77e81f9c988ed81c58b68a"
+    },
+    {
+      "path": "assets/css/style.css",
+      "sha256": "89c16d8a0d0d32c364f99d42252aab5855430cde586c594e4fd4035b728aa3bd",
+      "previous_sha256": "89c16d8a0d0d32c364f99d42252aab5855430cde586c594e4fd4035b728aa3bd",
+      "git_blob": "78d5ed1a8b5bdc69ec85d03c3dfae3e63a50b263"
+    },
+    {
+      "path": "assets/css/tailwind.css",
+      "sha256": "9f6647092ab6b184c48e27688e063fe6a5ca1c7c4ffe872546cd0cb2ffedbaf5",
+      "previous_sha256": "9f6647092ab6b184c48e27688e063fe6a5ca1c7c4ffe872546cd0cb2ffedbaf5",
+      "git_blob": "682fe13ee054382481c21f5f3afe62026e69d326"
+    },
+    {
+      "path": "assets/css/team-reference.css",
+      "sha256": "ef2c0689ea4f0ac331095370beaa50eb95dc16b2b68929bc19fb925744a63e6c",
+      "previous_sha256": "ef2c0689ea4f0ac331095370beaa50eb95dc16b2b68929bc19fb925744a63e6c",
+      "git_blob": "908dd5911a463b664436aa63330211c0fa6e14a6"
+    },
+    {
+      "path": "assets/css/technology-reference-base.css",
+      "sha256": "92b6a6c07b9abb0e6e9dbe8bf58fb4cefa31a0c02afb0c37dec1f5f997ef7c21",
+      "previous_sha256": "92b6a6c07b9abb0e6e9dbe8bf58fb4cefa31a0c02afb0c37dec1f5f997ef7c21",
+      "git_blob": "413e1e734019147e51c1278514d5b40efe64b090"
+    },
+    {
+      "path": "assets/css/technology-reference.css",
+      "sha256": "bc2002da7fb9906522d69a4d651cb7f951eb9cd072d6aa477214beca61f7a194",
+      "previous_sha256": "bc2002da7fb9906522d69a4d651cb7f951eb9cd072d6aa477214beca61f7a194",
+      "git_blob": "210f4d2a859890e51dc524273a0141849716f6e2"
+    },
+    {
+      "path": "assets/css/technology-sep-10.css",
+      "sha256": "dbe2a3224aa92377fc20dc4fac6cc8d4d0ea9e9751548aaacc208dfa372dfc67",
+      "previous_sha256": "dbe2a3224aa92377fc20dc4fac6cc8d4d0ea9e9751548aaacc208dfa372dfc67",
+      "git_blob": "47e257fb2bbd1db6901b11d969f449d63225dc22"
+    },
+    {
+      "path": "assets/css/thank-you.css",
+      "sha256": "9aa6118b572350afbb8031662f0954b6ebb7787ee75ef6c5ada93696c5c45872",
+      "previous_sha256": "9aa6118b572350afbb8031662f0954b6ebb7787ee75ef6c5ada93696c5c45872",
+      "git_blob": "5126a7701247f52e125f22c0455830c9bb093c93"
+    },
+    {
+      "path": "assets/css/title-banners.css",
+      "sha256": "7b473b6a1b2b86cef2dc2408aa66dc0599084f8f35f9e08f6955a20e6ef330ad",
+      "previous_sha256": "7b473b6a1b2b86cef2dc2408aa66dc0599084f8f35f9e08f6955a20e6ef330ad",
+      "git_blob": "500de105d651c7e8efd6f4fa18a23e9c52924de0"
+    },
+    {
+      "path": "assets/images/50ug-iv.png",
+      "sha256": "b1e13be13dbbb6f037c11ce01d068515a317896dc267186bfed928784dc782d1",
+      "previous_sha256": "b1e13be13dbbb6f037c11ce01d068515a317896dc267186bfed928784dc782d1",
+      "git_blob": "a26c7d16b2c37dbdd9b9e65082ccc3cbafadb8a1"
+    },
+    {
+      "path": "assets/images/C-01-1.png",
+      "sha256": "e97ecc0e105597de5ea81c2a0a2fb4fba9fcefe27cdf162d4edfbc336c1c8f47",
+      "previous_sha256": "e97ecc0e105597de5ea81c2a0a2fb4fba9fcefe27cdf162d4edfbc336c1c8f47",
+      "git_blob": "4783d1b1b67cda0452408d950113b93d07a8e1cc"
+    },
+    {
+      "path": "assets/images/Cancer-Cell-Killing.png",
+      "sha256": "c9de0d21d706299ca9731fd5ac6e20e25bae702801967cfe61f8d1899a6e207a",
+      "previous_sha256": "c9de0d21d706299ca9731fd5ac6e20e25bae702801967cfe61f8d1899a6e207a",
+      "git_blob": "e029e0c8ada658460a08210ddecf3ffd4a30e310"
+    },
+    {
+      "path": "assets/images/Cancer-Cell-Marking.png",
+      "sha256": "c0ddf2cb8567759fc81bccfb57456a11aa680ff7081fede0ebdfa5fa1dc61bf9",
+      "previous_sha256": "c0ddf2cb8567759fc81bccfb57456a11aa680ff7081fede0ebdfa5fa1dc61bf9",
+      "git_blob": "720cb2242df862d08f79a07b1908365b6d694374"
+    },
+    {
+      "path": "assets/images/Cancer-Cell-Marking.png.crdownload",
+      "sha256": "3eab45cbaa19d00ba476921bb8bafe1aa670244f55ace7050d30903ecf9b4789",
+      "previous_sha256": "3eab45cbaa19d00ba476921bb8bafe1aa670244f55ace7050d30903ecf9b4789",
+      "git_blob": "38e353c3d2d21dbacb16c68c852732323be693e4"
+    },
+    {
+      "path": "assets/images/DallMore.png",
+      "sha256": "3c22999d51cbef7bf745d4e73f17742c5decf76dcd39d4738f17b2270eee89d7",
+      "previous_sha256": "3c22999d51cbef7bf745d4e73f17742c5decf76dcd39d4738f17b2270eee89d7",
+      "git_blob": "0f6b6377252fb7ab78d6610a40f5be8a2435b78c"
+    },
+    {
+      "path": "assets/images/Investor_Growth.jpg",
+      "sha256": "25ddeac2b5184b8983122bdb228272edf65eea3afa881ce3fb8cf8acf39b4588",
+      "previous_sha256": "25ddeac2b5184b8983122bdb228272edf65eea3afa881ce3fb8cf8acf39b4588",
+      "git_blob": "53cb9d499950bdf1353cf2caa93faaec3c626054"
+    },
+    {
+      "path": "assets/images/Lindsay-Mann.jpg",
+      "sha256": "b1ac99be77c58d6c5f2046047004e605a2e2e25e7a9302b6216d9532fa270de7",
+      "previous_sha256": "b1ac99be77c58d6c5f2046047004e605a2e2e25e7a9302b6216d9532fa270de7",
+      "git_blob": "59c4f6b611fe2abfcd3345857fffea37f1e64e3c"
+    },
+    {
+      "path": "assets/images/Lindsay-Mann.png",
+      "sha256": "0f0c30d561a1c0f9f3498e1d778e700ed357ebcb1cefb8f681aa07fb583570fe",
+      "previous_sha256": "0f0c30d561a1c0f9f3498e1d778e700ed357ebcb1cefb8f681aa07fb583570fe",
+      "git_blob": "fe68116252deee430c14a6a239c9b4a22f06fe6c"
+    },
+    {
+      "path": "assets/images/Mobile_Growth.png",
+      "sha256": "52afe20daa631df57043c483292199dd8a4c652aa31dca058944a3ad71f74cd3",
+      "previous_sha256": "52afe20daa631df57043c483292199dd8a4c652aa31dca058944a3ad71f74cd3",
+      "git_blob": "4995422b62cc8235ee2ba5a67c797d351ef15279"
+    },
+    {
+      "path": "assets/images/Mobile_Team.png",
+      "sha256": "ff1c1ba71f28e364674fffee6be97f36d88ce72ba33e6e452bfe5ca8de295471",
+      "previous_sha256": "ff1c1ba71f28e364674fffee6be97f36d88ce72ba33e6e452bfe5ca8de295471",
+      "git_blob": "1288c2596ad01ec81d1c09b074876ed3779ff220"
+    },
+    {
+      "path": "assets/images/Rectangle1.jpg",
+      "sha256": "01c3ed5704a7b5ed2d726fbb8a613f4659c63ae4130d2d7472db2f95d02c7ae1",
+      "previous_sha256": "01c3ed5704a7b5ed2d726fbb8a613f4659c63ae4130d2d7472db2f95d02c7ae1",
+      "git_blob": "2d39872e3504a3b8754ed56491d4a82d2f96d54c"
+    },
+    {
+      "path": "assets/images/Rectangle1.png",
+      "sha256": "af2d3979973d5cd466e499cf67ca8b88a123546c12b070262efe9c167cd5e77b",
+      "previous_sha256": "af2d3979973d5cd466e499cf67ca8b88a123546c12b070262efe9c167cd5e77b",
+      "git_blob": "dc248ec3e35216f5557d4184b2293801d0d5531d"
+    },
+    {
+      "path": "assets/images/Ryan-Davies.jpg",
+      "sha256": "cc2895b595dadd03f7561448d5194126d52b7a9fb348cca09838c32e7eb15acc",
+      "previous_sha256": "cc2895b595dadd03f7561448d5194126d52b7a9fb348cca09838c32e7eb15acc",
+      "git_blob": "e458b445b3c0bcfc589335a497078bd822ff7221"
+    },
+    {
+      "path": "assets/images/Ryan-Davies.png",
+      "sha256": "ca35b745bbc372896b50c4b627708388a610d175dd5dfd38129386dcd51832e8",
+      "previous_sha256": "ca35b745bbc372896b50c4b627708388a610d175dd5dfd38129386dcd51832e8",
+      "git_blob": "04ba1141334a8ea672668c66650b33eb5e25b207"
+    },
+    {
+      "path": "assets/images/abt.jpg",
+      "sha256": "f01be2282a6e33fbd554fcdb7d9fc36ec9e6eacb5f2ae36a04117c4869a593c9",
+      "previous_sha256": "f01be2282a6e33fbd554fcdb7d9fc36ec9e6eacb5f2ae36a04117c4869a593c9",
+      "git_blob": "46240bf6444394ea136f005bbfbbc09ab1a91aaf"
+    },
+    {
+      "path": "assets/images/adam-grant.png",
+      "sha256": "4667448c37d6fd29ad9f9b6f006940ca7bdda68e70786333bf1848730800b3c1",
+      "previous_sha256": "4667448c37d6fd29ad9f9b6f006940ca7bdda68e70786333bf1848730800b3c1",
+      "git_blob": "72a1269f7e6dbf4145b1cbaa5263fab4aa332829"
+    },
+    {
+      "path": "assets/images/ai.png",
+      "sha256": "568176cd109944c2e1902b735b1bdb26f4f5d7cb964dbe859574ba5c5d08dd5c",
+      "previous_sha256": "568176cd109944c2e1902b735b1bdb26f4f5d7cb964dbe859574ba5c5d08dd5c",
+      "git_blob": "958a87e4cd6e23f93c216df5f9101f2314b85976"
+    },
+    {
+      "path": "assets/images/amit-indap.png",
+      "sha256": "b327971979bf83ed7dfa947b0f3474e060bbfb913a36c8f2c318d8c0b1f5c407",
+      "previous_sha256": "b327971979bf83ed7dfa947b0f3474e060bbfb913a36c8f2c318d8c0b1f5c407",
+      "git_blob": "74e32df15ed632e1e975078875dac8c96a9fee96"
+    },
+    {
+      "path": "assets/images/axisbio.png",
+      "sha256": "d3ada40a0a01abe8dd7e2684195e42fbbce93b917454007c3a5de6dc83310ee3",
+      "previous_sha256": "d3ada40a0a01abe8dd7e2684195e42fbbce93b917454007c3a5de6dc83310ee3",
+      "git_blob": "fab1667c6b3916058a8657e224a80df136743a9f"
+    },
+    {
+      "path": "assets/images/banner-object.png",
+      "sha256": "4807491e9c1b2b41fc4dbe2c8564143bb26e278db5e51b922104ae52fd525c23",
+      "previous_sha256": "4807491e9c1b2b41fc4dbe2c8564143bb26e278db5e51b922104ae52fd525c23",
+      "git_blob": "07f4c1efc75368b1f6a053ddf7ce365ab90f60ca"
+    },
+    {
+      "path": "assets/images/banner-video-poster.png",
+      "sha256": "a436cff4408b570b075ca493ebe2e8647d6b5c77fa2afed0cd66fc5b07accd07",
+      "previous_sha256": "a436cff4408b570b075ca493ebe2e8647d6b5c77fa2afed0cd66fc5b07accd07",
+      "git_blob": "9fb143ec638c2cfaea670cd3350445b796a97f93"
+    },
+    {
+      "path": "assets/images/breakthrough-mouse-1.png",
+      "sha256": "f208ceb7a107efe4200618ac4622551758b6ba556f3560fc1ac8f59dd5880f05",
+      "previous_sha256": "f208ceb7a107efe4200618ac4622551758b6ba556f3560fc1ac8f59dd5880f05",
+      "git_blob": "a6d5552c15226e001fe88d9447b9bc336abc5e26"
+    },
+    {
+      "path": "assets/images/byron-cvax.jpg",
+      "sha256": "326395824516f06e118030166c977ead80f6722ffca2507480ac45be14f9fa5f",
+      "previous_sha256": "326395824516f06e118030166c977ead80f6722ffca2507480ac45be14f9fa5f",
+      "git_blob": "2cc4e8eca8dbe3c47a0c303da06af90ecea10ee4"
+    },
+    {
+      "path": "assets/images/byron-cvax.png",
+      "sha256": "170bf4d86b83ffaee7cc29bae4ae7a286670210284c9c8dbb4134717627f7ffe",
+      "previous_sha256": "170bf4d86b83ffaee7cc29bae4ae7a286670210284c9c8dbb4134717627f7ffe",
+      "git_blob": "39ebac22ee86907ec729704941b30c0f4ab12cc9"
+    },
+    {
+      "path": "assets/images/cancer-cell-detection.png",
+      "sha256": "852ce20a866b670e78c750f786e4f97530bae229ff34e38d3b4b91e64a3cf67f",
+      "previous_sha256": "852ce20a866b670e78c750f786e4f97530bae229ff34e38d3b4b91e64a3cf67f",
+      "git_blob": "cdb769728cdfee90bfe85036fba5d1e09a40d8d7"
+    },
+    {
+      "path": "assets/images/cancer-stories-img.png",
+      "sha256": "b3132a20e21c93a5e80baf92f169c4b9110c0d751e4a60594f9fd5dd637244fc",
+      "previous_sha256": "b3132a20e21c93a5e80baf92f169c4b9110c0d751e4a60594f9fd5dd637244fc",
+      "git_blob": "4753dafe36d3fcf0852f48477cfce210f805261a"
+    },
+    {
+      "path": "assets/images/cancer-survivor-stories.png",
+      "sha256": "dee69c854ca136d429aefe42e572457364be26b27574269e2fcab80d6a571c7b",
+      "previous_sha256": "dee69c854ca136d429aefe42e572457364be26b27574269e2fcab80d6a571c7b",
+      "git_blob": "aaad39ce1deaaf0560db0534b496611022b5ed2b"
+    },
+    {
+      "path": "assets/images/cancer-treatment.png",
+      "sha256": "239ceb86d3e1398d6fd39f015b62630f63ba248f2f58cc3353c56787840d399b",
+      "previous_sha256": "239ceb86d3e1398d6fd39f015b62630f63ba248f2f58cc3353c56787840d399b",
+      "git_blob": "089b946cfa9b947f318caa20e2eb9061a3405d2b"
+    },
+    {
+      "path": "assets/images/cancervax-dna-background-attached.png",
+      "sha256": "c1c8d80991d7481c6d00b2682f9e97f39b8ce4271dd019a8d1332dec840315ed",
+      "previous_sha256": "c1c8d80991d7481c6d00b2682f9e97f39b8ce4271dd019a8d1332dec840315ed",
+      "git_blob": "f42d318a37bb3f25218f8132dfcf321e77fefcfc"
+    },
+    {
+      "path": "assets/images/cancervax-dna-background-with-play.png",
+      "sha256": "e11abc3b4008e20a3e4593d8c03c8bc66b546cd52aeeaefcee8471a445ab4b3a",
+      "previous_sha256": "e11abc3b4008e20a3e4593d8c03c8bc66b546cd52aeeaefcee8471a445ab4b3a",
+      "git_blob": "b55b9632abf0a8a0679cc7d1c7a9b881c1a4f977"
+    },
+    {
+      "path": "assets/images/cancervax-dna-background-with-red-play.png",
+      "sha256": "9e69af75ea96ca09469aaba7ec9dd2220cccf812c02db88304d2bca7d5ebb495",
+      "previous_sha256": "9e69af75ea96ca09469aaba7ec9dd2220cccf812c02db88304d2bca7d5ebb495",
+      "git_blob": "3da02552ff272cc0b6d95a512e311414264b1d26"
+    },
+    {
+      "path": "assets/images/cancervax-dna-thumbnail-3d-diagonal-3-strands.png",
+      "sha256": "263a88e31468a89cbf3c502d2150d212209ea211f2c82afd717edf8efb325c24",
+      "previous_sha256": "263a88e31468a89cbf3c502d2150d212209ea211f2c82afd717edf8efb325c24",
+      "git_blob": "9e0a693e07b7f55c74d58b1bdc5c2e57d4adef25"
+    },
+    {
+      "path": "assets/images/cancervax-dna-thumbnail-3d-diagonal.png",
+      "sha256": "3199a023a9cce00bfa2fc824cb2d8b91401a537be10fb53ff4143faa958ebbf0",
+      "previous_sha256": "3199a023a9cce00bfa2fc824cb2d8b91401a537be10fb53ff4143faa958ebbf0",
+      "git_blob": "b5c63e28ec9ba1ceefbee5e5a8e880e9851b7c92"
+    },
+    {
+      "path": "assets/images/cancervax-dna-thumbnail-3d-light.png",
+      "sha256": "1927cbab2dae93925d5d66fc03ffc5d93dcafc7c82b6633163dca1ca1f137d47",
+      "previous_sha256": "1927cbab2dae93925d5d66fc03ffc5d93dcafc7c82b6633163dca1ca1f137d47",
+      "git_blob": "66e9dc03d60fd7645f48575a38519c5b9c37f7f5"
+    },
+    {
+      "path": "assets/images/cancervax-dna-thumbnail-3d-natural.png",
+      "sha256": "4fbf93bfea1b80328ed29ddf188b8d415c9228e82becfd151761072923c433f6",
+      "previous_sha256": "4fbf93bfea1b80328ed29ddf188b8d415c9228e82becfd151761072923c433f6",
+      "git_blob": "3b5ab13f7cd24c7553b1c4228af35562700cb1f6"
+    },
+    {
+      "path": "assets/images/cancervax-dna-thumbnail-3d-three-diagonal-controlled.png",
+      "sha256": "876e1ac81e339217496443bb4455917ead8abdd915196c602a583f88154cb740",
+      "previous_sha256": "876e1ac81e339217496443bb4455917ead8abdd915196c602a583f88154cb740",
+      "git_blob": "beaa6e568060ba6f6db6be5aaeccfc8232869e2e"
+    },
+    {
+      "path": "assets/images/cancervax-dna-thumbnail-3d-three-diagonal.png",
+      "sha256": "0fc2af3267c32d46f508d24a2683754bf167121e13f71b44175ca448b5f462f6",
+      "previous_sha256": "0fc2af3267c32d46f508d24a2683754bf167121e13f71b44175ca448b5f462f6",
+      "git_blob": "55d0bfb32259d7207cc1e1f95eef39f04f9a97dc"
+    },
+    {
+      "path": "assets/images/cancervax-dna-thumbnail-3d-three-diagonal.svg",
+      "sha256": "131e15ba6e89a6a5b17ec9de324679f029c1f5832f225c309cc41eaa67b415df",
+      "previous_sha256": "131e15ba6e89a6a5b17ec9de324679f029c1f5832f225c309cc41eaa67b415df",
+      "git_blob": "fc80b2689d56fd2b57c9205185675a561977d38e"
+    },
+    {
+      "path": "assets/images/cancervax-dna-thumbnail-3d.png",
+      "sha256": "6958961ff11268281041f0e7c0092a255a605f7259c75bf318da00dc793fc4be",
+      "previous_sha256": "6958961ff11268281041f0e7c0092a255a605f7259c75bf318da00dc793fc4be",
+      "git_blob": "18234ce2fb810b2572e9002dd323249487efac66"
+    },
+    {
+      "path": "assets/images/cancervax-dna-thumbnail.png",
+      "sha256": "195b071129365f36e50dbd172fc9c6169a84b754bf2ba82c21d5267ebfff9ff4",
+      "previous_sha256": "195b071129365f36e50dbd172fc9c6169a84b754bf2ba82c21d5267ebfff9ff4",
+      "git_blob": "be3816c812b83cca6d6a52b211f33edbf45c5f72"
+    },
+    {
+      "path": "assets/images/cancervax-top-preclinical-biotech-2026-v2.png",
+      "sha256": "65d54fa5db8658626fee104ca2036ec162a38c9e7b305581cd582ca5bcf0b4eb",
+      "previous_sha256": "65d54fa5db8658626fee104ca2036ec162a38c9e7b305581cd582ca5bcf0b4eb",
+      "git_blob": "20f3153128a0bdc549bc16568031f3ca9f10aa4f"
+    },
+    {
+      "path": "assets/images/cancervax-top-preclinical-biotech-2026.png",
+      "sha256": "4f04ac1c5fae8391b45e058d62d6d2e07307e5ad38ab41e9f0fac08f7c97c13e",
+      "previous_sha256": "4f04ac1c5fae8391b45e058d62d6d2e07307e5ad38ab41e9f0fac08f7c97c13e",
+      "git_blob": "813f9bc18574b2f7fb48e01ac76a614be3607c41"
+    },
+    {
+      "path": "assets/images/cell.png",
+      "sha256": "5ba3677271504fa69813c97a45bc7f3016cffb1b03bb6f8aabe317b9aaca0260",
+      "previous_sha256": "5ba3677271504fa69813c97a45bc7f3016cffb1b03bb6f8aabe317b9aaca0260",
+      "git_blob": "6a47efe20261912b57763f918acfad7d1ff38c85"
+    },
+    {
+      "path": "assets/images/cells_syringe.jpg",
+      "sha256": "224f4cf937810bd4f7e09f1075c4b5580c05748281ca3dac8ff3ff061746f01c",
+      "previous_sha256": "224f4cf937810bd4f7e09f1075c4b5580c05748281ca3dac8ff3ff061746f01c",
+      "git_blob": "86120fc4ea8ec076b11f777d84d1d221209f4fa5"
+    },
+    {
+      "path": "assets/images/ceo-chat1.jpg",
+      "sha256": "1b9d2f36b4735e69f2c4bb771cf65f87be46e986a9fe131b546bb0d0040af099",
+      "previous_sha256": "1b9d2f36b4735e69f2c4bb771cf65f87be46e986a9fe131b546bb0d0040af099",
+      "git_blob": "5c5e8c8867ce9f0984bbbad7977d607d905e3fb9"
+    },
+    {
+      "path": "assets/images/ceo-chats-bg.jpg",
+      "sha256": "f6ab4a136556918d9f9cfea91632b3f0c111c46f5194d570811419d939d36d1f",
+      "previous_sha256": "f6ab4a136556918d9f9cfea91632b3f0c111c46f5194d570811419d939d36d1f",
+      "git_blob": "d56bcc5c3428ad3c62e8f220ef90b69c0d316bf8"
+    },
+    {
+      "path": "assets/images/ceo-podcast.png",
+      "sha256": "bab48026ebb7cee172bbfe96e4e35c5f4ca9fd2981995a52ce1dc80bc8eafdcf",
+      "previous_sha256": "bab48026ebb7cee172bbfe96e4e35c5f4ca9fd2981995a52ce1dc80bc8eafdcf",
+      "git_blob": "b9cdae384ff704a8d2244f15c303b496639887dd"
+    },
+    {
+      "path": "assets/images/champions-oncology.png",
+      "sha256": "2b94de77cbb092c2460096c05d0b265e26965de8894c56cc1a16593cd83b58a8",
+      "previous_sha256": "2b94de77cbb092c2460096c05d0b265e26965de8894c56cc1a16593cd83b58a8",
+      "git_blob": "0ba19c4d012b5c0ac05d651e01936ba307a7b3a9"
+    },
+    {
+      "path": "assets/images/charles-river.png",
+      "sha256": "1327da6590f3924732a3bdfb984e0457a5a7cbc61823d08778e7971008ebc962",
+      "previous_sha256": "1327da6590f3924732a3bdfb984e0457a5a7cbc61823d08778e7971008ebc962",
+      "git_blob": "4a193de6ce50c6566bbef825a85f5acacdba2a74"
+    },
+    {
+      "path": "assets/images/chemo-therapy.jpg",
+      "sha256": "e131e9896ba87e129977800d52b272dce52d1b04aaac8ebbb3e043e4747d9cd6",
+      "previous_sha256": "e131e9896ba87e129977800d52b272dce52d1b04aaac8ebbb3e043e4747d9cd6",
+      "git_blob": "c4f2e13dc68233f372c6d69816ed39a0d296e5a7"
+    },
+    {
+      "path": "assets/images/children-cancer.png",
+      "sha256": "fd11e02316e983e44e73e4a17343936fe90c348a5508ec4de8681cd7fe20207b",
+      "previous_sha256": "fd11e02316e983e44e73e4a17343936fe90c348a5508ec4de8681cd7fe20207b",
+      "git_blob": "87f17117e280c634d238842799b23680c4c3c258"
+    },
+    {
+      "path": "assets/images/christopher.jpg",
+      "sha256": "fc8c701355b2950eae88318d12532f302fed7849815ec5d8db469ecbd4c6cac9",
+      "previous_sha256": "fc8c701355b2950eae88318d12532f302fed7849815ec5d8db469ecbd4c6cac9",
+      "git_blob": "49f2994cba191b53a3a439a01b342d67df9b5778"
+    },
+    {
+      "path": "assets/images/cold-tumor-bg.png",
+      "sha256": "147dcba9c0ac462e76d4ff7742e400cdf63b5d1177e9c09843d19e75719347c0",
+      "previous_sha256": "147dcba9c0ac462e76d4ff7742e400cdf63b5d1177e9c09843d19e75719347c0",
+      "git_blob": "ae7c7c86c8295d7afb5e663592a2bf3aeba2d133"
+    },
+    {
+      "path": "assets/images/cold-tumor.png",
+      "sha256": "ad533975985aeaf5900778455f737e395a3a707deaf4b9e2ac7ce465c601d373",
+      "previous_sha256": "ad533975985aeaf5900778455f737e395a3a707deaf4b9e2ac7ce465c601d373",
+      "git_blob": "d1d03ce78eb091a200a1c874cf0e9ece34c1244f"
+    },
+    {
+      "path": "assets/images/coming-soon-bg.png",
+      "sha256": "98ee384a735d01fbcf06d109507791eb134f51cb9519531b83bd631d643ce8ac",
+      "previous_sha256": "98ee384a735d01fbcf06d109507791eb134f51cb9519531b83bd631d643ce8ac",
+      "git_blob": "693a7e4c1845c67922f3ad2b754fffaf8ca18de0"
+    },
+    {
+      "path": "assets/images/crown-bioscience.png",
+      "sha256": "2483994ce64d60ce915f31adb230b7031dad26bc3d3464ea1beccd1a8623377c",
+      "previous_sha256": "2483994ce64d60ce915f31adb230b7031dad26bc3d3464ea1beccd1a8623377c",
+      "git_blob": "c502e2560c56522359a266d403f86abd86b45c01"
+    },
+    {
+      "path": "assets/images/ct-item.png",
+      "sha256": "bb8c4c4f116d8003da82dcf704b842d0266ed7ffac1137e34b58480d86e27268",
+      "previous_sha256": "bb8c4c4f116d8003da82dcf704b842d0266ed7ffac1137e34b58480d86e27268",
+      "git_blob": "efe7a82d85f75ce097bbb016f61c61adbc8dc282"
+    },
+    {
+      "path": "assets/images/cytiva.png",
+      "sha256": "9559c1bbdab6f1d040b60a87396e72b7a0cccc7101d74cf64982908a3626f816",
+      "previous_sha256": "9559c1bbdab6f1d040b60a87396e72b7a0cccc7101d74cf64982908a3626f816",
+      "git_blob": "ebfcd6b314b9eea35047d6af4a34b266c88db137"
+    },
+    {
+      "path": "assets/images/dev-progress-4.png",
+      "sha256": "157c2dfd615f44ec66852817a9db0e7661eb76938e33744203a403f3c8e3ba5f",
+      "previous_sha256": "157c2dfd615f44ec66852817a9db0e7661eb76938e33744203a403f3c8e3ba5f",
+      "git_blob": "aa6d9e90fff06d380122f4f582a5dda88cddcd25"
+    },
+    {
+      "path": "assets/images/development-partners-1.png",
+      "sha256": "10422b2b7e232b3c4eaee7d24051890ae5c9cdd04d5d8677910a32dd01588785",
+      "previous_sha256": "10422b2b7e232b3c4eaee7d24051890ae5c9cdd04d5d8677910a32dd01588785",
+      "git_blob": "0e693996982916619e6693cbe3481c9b9e140b2c"
+    },
+    {
+      "path": "assets/images/divider.jpg",
+      "sha256": "6c965c01a4121cb82e5b9e8fc47901c274190ddf26ab33dd71db83ddb266566f",
+      "previous_sha256": "6c965c01a4121cb82e5b9e8fc47901c274190ddf26ab33dd71db83ddb266566f",
+      "git_blob": "65e718c9c1ab3eb0743bb100cdcf19a7bd9a59df"
+    },
+    {
+      "path": "assets/images/ewing-sarcoma.jpg",
+      "sha256": "ca254e1167bcd025e65c2eebe427209dd607ea0ced5b072bf8385e46f1b95f18",
+      "previous_sha256": "ca254e1167bcd025e65c2eebe427209dd607ea0ced5b072bf8385e46f1b95f18",
+      "git_blob": "7b5aa5325e3d438044d0d828aa00629a94ce6cb8"
+    },
+    {
+      "path": "assets/images/favicon/android-chrome-96x96.png",
+      "sha256": "aced61c77faf33011ddb6c08aca9a190e5230d5a2e0b2221e622b95f7d3caee1",
+      "previous_sha256": "aced61c77faf33011ddb6c08aca9a190e5230d5a2e0b2221e622b95f7d3caee1",
+      "git_blob": "608a8c6f0789c50c5b9b83f8f14cb334bbe70438"
+    },
+    {
+      "path": "assets/images/favicon/apple-touch-icon.png",
+      "sha256": "2156053dc81eeb0a7efb7f9c0d0deccd726433e7972fc2105f86459f3c85ccf5",
+      "previous_sha256": "2156053dc81eeb0a7efb7f9c0d0deccd726433e7972fc2105f86459f3c85ccf5",
+      "git_blob": "7763ee47688432f4542b9994c4bc311064c2a649"
+    },
+    {
+      "path": "assets/images/favicon/browserconfig.xml",
+      "sha256": "c348b0d6df3d900efef7ae4b4dfc8b62b1737b04d09d4584fef243211c266866",
+      "previous_sha256": "c348b0d6df3d900efef7ae4b4dfc8b62b1737b04d09d4584fef243211c266866",
+      "git_blob": "b3930d0f047184047cb81d620436d91653438b8b"
+    },
+    {
+      "path": "assets/images/favicon/favicon-16x16.png",
+      "sha256": "fc9e032377cb25cd9213a24c1002509341e551b5c0bfc25f4734c112bc25e624",
+      "previous_sha256": "fc9e032377cb25cd9213a24c1002509341e551b5c0bfc25f4734c112bc25e624",
+      "git_blob": "7e59d5d4acecce4478a7edfc2ba5dbce20e72fa0"
+    },
+    {
+      "path": "assets/images/favicon/favicon-32x32.png",
+      "sha256": "31ae12639e189f94f940f55e887297ac93dc61c2dc2c73b1aabf156cf65bb57f",
+      "previous_sha256": "31ae12639e189f94f940f55e887297ac93dc61c2dc2c73b1aabf156cf65bb57f",
+      "git_blob": "fb7b3455d55a49dd5815be8a478964c453fe27ee"
+    },
+    {
+      "path": "assets/images/favicon/favicon.ico",
+      "sha256": "23da707ff0ebf1eed93236561dc3a7341a49f40a93da8fedbec94fd0849ac416",
+      "previous_sha256": "23da707ff0ebf1eed93236561dc3a7341a49f40a93da8fedbec94fd0849ac416",
+      "git_blob": "26df9b289b6d23e2d5cdb3f1c9f00528903d2ed5"
+    },
+    {
+      "path": "assets/images/favicon/mstile-150x150.png",
+      "sha256": "1d90e5dccfb2804e227971342c1222d574609582bbe6fadbe48a54c6682ade5e",
+      "previous_sha256": "1d90e5dccfb2804e227971342c1222d574609582bbe6fadbe48a54c6682ade5e",
+      "git_blob": "a978810b203d6f956423fde59675a202dcddf51b"
+    },
+    {
+      "path": "assets/images/favicon/safari-pinned-tab.svg",
+      "sha256": "7baf08f5b72432dbd3ca6685300dc6b48e5df0e6a18e0084adc00391284d688a",
+      "previous_sha256": "7baf08f5b72432dbd3ca6685300dc6b48e5df0e6a18e0084adc00391284d688a",
+      "git_blob": "2a59d88ead4d3074e31e49905422e8cbf067b048"
+    },
+    {
+      "path": "assets/images/favicon/site.webmanifest",
+      "sha256": "98380408239fb41fb3a7d3d831e792064869e00dd3078d56e199380fc1e2c461",
+      "previous_sha256": "98380408239fb41fb3a7d3d831e792064869e00dd3078d56e199380fc1e2c461",
+      "git_blob": "c42d1a54548177cc760c358033a1e7f94b72f4a6"
+    },
+    {
+      "path": "assets/images/flashpoint.png",
+      "sha256": "511bf589bd175f52f184c45d2383139c7f4e43669e42790ee4f06cee0a5bbc2e",
+      "previous_sha256": "511bf589bd175f52f184c45d2383139c7f4e43669e42790ee4f06cee0a5bbc2e",
+      "git_blob": "6bf7bdd7f02f2fc3cd4878039038bf0d72c7a790"
+    },
+    {
+      "path": "assets/images/fluorescene-microscopy.png",
+      "sha256": "61f2896fe1031d0f757fd2f1a68e7be82dab6ad9b8633df177694a5e60719aa9",
+      "previous_sha256": "61f2896fe1031d0f757fd2f1a68e7be82dab6ad9b8633df177694a5e60719aa9",
+      "git_blob": "51c3aaddbe3c3dc308419ffcc9550a1131ff538e"
+    },
+    {
+      "path": "assets/images/george-kemble.png",
+      "sha256": "aaa6edd4f3d322b88729db51569b1156e6b9090b3ae5c0a7a0dfbc7e1570b3fb",
+      "previous_sha256": "aaa6edd4f3d322b88729db51569b1156e6b9090b3ae5c0a7a0dfbc7e1570b3fb",
+      "git_blob": "855a9a4ab700bf21a8fec9cf84e9fbe996ded567"
+    },
+    {
+      "path": "assets/images/george.png",
+      "sha256": "b5a059bd8b76833f5dd8bb81f5f4db4e87262f3226f017184fdf98dd0c464d58",
+      "previous_sha256": "b5a059bd8b76833f5dd8bb81f5f4db4e87262f3226f017184fdf98dd0c464d58",
+      "git_blob": "5bbfdc0ac84fd7a512a5dcb35fc0d39d3b54aa44"
+    },
+    {
+      "path": "assets/images/gfp-smart-mrnas-cropped.png",
+      "sha256": "c357c22245d3b85adf2b0ebe4db01793cd4a50c30ac819b6f58a786ce6c10971",
+      "previous_sha256": "c357c22245d3b85adf2b0ebe4db01793cd4a50c30ac819b6f58a786ce6c10971",
+      "git_blob": "e5822784d786712a8a215970aec44302bff24a1b"
+    },
+    {
+      "path": "assets/images/gfp-smart-mrnas.png",
+      "sha256": "ecafd1bbc90d966f8b68f8f06048412bc7026cd055985b15254515028ac80a46",
+      "previous_sha256": "ecafd1bbc90d966f8b68f8f06048412bc7026cd055985b15254515028ac80a46",
+      "git_blob": "e138fe36db786b1f1ed245a6e52bf634961206ac"
+    },
+    {
+      "path": "assets/images/girl_cancervax.jpg",
+      "sha256": "9d85f6aae6f8e101318b6520ca42450d296a32e6a2914d4c816f975158023278",
+      "previous_sha256": "9d85f6aae6f8e101318b6520ca42450d296a32e6a2914d4c816f975158023278",
+      "git_blob": "b7a00c2afffc4a7145d1d63200235c8afab3fa94"
+    },
+    {
+      "path": "assets/images/gordon-ringold.png",
+      "sha256": "c51b0d4ae23e13b56c5b5f82afdd46a82298e78151652b6cdd97d7d5ce8398ed",
+      "previous_sha256": "c51b0d4ae23e13b56c5b5f82afdd46a82298e78151652b6cdd97d7d5ce8398ed",
+      "git_blob": "637a0bff85e06261f1defc0be97cca3ad5333c25"
+    },
+    {
+      "path": "assets/images/graph-mobile.png",
+      "sha256": "746368e7c584e622dc55b801b0e7e534bc3b0e915ede4e6106dec8014541edff",
+      "previous_sha256": "746368e7c584e622dc55b801b0e7e534bc3b0e915ede4e6106dec8014541edff",
+      "git_blob": "23e2e3c061ef01655168ed1803f186eabea15132"
+    },
+    {
+      "path": "assets/images/graph.png",
+      "sha256": "ed59bb3d719bfa2182e18d5e6a36903c7270314a29aab119ad8d97286d618e5f",
+      "previous_sha256": "ed59bb3d719bfa2182e18d5e6a36903c7270314a29aab119ad8d97286d618e5f",
+      "git_blob": "41366f39a59d8ff012005ca67510c63129f11e04"
+    },
+    {
+      "path": "assets/images/health-liver-cells.png",
+      "sha256": "157c2dfd615f44ec66852817a9db0e7661eb76938e33744203a403f3c8e3ba5f",
+      "previous_sha256": "157c2dfd615f44ec66852817a9db0e7661eb76938e33744203a403f3c8e3ba5f",
+      "git_blob": "aa6d9e90fff06d380122f4f582a5dda88cddcd25"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/adam-grant.jpg",
+      "sha256": "98adebc20922259b3a4e48ad307acbf1ef98957df88c5d9cfeb00cf445dd4ccb",
+      "previous_sha256": "98adebc20922259b3a4e48ad307acbf1ef98957df88c5d9cfeb00cf445dd4ccb",
+      "git_blob": "18a8d7370c658af0fa0243b91062bf51e657fa91"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/adam-grant.png",
+      "sha256": "c028fda196c848bf2c52b5839067b9ca4416fbe3010c3f92dc72ce66f7e66aa1",
+      "previous_sha256": "c028fda196c848bf2c52b5839067b9ca4416fbe3010c3f92dc72ce66f7e66aa1",
+      "git_blob": "3080b02eecd3a9b594006ddcc3966f093f624985",
+      "preserve_existing": true
+    },
+    {
+      "path": "assets/images/home-aug-28-a/amit-indap.jpg",
+      "sha256": "4ab1333c06925b2a509bd04d49dbc36bf23233cbe062b1840f5e2ca5c0e47623",
+      "previous_sha256": "4ab1333c06925b2a509bd04d49dbc36bf23233cbe062b1840f5e2ca5c0e47623",
+      "git_blob": "b09f31c1d0250e7300c9fb80b9108217faf63208"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/amit-indap.png",
+      "sha256": "e37bf3d85becde544118603f71e129ca9e18fa82c3f94aaa735136661dbad44d",
+      "previous_sha256": "e37bf3d85becde544118603f71e129ca9e18fa82c3f94aaa735136661dbad44d",
+      "git_blob": "8210e140df97006b3ade4e5e619696be20406a21",
+      "preserve_existing": true
+    },
+    {
+      "path": "assets/images/home-aug-28-a/feature-news.png",
+      "sha256": "c809ef41d97ca9e8833ff1dd9b3bd4fc387ec3f3ca957c18d50e5d6b6ff2283e",
+      "previous_sha256": "c809ef41d97ca9e8833ff1dd9b3bd4fc387ec3f3ca957c18d50e5d6b6ff2283e",
+      "git_blob": "73a94db85094e9f10cd087c786eef882f3f4a749",
+      "preserve_existing": true
+    },
+    {
+      "path": "assets/images/home-aug-28-a/feature-video-hd.jpg",
+      "sha256": "1ca0a0ec4627f776bafd12e887ef29afea536fa3e9ab0848569c8b17fdaeef61",
+      "previous_sha256": "1ca0a0ec4627f776bafd12e887ef29afea536fa3e9ab0848569c8b17fdaeef61",
+      "git_blob": "1b1cacd7a85480cd59b505ce5d26b76d88408d4b"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/feature-video.png",
+      "sha256": "6cda72dc4372037ec39dcea6e508379c3731ab1896549f7ade978da20dbfe198",
+      "previous_sha256": "6cda72dc4372037ec39dcea6e508379c3731ab1896549f7ade978da20dbfe198",
+      "git_blob": "6e57cc2f0bcdfe4667fca1a589e814a6a5e8b7d3",
+      "preserve_existing": true
+    },
+    {
+      "path": "assets/images/home-aug-28-a/george-kemble.jpg",
+      "sha256": "208419f30ce29f2e6c0780e9f074a06e1e19600330d5f77f1cd0e328437b621a",
+      "previous_sha256": "208419f30ce29f2e6c0780e9f074a06e1e19600330d5f77f1cd0e328437b621a",
+      "git_blob": "e049e47d0b61360a7680a81cb0666c0dea583097"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/george-kemble.png",
+      "sha256": "a55594b8da57fef14461a8950e1bda511bc01de62ace7e7ccc8217faf43b4b85",
+      "previous_sha256": "a55594b8da57fef14461a8950e1bda511bc01de62ace7e7ccc8217faf43b4b85",
+      "git_blob": "8b2dc9e069fc7de147d8242db3ef6b25e4bf6030",
+      "preserve_existing": true
+    },
+    {
+      "path": "assets/images/home-aug-28-a/george.jpg",
+      "sha256": "ae028349d39e9683c14a79ced8caf1dc1623f988eea225d2e90a0da05fa1e38f",
+      "previous_sha256": "ae028349d39e9683c14a79ced8caf1dc1623f988eea225d2e90a0da05fa1e38f",
+      "git_blob": "30bcd26ffaea3181bab87cc18e0845d8ea18e1f6"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/george.png",
+      "sha256": "6f729ebcfd4eeac62535d89e74071e8ffae2f7fb9675e18fb37b420241c4d1d4",
+      "previous_sha256": "6f729ebcfd4eeac62535d89e74071e8ffae2f7fb9675e18fb37b420241c4d1d4",
+      "git_blob": "c6acab0604cbd8b1bdba10b7c2a6689e938d749e",
+      "preserve_existing": true
+    },
+    {
+      "path": "assets/images/home-aug-28-a/gordon-ringold.jpg",
+      "sha256": "04d4d1b3df8a88e12b379de5c690bc44f713157b19b42699185fbfc5a14293ff",
+      "previous_sha256": "04d4d1b3df8a88e12b379de5c690bc44f713157b19b42699185fbfc5a14293ff",
+      "git_blob": "7e51c97ba8946142879b144ad821afb509497a29"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/gordon-ringold.png",
+      "sha256": "7ab5a03ff8c6e7784306c7e7ab39bdd7837e6b6d922c1cbfc26d0a821c0bf6f3",
+      "previous_sha256": "7ab5a03ff8c6e7784306c7e7ab39bdd7837e6b6d922c1cbfc26d0a821c0bf6f3",
+      "git_blob": "e966825fe1cb6cddf5e4149f634570715abe7533",
+      "preserve_existing": true
+    },
+    {
+      "path": "assets/images/home-aug-28-a/iqvia.jpg",
+      "sha256": "08a5de3a305fce9b4943853f8ebdaa82bb0893d492f593e83300d7abdc2559cc",
+      "previous_sha256": "08a5de3a305fce9b4943853f8ebdaa82bb0893d492f593e83300d7abdc2559cc",
+      "git_blob": "e08e474c535371b120dfe4203c27c2ba38f41d00"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/lakey.jpg",
+      "sha256": "b6ebbe69ca55d72474205375a0c294ed1c1531e215946fc91c14d74fa5ec6efe",
+      "previous_sha256": "b6ebbe69ca55d72474205375a0c294ed1c1531e215946fc91c14d74fa5ec6efe",
+      "git_blob": "65d25165032e7e7d507e867119da12f8d32ca608"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/lakey.png",
+      "sha256": "5a34a9b121879ebc07365107cc41a9757ddda6e41365a36178e5ab52eaf1b5f1",
+      "previous_sha256": "5a34a9b121879ebc07365107cc41a9757ddda6e41365a36178e5ab52eaf1b5f1",
+      "git_blob": "3d6669ab4f2b30ab1b72dca6971dbd33f686e240",
+      "preserve_existing": true
+    },
+    {
+      "path": "assets/images/home-aug-28-a/mark-davis.jpg",
+      "sha256": "82493018d02b7d2caf41afdb6904d24176dab6cd4167dea6fa7b98d58e4c8fa2",
+      "previous_sha256": "82493018d02b7d2caf41afdb6904d24176dab6cd4167dea6fa7b98d58e4c8fa2",
+      "git_blob": "0ed6361568167472d3205f253382681fe005c3a8"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/mark-davis.png",
+      "sha256": "362336ea09df72c4e3aec1ab540718a7e4be0fb34a50854fc39161612f7a261b",
+      "previous_sha256": "362336ea09df72c4e3aec1ab540718a7e4be0fb34a50854fc39161612f7a261b",
+      "git_blob": "fec856f09506e15961c544b6639169825b420446",
+      "preserve_existing": true
+    },
+    {
+      "path": "assets/images/home-aug-28-a/matthew-spear.jpg",
+      "sha256": "56ed5a154a8c7c27de5e1bfe25b7938e443e9e25da36c3250f3aac30655fdd2f",
+      "previous_sha256": "56ed5a154a8c7c27de5e1bfe25b7938e443e9e25da36c3250f3aac30655fdd2f",
+      "git_blob": "998e130d28e5ccf85139b5b0b8b8c09be7ed689c"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/matthew-spear.png",
+      "sha256": "4d8b097a69a650bdcc0461a9106be772ed1881e60cccee36057231f3b209d2d7",
+      "previous_sha256": "4d8b097a69a650bdcc0461a9106be772ed1881e60cccee36057231f3b209d2d7",
+      "git_blob": "b3d075b55187f69c0d962033ce847f927c784c9b",
+      "preserve_existing": true
+    },
+    {
+      "path": "assets/images/home-aug-28-a/steven-warner.jpg",
+      "sha256": "39a91e1f8b71ce86f6bffd741dfa82459627a46ba1ec06408d6e910a170fdaa1",
+      "previous_sha256": "39a91e1f8b71ce86f6bffd741dfa82459627a46ba1ec06408d6e910a170fdaa1",
+      "git_blob": "081d8bd7284ce95e1bf7925b18d58ad1400aa99f"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/steven-warner.png",
+      "sha256": "a0dcb5b233f4e109fc29e144bfb010285a749d020284bac8ae480f7b48d5cc78",
+      "previous_sha256": "a0dcb5b233f4e109fc29e144bfb010285a749d020284bac8ae480f7b48d5cc78",
+      "git_blob": "daf185184b9a685017f4dec15480ef94a688560f",
+      "preserve_existing": true
+    },
+    {
+      "path": "assets/images/home-aug-28-a/sumant-ramachandra.jpg",
+      "sha256": "c0a28abbef47d39dd3785f96b88afc93244be95a40ef2f91f970eadcafa53575",
+      "previous_sha256": "c0a28abbef47d39dd3785f96b88afc93244be95a40ef2f91f970eadcafa53575",
+      "git_blob": "6ccbda047999e5155e3e937420a5695578c25d22"
+    },
+    {
+      "path": "assets/images/home-aug-28-a/sumant-ramachandra.png",
+      "sha256": "9d9d81cb61747c6703e0915853eca9dcef3b79359f8eb406482d23d45ea3e834",
+      "previous_sha256": "9d9d81cb61747c6703e0915853eca9dcef3b79359f8eb406482d23d45ea3e834",
+      "git_blob": "d26189676bbc6c8b4f49f7ef68ef422944bfab8c",
+      "preserve_existing": true
+    },
+    {
+      "path": "assets/images/home-aug-30-webinar-thumbnail.jpg",
+      "sha256": "1ca0a0ec4627f776bafd12e887ef29afea536fa3e9ab0848569c8b17fdaeef61",
+      "previous_sha256": "1ca0a0ec4627f776bafd12e887ef29afea536fa3e9ab0848569c8b17fdaeef61",
+      "git_blob": "1b1cacd7a85480cd59b505ce5d26b76d88408d4b"
+    },
+    {
+      "path": "assets/images/home-banner-mobile-grandma.png",
+      "sha256": "12bae56e92896c824ea2448688ba7634afca086df5a0d273007b6103936a5143",
+      "previous_sha256": "12bae56e92896c824ea2448688ba7634afca086df5a0d273007b6103936a5143",
+      "git_blob": "061d3096ca31ed77c015f1837847a145d42e77ef"
+    },
+    {
+      "path": "assets/images/home-banner-mobile.jpg",
+      "sha256": "9bd5eb0ed3652fb654da6e4764bfb019ebabc567681b839152249d172345f3c6",
+      "previous_sha256": "9bd5eb0ed3652fb654da6e4764bfb019ebabc567681b839152249d172345f3c6",
+      "git_blob": "e3d96192246405d620fd4978f6ff04e875eb794a"
+    },
+    {
+      "path": "assets/images/home-banner-tablet-portrait-grandma.png",
+      "sha256": "12bae56e92896c824ea2448688ba7634afca086df5a0d273007b6103936a5143",
+      "previous_sha256": "12bae56e92896c824ea2448688ba7634afca086df5a0d273007b6103936a5143",
+      "git_blob": "061d3096ca31ed77c015f1837847a145d42e77ef"
+    },
+    {
+      "path": "assets/images/home-banner.jpg",
+      "sha256": "0a204b27eebd3aafe0645aaa1ad868db80da1948b903b635d5435e6c4b00179e",
+      "previous_sha256": "0a204b27eebd3aafe0645aaa1ad868db80da1948b903b635d5435e6c4b00179e",
+      "git_blob": "5033ab33cf97de07d66ec1628012cc3418e69498"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/adam-grant-gray.png",
+      "sha256": "f54a86574a5bee7100f8532107ad256af46d3af8efccc792711864dea2d48661",
+      "previous_sha256": "f54a86574a5bee7100f8532107ad256af46d3af8efccc792711864dea2d48661",
+      "git_blob": "20c6d84f9e2d753db5bead24a6a55ccc0041b3ae"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/adam-grant-source-transparent.png",
+      "sha256": "751400255bc19bdfbd72d3f9eb8ad3f06ec4a2d909e22a9a04f424435e1032cd",
+      "previous_sha256": "751400255bc19bdfbd72d3f9eb8ad3f06ec4a2d909e22a9a04f424435e1032cd",
+      "git_blob": "f861b3ad09c974cf080c7a6fb8be050033592383"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/adam-grant-transparent.png",
+      "sha256": "55986c67cfd0e270c31f2b5102846468024741938d9546dc0dee414cc0409ddf",
+      "previous_sha256": "55986c67cfd0e270c31f2b5102846468024741938d9546dc0dee414cc0409ddf",
+      "git_blob": "1d2f2466e664287c2ee49c4e7256ef4951075350"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/amit-indap-gray.png",
+      "sha256": "ca102142f8de569436aba20ac0cb5f6ad5c9a527d8779351e940fb822904b4bd",
+      "previous_sha256": "ca102142f8de569436aba20ac0cb5f6ad5c9a527d8779351e940fb822904b4bd",
+      "git_blob": "a13b5e8fe4257acb97b7d808c3ee1a3b25830b0e"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/amit-indap-source-transparent.png",
+      "sha256": "22dd29d22ea73206163dd760b26542e3087fa1904c8a8853cd260cedd69fdb7f",
+      "previous_sha256": "22dd29d22ea73206163dd760b26542e3087fa1904c8a8853cd260cedd69fdb7f",
+      "git_blob": "c08c6fb13369c51b3d1046a1720331c285335a6d"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/amit-indap-transparent.png",
+      "sha256": "aff50cd65bb2350963232b9d99f6b918e4c5033914d075a5a1532ecb87026b89",
+      "previous_sha256": "aff50cd65bb2350963232b9d99f6b918e4c5033914d075a5a1532ecb87026b89",
+      "git_blob": "47f73d54c441ca660600dae0c1967dc76236e952"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/george-gray.png",
+      "sha256": "e32c8da1c3c85e4ffbf42f56d34bf8a4a659930b815806209f820686b0f09eaf",
+      "previous_sha256": "e32c8da1c3c85e4ffbf42f56d34bf8a4a659930b815806209f820686b0f09eaf",
+      "git_blob": "0f88be6b6c4920ea6cc9bcf9709a129972f1378e"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/george-kemble-gray.png",
+      "sha256": "cef61359ced5446f183d9ffdb7b797758e0c2be8ed475af2ee1eee21da486c3d",
+      "previous_sha256": "cef61359ced5446f183d9ffdb7b797758e0c2be8ed475af2ee1eee21da486c3d",
+      "git_blob": "1e07215db2752be046fd6c7e9c998df9267aa809"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/george-kemble-source-transparent.png",
+      "sha256": "723598cb8c838bc7cfedc43d41565c235c840382e7dff99b15a747d7e1da7fb0",
+      "previous_sha256": "723598cb8c838bc7cfedc43d41565c235c840382e7dff99b15a747d7e1da7fb0",
+      "git_blob": "7fcf2de18e100a82e93eebbba330928ae89abf36"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/george-kemble-transparent.png",
+      "sha256": "423c55a6e3ddad9ad2c6fe04a072cfb559b874fefae2a76b0f096d6f795e7a74",
+      "previous_sha256": "423c55a6e3ddad9ad2c6fe04a072cfb559b874fefae2a76b0f096d6f795e7a74",
+      "git_blob": "c9b844184ae56b275dfe54311d5a39b5859a4df4"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/george-source-transparent.png",
+      "sha256": "2db07e7d084be3df113dca646156af1aa3f834194e4502fb87b8b747a720f298",
+      "previous_sha256": "2db07e7d084be3df113dca646156af1aa3f834194e4502fb87b8b747a720f298",
+      "git_blob": "5e59f333aa7efd077cf3c43dcb3983b6dc99613b"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/george-transparent.png",
+      "sha256": "410e61fbd92cb895d77ee0a89a39b27ca63c2863e66f2dde33fea9a64502559b",
+      "previous_sha256": "410e61fbd92cb895d77ee0a89a39b27ca63c2863e66f2dde33fea9a64502559b",
+      "git_blob": "7ab30c75f43624acef396972dd46e257d83f90cb"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/gordon-ringold-gray.png",
+      "sha256": "e948add71ee3e941e16381f33e7a49feec0c5d5a702fce500cfec0f7fda11d60",
+      "previous_sha256": "e948add71ee3e941e16381f33e7a49feec0c5d5a702fce500cfec0f7fda11d60",
+      "git_blob": "0e45cce0192902ec378b89245c49344f1b1ff493"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/gordon-ringold-source-transparent.png",
+      "sha256": "31693513000df561668595d25f2f24c13df6003a9d3f2bb144649722c23e0354",
+      "previous_sha256": "31693513000df561668595d25f2f24c13df6003a9d3f2bb144649722c23e0354",
+      "git_blob": "557e95689f64d0bf6c74a449dc9e2d7d0a28b934"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/gordon-ringold-transparent.png",
+      "sha256": "1815d9ace6ac1b8f56eb34f151117c85e1ad174c7d944890b3f4533770aef150",
+      "previous_sha256": "1815d9ace6ac1b8f56eb34f151117c85e1ad174c7d944890b3f4533770aef150",
+      "git_blob": "f76625c274686884676668822e0dee00cc238842"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/lakey-gray.png",
+      "sha256": "6c864f114c7cba7125cdf6fcfa7a7f5ad0c284b14a2a9cb8178a46a5ab7079ad",
+      "previous_sha256": "6c864f114c7cba7125cdf6fcfa7a7f5ad0c284b14a2a9cb8178a46a5ab7079ad",
+      "git_blob": "ab7db43fadcdc92c08b2c9ee0a8605139691e9df"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/lakey-source-transparent.png",
+      "sha256": "36bfae9f2f475048ae3eee4ff7dd042976a31a9baea0232926565ddc1fcbfe3f",
+      "previous_sha256": "36bfae9f2f475048ae3eee4ff7dd042976a31a9baea0232926565ddc1fcbfe3f",
+      "git_blob": "65faa8f6b2b494910d612892db2538f33881eb24"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/lakey-transparent.png",
+      "sha256": "7cf0ddfb8ff9bf5619ae54c687171baaf97390c7a53c96ae4edd30015ed42c6a",
+      "previous_sha256": "7cf0ddfb8ff9bf5619ae54c687171baaf97390c7a53c96ae4edd30015ed42c6a",
+      "git_blob": "36543bd27db8717a1c8f53e72afea96eb25895d5"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/mark-davis-gray.png",
+      "sha256": "3f999bc729ea2865649629967de68a7138ebb88952279b3421b2e4d092a58021",
+      "previous_sha256": "3f999bc729ea2865649629967de68a7138ebb88952279b3421b2e4d092a58021",
+      "git_blob": "24ad50851909b5085d229d2011d5040a978c841f"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/mark-davis-source-transparent.png",
+      "sha256": "e5de83f2a0df365b086729f5476de056756e1ffa4de5e8039fb79e672667a184",
+      "previous_sha256": "e5de83f2a0df365b086729f5476de056756e1ffa4de5e8039fb79e672667a184",
+      "git_blob": "145ec4e081d619ead84b4a4be7e3f8c7410292e5"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/mark-davis-transparent.png",
+      "sha256": "7cc1fe6247052f7050ccdd4f6c13234ba611366d89703507511698061f7e03af",
+      "previous_sha256": "7cc1fe6247052f7050ccdd4f6c13234ba611366d89703507511698061f7e03af",
+      "git_blob": "4a70012f5c389e76c10b236d91f0888ced14eacb"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/matthew-spear-gray.png",
+      "sha256": "21519a86fc7dc77aa96ffa9e01a22a9112161ba68766106d02a1b76ed3f9ac12",
+      "previous_sha256": "21519a86fc7dc77aa96ffa9e01a22a9112161ba68766106d02a1b76ed3f9ac12",
+      "git_blob": "06883017cc91eb54e4691ea7c072a40f837c8533"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/matthew-spear-source-transparent.png",
+      "sha256": "9b7db4642fcfe8df426f6af98b75f02a217b82d21c48e01d1b641a77a424d1d7",
+      "previous_sha256": "9b7db4642fcfe8df426f6af98b75f02a217b82d21c48e01d1b641a77a424d1d7",
+      "git_blob": "b16c7d6b0a3b514f5bbb3fb80a61b4097f1aeed5"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/matthew-spear-transparent.png",
+      "sha256": "fd318726b9af8efe1d5e12fdb32ae459500ec75f7df2b9cc0b0ea966dd866b9f",
+      "previous_sha256": "fd318726b9af8efe1d5e12fdb32ae459500ec75f7df2b9cc0b0ea966dd866b9f",
+      "git_blob": "4e1db9d3e697f814aa61f27b5b2ff9f59bddd797"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/steven-warner-gray.png",
+      "sha256": "7dc48042f61878275452b04bfd0c837e1e04f6f5d551e9f069c33274b6da2a53",
+      "previous_sha256": "7dc48042f61878275452b04bfd0c837e1e04f6f5d551e9f069c33274b6da2a53",
+      "git_blob": "45048bd8cdae2053b3bdfd04ec948580f727013f"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/steven-warner-source-transparent.png",
+      "sha256": "74f786d4ee363331884aa26a4582eeb4b593685f64dd09401e1dd12f567ac713",
+      "previous_sha256": "74f786d4ee363331884aa26a4582eeb4b593685f64dd09401e1dd12f567ac713",
+      "git_blob": "07e485dbbc51d8463ca2315943e390745bfc5458"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/steven-warner-transparent.png",
+      "sha256": "5bbcd06730c0f1f3ab4253dda8a7be2846b8fa946ddbeca25963f9367e5b85d2",
+      "previous_sha256": "5bbcd06730c0f1f3ab4253dda8a7be2846b8fa946ddbeca25963f9367e5b85d2",
+      "git_blob": "493654bcbb2c5f3f617de68ddab9d132194d649e"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/sumant-ramachandra-gray.png",
+      "sha256": "4527f0508a32288f39aaa9894f1c68051f929cf816c6047c24b92d022908a020",
+      "previous_sha256": "4527f0508a32288f39aaa9894f1c68051f929cf816c6047c24b92d022908a020",
+      "git_blob": "6a492a85c8bca61b2aecf067ada51db6a6508792"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/sumant-ramachandra-source-transparent.png",
+      "sha256": "928d14be0b1abf95bfe618a8b482176a0f1a3a6a8dd11e66bb49f784a4f4d445",
+      "previous_sha256": "928d14be0b1abf95bfe618a8b482176a0f1a3a6a8dd11e66bb49f784a4f4d445",
+      "git_blob": "6cebd79081225dbcf889482224aa8644a9997f33"
+    },
+    {
+      "path": "assets/images/home-sep-1-adrian-team/sumant-ramachandra-transparent.png",
+      "sha256": "8a23cb7c2cc3d0f76f1de45b11e98f71e81b198277f30c71d13bc7796a64aeac",
+      "previous_sha256": "8a23cb7c2cc3d0f76f1de45b11e98f71e81b198277f30c71d13bc7796a64aeac",
+      "git_blob": "da9c41992dcf6fa586310180dcf74d976f8f6010"
+    },
+    {
+      "path": "assets/images/home-sep-1-impact-people-alternate-background.png",
+      "sha256": "10d593249d3f24a2988472127efda9792c364b3154275d49ee594d3ca4c75521",
+      "previous_sha256": "10d593249d3f24a2988472127efda9792c364b3154275d49ee594d3ca4c75521",
+      "git_blob": "50c957aea12e16c7571192c223bea42d1722f05e"
+    },
+    {
+      "path": "assets/images/home-sep-1-impact-people-background.png",
+      "sha256": "8a1fb96e66979efcf5ce9ffc7f017844a31921b1b3cfb76f774c51082b26abc9",
+      "previous_sha256": "8a1fb96e66979efcf5ce9ffc7f017844a31921b1b3cfb76f774c51082b26abc9",
+      "git_blob": "fde8860f1483cd7a4cdca35e8798d3ede3a36cec"
+    },
+    {
+      "path": "assets/images/home-video-thumbnail.jpg",
+      "sha256": "1075ba0adb1a096bbb1b354bf414d9a2819a81dd2805308901be4c3f40266e89",
+      "previous_sha256": "1075ba0adb1a096bbb1b354bf414d9a2819a81dd2805308901be4c3f40266e89",
+      "git_blob": "67e5be69b8c5d5ac97b199a5af888b8c9c1ca5de"
+    },
+    {
+      "path": "assets/images/home-video-thumbnail2.jpg",
+      "sha256": "6c2ac827f51d274a284b6a3ed1826696a689bef35582c7f98272202ad7bc9594",
+      "previous_sha256": "6c2ac827f51d274a284b6a3ed1826696a689bef35582c7f98272202ad7bc9594",
+      "git_blob": "84886c497a210c8be2e2e2d7bfe5844e9f0728ad"
+    },
+    {
+      "path": "assets/images/home-webinar-glass-facets.png",
+      "sha256": "b85a6e131f4ff8b142e1c7a5f21370ca223edfe22959979b7c6f9be0aa44a47e",
+      "previous_sha256": "b85a6e131f4ff8b142e1c7a5f21370ca223edfe22959979b7c6f9be0aa44a47e",
+      "git_blob": "62efb30208945ffe36ef65dab3a33c129497b549"
+    },
+    {
+      "path": "assets/images/imm-cta.jpg",
+      "sha256": "cc8e1c536e4ce56e096f94cd5f035c57397e96ec877603e7d382afe297d98ce3",
+      "previous_sha256": "cc8e1c536e4ce56e096f94cd5f035c57397e96ec877603e7d382afe297d98ce3",
+      "git_blob": "6e333a589b3ca837f831c62b41b74d43eb0562cb"
+    },
+    {
+      "path": "assets/images/immtype1.jpg",
+      "sha256": "75e34783035e51c5c403750022e9fcef10a406436586323cf382ed767140e9c4",
+      "previous_sha256": "75e34783035e51c5c403750022e9fcef10a406436586323cf382ed767140e9c4",
+      "git_blob": "01ea42a49aa0dd0b8c818aaf5bcb77f8d8e2ac15"
+    },
+    {
+      "path": "assets/images/immtype1.png",
+      "sha256": "b4e3ec326928ef24063d775a75b5e0dbb2ae5d0c361f633814ef770c84078c5b",
+      "previous_sha256": "b4e3ec326928ef24063d775a75b5e0dbb2ae5d0c361f633814ef770c84078c5b",
+      "git_blob": "499bc6de29f11f2c31ea35028f4fe91aafcc8d23"
+    },
+    {
+      "path": "assets/images/immtype2.jpg",
+      "sha256": "2f0b981285dc318507da39a86ba48a9c914bf43abdaf02e4642966a05a2d45c3",
+      "previous_sha256": "2f0b981285dc318507da39a86ba48a9c914bf43abdaf02e4642966a05a2d45c3",
+      "git_blob": "3c86f411bacfc138cd6ae8f48348a03399367d74"
+    },
+    {
+      "path": "assets/images/immtype2.png",
+      "sha256": "8445360dc11a3098960a719f010c842bed361d51006ac7b97d9be488c50e0751",
+      "previous_sha256": "8445360dc11a3098960a719f010c842bed361d51006ac7b97d9be488c50e0751",
+      "git_blob": "16f91baabb9bf4e7d548ee6c8b23ae80efd4f548"
+    },
+    {
+      "path": "assets/images/immtype3.jpg",
+      "sha256": "32e2fdddb8394f4ba879be4c949c03e8c63b8ee38c7c05b819a090615eb3ee68",
+      "previous_sha256": "32e2fdddb8394f4ba879be4c949c03e8c63b8ee38c7c05b819a090615eb3ee68",
+      "git_blob": "a0cd7c769d22e5f17f4d19ab3ef6bc81234e744f"
+    },
+    {
+      "path": "assets/images/immtype3.png",
+      "sha256": "2a5f749c64c3267037606721a47e6dfbbb177932741081eb92b017fa9c9344a4",
+      "previous_sha256": "2a5f749c64c3267037606721a47e6dfbbb177932741081eb92b017fa9c9344a4",
+      "git_blob": "b4a147d572adbf4462741086b15c9c020d3add7a"
+    },
+    {
+      "path": "assets/images/immtype4.jpg",
+      "sha256": "09e1d392736e26d3f655cf22703a530d2d622a80646bcc23cbce1bbdbc6c1a2f",
+      "previous_sha256": "09e1d392736e26d3f655cf22703a530d2d622a80646bcc23cbce1bbdbc6c1a2f",
+      "git_blob": "6495d601cd8277fa2cdd4e33c8befa4dfa83dc84"
+    },
+    {
+      "path": "assets/images/immtype5.jpg",
+      "sha256": "00d853248146a0fffcd4cc501f15ce70106f3d54299e51a06548b315791aece2",
+      "previous_sha256": "00d853248146a0fffcd4cc501f15ce70106f3d54299e51a06548b315791aece2",
+      "git_blob": "f05eee6501c2cadb8d8f8ceeb608ea3f5ab58306"
+    },
+    {
+      "path": "assets/images/immunotherapy-bg.jpg",
+      "sha256": "451d8984feca8ddd681fc30a05419d2c868c64e8ee66cf07ae6a3455f4cb5c7e",
+      "previous_sha256": "451d8984feca8ddd681fc30a05419d2c868c64e8ee66cf07ae6a3455f4cb5c7e",
+      "git_blob": "a34c189cfc976fdd581fae2da5886cd80cf89e70"
+    },
+    {
+      "path": "assets/images/inpost-1.png",
+      "sha256": "99213b55d6a724b57725523ba47375226529f5931cde766294019975cdfa2ec3",
+      "previous_sha256": "99213b55d6a724b57725523ba47375226529f5931cde766294019975cdfa2ec3",
+      "git_blob": "36f7d6a18803cf5bfa4f92c6cfb652e90a288c5a"
+    },
+    {
+      "path": "assets/images/inpost-10-chat.png",
+      "sha256": "c97126ed5782c512320ac5b6133b25598c7002d144368765301689acbdaa0974",
+      "previous_sha256": "c97126ed5782c512320ac5b6133b25598c7002d144368765301689acbdaa0974",
+      "git_blob": "78e50837595603c4379cbbcc000d1909745c0758"
+    },
+    {
+      "path": "assets/images/inpost-10.png",
+      "sha256": "6c0845a207a65deff9e812ef16ce8ebdacd1ee7bd1855b381a4669ff360b6bf7",
+      "previous_sha256": "6c0845a207a65deff9e812ef16ce8ebdacd1ee7bd1855b381a4669ff360b6bf7",
+      "git_blob": "4ed9285ff25aee3ecac401c83251d547bf313324"
+    },
+    {
+      "path": "assets/images/inpost-11.png",
+      "sha256": "45f6213acff4b1c9027410d05386bef7cb79d42f59c08078819fa9dbb204bc1f",
+      "previous_sha256": "45f6213acff4b1c9027410d05386bef7cb79d42f59c08078819fa9dbb204bc1f",
+      "git_blob": "5ca56861b1c19ad8771bfc80e042dd5475d0e0ea"
+    },
+    {
+      "path": "assets/images/inpost-12.png",
+      "sha256": "e61f2cb7c19a19f5368d4b0941810c3b8628625f4df97c73c5568836cede4770",
+      "previous_sha256": "e61f2cb7c19a19f5368d4b0941810c3b8628625f4df97c73c5568836cede4770",
+      "git_blob": "e315d12110b3c7ffbc1b9a3c629df204834ca9f3"
+    },
+    {
+      "path": "assets/images/inpost-13.png",
+      "sha256": "100df7bf5f23c3056812f0371de9c56c03925c7ac0a6d2320a275d892f6fa806",
+      "previous_sha256": "100df7bf5f23c3056812f0371de9c56c03925c7ac0a6d2320a275d892f6fa806",
+      "git_blob": "ec8e5256f444b5cbfb87adb611397d904917a276"
+    },
+    {
+      "path": "assets/images/inpost-14.png",
+      "sha256": "c982b177a3b0c1dbdd364767d986e89d1043c7fe18911d6487e62aa05ba3c5da",
+      "previous_sha256": "c982b177a3b0c1dbdd364767d986e89d1043c7fe18911d6487e62aa05ba3c5da",
+      "git_blob": "af22e5c1d1c7f104cd6c3ddbf0f69cce3866fe5b"
+    },
+    {
+      "path": "assets/images/inpost-15.png",
+      "sha256": "e2ad63c7bebeccddf63d8955242c3e7b3af558c7d2f47c51c4590d20b2aff89e",
+      "previous_sha256": "e2ad63c7bebeccddf63d8955242c3e7b3af558c7d2f47c51c4590d20b2aff89e",
+      "git_blob": "9cf9cb3c8d0c1005b133fed45b13478a5f8daf01"
+    },
+    {
+      "path": "assets/images/inpost-16.png",
+      "sha256": "e8ac150a7f1b897958ba7c8028aa6dbcc849d18f140515b4e78cd815ae1b4b85",
+      "previous_sha256": "e8ac150a7f1b897958ba7c8028aa6dbcc849d18f140515b4e78cd815ae1b4b85",
+      "git_blob": "4eb8f1020dde134a732d9e231854bff54c8b11ad"
+    },
+    {
+      "path": "assets/images/inpost-17-1.png",
+      "sha256": "6e6bfa9fed9de8e95447f1948de4eb2cfa8a4e39c62aeec63e328989a0a50f02",
+      "previous_sha256": "6e6bfa9fed9de8e95447f1948de4eb2cfa8a4e39c62aeec63e328989a0a50f02",
+      "git_blob": "24a5a00baecd0c328b4616e53d2696f5bbfd2749"
+    },
+    {
+      "path": "assets/images/inpost-17.png",
+      "sha256": "41aad57c5ade567de4dbbc7e80747a67923148a1b2b0b22dfccae9b99a6917e4",
+      "previous_sha256": "41aad57c5ade567de4dbbc7e80747a67923148a1b2b0b22dfccae9b99a6917e4",
+      "git_blob": "045524cd083c769085a1f28c9d590576c549e652"
+    },
+    {
+      "path": "assets/images/inpost-18.png",
+      "sha256": "62015e03062826c15ca906bd2d07880ce1b41a560ea543613c3128e172e9a1df",
+      "previous_sha256": "62015e03062826c15ca906bd2d07880ce1b41a560ea543613c3128e172e9a1df",
+      "git_blob": "f42568a23e2a3dd6af2115c20e6e14d8e02c088a"
+    },
+    {
+      "path": "assets/images/inpost-19.png",
+      "sha256": "81079eddd325784425a1cb9b88e91872c799f7c45949760fd9bf765f3982fd29",
+      "previous_sha256": "81079eddd325784425a1cb9b88e91872c799f7c45949760fd9bf765f3982fd29",
+      "git_blob": "72c745cc470efa11e418f57ff5bbaf2cb8850dfa"
+    },
+    {
+      "path": "assets/images/inpost-2.png",
+      "sha256": "e1992864838547a7b625f6fe1c09a540fd835d4eab9321313eef42f2a7a9e3ae",
+      "previous_sha256": "e1992864838547a7b625f6fe1c09a540fd835d4eab9321313eef42f2a7a9e3ae",
+      "git_blob": "637ea7fc365a43c4d46271a0d0dbfeee54da53e5"
+    },
+    {
+      "path": "assets/images/inpost-20.png",
+      "sha256": "62c92a690d39cd7c73813a8a7b290e4031794bdeedb42d6758ba6ce734b78ce4",
+      "previous_sha256": "62c92a690d39cd7c73813a8a7b290e4031794bdeedb42d6758ba6ce734b78ce4",
+      "git_blob": "ac88b9e81ad15c6b3a0b516dfca1a27fa9c8e696"
+    },
+    {
+      "path": "assets/images/inpost-21.png",
+      "sha256": "a7dbde50d57cd3ddfb262b6ee836a4fa1a20f3a48f6fe615e38ae52d5c6dd8e0",
+      "previous_sha256": "a7dbde50d57cd3ddfb262b6ee836a4fa1a20f3a48f6fe615e38ae52d5c6dd8e0",
+      "git_blob": "843457a5a43a15920f69066030b8c9a780dea37a"
+    },
+    {
+      "path": "assets/images/inpost-22.png",
+      "sha256": "582a705b1b8d4a301ccea92569f3d265c157806f10a4cd9075a66477ac917ba9",
+      "previous_sha256": "582a705b1b8d4a301ccea92569f3d265c157806f10a4cd9075a66477ac917ba9",
+      "git_blob": "1ee4177c6cf23e3a3f91916e1a29b48bd8cc0e5e"
+    },
+    {
+      "path": "assets/images/inpost-23.png",
+      "sha256": "e8d8024633b5bda078ac6611d04082ed9cb9492f1c0690d5002592881a24adc4",
+      "previous_sha256": "e8d8024633b5bda078ac6611d04082ed9cb9492f1c0690d5002592881a24adc4",
+      "git_blob": "9e0b0e5476c178b51b942381e1b359e4ec03455a"
+    },
+    {
+      "path": "assets/images/inpost-24.png",
+      "sha256": "f27514ade15b555610567b40919e468b3431b359b8f40e0fc721ae55883f3fe2",
+      "previous_sha256": "f27514ade15b555610567b40919e468b3431b359b8f40e0fc721ae55883f3fe2",
+      "git_blob": "c851352f5fa0a3ebe9b22931b8317da7b396ca3d"
+    },
+    {
+      "path": "assets/images/inpost-25.png",
+      "sha256": "5f92126bf466afc63abb16f2347d7bdeaf0b1e85d7b999f85bd4b203c10fae33",
+      "previous_sha256": "5f92126bf466afc63abb16f2347d7bdeaf0b1e85d7b999f85bd4b203c10fae33",
+      "git_blob": "a8355c38112cd3c67be653afdb51c7aa27c8db9b"
+    },
+    {
+      "path": "assets/images/inpost-26.png",
+      "sha256": "a1a041172813c4308ad8ead3a7ea82539335825ed726cc0b5ec5d54f2a289b21",
+      "previous_sha256": "a1a041172813c4308ad8ead3a7ea82539335825ed726cc0b5ec5d54f2a289b21",
+      "git_blob": "bb9f4e7db396d83804d84016aaec6a047c58255e"
+    },
+    {
+      "path": "assets/images/inpost-27.png",
+      "sha256": "4e54fa6315ec2eca49675a66a8fac1af82d6a4b7a41cefff48b18971da092a31",
+      "previous_sha256": "4e54fa6315ec2eca49675a66a8fac1af82d6a4b7a41cefff48b18971da092a31",
+      "git_blob": "4a2d4c57b919cff230a6fb29e7f7f3abc1e72ec6"
+    },
+    {
+      "path": "assets/images/inpost-28.png",
+      "sha256": "51e2ebca990ec3e7fa2edda1bfbe8cb1fedb2237e35936414db35af0c838f75c",
+      "previous_sha256": "51e2ebca990ec3e7fa2edda1bfbe8cb1fedb2237e35936414db35af0c838f75c",
+      "git_blob": "86fadcd09e37462bcf0ea93a8e0d2e7edfe96f71"
+    },
+    {
+      "path": "assets/images/inpost-29.png",
+      "sha256": "9f6d0afedbfb017b1fbccf07332316522b1879c26bd004b4620903bee0dd5655",
+      "previous_sha256": "9f6d0afedbfb017b1fbccf07332316522b1879c26bd004b4620903bee0dd5655",
+      "git_blob": "b1b399c511311b9281e421963f8abdaed08e0c4f"
+    },
+    {
+      "path": "assets/images/inpost-3.png",
+      "sha256": "be8e8b50ae9af3f406951802f548639c4dd6e798a0e2a71e5a6004732885e20f",
+      "previous_sha256": "be8e8b50ae9af3f406951802f548639c4dd6e798a0e2a71e5a6004732885e20f",
+      "git_blob": "e6bb7deabaa2e0d9fcf1b8b285d0674201509cdd"
+    },
+    {
+      "path": "assets/images/inpost-30.png",
+      "sha256": "392b532243c1a4135f8342fa6e998ff88cd6b6876c7abfb656fb553dc45f5075",
+      "previous_sha256": "392b532243c1a4135f8342fa6e998ff88cd6b6876c7abfb656fb553dc45f5075",
+      "git_blob": "b741bb7991a11e1f92a2768f21b50b9913586865"
+    },
+    {
+      "path": "assets/images/inpost-31.png",
+      "sha256": "279fb5a1d2ee5ffee06393a35179d338a7dfa16a9c89f6283bad616d431128ff",
+      "previous_sha256": "279fb5a1d2ee5ffee06393a35179d338a7dfa16a9c89f6283bad616d431128ff",
+      "git_blob": "ba4a103cdc73b269e4bbc5e0e0830abfe91d7df9"
+    },
+    {
+      "path": "assets/images/inpost-32-inner.png",
+      "sha256": "aa7f4b083ab98e8200f1db3d992e0a5f75377c56240add1cac9045c3621c2d2a",
+      "previous_sha256": "aa7f4b083ab98e8200f1db3d992e0a5f75377c56240add1cac9045c3621c2d2a",
+      "git_blob": "d6b5859e209a1ee0e94731c04005bcb1fa9995bf"
+    },
+    {
+      "path": "assets/images/inpost-32.png",
+      "sha256": "8f0f81961e932f15da2a3e4e6f46707205ec8390bf0ffaa96946679af7eb5450",
+      "previous_sha256": "8f0f81961e932f15da2a3e4e6f46707205ec8390bf0ffaa96946679af7eb5450",
+      "git_blob": "dae31c737b66900636a2e625c4d45ecc740d66f3"
+    },
+    {
+      "path": "assets/images/inpost-33.png",
+      "sha256": "0918e75e0c80ba6c32bde097b42edffe39ee4b97df54a853d64f464f1ffc32b5",
+      "previous_sha256": "0918e75e0c80ba6c32bde097b42edffe39ee4b97df54a853d64f464f1ffc32b5",
+      "git_blob": "776fe32019fd57d3cddf61f45038ab3735577f01"
+    },
+    {
+      "path": "assets/images/inpost-34.png",
+      "sha256": "71bf9b7764c1c957aed795c85222f75a8fb7111cbe09aee50f9bf49dcef87414",
+      "previous_sha256": "71bf9b7764c1c957aed795c85222f75a8fb7111cbe09aee50f9bf49dcef87414",
+      "git_blob": "858d49f3eb25069a9f191a9a14d2b04ca60a12a1"
+    },
+    {
+      "path": "assets/images/inpost-4.png",
+      "sha256": "74e6db8eb23eb11502d2928c7f82f59d11936afa989d29f676bd4374ce664eb6",
+      "previous_sha256": "74e6db8eb23eb11502d2928c7f82f59d11936afa989d29f676bd4374ce664eb6",
+      "git_blob": "b0f5f88ae6c31bb57fbd6dfc0c3b19fd4ffff7bd"
+    },
+    {
+      "path": "assets/images/inpost-5.jpeg",
+      "sha256": "bc16e57926fc1896598b13984768ac9683019f091db70fd044005f64766e2164",
+      "previous_sha256": "bc16e57926fc1896598b13984768ac9683019f091db70fd044005f64766e2164",
+      "git_blob": "45c4562c2f92e722cac208dcf19dbd457b7ac5cb"
+    },
+    {
+      "path": "assets/images/inpost-6.jpeg",
+      "sha256": "fab13e8c292b04be5537ef3aa97f8b9ffdd7b0074ff2312eea816e77963cd85d",
+      "previous_sha256": "fab13e8c292b04be5537ef3aa97f8b9ffdd7b0074ff2312eea816e77963cd85d",
+      "git_blob": "7361429d965fd044c6ba4e880b6d3537d619269c"
+    },
+    {
+      "path": "assets/images/inpost-7.jpeg",
+      "sha256": "74d00bfd2c315f8bad95eecf9b5b1b51af6f888cc1998c10f5e8f80f405fd52f",
+      "previous_sha256": "74d00bfd2c315f8bad95eecf9b5b1b51af6f888cc1998c10f5e8f80f405fd52f",
+      "git_blob": "987f4e9338bb8d8c07df14f659d116ff589044b4"
+    },
+    {
+      "path": "assets/images/inpost-8.png",
+      "sha256": "30fd88a96572fcc435a27dc1eda99344f0aca72ec2e4d43b99a94e80bf58a254",
+      "previous_sha256": "30fd88a96572fcc435a27dc1eda99344f0aca72ec2e4d43b99a94e80bf58a254",
+      "git_blob": "7a0e40e27efcd895b51acb63418ba30c0d7c125f"
+    },
+    {
+      "path": "assets/images/inpost-9.png",
+      "sha256": "0b67fe43c17262e7f0f3266aac33a637a179c1120869d8a10940e7f866f996e6",
+      "previous_sha256": "0b67fe43c17262e7f0f3266aac33a637a179c1120869d8a10940e7f866f996e6",
+      "git_blob": "d2acad8c749bc6b86f84bd59c6bca638a8e8e3fc"
+    },
+    {
+      "path": "assets/images/invest-btn.png",
+      "sha256": "e351150eba29f7c1f541364b6d872c69237ad32f31a459fbb5ef3cfa1625a77e",
+      "previous_sha256": "e351150eba29f7c1f541364b6d872c69237ad32f31a459fbb5ef3cfa1625a77e",
+      "git_blob": "0030d11783a79e537cdb8bfcdec558d1384b0a28"
+    },
+    {
+      "path": "assets/images/invest-btn.svg",
+      "sha256": "64202cb44f98c35e2b57fcc3fd1d9baecf71370901e123b745ccddee033ee60e",
+      "previous_sha256": "64202cb44f98c35e2b57fcc3fd1d9baecf71370901e123b745ccddee033ee60e",
+      "git_blob": "e6e67f63412f5e1b6c0e917b2e3ab8624292b469"
+    },
+    {
+      "path": "assets/images/invest-microscope.png",
+      "sha256": "cb56cdff3a4319876b04e57c6cb564219a51011653852e7f191f3f52f2bfefdc",
+      "previous_sha256": "cb56cdff3a4319876b04e57c6cb564219a51011653852e7f191f3f52f2bfefdc",
+      "git_blob": "b2ed8726c3c7d0a67efac148f63e0255c2407177"
+    },
+    {
+      "path": "assets/images/invest-step-1.svg",
+      "sha256": "9b00d58c9b587c48f7732068a50a7b8ea01d9c3f002a526c988c52bb16ed04eb",
+      "previous_sha256": "9b00d58c9b587c48f7732068a50a7b8ea01d9c3f002a526c988c52bb16ed04eb",
+      "git_blob": "da0b08623326c68b75781328d603e76c0690b7a0"
+    },
+    {
+      "path": "assets/images/invest-step-2.svg",
+      "sha256": "73b9bad2b805625a047a246452ec9aa82c04108e263ee7a7a03f8ba0f96469bd",
+      "previous_sha256": "73b9bad2b805625a047a246452ec9aa82c04108e263ee7a7a03f8ba0f96469bd",
+      "git_blob": "e6845a3cba2c19948f9e343b155b8d3609945a42"
+    },
+    {
+      "path": "assets/images/invest-step-3.svg",
+      "sha256": "118081906419b14ac4978074859641a3e70c2c0a9f5ac4805751286d05628984",
+      "previous_sha256": "118081906419b14ac4978074859641a3e70c2c0a9f5ac4805751286d05628984",
+      "git_blob": "f22d3663913c80b862533c8a4356a2754336e8ef"
+    },
+    {
+      "path": "assets/images/invest-step-4.svg",
+      "sha256": "a704bb6f13856c49840b0ea45fcb64e6ededca7ce5795e3a4140b60f724a654c",
+      "previous_sha256": "a704bb6f13856c49840b0ea45fcb64e6ededca7ce5795e3a4140b60f724a654c",
+      "git_blob": "adf69d92770cd1af5193fb4689e26a8c1f26fae9"
+    },
+    {
+      "path": "assets/images/invest1.jpg",
+      "sha256": "6a10232631d3e14b61044a6dd3c55762d6149442e2ea051f534a2bcf5bdb6ee3",
+      "previous_sha256": "6a10232631d3e14b61044a6dd3c55762d6149442e2ea051f534a2bcf5bdb6ee3",
+      "git_blob": "12d0b9e7f05c507d615803530a65c5790e12afdc"
+    },
+    {
+      "path": "assets/images/invest2.jpg",
+      "sha256": "d8d153ac3e66fc1ed2205e076003f83e43b7f5951ca8b013892c426e87fcf75e",
+      "previous_sha256": "d8d153ac3e66fc1ed2205e076003f83e43b7f5951ca8b013892c426e87fcf75e",
+      "git_blob": "c882fda51540ab02dfcce29ee4e8b608e455e2ab"
+    },
+    {
+      "path": "assets/images/john.png",
+      "sha256": "9794dff4bdd2f60756d4301e2d036b4bba0cc859e560ef5900a1c668541637e8",
+      "previous_sha256": "9794dff4bdd2f60756d4301e2d036b4bba0cc859e560ef5900a1c668541637e8",
+      "git_blob": "7fb857083381ee7b48e00889231bd388ebea3a0a"
+    },
+    {
+      "path": "assets/images/kristin.png",
+      "sha256": "bb2737f8e2e43f37977a34321f023f7bd00fd33b755b69a030bac02fcdedce6d",
+      "previous_sha256": "bb2737f8e2e43f37977a34321f023f7bd00fd33b755b69a030bac02fcdedce6d",
+      "git_blob": "f851ccb2b2b78b69b86a2eae773f2d49b0f00fc0"
+    },
+    {
+      "path": "assets/images/lakey.jpg",
+      "sha256": "40fa8c552a7ac260c278276275b7d4a6c8e8129aa88a29539e43226abdbde426",
+      "previous_sha256": "40fa8c552a7ac260c278276275b7d4a6c8e8129aa88a29539e43226abdbde426",
+      "git_blob": "d26966a59f149e14d98ae6a26edfba5fda625f03"
+    },
+    {
+      "path": "assets/images/lakey.png",
+      "sha256": "b814efc993c93910ddae268ac1947db10a9c894a8b1bd401c44423ec9f77923b",
+      "previous_sha256": "b814efc993c93910ddae268ac1947db10a9c894a8b1bd401c44423ec9f77923b",
+      "git_blob": "2c419deba67800ef20bce8ea1569c4e6b35c4b10"
+    },
+    {
+      "path": "assets/images/light-logo.png",
+      "sha256": "9975fcc516cd131c00b3c7d11db35e40bd4ca4680ebdf3c5b70d5617d4175953",
+      "previous_sha256": "9975fcc516cd131c00b3c7d11db35e40bd4ca4680ebdf3c5b70d5617d4175953",
+      "git_blob": "09e349a98b493c5b1665ef7033be5d776fa17442"
+    },
+    {
+      "path": "assets/images/lipid-nanoparticle-marker1.png",
+      "sha256": "1654fbe4f319fb1f001366772ba2ff669288359d3834d34bd9deabcc5221c5c4",
+      "previous_sha256": "1654fbe4f319fb1f001366772ba2ff669288359d3834d34bd9deabcc5221c5c4",
+      "git_blob": "87768650bba38eff4f43b9c15238cd3108bf04dd"
+    },
+    {
+      "path": "assets/images/lipid-nanoparticle.png",
+      "sha256": "0aa4bf956a6855a6110c857ae61947419183a7a8fe1a1c77d78e80cec0a1b18c",
+      "previous_sha256": "0aa4bf956a6855a6110c857ae61947419183a7a8fe1a1c77d78e80cec0a1b18c",
+      "git_blob": "af6f5244b7500b693e3eaf296226e1da121231d6"
+    },
+    {
+      "path": "assets/images/logo.png",
+      "sha256": "95712a8237390607b46e904c6810f6cdb0a4f4706c6edffc0210876d85f5f420",
+      "previous_sha256": "95712a8237390607b46e904c6810f6cdb0a4f4706c6edffc0210876d85f5f420",
+      "git_blob": "d2b066087786bdcba1864654131abf4d03e32631"
+    },
+    {
+      "path": "assets/images/mark-davis.png",
+      "sha256": "4127cf6251c374e011b972f0c7e0c5b88228560ef99f8820ab4832232acd4ac7",
+      "previous_sha256": "4127cf6251c374e011b972f0c7e0c5b88228560ef99f8820ab4832232acd4ac7",
+      "git_blob": "45fa72840b53819e399113e13c4f25e35246787b"
+    },
+    {
+      "path": "assets/images/market-1.jpg",
+      "sha256": "fc9fa61927ed832de8d793fcbe02e7360285a56e83f89a71879d89f256a6bb44",
+      "previous_sha256": "fc9fa61927ed832de8d793fcbe02e7360285a56e83f89a71879d89f256a6bb44",
+      "git_blob": "eb5d3c9550a48a85701371c334f75594041a6be1"
+    },
+    {
+      "path": "assets/images/market-1.png",
+      "sha256": "cda6733f7b4726844fa75a9375c81f87c5d80b414a1132b5f3cfae43e959eb3e",
+      "previous_sha256": "cda6733f7b4726844fa75a9375c81f87c5d80b414a1132b5f3cfae43e959eb3e",
+      "git_blob": "8abb238795745c52d4105d43736e0c12ba991d63"
+    },
+    {
+      "path": "assets/images/market-2.jpg",
+      "sha256": "47f8ca1fa098cd062f3877ca81d4c9856e6eed4cc328c06668f5925ed2cc4f4e",
+      "previous_sha256": "47f8ca1fa098cd062f3877ca81d4c9856e6eed4cc328c06668f5925ed2cc4f4e",
+      "git_blob": "f28a8cd2d9dd8606237740f765d3ba21ad9580c4"
+    },
+    {
+      "path": "assets/images/market-2.png",
+      "sha256": "cb2ecc82982f09792ee5b546e5b7b010a5f4ee1c9ad337fc53343a405f79dbf6",
+      "previous_sha256": "cb2ecc82982f09792ee5b546e5b7b010a5f4ee1c9ad337fc53343a405f79dbf6",
+      "git_blob": "babd5428ab51113dd0e6373a164710c729f78446"
+    },
+    {
+      "path": "assets/images/market-banner.jpg",
+      "sha256": "e05e0bcea2c46d1a7547e86419f8f9f8bf124ed2215afa7166ef1fdfe5dc1729",
+      "previous_sha256": "e05e0bcea2c46d1a7547e86419f8f9f8bf124ed2215afa7166ef1fdfe5dc1729",
+      "git_blob": "cbefacf59872771d8fc70bb6bf823a631de6dd82"
+    },
+    {
+      "path": "assets/images/market-cta.jpg",
+      "sha256": "1f7ad73da34532692cfb4144fd1808ad0621405d6f3316a408afd491af337d3c",
+      "previous_sha256": "1f7ad73da34532692cfb4144fd1808ad0621405d6f3316a408afd491af337d3c",
+      "git_blob": "d0ec3bc5b99597c791b649336c2c672a06bb3ee1"
+    },
+    {
+      "path": "assets/images/market-reference/fontawesome/css/all.css",
+      "sha256": "eeb17a45a48aca1d7adbcf04de155dcd0b47cb36ad036310446bb471fea9aaa3",
+      "previous_sha256": "eeb17a45a48aca1d7adbcf04de155dcd0b47cb36ad036310446bb471fea9aaa3",
+      "git_blob": "e1cd156dd2ba72e93a537cfde41e6f777daeecd2"
+    },
+    {
+      "path": "assets/images/market-reference/fontawesome/webfonts/fa-brands-400.woff2",
+      "sha256": "dc64d7192f84497cacad5c10aef682562c24aa6124270f85fe247e223607f3ed",
+      "previous_sha256": "dc64d7192f84497cacad5c10aef682562c24aa6124270f85fe247e223607f3ed",
+      "git_blob": "2abc94a5990a1b1fca2dc152bf7378bbf0bf66cd"
+    },
+    {
+      "path": "assets/images/market-reference/fontawesome/webfonts/fa-regular-400.woff2",
+      "sha256": "ccf4db1eeb68c96e05e74f8ebfa75cc60c3a0fed862dae6b0ad85d4e1b5b4e4f",
+      "previous_sha256": "ccf4db1eeb68c96e05e74f8ebfa75cc60c3a0fed862dae6b0ad85d4e1b5b4e4f",
+      "git_blob": "c446ff7aecd6b60065fd60728a230367cdca6f2a"
+    },
+    {
+      "path": "assets/images/market-reference/fontawesome/webfonts/fa-solid-900.woff2",
+      "sha256": "f18c486a80175cf02fee0e05c2b4acd86c04cdbaecec61c1ef91f920509b5efe",
+      "previous_sha256": "f18c486a80175cf02fee0e05c2b4acd86c04cdbaecec61c1ef91f920509b5efe",
+      "git_blob": "67f67dc1650e11103167db56dfb5f28a2eb3edc7"
+    },
+    {
+      "path": "assets/images/market-reference/public-sans.woff2",
+      "sha256": "5ed4d31c988e73b258894244f209069ebe77dc7e564861954b21198b6de90d68",
+      "previous_sha256": "5ed4d31c988e73b258894244f209069ebe77dc7e564861954b21198b6de90d68",
+      "git_blob": "15b5f3da4dd35d8716a3fdb2dd46e64a332d0bfa"
+    },
+    {
+      "path": "assets/images/market-reference/source.html",
+      "sha256": "ffdd0e8e7957ad29e57e5076f5f4e56bdfc5a34714164684c6bdcceb4414df63",
+      "previous_sha256": "ffdd0e8e7957ad29e57e5076f5f4e56bdfc5a34714164684c6bdcceb4414df63",
+      "git_blob": "13123f13be25956096992822f1e89563e76b510a"
+    },
+    {
+      "path": "assets/images/market-reference/techBanner.png",
+      "sha256": "3bce86bedc6bad230f0c1a86ee2d87cd9db92656f6af67cf9be6430658cf5d68",
+      "previous_sha256": "3bce86bedc6bad230f0c1a86ee2d87cd9db92656f6af67cf9be6430658cf5d68",
+      "git_blob": "b7526a5384edc4f8303bf565ab198c34298fa8d1"
+    },
+    {
+      "path": "assets/images/matthew-spear.png",
+      "sha256": "087e965332fcd6ac58deb43b90c20d82e1b0fb71645cc5a53c5c7573d4422d3c",
+      "previous_sha256": "087e965332fcd6ac58deb43b90c20d82e1b0fb71645cc5a53c5c7573d4422d3c",
+      "git_blob": "83b2c98be46c4c5b2fc199815adb83c3cb23b03c"
+    },
+    {
+      "path": "assets/images/nanoparticle-component.png",
+      "sha256": "96601bbdfcb657b19fbc7f886cbefe7d5e006e4b5586c658861d141c28c05f8e",
+      "previous_sha256": "96601bbdfcb657b19fbc7f886cbefe7d5e006e4b5586c658861d141c28c05f8e",
+      "git_blob": "fa4883efe64150ddae9e17beb64e6b0aea7c7090"
+    },
+    {
+      "path": "assets/images/nanoparticle-component1.png",
+      "sha256": "13b947274c5ac85e2104a3f1e14e72e981f5cbc31d2a4e4fd03a608b09c8764e",
+      "previous_sha256": "13b947274c5ac85e2104a3f1e14e72e981f5cbc31d2a4e4fd03a608b09c8764e",
+      "git_blob": "0e078fa62ba83e69800dd837d7280aec897a4bcc"
+    },
+    {
+      "path": "assets/images/nanoparticle-component2.png",
+      "sha256": "9221bbb4c435e356ee219ba9a597d13b1cb717812a3bb8f1408d9fcd35095596",
+      "previous_sha256": "9221bbb4c435e356ee219ba9a597d13b1cb717812a3bb8f1408d9fcd35095596",
+      "git_blob": "00b739826d9ad748157a9415c2a12457bb4d931b"
+    },
+    {
+      "path": "assets/images/newhero-full.jpg",
+      "sha256": "fe83254ed627b7a1c414fa564125438eec91c8baa7b3eab920b5746953934e8a",
+      "previous_sha256": "fe83254ed627b7a1c414fa564125438eec91c8baa7b3eab920b5746953934e8a",
+      "git_blob": "f73af2a2121c810b04b5e86c3f978c6c3bc2659d"
+    },
+    {
+      "path": "assets/images/newhero.jpg",
+      "sha256": "1e5a6cfd2738dbfe7012171968cd7047575523e4dc54a9d2c220ec2713e843ea",
+      "previous_sha256": "1e5a6cfd2738dbfe7012171968cd7047575523e4dc54a9d2c220ec2713e843ea",
+      "git_blob": "0c72ba1504f7e0d4cba3b9741300b04346aba48c"
+    },
+    {
+      "path": "assets/images/news-bg.jpg",
+      "sha256": "563327f34d69d9c602460249576f85e257d1438e403f71728aa20e181a6b5524",
+      "previous_sha256": "563327f34d69d9c602460249576f85e257d1438e403f71728aa20e181a6b5524",
+      "git_blob": "a156360b3aa48f4546a737cacd319d8caf7941ff"
+    },
+    {
+      "path": "assets/images/news-commentary.png",
+      "sha256": "087f35c5fbea4bcc3a6fb328a7459d57768124efbbdfc5243b31b2b22e71e7f5",
+      "previous_sha256": "087f35c5fbea4bcc3a6fb328a7459d57768124efbbdfc5243b31b2b22e71e7f5",
+      "git_blob": "e4cb3e30a11d075935c80d58fc56e73ef6602a7e"
+    },
+    {
+      "path": "assets/images/news-logo-1.png",
+      "sha256": "2b38e7471bcc6ab2509fc8e13c0b1a4629d6e93c54ab15b78d667dba27117a2b",
+      "previous_sha256": "2b38e7471bcc6ab2509fc8e13c0b1a4629d6e93c54ab15b78d667dba27117a2b",
+      "git_blob": "dc2c3dad32e81b341ba932a4af180a45b2f2f0c5"
+    },
+    {
+      "path": "assets/images/news-logo-2.png",
+      "sha256": "39bc71a60873b2120acde2e1c5f5043c135838f84ec54083c9a65cc48579d943",
+      "previous_sha256": "39bc71a60873b2120acde2e1c5f5043c135838f84ec54083c9a65cc48579d943",
+      "git_blob": "b2d6978c486bce66e1b4555fb2336a5c5ba2332d"
+    },
+    {
+      "path": "assets/images/news-logo-3.png",
+      "sha256": "0f4b298364d5a8d0b741b2cb870a8273774da111a207564a2e200b6e2684c868",
+      "previous_sha256": "0f4b298364d5a8d0b741b2cb870a8273774da111a207564a2e200b6e2684c868",
+      "git_blob": "f47a837bee73bc6f20817464da092a040912b3c3"
+    },
+    {
+      "path": "assets/images/news-logo-4.png",
+      "sha256": "0594b6abf6f15d97f89344d4e9dc67e350f49557a0ca76fc6533262592843c53",
+      "previous_sha256": "0594b6abf6f15d97f89344d4e9dc67e350f49557a0ca76fc6533262592843c53",
+      "git_blob": "7e0a49e3458e3102722970343c79876e9875bf57"
+    },
+    {
+      "path": "assets/images/news-logo-5.png",
+      "sha256": "e775805df14045344e8e71093bac940a6ebee93ef607c00835fd778395c08c09",
+      "previous_sha256": "e775805df14045344e8e71093bac940a6ebee93ef607c00835fd778395c08c09",
+      "git_blob": "47471c392903e10c84ce7aab56fa949d04467242"
+    },
+    {
+      "path": "assets/images/news-logo-6.png",
+      "sha256": "a4750b585223e30b6697755d93709c8e5d2dcb4464f14b8950e904d0001ebdda",
+      "previous_sha256": "a4750b585223e30b6697755d93709c8e5d2dcb4464f14b8950e904d0001ebdda",
+      "git_blob": "067e98608de53cdb903a2d31f27477e556c8b6a3"
+    },
+    {
+      "path": "assets/images/news-logo-7.png",
+      "sha256": "bf474f98d9cf2fa2b71a586efca8dec97a873e7e3534bb6741332554aa1d083d",
+      "previous_sha256": "bf474f98d9cf2fa2b71a586efca8dec97a873e7e3534bb6741332554aa1d083d",
+      "git_blob": "f46a57185720679fdcfa78af9d9c5aec26c6c989"
+    },
+    {
+      "path": "assets/images/news-logo-8.png",
+      "sha256": "bf474f98d9cf2fa2b71a586efca8dec97a873e7e3534bb6741332554aa1d083d",
+      "previous_sha256": "bf474f98d9cf2fa2b71a586efca8dec97a873e7e3534bb6741332554aa1d083d",
+      "git_blob": "f46a57185720679fdcfa78af9d9c5aec26c6c989"
+    },
+    {
+      "path": "assets/images/news/id49/image1.png",
+      "sha256": "df50fe756907559eb85128b3077fd0fdeb3549a48aba951c79090d2367eb971a",
+      "previous_sha256": "df50fe756907559eb85128b3077fd0fdeb3549a48aba951c79090d2367eb971a",
+      "git_blob": "7cdb7efc78d29a89a809dd66ae17a171ed78b3cd"
+    },
+    {
+      "path": "assets/images/news/id50/image1.png",
+      "sha256": "382f47fe8abab9dae71a329a66d1a12b50a16df6781248e8420863f444f9f769",
+      "previous_sha256": "382f47fe8abab9dae71a329a66d1a12b50a16df6781248e8420863f444f9f769",
+      "git_blob": "41c54d1d2fcc43d80928038cec8b5faed5fecaa7"
+    },
+    {
+      "path": "assets/images/news/id51/image1.jpg",
+      "sha256": "c8ddef42bd0e63ae33b8fe3ef1ac85f9a9004759e53d99832316f2cb0efb7ee9",
+      "previous_sha256": "c8ddef42bd0e63ae33b8fe3ef1ac85f9a9004759e53d99832316f2cb0efb7ee9",
+      "git_blob": "db2484fb822c1b90bc01208febb27802f0be8238"
+    },
+    {
+      "path": "assets/images/news/id52/image1.png",
+      "sha256": "461a2a3f657f1e1beec83a90aa14bd96e94f8881f4a6e46e690d37938b1ef4b9",
+      "previous_sha256": "461a2a3f657f1e1beec83a90aa14bd96e94f8881f4a6e46e690d37938b1ef4b9",
+      "git_blob": "f246744d9ad8f98b9ea802e76e042855268c9521"
+    },
+    {
+      "path": "assets/images/news/id54/image1-box.png",
+      "sha256": "824fb33d1e8ccf7d7ba26437c601aa0ba08e69eafb485861d4ef0a960b90b853",
+      "previous_sha256": "824fb33d1e8ccf7d7ba26437c601aa0ba08e69eafb485861d4ef0a960b90b853",
+      "git_blob": "34258135b88ffec94257e0e15a13c72fc114bf29"
+    },
+    {
+      "path": "assets/images/news/id54/image1.png",
+      "sha256": "e836e30e88c03ff713c7402efb745c80aec3567d26fdc6ac535bc1fe9bc78b0f",
+      "previous_sha256": "e836e30e88c03ff713c7402efb745c80aec3567d26fdc6ac535bc1fe9bc78b0f",
+      "git_blob": "b177437f8a73cad2907363a878100ebf6008f5f7"
+    },
+    {
+      "path": "assets/images/news/id54/image2.png",
+      "sha256": "680f29add3fabfb2610998b75ddbfad8601aeaceca7f056ad4d63eca5c3ca2bf",
+      "previous_sha256": "680f29add3fabfb2610998b75ddbfad8601aeaceca7f056ad4d63eca5c3ca2bf",
+      "git_blob": "d4b5b64c37a7a4406ff7bdaf16cb7fa8daeb5a97"
+    },
+    {
+      "path": "assets/images/news1-old.jpg",
+      "sha256": "910cd3d06fbbef90870fba54c623de1e0a89627a01166208d96bc11fe0214ed9",
+      "previous_sha256": "910cd3d06fbbef90870fba54c623de1e0a89627a01166208d96bc11fe0214ed9",
+      "git_blob": "157378e63a4d25933ab9ffc770a9a4ce771efe18"
+    },
+    {
+      "path": "assets/images/news1.jpg",
+      "sha256": "ef17d68caaffe32b9314ad51ea055d5fe9a72b6be2c62bd8bc061b7b7cd8f3d8",
+      "previous_sha256": "ef17d68caaffe32b9314ad51ea055d5fe9a72b6be2c62bd8bc061b7b7cd8f3d8",
+      "git_blob": "bf61908c12d7cb990c32987f47d9b3b623b36c43"
+    },
+    {
+      "path": "assets/images/news2.jpg",
+      "sha256": "6c965c01a4121cb82e5b9e8fc47901c274190ddf26ab33dd71db83ddb266566f",
+      "previous_sha256": "6c965c01a4121cb82e5b9e8fc47901c274190ddf26ab33dd71db83ddb266566f",
+      "git_blob": "65e718c9c1ab3eb0743bb100cdcf19a7bd9a59df"
+    },
+    {
+      "path": "assets/images/news3.jpg",
+      "sha256": "d1d6ad7d50b92f854ec859ecb065581593443c903c840242edc46e26340e7967",
+      "previous_sha256": "d1d6ad7d50b92f854ec859ecb065581593443c903c840242edc46e26340e7967",
+      "git_blob": "91f2aed276041dab408f07b5d128d64521f75369"
+    },
+    {
+      "path": "assets/images/newsletter-bg.jpg",
+      "sha256": "05a88709863e533e5817c39b80f42097c12ec6a6073b036c52f4988515f8e1cf",
+      "previous_sha256": "05a88709863e533e5817c39b80f42097c12ec6a6073b036c52f4988515f8e1cf",
+      "git_blob": "91b46aa38ee7c21046a4871fbed8553d25ccd133"
+    },
+    {
+      "path": "assets/images/noah.jpg",
+      "sha256": "59c2a8581ac20412befa320052b37916aa256e363c9f7d7e4d2f6d004ef14623",
+      "previous_sha256": "59c2a8581ac20412befa320052b37916aa256e363c9f7d7e4d2f6d004ef14623",
+      "git_blob": "8a8c5a074d017aadbe2e2b12fc0f8caa7558156d"
+    },
+    {
+      "path": "assets/images/offer-hero-img.png",
+      "sha256": "6d5c41a2147db8163304172e2fa45f2600f3443497805a21a372bd16fe52c5cb",
+      "previous_sha256": "6d5c41a2147db8163304172e2fa45f2600f3443497805a21a372bd16fe52c5cb",
+      "git_blob": "0d0fd3e35f5cb2850a6a3b29b68735d4c2ac4b21"
+    },
+    {
+      "path": "assets/images/offer-team.jpg",
+      "sha256": "c5981357e0921c7e7934bc876bc84ac636822a0b301b219b3542c2bb551a77f0",
+      "previous_sha256": "c5981357e0921c7e7934bc876bc84ac636822a0b301b219b3542c2bb551a77f0",
+      "git_blob": "cb4d9fe8cf1f9358a492f69d10bf345e77806da0"
+    },
+    {
+      "path": "assets/images/opd-ucla-offer.png",
+      "sha256": "4eb95b8072a0a6edee9f0d9f5f002e1d272ef456514c71c1a3d23de891363547",
+      "previous_sha256": "4eb95b8072a0a6edee9f0d9f5f002e1d272ef456514c71c1a3d23de891363547",
+      "git_blob": "08580f0b80bf798d71c7566e201133113971362e"
+    },
+    {
+      "path": "assets/images/pacific.png",
+      "sha256": "17437b1ef311d4874b828f1ba0ac4c76bcb7650cb0c24adf3381b08d750d680f",
+      "previous_sha256": "17437b1ef311d4874b828f1ba0ac4c76bcb7650cb0c24adf3381b08d750d680f",
+      "git_blob": "3448657ec452632390263fa3ddcaacad94cadec1"
+    },
+    {
+      "path": "assets/images/pharmacy.png",
+      "sha256": "f1eb5580a2f7e05f757e29218555101d7c15a94eefec8d32564858639b6f64f7",
+      "previous_sha256": "f1eb5580a2f7e05f757e29218555101d7c15a94eefec8d32564858639b6f64f7",
+      "git_blob": "2223d5fa364420700d5dd698a04e47d83a2d2c05"
+    },
+    {
+      "path": "assets/images/pipeline-bg.jpg",
+      "sha256": "4a303e72c2d3fbaa6ab106de07b252cc6ab503d694fab9309047f79cfb0e7866",
+      "previous_sha256": "4a303e72c2d3fbaa6ab106de07b252cc6ab503d694fab9309047f79cfb0e7866",
+      "git_blob": "f88923d1754f21b522a3fc8196c22d0f311c343f"
+    },
+    {
+      "path": "assets/images/pipeline-virus-2-large.png",
+      "sha256": "595f2deee58497b95ed9acba3e87971424ffde7d01dfd39f43818b2fe7692089",
+      "previous_sha256": "595f2deee58497b95ed9acba3e87971424ffde7d01dfd39f43818b2fe7692089",
+      "git_blob": "5b40d9edff51fbbcc96cd849a0248e0cdc44c55a"
+    },
+    {
+      "path": "assets/images/pipeline-virus-2.png",
+      "sha256": "5fae4ed1cca6c399925aa966848c02d2458afa4401c5102ed626099a923f8e36",
+      "previous_sha256": "5fae4ed1cca6c399925aa966848c02d2458afa4401c5102ed626099a923f8e36",
+      "git_blob": "8ed4cf0926d2b39c2d731403856c7f64cc26fbcb"
+    },
+    {
+      "path": "assets/images/pipeline-virus-left.jpg",
+      "sha256": "58c1adcc69455f96f06db51f271d1f4f60a5e2df23197b9ecf01b1971a100cfd",
+      "previous_sha256": "58c1adcc69455f96f06db51f271d1f4f60a5e2df23197b9ecf01b1971a100cfd",
+      "git_blob": "5b0c7f27edb29a0e72afd8a5bd9dfc8b9aba7dd2"
+    },
+    {
+      "path": "assets/images/pipeline-virus-left.png",
+      "sha256": "595f2deee58497b95ed9acba3e87971424ffde7d01dfd39f43818b2fe7692089",
+      "previous_sha256": "595f2deee58497b95ed9acba3e87971424ffde7d01dfd39f43818b2fe7692089",
+      "git_blob": "5b40d9edff51fbbcc96cd849a0248e0cdc44c55a"
+    },
+    {
+      "path": "assets/images/pipeline-virus-right.jpg",
+      "sha256": "9afeac820698b62eef63d3ecf0bd52c95c95f271cec44c2c3c8972cddc477c41",
+      "previous_sha256": "9afeac820698b62eef63d3ecf0bd52c95c95f271cec44c2c3c8972cddc477c41",
+      "git_blob": "5644e83bbc73b7bc982a29aec416a7cd1acf86b9"
+    },
+    {
+      "path": "assets/images/pipeline-virus.png",
+      "sha256": "dfcd6d301e140268abff907b9c4b4b17878bf43a3dafde52c3c5d465e49e4329",
+      "previous_sha256": "dfcd6d301e140268abff907b9c4b4b17878bf43a3dafde52c3c5d465e49e4329",
+      "git_blob": "18ec496a62fe81dabb82081306b68ba61b5013b9"
+    },
+    {
+      "path": "assets/images/play-button.png",
+      "sha256": "ffb63e9c3761a111c019f5a340a4605eef461b418191446f401dc096d729c25f",
+      "previous_sha256": "ffb63e9c3761a111c019f5a340a4605eef461b418191446f401dc096d729c25f",
+      "git_blob": "b17a99c9d9a9fbf6d6f6fe97c2071c08bd28dc99"
+    },
+    {
+      "path": "assets/images/problem.png",
+      "sha256": "878f0474657e0566d8a46b4102d04a44dfa3f39486ceb2a8f5443f01dc23e500",
+      "previous_sha256": "878f0474657e0566d8a46b4102d04a44dfa3f39486ceb2a8f5443f01dc23e500",
+      "git_blob": "9e55e39fed2938634570b743fb5aeacf56c5f9a3"
+    },
+    {
+      "path": "assets/images/progress-aug2026/image1.png",
+      "sha256": "9894446aff7967295acf86db5774288cec0341d627a609e9bcdfd7069f241926",
+      "previous_sha256": "9894446aff7967295acf86db5774288cec0341d627a609e9bcdfd7069f241926",
+      "git_blob": "5c8484a899d13c463925554c2e05e323e52a3b26"
+    },
+    {
+      "path": "assets/images/progress-june2026/image1.png",
+      "sha256": "df50fe756907559eb85128b3077fd0fdeb3549a48aba951c79090d2367eb971a",
+      "previous_sha256": "df50fe756907559eb85128b3077fd0fdeb3549a48aba951c79090d2367eb971a",
+      "git_blob": "7cdb7efc78d29a89a809dd66ae17a171ed78b3cd"
+    },
+    {
+      "path": "assets/images/progress-nov-2026-cell-killing-chart.png",
+      "sha256": "98d22dc86b20fcb8c6a81acdf30a33443e07fc3427cebb6b6b507801950a8039",
+      "previous_sha256": "98d22dc86b20fcb8c6a81acdf30a33443e07fc3427cebb6b6b507801950a8039",
+      "git_blob": "4d452354a351240aa3f28344f1b79c172b3092c9"
+    },
+    {
+      "path": "assets/images/progress-nov-2026-cell-killing-process.png",
+      "sha256": "004458dd533c1dd8c3a64dd741685cc4e35759b3aea61e84f4106bea6d60c373",
+      "previous_sha256": "004458dd533c1dd8c3a64dd741685cc4e35759b3aea61e84f4106bea6d60c373",
+      "git_blob": "652f6ad6bfb1d043c9d9a0a984676038b5c6939d"
+    },
+    {
+      "path": "assets/images/progress-sep-8-roadmap-mobile.svg",
+      "sha256": "5d067be8a026c1c3a7a86a43231f811fa75b2989c5c037cfed514e03da9de824",
+      "previous_sha256": "5d067be8a026c1c3a7a86a43231f811fa75b2989c5c037cfed514e03da9de824",
+      "git_blob": "92e065adc92e8078b7cd6c215ef96f22f1ffbc9e"
+    },
+    {
+      "path": "assets/images/progress-sep-8-roadmap.svg",
+      "sha256": "3b24d9a3f76aea9bf713dcf0ad92ef2f420cb6477ec1037d7270db5f8d562172",
+      "previous_sha256": "3b24d9a3f76aea9bf713dcf0ad92ef2f420cb6477ec1037d7270db5f8d562172",
+      "git_blob": "f44e2b0f0907fdc4b6278c74b38d3d9cb0d44c3f"
+    },
+    {
+      "path": "assets/images/progress2/breakthrough-mouse-1.png",
+      "sha256": "f208ceb7a107efe4200618ac4622551758b6ba556f3560fc1ac8f59dd5880f05",
+      "previous_sha256": "f208ceb7a107efe4200618ac4622551758b6ba556f3560fc1ac8f59dd5880f05",
+      "git_blob": "a6d5552c15226e001fe88d9447b9bc336abc5e26"
+    },
+    {
+      "path": "assets/images/progress2/dev-progress-4.png",
+      "sha256": "157c2dfd615f44ec66852817a9db0e7661eb76938e33744203a403f3c8e3ba5f",
+      "previous_sha256": "157c2dfd615f44ec66852817a9db0e7661eb76938e33744203a403f3c8e3ba5f",
+      "git_blob": "aa6d9e90fff06d380122f4f582a5dda88cddcd25"
+    },
+    {
+      "path": "assets/images/progress2/fluorescene-microscopy.png",
+      "sha256": "61f2896fe1031d0f757fd2f1a68e7be82dab6ad9b8633df177694a5e60719aa9",
+      "previous_sha256": "61f2896fe1031d0f757fd2f1a68e7be82dab6ad9b8633df177694a5e60719aa9",
+      "git_blob": "51c3aaddbe3c3dc308419ffcc9550a1131ff538e"
+    },
+    {
+      "path": "assets/images/progress2/gfp-smart-mrnas-cropped.png",
+      "sha256": "c357c22245d3b85adf2b0ebe4db01793cd4a50c30ac819b6f58a786ce6c10971",
+      "previous_sha256": "c357c22245d3b85adf2b0ebe4db01793cd4a50c30ac819b6f58a786ce6c10971",
+      "git_blob": "e5822784d786712a8a215970aec44302bff24a1b"
+    },
+    {
+      "path": "assets/images/progress2/marker1-nanoparticle.webp",
+      "sha256": "96078b065409bd1f2edc16875537e998516f2861061c669fabfa3fae8afb8c7c",
+      "previous_sha256": "96078b065409bd1f2edc16875537e998516f2861061c669fabfa3fae8afb8c7c",
+      "git_blob": "721fa7d074b2162686d4f598ce690aeb7b21ef18"
+    },
+    {
+      "path": "assets/images/progress2/nov-2026-cell-killing-box.png",
+      "sha256": "69435f8b722bc536dfcbe7df96300d8c64e212dcfe0c3ddb32572ca2c8213459",
+      "previous_sha256": "69435f8b722bc536dfcbe7df96300d8c64e212dcfe0c3ddb32572ca2c8213459",
+      "git_blob": "2f629a5fc2436c4e170cd84c32ea835c7f6abdb6"
+    },
+    {
+      "path": "assets/images/progress2/nov-2026-cell-killing.webp",
+      "sha256": "efde7ac0a57fefdc05bbdf74c941ded2ca34e00781bbeaf53f60cf6cab3ee212",
+      "previous_sha256": "efde7ac0a57fefdc05bbdf74c941ded2ca34e00781bbeaf53f60cf6cab3ee212",
+      "git_blob": "df6192c974b94759c36269d647c8bb7e3f7c84b9"
+    },
+    {
+      "path": "assets/images/progress2/progress-aug2026-image1.png",
+      "sha256": "9894446aff7967295acf86db5774288cec0341d627a609e9bcdfd7069f241926",
+      "previous_sha256": "9894446aff7967295acf86db5774288cec0341d627a609e9bcdfd7069f241926",
+      "git_blob": "5c8484a899d13c463925554c2e05e323e52a3b26"
+    },
+    {
+      "path": "assets/images/progress2/progress-june2026-image1.png",
+      "sha256": "df50fe756907559eb85128b3077fd0fdeb3549a48aba951c79090d2367eb971a",
+      "previous_sha256": "df50fe756907559eb85128b3077fd0fdeb3549a48aba951c79090d2367eb971a",
+      "git_blob": "7cdb7efc78d29a89a809dd66ae17a171ed78b3cd"
+    },
+    {
+      "path": "assets/images/progress2/t-cells-stimulatory.png",
+      "sha256": "848047040859cadf0bfa9636fdac85d6f93d7dc5cd0fba7fc9609f5ae9ea802d",
+      "previous_sha256": "848047040859cadf0bfa9636fdac85d6f93d7dc5cd0fba7fc9609f5ae9ea802d",
+      "git_blob": "64655584263d825b32d0cbc27a9af175a62b34e2"
+    },
+    {
+      "path": "assets/images/redesign/immunotherapy/immtype1.png",
+      "sha256": "b4e3ec326928ef24063d775a75b5e0dbb2ae5d0c361f633814ef770c84078c5b",
+      "previous_sha256": "b4e3ec326928ef24063d775a75b5e0dbb2ae5d0c361f633814ef770c84078c5b",
+      "git_blob": "499bc6de29f11f2c31ea35028f4fe91aafcc8d23"
+    },
+    {
+      "path": "assets/images/redesign/immunotherapy/immtype2.png",
+      "sha256": "8445360dc11a3098960a719f010c842bed361d51006ac7b97d9be488c50e0751",
+      "previous_sha256": "8445360dc11a3098960a719f010c842bed361d51006ac7b97d9be488c50e0751",
+      "git_blob": "16f91baabb9bf4e7d548ee6c8b23ae80efd4f548"
+    },
+    {
+      "path": "assets/images/redesign/immunotherapy/immtype3.png",
+      "sha256": "2a5f749c64c3267037606721a47e6dfbbb177932741081eb92b017fa9c9344a4",
+      "previous_sha256": "2a5f749c64c3267037606721a47e6dfbbb177932741081eb92b017fa9c9344a4",
+      "git_blob": "b4a147d572adbf4462741086b15c9c020d3add7a"
+    },
+    {
+      "path": "assets/images/redesign/immunotherapy/immtype4.jpg",
+      "sha256": "09e1d392736e26d3f655cf22703a530d2d622a80646bcc23cbce1bbdbc6c1a2f",
+      "previous_sha256": "09e1d392736e26d3f655cf22703a530d2d622a80646bcc23cbce1bbdbc6c1a2f",
+      "git_blob": "6495d601cd8277fa2cdd4e33c8befa4dfa83dc84"
+    },
+    {
+      "path": "assets/images/redesign/immunotherapy/immtype5.jpg",
+      "sha256": "00d853248146a0fffcd4cc501f15ce70106f3d54299e51a06548b315791aece2",
+      "previous_sha256": "00d853248146a0fffcd4cc501f15ce70106f3d54299e51a06548b315791aece2",
+      "git_blob": "f05eee6501c2cadb8d8f8ceeb608ea3f5ab58306"
+    },
+    {
+      "path": "assets/images/redesign/immunotherapy/uEzXLbjFPx0.jpg",
+      "sha256": "d62de2c061fd2cfabc24b196dde2035be78b5819c4abba0b3d892b8ec78f3286",
+      "previous_sha256": "d62de2c061fd2cfabc24b196dde2035be78b5819c4abba0b3d892b8ec78f3286",
+      "git_blob": "bf8f1516d1a436722da4512609cd119403bd320a"
+    },
+    {
+      "path": "assets/images/redesign/immunotherapy/ue0kX6ceAyY.jpg",
+      "sha256": "ec3ee4c0c39da8c8cfcc7faeb6322674e2c86f107719630fa5be3cd1cdcb6773",
+      "previous_sha256": "ec3ee4c0c39da8c8cfcc7faeb6322674e2c86f107719630fa5be3cd1cdcb6773",
+      "git_blob": "60f86c75a9a8d636071c1584ade398a82d0e2fe0"
+    },
+    {
+      "path": "assets/images/redesign/market/market-banner.jpg",
+      "sha256": "e05e0bcea2c46d1a7547e86419f8f9f8bf124ed2215afa7166ef1fdfe5dc1729",
+      "previous_sha256": "e05e0bcea2c46d1a7547e86419f8f9f8bf124ed2215afa7166ef1fdfe5dc1729",
+      "git_blob": "cbefacf59872771d8fc70bb6bf823a631de6dd82"
+    },
+    {
+      "path": "assets/images/redesign/newsroom/news-bg.jpg",
+      "sha256": "563327f34d69d9c602460249576f85e257d1438e403f71728aa20e181a6b5524",
+      "previous_sha256": "563327f34d69d9c602460249576f85e257d1438e403f71728aa20e181a6b5524",
+      "git_blob": "a156360b3aa48f4546a737cacd319d8caf7941ff"
+    },
+    {
+      "path": "assets/images/redesign/videos/0yKU2auecv4.jpg",
+      "sha256": "e09cb84d781578b376833188ea175459c76758df47c3e69cb710fcc78583528e",
+      "previous_sha256": "e09cb84d781578b376833188ea175459c76758df47c3e69cb710fcc78583528e",
+      "git_blob": "ef7340f106f931d4033898270d1157ac4383fb71"
+    },
+    {
+      "path": "assets/images/redesign/videos/1074009289.jpg",
+      "sha256": "f24ebe92081d28d14efb9c69ddc0c386b2522ee949ed425ddda976b066cb9042",
+      "previous_sha256": "f24ebe92081d28d14efb9c69ddc0c386b2522ee949ed425ddda976b066cb9042",
+      "git_blob": "3b8d3d4788b4641c86905e735a13a2c92ad29d0d"
+    },
+    {
+      "path": "assets/images/redesign/videos/1088764643.jpg",
+      "sha256": "44664cd324515481a3d64b37b5476790c0b8cc267286222c676521d0249fcb60",
+      "previous_sha256": "44664cd324515481a3d64b37b5476790c0b8cc267286222c676521d0249fcb60",
+      "git_blob": "7b733a54c5599a32b3bae69f24f091b18375c7dd"
+    },
+    {
+      "path": "assets/images/redesign/videos/PXBNJe3nHp0.jpg",
+      "sha256": "e26a78755660c8d94c7e746a5bd3ff24353b2d28a700077299c6009e3d662fc2",
+      "previous_sha256": "e26a78755660c8d94c7e746a5bd3ff24353b2d28a700077299c6009e3d662fc2",
+      "git_blob": "489d0d297badd366e780fc80ef07b56ede6f7c4b"
+    },
+    {
+      "path": "assets/images/redesign/videos/QMlV134WoE8.jpg",
+      "sha256": "684bdf4b6ff71f6e762f93878653099954706262ab28cfdcee49327602d244b5",
+      "previous_sha256": "684bdf4b6ff71f6e762f93878653099954706262ab28cfdcee49327602d244b5",
+      "git_blob": "a290048eb1d17fad7ab84fc12cd1a032627c1ba3"
+    },
+    {
+      "path": "assets/images/redesign/videos/UBFD7bfsCc0.jpg",
+      "sha256": "be9f2289d88a522124f161c1f62adf8f14fb5fd34caf4d7dccf5d3adeeff37f0",
+      "previous_sha256": "be9f2289d88a522124f161c1f62adf8f14fb5fd34caf4d7dccf5d3adeeff37f0",
+      "git_blob": "225759dae36cd22ebaf18f56d450cb7c42faa4ed"
+    },
+    {
+      "path": "assets/images/redesign/videos/ceo-chats-bg.jpg",
+      "sha256": "f6ab4a136556918d9f9cfea91632b3f0c111c46f5194d570811419d939d36d1f",
+      "previous_sha256": "f6ab4a136556918d9f9cfea91632b3f0c111c46f5194d570811419d939d36d1f",
+      "git_blob": "d56bcc5c3428ad3c62e8f220ef90b69c0d316bf8"
+    },
+    {
+      "path": "assets/images/redesign/videos/gP-LNnxOmYA.jpg",
+      "sha256": "1ca0a0ec4627f776bafd12e887ef29afea536fa3e9ab0848569c8b17fdaeef61",
+      "previous_sha256": "1ca0a0ec4627f776bafd12e887ef29afea536fa3e9ab0848569c8b17fdaeef61",
+      "git_blob": "1b1cacd7a85480cd59b505ce5d26b76d88408d4b"
+    },
+    {
+      "path": "assets/images/reducing-toxicity.png",
+      "sha256": "f342d97827a6bf1309cdf65c81c42d749b09b496fa5cc8047971cb4f71cd77a7",
+      "previous_sha256": "f342d97827a6bf1309cdf65c81c42d749b09b496fa5cc8047971cb4f71cd77a7",
+      "git_blob": "69124606a056c2130eddf4a147db26e33ac65ceb"
+    },
+    {
+      "path": "assets/images/remission-technology-sep-10.png",
+      "sha256": "2f509a370d32ae09b2cfe102a970aaf85b2edea6dd8465a1d08cbce8c59567b6",
+      "previous_sha256": "2f509a370d32ae09b2cfe102a970aaf85b2edea6dd8465a1d08cbce8c59567b6",
+      "git_blob": "8dd2eb50202ecaab9662a01be2497fbc25000493"
+    },
+    {
+      "path": "assets/images/remission.png",
+      "sha256": "4553d9d5ef3e138b599601009be99ee051b3bcb31839aca58c084c151d8a8a11",
+      "previous_sha256": "4553d9d5ef3e138b599601009be99ee051b3bcb31839aca58c084c151d8a8a11",
+      "git_blob": "86d0bac15cc32fd9c67db61c1b7880c9f4f3bad6"
+    },
+    {
+      "path": "assets/images/roukenbio.png",
+      "sha256": "0023e91d4d52d288691db0e80d47ec17d2004fcfab8dea52cc4f34167c9f27e0",
+      "previous_sha256": "0023e91d4d52d288691db0e80d47ec17d2004fcfab8dea52cc4f34167c9f27e0",
+      "git_blob": "a288f81440d3ffe7492a23d05ba70ba3981a618c"
+    },
+    {
+      "path": "assets/images/satiro.jpg",
+      "sha256": "29446027c554f7d3c01af7c3f3b404a49b11f082aa44ac97dac020d874437dc4",
+      "previous_sha256": "29446027c554f7d3c01af7c3f3b404a49b11f082aa44ac97dac020d874437dc4",
+      "git_blob": "486c30341cb18387ac5c1613f9b059a30c6e2b74"
+    },
+    {
+      "path": "assets/images/screenshot.jpg",
+      "sha256": "479b36b1e745d8049aa562ce9dc74bec5b60a2a1a51c597426cf09783a0db418",
+      "previous_sha256": "479b36b1e745d8049aa562ce9dc74bec5b60a2a1a51c597426cf09783a0db418",
+      "git_blob": "868ddaeb3cd75bcfe977a9e7015db863bd6d03d2"
+    },
+    {
+      "path": "assets/images/screenshot1-1.jpg",
+      "sha256": "1e7e186212198945225bc001ff1326855e94204e40ab5943b84ed22bf927279c",
+      "previous_sha256": "1e7e186212198945225bc001ff1326855e94204e40ab5943b84ed22bf927279c",
+      "git_blob": "5ada0e0ca81b1327ecf43c4e6ccfddf9914f5e35"
+    },
+    {
+      "path": "assets/images/screenshot2.jpg",
+      "sha256": "f199d918c88268239f4306cab51e4fab5fc5c8687a541ff6195fad49083b0222",
+      "previous_sha256": "f199d918c88268239f4306cab51e4fab5fc5c8687a541ff6195fad49083b0222",
+      "git_blob": "f12bffc39d6dc3bca21c5b171cb4b978536a65e6"
+    },
+    {
+      "path": "assets/images/screenshot3.jpg",
+      "sha256": "2c04610694f5b207affbe84cbf41be941c85a645c2562ccb30ff43ef51642167",
+      "previous_sha256": "2c04610694f5b207affbe84cbf41be941c85a645c2562ccb30ff43ef51642167",
+      "git_blob": "0da1cfdb3b67df47f46630b1b21e573710c19f2d"
+    },
+    {
+      "path": "assets/images/screenshot4.jpg",
+      "sha256": "2a53622a79c5c8c2f6452586f3f3fe443db55700039b0352be776fefa14bda3c",
+      "previous_sha256": "2a53622a79c5c8c2f6452586f3f3fe443db55700039b0352be776fefa14bda3c",
+      "git_blob": "a715509be899b98ce6e1d914a64cdd6ca5956bd0"
+    },
+    {
+      "path": "assets/images/seet.jpg",
+      "sha256": "53e7ee98617076cf6a2c48affdfd28bf9a747637f9ee6b9a678de91395f9bec9",
+      "previous_sha256": "53e7ee98617076cf6a2c48affdfd28bf9a747637f9ee6b9a678de91395f9bec9",
+      "git_blob": "8fafcdb72ed31267e3b611e4c40d5f38216212b1"
+    },
+    {
+      "path": "assets/images/short-thumbnail.png",
+      "sha256": "cc6ae33890f510ada56a968d86e00c7c343afd355b15790a32a279130c1011c8",
+      "previous_sha256": "cc6ae33890f510ada56a968d86e00c7c343afd355b15790a32a279130c1011c8",
+      "git_blob": "10f0a5c5de34a00f8ff9e26acc65b99637e5bb06"
+    },
+    {
+      "path": "assets/images/short-videos.png",
+      "sha256": "c2384032626eea32a13bfe79527205584772a6de720e60a6e31ec459c06c94da",
+      "previous_sha256": "c2384032626eea32a13bfe79527205584772a6de720e60a6e31ec459c06c94da",
+      "git_blob": "bcb3ac5437140e3ea6cdca8bbeeb6d35e567a5ca"
+    },
+    {
+      "path": "assets/images/solution-marker.png",
+      "sha256": "6373075909043123898544988426c5bc691bdd4cc84dbd6ba4783d583533f261",
+      "previous_sha256": "6373075909043123898544988426c5bc691bdd4cc84dbd6ba4783d583533f261",
+      "git_blob": "4bdf9702903e432ac4e8ec56d6ed4391fb89e725"
+    },
+    {
+      "path": "assets/images/solution1.png",
+      "sha256": "4b3a57440d787c3a5b1c7d85ecc8079d994e913978cc84d1742da8bd1f9fe3b7",
+      "previous_sha256": "4b3a57440d787c3a5b1c7d85ecc8079d994e913978cc84d1742da8bd1f9fe3b7",
+      "git_blob": "849503ab1339f962df56b2c4ea3f62a3334b07a3"
+    },
+    {
+      "path": "assets/images/solution2.png",
+      "sha256": "81aef135c412b2718167d804919f17e617f62d887bed8756b16732ed65ce04bf",
+      "previous_sha256": "81aef135c412b2718167d804919f17e617f62d887bed8756b16732ed65ce04bf",
+      "git_blob": "ca0604d8d6703863bae2b00db65690a8ef5bf3a1"
+    },
+    {
+      "path": "assets/images/solution3.png",
+      "sha256": "bcc2618ee04eac63c200b4ba3a5f83d266deae8a22f9a47701ca911707662d73",
+      "previous_sha256": "bcc2618ee04eac63c200b4ba3a5f83d266deae8a22f9a47701ca911707662d73",
+      "git_blob": "01ea12108f16e9e5c4bc7ce923f5b88a36485c74"
+    },
+    {
+      "path": "assets/images/solution4.png",
+      "sha256": "07c89e1a294992eabebbe11a255587f6cdfb8bd0fb337bfb4643466f91b0eb7b",
+      "previous_sha256": "07c89e1a294992eabebbe11a255587f6cdfb8bd0fb337bfb4643466f91b0eb7b",
+      "git_blob": "d98ff59dddb4ed77491620c0b15b39d8b8c7172b"
+    },
+    {
+      "path": "assets/images/steven-warner.png",
+      "sha256": "5d11aa24db6b29445f4d3739a5165510db468cd727f2dfa52610c4414a7eaece",
+      "previous_sha256": "5d11aa24db6b29445f4d3739a5165510db468cd727f2dfa52610c4414a7eaece",
+      "git_blob": "ad6e3f6fc31fd61bdf17e8dcca965488cd95d100"
+    },
+    {
+      "path": "assets/images/steven.png",
+      "sha256": "546bfcea8441892af7f911d3700968538985d82e619bc29e7c97338fe8bb9b38",
+      "previous_sha256": "546bfcea8441892af7f911d3700968538985d82e619bc29e7c97338fe8bb9b38",
+      "git_blob": "2dc726328538d3bfbb39d8a5c613873bc5f49f51"
+    },
+    {
+      "path": "assets/images/sumant-ramachandra.png",
+      "sha256": "9221c75146df379b533edb3c641911b8d84b3fc1307025f743936e115e53c576",
+      "previous_sha256": "9221c75146df379b533edb3c641911b8d84b3fc1307025f743936e115e53c576",
+      "git_blob": "7982deb5776ef5f73a82cefb5ef2daf21e9c70e6"
+    },
+    {
+      "path": "assets/images/t-cells-stimulatory.png",
+      "sha256": "848047040859cadf0bfa9636fdac85d6f93d7dc5cd0fba7fc9609f5ae9ea802d",
+      "previous_sha256": "848047040859cadf0bfa9636fdac85d6f93d7dc5cd0fba7fc9609f5ae9ea802d",
+      "git_blob": "64655584263d825b32d0cbc27a9af175a62b34e2"
+    },
+    {
+      "path": "assets/images/team-first-bg.png",
+      "sha256": "554a948c92e1350cbb4187b9d87b5368310acf1154788c607112ee14ebff7bce",
+      "previous_sha256": "554a948c92e1350cbb4187b9d87b5368310acf1154788c607112ee14ebff7bce",
+      "git_blob": "f7a3e907a99b9a6336bde21eb4d4d5c9d0fe71dd"
+    },
+    {
+      "path": "assets/images/techBanner-overlay.svg",
+      "sha256": "56717b919c5f68e09ec7f71feaa077eeb523f2b8405f43036d45d3d9311c2ecb",
+      "previous_sha256": "56717b919c5f68e09ec7f71feaa077eeb523f2b8405f43036d45d3d9311c2ecb",
+      "git_blob": "e29094fce4ec6bbb4069fb596c0e8fe97fecaeca"
+    },
+    {
+      "path": "assets/images/techBanner.png",
+      "sha256": "3bce86bedc6bad230f0c1a86ee2d87cd9db92656f6af67cf9be6430658cf5d68",
+      "previous_sha256": "3bce86bedc6bad230f0c1a86ee2d87cd9db92656f6af67cf9be6430658cf5d68",
+      "git_blob": "b7526a5384edc4f8303bf565ab198c34298fa8d1"
+    },
+    {
+      "path": "assets/images/technology-reference/cold-hot-tumor-line-art.svg",
+      "sha256": "c5d12303b82fbee0dc3ae02740c077c3a2e43d2c3491dd19e4dc0dce5ae5ccdb",
+      "previous_sha256": "c5d12303b82fbee0dc3ae02740c077c3a2e43d2c3491dd19e4dc0dce5ae5ccdb",
+      "git_blob": "dc1a239841830603c6810f38a3b662aab794abb8"
+    },
+    {
+      "path": "assets/images/technology-reference/detect.svg",
+      "sha256": "3cd5ac37e8e06061949d1957b0f5ffd90369e4d529b561f0564e98447ebf706f",
+      "previous_sha256": "3cd5ac37e8e06061949d1957b0f5ffd90369e4d529b561f0564e98447ebf706f",
+      "git_blob": "47718d7f1b460bd0ddb4c59142cffb72ea3f7392"
+    },
+    {
+      "path": "assets/images/technology-reference/mark.svg",
+      "sha256": "f14cc608d447b1ed22a84a4923bbb534847eb2ad6abb0d8d4cf660411dd68420",
+      "previous_sha256": "f14cc608d447b1ed22a84a4923bbb534847eb2ad6abb0d8d4cf660411dd68420",
+      "git_blob": "41d329e43d436e44d7c2385cfddd0b4c6f31fdcd"
+    },
+    {
+      "path": "assets/images/technology-reference/memory-broader-response.svg",
+      "sha256": "0f60698a0c32ccd9be69a3d8227e2b599a150f169e35a231a46d88f1d2ff3490",
+      "previous_sha256": "0f60698a0c32ccd9be69a3d8227e2b599a150f169e35a231a46d88f1d2ff3490",
+      "git_blob": "ec777c9032b17b469b56a34ca3b2405113ea64ea"
+    },
+    {
+      "path": "assets/images/technology-reference/memory-cancer-features.svg",
+      "sha256": "dab90feffb680f3561c80ecdf261b4122e7648332836b2ba7c50f3064ee0d1f0",
+      "previous_sha256": "dab90feffb680f3561c80ecdf261b4122e7648332836b2ba7c50f3064ee0d1f0",
+      "git_blob": "cf0f67f96521b507858f145cd17dde3965c9313d"
+    },
+    {
+      "path": "assets/images/technology-reference/memory-viral-disguise.svg",
+      "sha256": "0c8a8ed00ef0c9a073a6130b8225dba40db8c344bc02cd2187d559756606d56f",
+      "previous_sha256": "0c8a8ed00ef0c9a073a6130b8225dba40db8c344bc02cd2187d559756606d56f",
+      "git_blob": "d3a45a2e9144f6292809af2720369dc8a3ad7e6b"
+    },
+    {
+      "path": "assets/images/technology-reference/nov-2026-cell-killing-annotated.svg",
+      "sha256": "595ecaab23d8927c3674dbf0e368591bceab3533dc45b34e17bd290f8597f191",
+      "previous_sha256": "595ecaab23d8927c3674dbf0e368591bceab3533dc45b34e17bd290f8597f191",
+      "git_blob": "203ac60d487dc3d0e6f2b1b21225433ee9f8d922"
+    },
+    {
+      "path": "assets/images/technology-reference/respond.svg",
+      "sha256": "122be9d57bb9cde110ed9da743edc6d4c24403876ee77509ad1e8c3368ac8801",
+      "previous_sha256": "122be9d57bb9cde110ed9da743edc6d4c24403876ee77509ad1e8c3368ac8801",
+      "git_blob": "20985eb4d4090c909dc592e70dc8b46e89f74049"
+    },
+    {
+      "path": "assets/images/technology-reference/selectivity-torso.svg",
+      "sha256": "c16161195fa3d50789958b56a9dc406ef83a0c109674462c74d79a9d9bdfc3be",
+      "previous_sha256": "c16161195fa3d50789958b56a9dc406ef83a0c109674462c74d79a9d9bdfc3be",
+      "git_blob": "27532d39ee8946e580bb7e572393210b1d8b5ce8"
+    },
+    {
+      "path": "assets/images/technology-reference/source.html",
+      "sha256": "582c8f724c227a5823b6bc50b7425e098ce0a61a5c5296009d54faba9195735c",
+      "previous_sha256": "582c8f724c227a5823b6bc50b7425e098ce0a61a5c5296009d54faba9195735c",
+      "git_blob": "ea9f8bf137a64f1ac8779a8c745a266a5d4e54e7"
+    },
+    {
+      "path": "assets/images/the team.png",
+      "sha256": "efe0fa2cea1cc32c3379694c87d4f74afa7ce0db53ec2daa60ea9ddc481f9f56",
+      "previous_sha256": "efe0fa2cea1cc32c3379694c87d4f74afa7ce0db53ec2daa60ea9ddc481f9f56",
+      "git_blob": "18ea750d16152e65d437f2cd6afcdfe82b217980"
+    },
+    {
+      "path": "assets/images/the-problem-the-solution.png",
+      "sha256": "45e72fe219dc35a5f0d7f161b7ef953e08fc4d45bc744df3817f301abb860323",
+      "previous_sha256": "45e72fe219dc35a5f0d7f161b7ef953e08fc4d45bc744df3817f301abb860323",
+      "git_blob": "9eafc39a87bd1028e53f08453369e282e402dda7"
+    },
+    {
+      "path": "assets/images/thumbnail-1.png",
+      "sha256": "2c9693466e1880132f2f7a7c0df04dc2383a2e17ff0f8ed923af827b2e2a3cdd",
+      "previous_sha256": "2c9693466e1880132f2f7a7c0df04dc2383a2e17ff0f8ed923af827b2e2a3cdd",
+      "git_blob": "7a214aac48f85a6e73a1e6a60c09ea8b684735d1"
+    },
+    {
+      "path": "assets/images/thumbnail.png",
+      "sha256": "dda7aa08b28643629ee526ec6a4323de90d6e9df7d1cb6ecb1470e65da7877dc",
+      "previous_sha256": "dda7aa08b28643629ee526ec6a4323de90d6e9df7d1cb6ecb1470e65da7877dc",
+      "git_blob": "1766cc9cec33f8d3c6dc28e15ad50f7d94c97da5"
+    },
+    {
+      "path": "assets/images/treatment1.png",
+      "sha256": "545ecd1d60a0ec40f4c77a3c127f9a3bf379767dfc74c53daabdc2430388e72e",
+      "previous_sha256": "545ecd1d60a0ec40f4c77a3c127f9a3bf379767dfc74c53daabdc2430388e72e",
+      "git_blob": "64d99dec4f92cefa61a8cff2afd229efac3249d2"
+    },
+    {
+      "path": "assets/images/treatment2.png",
+      "sha256": "ca765b12d0fe99723d59cff819c2ba2e189258a7c41e1f9764b9bda14b119b6e",
+      "previous_sha256": "ca765b12d0fe99723d59cff819c2ba2e189258a7c41e1f9764b9bda14b119b6e",
+      "git_blob": "71ba5c658138fd6235ee4d94b741d7fc1d2c5db8"
+    },
+    {
+      "path": "assets/images/treatment3.png",
+      "sha256": "5f658a3884fc7a408a92c5c1a6e1d9fb609ef539548caa1ceca45b2dfb903417",
+      "previous_sha256": "5f658a3884fc7a408a92c5c1a6e1d9fb609ef539548caa1ceca45b2dfb903417",
+      "git_blob": "14b9f4d32f9799cc17f83784c84eaba83fcba42c"
+    },
+    {
+      "path": "assets/images/trilink.png",
+      "sha256": "ba057b9a79a10bb42e8bd6a98dab89ede1d63e0f6f71bd5426ddf4ab87004de3",
+      "previous_sha256": "ba057b9a79a10bb42e8bd6a98dab89ede1d63e0f6f71bd5426ddf4ab87004de3",
+      "git_blob": "cd58482dfa486daa7827da981e830b0762f7bebd"
+    },
+    {
+      "path": "assets/images/u-cart-right.png",
+      "sha256": "9c551471a07757267a1371528e5f5ccac0977348b5eafc583083dbb8dccffb0a",
+      "previous_sha256": "9c551471a07757267a1371528e5f5ccac0977348b5eafc583083dbb8dccffb0a",
+      "git_blob": "589b69a014e2196fe533dfbafe28321f93dfd217"
+    },
+    {
+      "path": "assets/images/ucla-health.png",
+      "sha256": "b69b41795e008115504033ad5e7b435308abe6cf286014997cba4ddb70957ced",
+      "previous_sha256": "b69b41795e008115504033ad5e7b435308abe6cf286014997cba4ddb70957ced",
+      "git_blob": "830b5b79ee792a04a31456a3d84bf087313700ec"
+    },
+    {
+      "path": "assets/images/ucla.png",
+      "sha256": "4f0d4232049b7dfb21fcd7ed8831b6cf1270b0d350c5bb155f982e9f0181b4c1",
+      "previous_sha256": "4f0d4232049b7dfb21fcd7ed8831b6cf1270b0d350c5bb155f982e9f0181b4c1",
+      "git_blob": "48afc10a1efa86b585189357daff413e918d25ba"
+    },
+    {
+      "path": "assets/images/ucv-platform.png",
+      "sha256": "57e0dd0ebe3af30258b13e94e49db312bbe6ae171d2016d8f245d4fe72fa0bf3",
+      "previous_sha256": "57e0dd0ebe3af30258b13e94e49db312bbe6ae171d2016d8f245d4fe72fa0bf3",
+      "git_blob": "6736fdf49595fb882b05815879f6e23ceeb06664"
+    },
+    {
+      "path": "assets/images/ucv-thumbnail.png",
+      "sha256": "9fc7889fff889d8c53a58b8f0d8dd8ceada025e1e38187c10c05a67c427435bf",
+      "previous_sha256": "9fc7889fff889d8c53a58b8f0d8dd8ceada025e1e38187c10c05a67c427435bf",
+      "git_blob": "5fbb514442115c4b99bfca97c6936e8525e29a45"
+    },
+    {
+      "path": "assets/images/ucv.jpg",
+      "sha256": "62472da75481ee8f1b93e4d30d40b1cef5657fb44790124dbf826b556d7f32a2",
+      "previous_sha256": "62472da75481ee8f1b93e4d30d40b1cef5657fb44790124dbf826b556d7f32a2",
+      "git_blob": "09829b4ecef94367a124a5c52a459b32b69669ee"
+    },
+    {
+      "path": "assets/images/universal-cart.png",
+      "sha256": "e2ce0f864fe1915db902772810ca32558ae4293c84da44628f2c07248c32569c",
+      "previous_sha256": "e2ce0f864fe1915db902772810ca32558ae4293c84da44628f2c07248c32569c",
+      "git_blob": "16ce6cfb608ccee8bef03f1c1a704faa1c80d78d"
+    },
+    {
+      "path": "assets/images/vectorbuilder.png",
+      "sha256": "64311fd506a2ae6110f938d8df210725d8165e6a41dd424362e2093293fc1bfe",
+      "previous_sha256": "64311fd506a2ae6110f938d8df210725d8165e6a41dd424362e2093293fc1bfe",
+      "git_blob": "8638ce8120d0000907d6c277a67f85c8d02b06ef"
+    },
+    {
+      "path": "assets/images/webinars.png",
+      "sha256": "cfbd8493242fac47e48bfca0794124c157520c10b2fe289f88f2f450477e475f",
+      "previous_sha256": "cfbd8493242fac47e48bfca0794124c157520c10b2fe289f88f2f450477e475f",
+      "git_blob": "d16f0b7e43a1b5432b9b42d683ab0126b859e498"
+    },
+    {
+      "path": "assets/images/zee-zee.png",
+      "sha256": "af2d3979973d5cd466e499cf67ca8b88a123546c12b070262efe9c167cd5e77b",
+      "previous_sha256": "af2d3979973d5cd466e499cf67ca8b88a123546c12b070262efe9c167cd5e77b",
+      "git_blob": "dc248ec3e35216f5557d4184b2293801d0d5531d"
+    },
+    {
+      "path": "assets/images/zozozo1.png",
+      "sha256": "1ab48dae84422504fed9c2b8e08178f7d61acb7c305e9dc042425e2879663d47",
+      "previous_sha256": "1ab48dae84422504fed9c2b8e08178f7d61acb7c305e9dc042425e2879663d47",
+      "git_blob": "23452bd76d76511224b18b24292d351d27813442"
+    },
+    {
+      "path": "assets/js/jquery-3.1.1.min.js",
+      "sha256": "1cf30e59d21d4ae560af7143f5913efcc8222bcaa4fcc7508eb802b5faa9e94e",
+      "previous_sha256": "1cf30e59d21d4ae560af7143f5913efcc8222bcaa4fcc7508eb802b5faa9e94e",
+      "git_blob": "b3faf1ef1c6855290751f50b61ce65008574d5dc"
+    },
+    {
+      "path": "assets/js/jquery.magnific-popup.min.js",
+      "sha256": "b0a45cd5aed66e27bd8ee861d0e3b782c8e79849bde32f90f078b9f2451a36f2",
+      "previous_sha256": "b0a45cd5aed66e27bd8ee861d0e3b782c8e79849bde32f90f078b9f2451a36f2",
+      "git_blob": "82d02fd5d4258f9996ed2e1cce6fd48a481b0032"
+    },
+    {
+      "path": "assets/js/main.js",
+      "sha256": "5b21c43440255853fcfd66a77705291da00142d9b1caec6d233c52332ea34576",
+      "previous_sha256": "9218928994e17cf2d1301ffc332887ea8efcaae5aa704ac11e232309f90073a7",
+      "git_blob": "ce5ebde694beb8cc5f5cac7d0801b8203e88457e"
+    },
+    {
+      "path": "assets/js/market-reference.js",
+      "sha256": "66603783e89508e64e15c57b0725bb47337cd23fc079874e9eaecad0731b1ecd",
+      "previous_sha256": "66603783e89508e64e15c57b0725bb47337cd23fc079874e9eaecad0731b1ecd",
+      "git_blob": "a50a1dcc778c549f8780c105049c4a552fc62bf6"
+    },
+    {
+      "path": "assets/js/mobile-body-copy.js",
+      "sha256": "a2f0c3a1e55b750620448d012a9e3ef16ccce1582cbf54a64c9fd445d6a737b2",
+      "previous_sha256": "a2f0c3a1e55b750620448d012a9e3ef16ccce1582cbf54a64c9fd445d6a737b2",
+      "git_blob": "4a3f2e6e79039ab9e5fcb62148b509788cfc164a"
+    },
+    {
+      "path": "assets/js/redesign/contact.js",
+      "sha256": "75c5145db43c1aec19d868f93031c99cd607e61cc25f2346e3dd41e6b5c33c01",
+      "previous_sha256": "75c5145db43c1aec19d868f93031c99cd607e61cc25f2346e3dd41e6b5c33c01",
+      "git_blob": "6e58a97a4796b5902e742b93ed64372f846c88e7"
+    },
+    {
+      "path": "assets/js/redesign/immunotherapy.js",
+      "sha256": "6ab877e81180c24a3d4d1dd5427ef796d5bf6fe47da6fa6482502f73041e78a6",
+      "previous_sha256": "6ab877e81180c24a3d4d1dd5427ef796d5bf6fe47da6fa6482502f73041e78a6",
+      "git_blob": "6e6bc0a07ef485035bc6714fcf10544d7b8aa3d8"
+    },
+    {
+      "path": "assets/js/redesign/videos.js",
+      "sha256": "ebc16009f521380af11a617fb39acdcd9a1904ef2db6d8996c7db3aa58d149c8",
+      "previous_sha256": "ebc16009f521380af11a617fb39acdcd9a1904ef2db6d8996c7db3aa58d149c8",
+      "git_blob": "aabf4134d2b1530af5e26774fccabe99b04f176a"
+    },
+    {
+      "path": "assets/js/shared-footer.js",
+      "sha256": "a005544abf63b2d59c2e7ec8f1374adad95e552684c23690af5bc711ccb51569",
+      "previous_sha256": "a005544abf63b2d59c2e7ec8f1374adad95e552684c23690af5bc711ccb51569",
+      "git_blob": "a2695e1f629b392ae161fcfa47e084215a5533e5"
+    },
+    {
+      "path": "assets/js/slick.min.js",
+      "sha256": "27bebe78e3b6a4b1664dd4fa83a8cd0187f051631a06248fefa3ef3991a5a92a",
+      "previous_sha256": "27bebe78e3b6a4b1664dd4fa83a8cd0187f051631a06248fefa3ef3991a5a92a",
+      "git_blob": "7711e37241a81b332c4d49c72ad62717dfbddc18"
+    },
+    {
+      "path": "assets/js/style.js",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "assets/js/technology-reference.js",
+      "sha256": "bfb91798dd197b15af06b52d5dcffbc1c9c155a1cba14964b132e41fe33115f9",
+      "previous_sha256": "bfb91798dd197b15af06b52d5dcffbc1c9c155a1cba14964b132e41fe33115f9",
+      "git_blob": "a9d1e7998e193cf4ac5fe46b7199f98620959a0a"
+    },
+    {
+      "path": "assets/lifescience-review.pdf",
+      "sha256": "021f29dcb712a79fc8e113120569c65b88351a2710325c10a664df9d56ae806e",
+      "previous_sha256": "021f29dcb712a79fc8e113120569c65b88351a2710325c10a664df9d56ae806e",
+      "git_blob": "eceb0e84a237a8a18fe010e4f1600f5675c57a9e"
+    },
+    {
+      "path": "components/team-heads.php",
+      "sha256": "d49e15f511820d8864692a19d0eb08a5876ff13d7d5903fd517ee99c7794b37b",
+      "previous_sha256": "d49e15f511820d8864692a19d0eb08a5876ff13d7d5903fd517ee99c7794b37b",
+      "git_blob": "133e982a91053faa4d910deea816fadf9e7c3d0e"
+    },
+    {
+      "path": "components/team-page-current-sections.php",
+      "sha256": "7f36acfa6db968e1d1a34ed928c47b14b6a1a04432ce7098f073a30fd89fe117",
+      "previous_sha256": "7f36acfa6db968e1d1a34ed928c47b14b6a1a04432ce7098f073a30fd89fe117",
+      "git_blob": "c38c08c1de96606bb324bf36f6ad063af7fc5d45"
+    },
+    {
+      "path": "data/carousel-videos.php",
+      "sha256": "29ebb15ad5e2708524923ade080c0ea93d6b6cd59830e7d36ce68d46fcfa380a",
+      "previous_sha256": "29ebb15ad5e2708524923ade080c0ea93d6b6cd59830e7d36ce68d46fcfa380a",
+      "git_blob": "5f34f3a8e0c0b3068c640fb481b970b8b560a1ba"
+    },
+    {
+      "path": "data/news-data-old.php",
+      "sha256": "4fb405bc95f4f4a29d20dfc6c303f9c00f13da0a66f7771eea1d5a7c2a10283d",
+      "previous_sha256": "4fb405bc95f4f4a29d20dfc6c303f9c00f13da0a66f7771eea1d5a7c2a10283d",
+      "git_blob": "672bdeeba6b848122d1c342acdbf30a7dfb9c604"
+    },
+    {
+      "path": "data/news-data.php",
+      "sha256": "8fa58965becd0d1e88661415e52f7625c7d4a4c3b3bf6cabe0ced3762ec93f7c",
+      "previous_sha256": "8fa58965becd0d1e88661415e52f7625c7d4a4c3b3bf6cabe0ced3762ec93f7c",
+      "git_blob": "ec476ee3cc3dcf5a12b0b12c4e5cf87a2c850e96"
+    },
+    {
+      "path": "data/podcast-data.php",
+      "sha256": "585f38e9c640dfa188e77be725576ddb104bd3fb04e191f723424c95ba4ade60",
+      "previous_sha256": "585f38e9c640dfa188e77be725576ddb104bd3fb04e191f723424c95ba4ade60",
+      "git_blob": "cf4826da1c2797b00dc9e41cd0ac5ecc5ccdc179"
+    },
+    {
+      "path": "includes/footer.php",
+      "sha256": "87479c47c5875c298dd243844c4b731a5dbbf2c8bd15ff916b5364d70cb3c216",
+      "previous_sha256": "87479c47c5875c298dd243844c4b731a5dbbf2c8bd15ff916b5364d70cb3c216",
+      "git_blob": "f5dcbf4974db7065f7fc42c56463a5b57a9d36c2"
+    },
+    {
+      "path": "includes/header.php",
+      "sha256": "c02188b4ea6e743df45e0392ee6231a1c303883e544b39ecc59ac7a550d8f38c",
+      "previous_sha256": "c02188b4ea6e743df45e0392ee6231a1c303883e544b39ecc59ac7a550d8f38c",
+      "git_blob": "a61873d5f0b26878c9d17d90598a1497a52c210c"
+    },
+    {
+      "path": "includes/legacy-public.php",
+      "sha256": "92775dabcd2875196112cd6919a3c1a3c08a3087173318c3d10abc07b3d14abc",
+      "previous_sha256": "92775dabcd2875196112cd6919a3c1a3c08a3087173318c3d10abc07b3d14abc",
+      "git_blob": "2f4ef88bc7579e6614ee406c99a38b70afd07287"
+    },
+    {
+      "path": "includes/router.php",
+      "sha256": "c4707ad7e162e558c148c9ac753225b87e914e206954acf3f2f459b621458a10",
+      "previous_sha256": "921fa9f298e7e677eb471a21453f016a2c9aba38bd8ee19d15b60fbb764de5cc",
+      "git_blob": "4466f80fa34d4b36b4c86b54c1ad612ffb12bf16"
+    },
+    {
+      "path": "includes/search-index.php",
+      "sha256": "8c277f2eef336c3dfce0dbd8838ea146f1bcc6573a14b691c91b2fd08010389e",
+      "previous_sha256": null,
+      "git_blob": "cab60301377f9ee7d1051978e54c0b12e7128b64"
+    },
+    {
+      "path": "includes/shared-footer.php",
+      "sha256": "b16f51c329e289906dca4b05b844dad80cd24789844ef5c4cf76263e81fe9a5b",
+      "previous_sha256": "b16f51c329e289906dca4b05b844dad80cd24789844ef5c4cf76263e81fe9a5b",
+      "git_blob": "9ece17061f7ad63fa2c787bab633403e974045e1"
+    },
+    {
+      "path": "index.php",
+      "sha256": "e490adf8449bf19ca06744922355d9c2860674d35639ccbae6cd5d29516c040a",
+      "previous_sha256": "cb4dfb2c2252c3d5bb7db3b4c0a62ec8e9ce1740ef8b48ee87177c9f1414198b",
+      "git_blob": "8d6de6ed840723e51000b4d3b521839de14ab693"
+    },
+    {
+      "path": "logo.png",
+      "sha256": "d9e3a2f4504cece333a782008eb76f5c5b5406014f519e085f30c501a213b786",
+      "previous_sha256": "d9e3a2f4504cece333a782008eb76f5c5b5406014f519e085f30c501a213b786",
+      "git_blob": "b80b5b777d184930780a4ea0e2ef030f62654e9a"
+    },
+    {
+      "path": "pages/$200-billion-reached-in-cancer-treatment-spending.php",
+      "sha256": "944b0d663e1365232a0edd79cdf22a1b0ad326a6add6ebda060fac64f3d5d9f1",
+      "previous_sha256": "944b0d663e1365232a0edd79cdf22a1b0ad326a6add6ebda060fac64f3d5d9f1",
+      "git_blob": "6658f61abfb675fd72fe79128dc36561c7acbbf8"
+    },
+    {
+      "path": "pages/404.php",
+      "sha256": "85a34b6a0bcf2de97e608727ea8cb3fafa09d2535619fa7085b456512cfb4374",
+      "previous_sha256": "82d62d2f1352c7e89bdfa4998f7a502902bdb0142c4141eabd654083e7158fb4",
+      "git_blob": "4d8a34fff2bb90979d99a675e2217e3ddbb63130"
+    },
+    {
+      "path": "pages/a-really-big-deal-universal-car-t-cell-platform.php",
+      "sha256": "b05dc34c4c5324bbd3f575341a1d53d1edd4a135b959dcb51884282aed9364af",
+      "previous_sha256": "b05dc34c4c5324bbd3f575341a1d53d1edd4a135b959dcb51884282aed9364af",
+      "git_blob": "ec5cc035ab9028bad09a7dcea1376edf04787b7d"
+    },
+    {
+      "path": "pages/a-run-to-remember.php",
+      "sha256": "6afd75808e02fddee61a13a5c1d6038d745ba2cdf9d2c1f96df873fa92bf1193",
+      "previous_sha256": "6afd75808e02fddee61a13a5c1d6038d745ba2cdf9d2c1f96df873fa92bf1193",
+      "git_blob": "7b98398c0a38ec559a3e81618a2c5730855037c6"
+    },
+    {
+      "path": "pages/allstar-joins-board-of-advisors.php",
+      "sha256": "890eb81737623493a78560df245ea964cead04d64bc9f489b5afb5433403ac80",
+      "previous_sha256": "890eb81737623493a78560df245ea964cead04d64bc9f489b5afb5433403ac80",
+      "git_blob": "b4259d0cd15cc5a0a09a6288186936e8ad36b97e"
+    },
+    {
+      "path": "pages/best-medical-center-joins-fight.php",
+      "sha256": "8a199df251c276e05e543570f54fb8debea128ff96c3944ca37511e6e8723bc9",
+      "previous_sha256": "8a199df251c276e05e543570f54fb8debea128ff96c3944ca37511e6e8723bc9",
+      "git_blob": "d14ca82159a29f5d2c14d131f0741d1f41939159"
+    },
+    {
+      "path": "pages/bonus-shares-available-closing-soon.php",
+      "sha256": "59579aa954263da15740830e2f02d8766a96b202d66b109d3ecb0fcf904a2b95",
+      "previous_sha256": "59579aa954263da15740830e2f02d8766a96b202d66b109d3ecb0fcf904a2b95",
+      "git_blob": "f981d66aaac7c8469407fb93e72c5f5b4e7185de"
+    },
+    {
+      "path": "pages/breakthrough-universal-cancer-vaccine.php",
+      "sha256": "699b21452599914b3a94bf6500cf1648d8126fce1ed68b5748d599c2d91f6f71",
+      "previous_sha256": "699b21452599914b3a94bf6500cf1648d8126fce1ed68b5748d599c2d91f6f71",
+      "git_blob": "40bef43a129a26afbe2032e7ab77e863bf684d27"
+    },
+    {
+      "path": "pages/bringing-hope-to-the-masses.php",
+      "sha256": "c5fda2c8ba1d28cba68e54b70a0382663e7f49f3ca6d8aabc59465ad7a0390b4",
+      "previous_sha256": "c5fda2c8ba1d28cba68e54b70a0382663e7f49f3ca6d8aabc59465ad7a0390b4",
+      "git_blob": "b58272d3d88daebb452c290dc61fa0000c433dc3"
+    },
+    {
+      "path": "pages/cancer-drug-shortage.php",
+      "sha256": "8b43b33565c2857c825a945bc8d50f57e9f9e9fc39539ef6e4660d203cd6adea",
+      "previous_sha256": "8b43b33565c2857c825a945bc8d50f57e9f9e9fc39539ef6e4660d203cd6adea",
+      "git_blob": "5028cf3202bb504c11e4b60bc6a44c189c8869ea"
+    },
+    {
+      "path": "pages/cancer-epidemic-has-a-viable-solution.php",
+      "sha256": "f4675452b146f4f71bd800a00bb009d19a9268b90d12de32210cebd40839ac5b",
+      "previous_sha256": "f4675452b146f4f71bd800a00bb009d19a9268b90d12de32210cebd40839ac5b",
+      "git_blob": "891cba3508647bbc23e8db424f1beb6cf637d059"
+    },
+    {
+      "path": "pages/cancer-survivor-stories.php",
+      "sha256": "6d045586d752381ce27210e793f029f3644a3a13fce2e3407c766671adfc3681",
+      "previous_sha256": "6d045586d752381ce27210e793f029f3644a3a13fce2e3407c766671adfc3681",
+      "git_blob": "89ba2520e32d075b236914483c75c08f559ec3b6"
+    },
+    {
+      "path": "pages/ceo-podcast.php",
+      "sha256": "a045ce64557f376bd3492844b491b33b0462a9145f0dd0373150572294f5e4ff",
+      "previous_sha256": "a045ce64557f376bd3492844b491b33b0462a9145f0dd0373150572294f5e4ff",
+      "git_blob": "2ed7342a8d2ac849daeb1f2ca0de033289a5ab67"
+    },
+    {
+      "path": "pages/ceo-update-about-bonus-shares.php",
+      "sha256": "0619a314d472f5cea8e6a5de67c5b041e7d5bbaf778a78f68ebd7df765b0cf47",
+      "previous_sha256": "0619a314d472f5cea8e6a5de67c5b041e7d5bbaf778a78f68ebd7df765b0cf47",
+      "git_blob": "c750d460f979dd4ba1f290e619f51100079d68df"
+    },
+    {
+      "path": "pages/closing-soon-only-3-weeks-left.php",
+      "sha256": "d1e0d247236d77c78d0a99301627075ca128a07ad0b71623780d42c7ff086279",
+      "previous_sha256": "d1e0d247236d77c78d0a99301627075ca128a07ad0b71623780d42c7ff086279",
+      "git_blob": "e360f59f041e7d4684f5400bde84683d28851749"
+    },
+    {
+      "path": "pages/cnn-reports-rise-of-cancer-in-women.php",
+      "sha256": "d6f56e797f6bdb6eadc6200dc582a9e50b6a038f68b0fac39df8106e715ee1a7",
+      "previous_sha256": "d6f56e797f6bdb6eadc6200dc582a9e50b6a038f68b0fac39df8106e715ee1a7",
+      "git_blob": "76c9a37f005fcb501829a518e86398999d2671f8"
+    },
+    {
+      "path": "pages/contact.php",
+      "sha256": "7e9a65f8fa1ef3a1306a6cacda3923c9c4abc5e47bd286c41a6ce45ec1cfca3c",
+      "previous_sha256": "7e9a65f8fa1ef3a1306a6cacda3923c9c4abc5e47bd286c41a6ce45ec1cfca3c",
+      "git_blob": "2d8ecdf5c54190ce3453fcacd56596a9492dcac8"
+    },
+    {
+      "path": "pages/critical-progress-in-children-cancer.php",
+      "sha256": "5209a2f8941f2d95cd02b0c72b3bb0088a2b8aa1db29490581d475265842a4a3",
+      "previous_sha256": "5209a2f8941f2d95cd02b0c72b3bb0088a2b8aa1db29490581d475265842a4a3",
+      "git_blob": "738a2a253875a5919078402dcec7b4e02f32c6dc"
+    },
+    {
+      "path": "pages/do-not-miss-out-on-bonus-share.php",
+      "sha256": "7b79b442655c924ebcf1ed03c1c9ca2c91c800fce71575e3a68c48a4ab161661",
+      "previous_sha256": "7b79b442655c924ebcf1ed03c1c9ca2c91c800fce71575e3a68c48a4ab161661",
+      "git_blob": "96c9e546ddf2f168507d5f87702935c4f82cbe06"
+    },
+    {
+      "path": "pages/enjoy-the-perks.php",
+      "sha256": "79c4d7c1eb4855f0b384213faa6973987c67abbb69f45c8e19e3c96769c08386",
+      "previous_sha256": "79c4d7c1eb4855f0b384213faa6973987c67abbb69f45c8e19e3c96769c08386",
+      "git_blob": "cb4b449113dd4b0447eacf76264b3d41b952e42f"
+    },
+    {
+      "path": "pages/event.php",
+      "sha256": "b80280b8c063ef73b7caaa507d4dfc08f19521df91775e85be82f818526112e4",
+      "previous_sha256": "b80280b8c063ef73b7caaa507d4dfc08f19521df91775e85be82f818526112e4",
+      "git_blob": "a3e28c05c5781650e5773db128797de5480071bf"
+    },
+    {
+      "path": "pages/expanded-ucla-pipeline.php",
+      "sha256": "216e51fd02c70883fd47546d03fc635e6a164f168578bdd3294e2bd254df41e2",
+      "previous_sha256": "216e51fd02c70883fd47546d03fc635e6a164f168578bdd3294e2bd254df41e2",
+      "git_blob": "f85429ef41fbfee2cc32e935783c05bc717eb23a"
+    },
+    {
+      "path": "pages/explainer.php",
+      "sha256": "6a44c0355c24278c05f23738a49deddf1b3ad2874149ff6eee91cfd48ed3a7a0",
+      "previous_sha256": "6a44c0355c24278c05f23738a49deddf1b3ad2874149ff6eee91cfd48ed3a7a0",
+      "git_blob": "0600bdbc1360d84255e2e56c9a3ab4271311b658"
+    },
+    {
+      "path": "pages/explosion-of-attention-as-ceo-explains-the-mission.php",
+      "sha256": "e3228711b4f0a71d9e38057126ec3ae3ce3333ee23eac6de45029faf3199db12",
+      "previous_sha256": "e3228711b4f0a71d9e38057126ec3ae3ce3333ee23eac6de45029faf3199db12",
+      "git_blob": "438b7fd02ed37637610945e011fb1c26313f6878"
+    },
+    {
+      "path": "pages/explosive-market-growth-affirmed.php",
+      "sha256": "dd5c7b6c3d5cd159976e876bfc93a16462eec8244ac05777371672b55e013235",
+      "previous_sha256": "dd5c7b6c3d5cd159976e876bfc93a16462eec8244ac05777371672b55e013235",
+      "git_blob": "9edf6ef4f05ba6dbc33e4d1abdddb79d5ca3a4b7"
+    },
+    {
+      "path": "pages/faqs.php",
+      "sha256": "defa005f8da5c2cfab5dcc7fa62e3fdfc67f9a28f05f691469b25d1f1a363fb6",
+      "previous_sha256": "defa005f8da5c2cfab5dcc7fa62e3fdfc67f9a28f05f691469b25d1f1a363fb6",
+      "git_blob": "e6f0934def6fd3f8d4296943a7c4d637e0e6d1a8"
+    },
+    {
+      "path": "pages/filings.php",
+      "sha256": "0feb483d2f79dedbe99c7f219ad8a3dc51b33b02f5fd1ff6a255df75141d1287",
+      "previous_sha256": "0feb483d2f79dedbe99c7f219ad8a3dc51b33b02f5fd1ff6a255df75141d1287",
+      "git_blob": "cc8b2976b5e8c82f2e3973f5909908ee0180a2b2"
+    },
+    {
+      "path": "pages/going-viral-in-the-fight-against-cancer.php",
+      "sha256": "40c1789694c30265507cc6aa31e5a6ea26f89cd99467f92601ada6c1bcfb7ed4",
+      "previous_sha256": "40c1789694c30265507cc6aa31e5a6ea26f89cd99467f92601ada6c1bcfb7ed4",
+      "git_blob": "47531e172fe27cee94de7ccd0cfe850ea5125f85"
+    },
+    {
+      "path": "pages/harmful-side-effects-unnecessary.php",
+      "sha256": "142e5fe801ee1cb075f1a075f2b0530c2f3767bd4522d2f806b377d348da6d40",
+      "previous_sha256": "142e5fe801ee1cb075f1a075f2b0530c2f3767bd4522d2f806b377d348da6d40",
+      "git_blob": "5ad307dbf7832324e939a2971d7de979044c08ae"
+    },
+    {
+      "path": "pages/heartbreaking-stories-highlight-the-need-for-change.php",
+      "sha256": "b188719281611008a31202de7916349ed29f359c7b7ea81edd0845ce119f9dac",
+      "previous_sha256": "b188719281611008a31202de7916349ed29f359c7b7ea81edd0845ce119f9dac",
+      "git_blob": "b02e67d8f96a8cabf6034b50b3a78d3215e7e527"
+    },
+    {
+      "path": "pages/home-aug-28-a.php",
+      "sha256": "ef27578f687827e45d1f28e2abf32dc22b0c6b5819d5bd9ab026f64aec78c3be",
+      "previous_sha256": "ef27578f687827e45d1f28e2abf32dc22b0c6b5819d5bd9ab026f64aec78c3be",
+      "git_blob": "2743d54c4bbdae2016c1676ec8916923a913010c"
+    },
+    {
+      "path": "pages/home-aug-28-b.php",
+      "sha256": "7eea4ca1c1250f3fe8781bb9b36404a8808934d7815dd75aaf03aa366512504a",
+      "previous_sha256": "7eea4ca1c1250f3fe8781bb9b36404a8808934d7815dd75aaf03aa366512504a",
+      "git_blob": "4e747ba59043851d3e6c0224f691d8b1614e7b29",
+      "preserve_existing": true
+    },
+    {
+      "path": "pages/home-aug-28-c.php",
+      "sha256": "bacb75f2b260ea9ba931b74b7a0c759392ab8c5dac7d14c1c3fd73ab3cf2aefa",
+      "previous_sha256": "bacb75f2b260ea9ba931b74b7a0c759392ab8c5dac7d14c1c3fd73ab3cf2aefa",
+      "git_blob": "13d9151b7215010fdd695e4d6af33aefdd7cc1e4"
+    },
+    {
+      "path": "pages/home-aug-29.php",
+      "sha256": "1bbd24c7cce867f71851ffc913401d847290f68d14d050ea7cd2e0d357d192ef",
+      "previous_sha256": "1bbd24c7cce867f71851ffc913401d847290f68d14d050ea7cd2e0d357d192ef",
+      "git_blob": "6148fb9a7a4571fa3edcd9b4a770d3952a12fc5e"
+    },
+    {
+      "path": "pages/home-aug-30.php",
+      "sha256": "d741e6cebce37e4eafee219122039f5c64684c79e2991c33a6400bdd7a6bb486",
+      "previous_sha256": "d741e6cebce37e4eafee219122039f5c64684c79e2991c33a6400bdd7a6bb486",
+      "git_blob": "ba8c08a961df3245399e66a09cd47dd363685553"
+    },
+    {
+      "path": "pages/home-aug-31-grandma.php",
+      "sha256": "fc9949c0c8f3c3ad8ae777f6fa93329c5a546b6e7a20fed11af2575d201a58b9",
+      "previous_sha256": "fc9949c0c8f3c3ad8ae777f6fa93329c5a546b6e7a20fed11af2575d201a58b9",
+      "git_blob": "4b3aa36329e397c587cf7fa5277afa50c594e9e4"
+    },
+    {
+      "path": "pages/home-aug-31.php",
+      "sha256": "826c8c493e6a0157027e00a63b81deda0a4ed07b1212a0bd412fb56748dbe5c8",
+      "previous_sha256": "826c8c493e6a0157027e00a63b81deda0a4ed07b1212a0bd412fb56748dbe5c8",
+      "git_blob": "e5f27bf087dc7d1951b612fb582be587cae5f9ff"
+    },
+    {
+      "path": "pages/home-reference-news.php",
+      "sha256": "ec32a7cbaf69b185d75a538d6fdec3c3835c2babfd92f5b4e4cdb6757b443f21",
+      "previous_sha256": "ec32a7cbaf69b185d75a538d6fdec3c3835c2babfd92f5b4e4cdb6757b443f21",
+      "git_blob": "9d23b3c0a4344642228b6a572243c8d9c1ef6724"
+    },
+    {
+      "path": "pages/home-reference-newsletter.php",
+      "sha256": "0f1b6192ce7881618dd2355fb6f2f2c5bca7f122d6adc3215a617cf38e7c38ef",
+      "previous_sha256": "0f1b6192ce7881618dd2355fb6f2f2c5bca7f122d6adc3215a617cf38e7c38ef",
+      "git_blob": "c87deaed2495270a569d3263ce829f28ea3cde2d"
+    },
+    {
+      "path": "pages/home-sep-1-adrian.php",
+      "sha256": "d14b9e0b96a6f3fca2bb2443e0e96102736a666f0559eefc9cb904ab8edf9153",
+      "previous_sha256": "d14b9e0b96a6f3fca2bb2443e0e96102736a666f0559eefc9cb904ab8edf9153",
+      "git_blob": "b21766108e7d10e47890e7d265240769c8691d0b"
+    },
+    {
+      "path": "pages/home-sep-1-impact-people-alternate.php",
+      "sha256": "c900754b077ec120293e40f1949e983b078a03c4360b5c0797938420ae56dc75",
+      "previous_sha256": "c900754b077ec120293e40f1949e983b078a03c4360b5c0797938420ae56dc75",
+      "git_blob": "ba464069c1e1a368d374848026f026faf37447a2"
+    },
+    {
+      "path": "pages/home-sep-1-impact-people.php",
+      "sha256": "407ee64af558afe964840c732b3f16a1e82ea9eb63429d5ca38d6d0158ed21c6",
+      "previous_sha256": "407ee64af558afe964840c732b3f16a1e82ea9eb63429d5ca38d6d0158ed21c6",
+      "git_blob": "e3cce2a60cacaa4225f3466071a3b8e333d81094"
+    },
+    {
+      "path": "pages/home-sep-1-impact.php",
+      "sha256": "9207c31e6270d1a7b4b859ad7d9598f044227b1eed6da067a4ea68993e4fc0e9",
+      "previous_sha256": "9207c31e6270d1a7b4b859ad7d9598f044227b1eed6da067a4ea68993e4fc0e9",
+      "git_blob": "60b8bb5e2f7c10ba20f29584367576da68df1858"
+    },
+    {
+      "path": "pages/home-sep-1.php",
+      "sha256": "5c0d62dcb123318b3e358f8fc0cf3afd020e0d74cb38862fc1aa216da5a62b7e",
+      "previous_sha256": "5c0d62dcb123318b3e358f8fc0cf3afd020e0d74cb38862fc1aa216da5a62b7e",
+      "git_blob": "e0cd908198b24c0bc56c808b479cb47cb79915c3"
+    },
+    {
+      "path": "pages/home-sep-2.php",
+      "sha256": "2e77ee0e7f297fc045041d0d6b99c0e8c8303ee1ad87a6e3885c17359657a660",
+      "previous_sha256": "2e77ee0e7f297fc045041d0d6b99c0e8c8303ee1ad87a6e3885c17359657a660",
+      "git_blob": "651f59be64938d8928b7561ecc4132437baf071f"
+    },
+    {
+      "path": "pages/home.php",
+      "sha256": "09e61938ad42372b76733ca5ce07d4b1cb32b32d3b270d46ca411318f0c98fb1",
+      "previous_sha256": "09e61938ad42372b76733ca5ce07d4b1cb32b32d3b270d46ca411318f0c98fb1",
+      "git_blob": "5db0667b19a1b7b620f83a2829ae9998156e3429"
+    },
+    {
+      "path": "pages/hope-for-pediatric-cancer.php",
+      "sha256": "8f4ae1f0e63a96e1a724210206467d78bfa83421827748377c6e7d2e89cdf294",
+      "previous_sha256": "8f4ae1f0e63a96e1a724210206467d78bfa83421827748377c6e7d2e89cdf294",
+      "git_blob": "e07e7af6996f064d1e7c0e016533fa158be6f39b"
+    },
+    {
+      "path": "pages/important-cancervax-team-meeting.php",
+      "sha256": "6a9ff7748594c66c59d5186cd980c32d696a04c7938f9b6b84ac8f0c98c6e846",
+      "previous_sha256": "6a9ff7748594c66c59d5186cd980c32d696a04c7938f9b6b84ac8f0c98c6e846",
+      "git_blob": "916ed5eff7f224e58ab76acde9c5fe8a70786181"
+    },
+    {
+      "path": "pages/important-ceo-update-about-bonus-shares.php",
+      "sha256": "d65628d1a7ed58e2f150132a520b020e943baa7397f5a08e5dc6ddf74398a623",
+      "previous_sha256": "d65628d1a7ed58e2f150132a520b020e943baa7397f5a08e5dc6ddf74398a623",
+      "git_blob": "fbf66c86480c1c9e79bb3ad462f0eecd1fa674e5"
+    },
+    {
+      "path": "pages/invest.php",
+      "sha256": "db2153ebc81ccd41376df9a494f998af082bcb903986072b0a16b7886b131a55",
+      "previous_sha256": "db2153ebc81ccd41376df9a494f998af082bcb903986072b0a16b7886b131a55",
+      "git_blob": "c73fe8b548baefad0800fadf78f5d928547321bb"
+    },
+    {
+      "path": "pages/lifescience-review.php",
+      "sha256": "9126419e3276fd5c3dc06763af6c9c7c6bbbd5f1f722fc33d082e565c157662f",
+      "previous_sha256": "9126419e3276fd5c3dc06763af6c9c7c6bbbd5f1f722fc33d082e565c157662f",
+      "git_blob": "b68bb5bd56dd038bd7fd173e1153888c455c3e2b"
+    },
+    {
+      "path": "pages/major-news-outlet-sounds-alaram.php",
+      "sha256": "cf88e63a2450a5b97b168abc8a8bd5299acf1e1ae0ce2aae1a81fda9ea3cac3d",
+      "previous_sha256": "cf88e63a2450a5b97b168abc8a8bd5299acf1e1ae0ce2aae1a81fda9ea3cac3d",
+      "git_blob": "3637e9ae68bce6bbe05ec91e08a52921f1eef8d9"
+    },
+    {
+      "path": "pages/market.php",
+      "sha256": "3544efe30e91aaa67ea5aaba26b39ca8854078d6a846b1edd79116cbeb58cf9d",
+      "previous_sha256": "3544efe30e91aaa67ea5aaba26b39ca8854078d6a846b1edd79116cbeb58cf9d",
+      "git_blob": "a130da62e831f47fa3bda96d2f660c9065a92a46"
+    },
+    {
+      "path": "pages/massive-market-opportunity.php",
+      "sha256": "4959b1c55fc4ae6662ad3e5a7621bb262ad14e91f55feee3e03d3430cfbe7f2d",
+      "previous_sha256": "4959b1c55fc4ae6662ad3e5a7621bb262ad14e91f55feee3e03d3430cfbe7f2d",
+      "git_blob": "604f8f7d68bee4c924d09266d4cec60647e3aea5"
+    },
+    {
+      "path": "pages/news-archive.php",
+      "sha256": "fd971aef028729472369f22893555ef8bc4393929f2eef1fb2f5d1bfa08627f4",
+      "previous_sha256": "fd971aef028729472369f22893555ef8bc4393929f2eef1fb2f5d1bfa08627f4",
+      "git_blob": "85b6c946e4c1fda4c987b572fbf97373cf37614d"
+    },
+    {
+      "path": "pages/news-commentary.php",
+      "sha256": "cb944bf32edc01c5b44adf4b4ce12481ef4cfbcb5351c200a0d4bf395a5394cf",
+      "previous_sha256": "cb944bf32edc01c5b44adf4b4ce12481ef4cfbcb5351c200a0d4bf395a5394cf",
+      "git_blob": "32cd2e2c043ad18f18ab421206b601f97957af90"
+    },
+    {
+      "path": "pages/news.php",
+      "sha256": "ec2200271ff97c7d89c905a345e17cd54d93c7f2cb634fa1ede8aa10749fe838",
+      "previous_sha256": "ec2200271ff97c7d89c905a345e17cd54d93c7f2cb634fa1ede8aa10749fe838",
+      "git_blob": "7f6f9a14194380fb8ad6444582f8c40e7af69b98"
+    },
+    {
+      "path": "pages/offering.php",
+      "sha256": "f141f8be993d9bff12babdbd1c0000848daa86dcf248d9ac7d0456282a0a9be2",
+      "previous_sha256": "f141f8be993d9bff12babdbd1c0000848daa86dcf248d9ac7d0456282a0a9be2",
+      "git_blob": "b3fdc9edaa68f85976788c1c8b117b087e65824b"
+    },
+    {
+      "path": "pages/oppenheimer-moment-a-pivotal-meeting-at-ucla.php",
+      "sha256": "ee828bbee5d58c5a09227c63647c4c6c0867978a5107edbff415c1e26e552ac7",
+      "previous_sha256": "ee828bbee5d58c5a09227c63647c4c6c0867978a5107edbff415c1e26e552ac7",
+      "git_blob": "68c47a52e7723c05665e09f9a74cecb641422e9d"
+    },
+    {
+      "path": "pages/perks.php",
+      "sha256": "0bc10e2db0eaa0920a3dcbd5f81f1dddd747f5a5e26cd315facd1d9700b21415",
+      "previous_sha256": "0bc10e2db0eaa0920a3dcbd5f81f1dddd747f5a5e26cd315facd1d9700b21415",
+      "git_blob": "94e5047c6c01adfabb764fa7afe972658e72670c"
+    },
+    {
+      "path": "pages/prep.php",
+      "sha256": "521f7aeae39cd91fb2634eb05a8c5c2ed73f64f2a14cab1774a756fb585c3f2c",
+      "previous_sha256": "521f7aeae39cd91fb2634eb05a8c5c2ed73f64f2a14cab1774a756fb585c3f2c",
+      "git_blob": "6abae7893460f0a9a075c5891e9d3417d09c5054"
+    },
+    {
+      "path": "pages/privacy-policy.php",
+      "sha256": "8404f9101940ae0d0a36c94d3b8bb6b56971aef4d6d39262d44aed2f8794e338",
+      "previous_sha256": "0bbce8399c769d1d37b9fdcfa4e49e35d9abe475d14dfd3abe461f21656fdd41",
+      "git_blob": "465aa9b7afc8ae64031ac80934c9b7465699c1c0"
+    },
+    {
+      "path": "pages/progress-sep-8.php",
+      "sha256": "dcaa66806412a950efdef25ce797fc2c1e7cd451212ffcaa3f648f5bd27f643f",
+      "previous_sha256": "dcaa66806412a950efdef25ce797fc2c1e7cd451212ffcaa3f648f5bd27f643f",
+      "git_blob": "ac4cbd0749383f0c406499abc75546ed8922d6a1"
+    },
+    {
+      "path": "pages/progress.php",
+      "sha256": "afb462dc383dc490f13de25139f684eb7233d399f1233e190c6b0597a824e75d",
+      "previous_sha256": "afb462dc383dc490f13de25139f684eb7233d399f1233e190c6b0597a824e75d",
+      "git_blob": "2c19cdcce4e73684863f0f5e78ffbc6b765df99d"
+    },
+    {
+      "path": "pages/progress2.php",
+      "sha256": "494faa01afc3f1e63c2bd9d8a3f2e96f402b2225f36b1867bb6b5ccc620e3f4c",
+      "previous_sha256": "494faa01afc3f1e63c2bd9d8a3f2e96f402b2225f36b1867bb6b5ccc620e3f4c",
+      "git_blob": "d0fecc0db9774c4edfaf088166c872a30829ba82"
+    },
+    {
+      "path": "pages/recognized-by-leading-european-media-outlet.php",
+      "sha256": "aa818ed312e82eacb688d80099ab5986de3df2fe7b27eaa3fe3b085ab8484105",
+      "previous_sha256": "aa818ed312e82eacb688d80099ab5986de3df2fe7b27eaa3fe3b085ab8484105",
+      "git_blob": "ca3805340826b01381eb0422d917062944f4a330"
+    },
+    {
+      "path": "pages/regainvest-backup-for-blank.php",
+      "sha256": "ef8ccbae07b49607600f7a4638d912cc2d675abcb3330815227a3a64449ea4a7",
+      "previous_sha256": "ef8ccbae07b49607600f7a4638d912cc2d675abcb3330815227a3a64449ea4a7",
+      "git_blob": "a0b1172b3209db1264a280ef24bc6f4e4b50579a"
+    },
+    {
+      "path": "pages/research-progress-childrens-cancer.php",
+      "sha256": "598fb3c8359003ec7f21b0ac215583beef66f82a9ebb239fe6d7a6cd634aefa6",
+      "previous_sha256": "598fb3c8359003ec7f21b0ac215583beef66f82a9ebb239fe6d7a6cd634aefa6",
+      "git_blob": "a59dcbfce6c3d085093203cf8230bfc687c37f27"
+    },
+    {
+      "path": "pages/research-progress-expanded-pipeline-with-ucla.php",
+      "sha256": "1965bf0ebac991636a6651acecdc4ca1f6a7edca742feaf1c81997fe18d3c747",
+      "previous_sha256": "1965bf0ebac991636a6651acecdc4ca1f6a7edca742feaf1c81997fe18d3c747",
+      "git_blob": "bf68245dfe159aa8ca34386ecb26f31532e9fe5c"
+    },
+    {
+      "path": "pages/short-videos.php",
+      "sha256": "8c092955879576825d79144a9b0417f70c1fe6d070ab9976c4ec2ffbba6e3f40",
+      "previous_sha256": "8c092955879576825d79144a9b0417f70c1fe6d070ab9976c4ec2ffbba6e3f40",
+      "git_blob": "2182f0158af411723924fe58dfc089e6f29c5902"
+    },
+    {
+      "path": "pages/side-effects-unnecessary.php",
+      "sha256": "c249716d19845579a4737594e51326269ad73e31208daff2ab1b98550f8309ed",
+      "previous_sha256": "c249716d19845579a4737594e51326269ad73e31208daff2ab1b98550f8309ed",
+      "git_blob": "ae4c9de335d1a9468af183869b3ada880b062106"
+    },
+    {
+      "path": "pages/single-news.php",
+      "sha256": "aff2152970fbd6dc1390b6b58a0b535f830def50c1a05d2a9cf7616ef8de2e73",
+      "previous_sha256": "de7130e93ec60d3697fa5a894e5a01c6f3750e6f6895c626ae90f2164f314aac",
+      "git_blob": "f2547b2b36bf24126f84e57071a0a52ff6bea27f"
+    },
+    {
+      "path": "pages/single-video.php",
+      "sha256": "abcc0a7d97bd17f1f8f31b11f398e48ff5ec5b85b5959fdbdd634f44db24cf4e",
+      "previous_sha256": "ea4595138466c6871c260a5053df34f5d158eac48db2e779588e07350894524b",
+      "git_blob": "d1ae08ba5388a671da1b85b65af4da2e5a3f4331"
+    },
+    {
+      "path": "pages/stragtegy-for-success-detailed-by-ceo.php",
+      "sha256": "5d0b99d534cd53a3912fa75a7820464b187338a19f27182e47fc08c215aefdf4",
+      "previous_sha256": "5d0b99d534cd53a3912fa75a7820464b187338a19f27182e47fc08c215aefdf4",
+      "git_blob": "0a306d5240e84bd752371cb128cb250136cae202"
+    },
+    {
+      "path": "pages/subscriber-thankyou.php",
+      "sha256": "87c9147ef94ae32a13acce67bd8486563b9e18fa9b6c75a524016788603a9710",
+      "previous_sha256": "87c9147ef94ae32a13acce67bd8486563b9e18fa9b6c75a524016788603a9710",
+      "git_blob": "739aab35a1bf82a56bed30316d5974c8b3a6438c"
+    },
+    {
+      "path": "pages/taking-the-fight-to-cancer.php",
+      "sha256": "725996930300d9f0a26acb648d196df768f28d5a5e59aa272a858e00bed6fd1b",
+      "previous_sha256": "725996930300d9f0a26acb648d196df768f28d5a5e59aa272a858e00bed6fd1b",
+      "git_blob": "1a6dca6903fac76682ca8031209be5ed7d95a522"
+    },
+    {
+      "path": "pages/taking-the-fight-to-children-cancer.php",
+      "sha256": "165fcc0edbe8cd5ef55000b1e8e9e49e9d057be0e69dd2edeed41e7509d10702",
+      "previous_sha256": "165fcc0edbe8cd5ef55000b1e8e9e49e9d057be0e69dd2edeed41e7509d10702",
+      "git_blob": "b522b18fa6681c35b8c95b95024fb393cae2a4d4"
+    },
+    {
+      "path": "pages/team.php",
+      "sha256": "665b471d666317d656cac0b4b068da79850f9c9dd75c0029b693a571d0c06f3b",
+      "previous_sha256": "665b471d666317d656cac0b4b068da79850f9c9dd75c0029b693a571d0c06f3b",
+      "git_blob": "f5195552f3912317bfd3dd1be7e9daf92de569e3"
+    },
+    {
+      "path": "pages/technology-legacy.php",
+      "sha256": "9072ae308cede2b760e8a12ef58149a6b60505db26a0b87c5440be6fed61bedf",
+      "previous_sha256": "9072ae308cede2b760e8a12ef58149a6b60505db26a0b87c5440be6fed61bedf",
+      "git_blob": "1dfd71a4799599e7dcf4ed9e340dfad26050e9e1"
+    },
+    {
+      "path": "pages/technology-sep-10.php",
+      "sha256": "c9036d73248609bb6dd46a3796969e50ad04c9eac47e876e4349c7ff896e9c97",
+      "previous_sha256": "c9036d73248609bb6dd46a3796969e50ad04c9eac47e876e4349c7ff896e9c97",
+      "git_blob": "fbfb419ddff60f340b0719a2d38e534660049d5a"
+    },
+    {
+      "path": "pages/technology.php",
+      "sha256": "3af84c33f58ff7a9f0e1157e51348246760b96a772b3e98aa0639a733abe1620",
+      "previous_sha256": "3af84c33f58ff7a9f0e1157e51348246760b96a772b3e98aa0639a733abe1620",
+      "git_blob": "fdf4866cd7ab8e8c5ee6a6fedd4ba8e61d00ae1a"
+    },
+    {
+      "path": "pages/terms-of-use.php",
+      "sha256": "f248bfd6b918eb58c7ca80dff7dbbef91d75e4af42624b05fbf19c195970d7fb",
+      "previous_sha256": "8d7d300e1a9a5b380ca287db75259b1d0bbdbbc57e70fcbfb7db632a0699bda6",
+      "git_blob": "3d52dd22519b38a8e589b39536ba875e415d7be6"
+    },
+    {
+      "path": "pages/thank-you.php",
+      "sha256": "92b462c335c91c4c801550f55c017285377444cca0f04536860158eb1acf6936",
+      "previous_sha256": "92b462c335c91c4c801550f55c017285377444cca0f04536860158eb1acf6936",
+      "git_blob": "8d2efbbb013380b865b293c67efa2a23fcc7e3b9"
+    },
+    {
+      "path": "pages/troubling-cancer-increase-in-younger-americans.php",
+      "sha256": "05197672349242446d96ebc333407adfcb78a6b25a22389b7d476f1aa6c327ad",
+      "previous_sha256": "05197672349242446d96ebc333407adfcb78a6b25a22389b7d476f1aa6c327ad",
+      "git_blob": "0494243a4fef21dc6c2b385c7d27442714a49158"
+    },
+    {
+      "path": "pages/update-video-august-5-2025.php",
+      "sha256": "cd3a65238449cb83c71f3e5a5cc9e0507b451cef585b32ad7edd995d98b58977",
+      "previous_sha256": "cd3a65238449cb83c71f3e5a5cc9e0507b451cef585b32ad7edd995d98b58977",
+      "git_blob": "6ec3784d621c62ede7b3162291297acf4dbc9ecc"
+    },
+    {
+      "path": "pages/videos.php",
+      "sha256": "5b70229b8bf8187bff7db8927441cb588d02b9f749d12720f1dee9074126fed6",
+      "previous_sha256": "5b70229b8bf8187bff7db8927441cb588d02b9f749d12720f1dee9074126fed6",
+      "git_blob": "ab6842a673632417f1865a9b56ca2ee3a344f485"
+    },
+    {
+      "path": "pages/videos/ceo-podcast/index.php",
+      "sha256": "08678173f8e0a0d7d7902b6a1e6b0dbd6e813f84c2a7ac3bd531be2e9d47a69b",
+      "previous_sha256": "08678173f8e0a0d7d7902b6a1e6b0dbd6e813f84c2a7ac3bd531be2e9d47a69b",
+      "git_blob": "f88584f2ebfa18f71dceb020ac72c58da4c9b405"
+    },
+    {
+      "path": "pages/videos/index.php",
+      "sha256": "b853c6f2421e79ab973a621a029a04123d7833ad6fd966f7c2a52daac6b9492a",
+      "previous_sha256": "b853c6f2421e79ab973a621a029a04123d7833ad6fd966f7c2a52daac6b9492a",
+      "git_blob": "7a2966edd8fdd9a523b1bc2e040d7ef26caed4cc"
+    },
+    {
+      "path": "pages/videos/news-commentary/index.php",
+      "sha256": "c72597ba182d72c46b9d066a2af6e2eb4b29717eb89049c948bc473553d67bb7",
+      "previous_sha256": "c72597ba182d72c46b9d066a2af6e2eb4b29717eb89049c948bc473553d67bb7",
+      "git_blob": "0902f49dc9da5016cbb104e2838ad76bb38740e4"
+    },
+    {
+      "path": "pages/videos/short-videos/index.php",
+      "sha256": "72da462c3e3dac5741e1b796d2b99d92805fa330cc040b7f4092618a24520685",
+      "previous_sha256": "72da462c3e3dac5741e1b796d2b99d92805fa330cc040b7f4092618a24520685",
+      "git_blob": "30c47070584ff3b369ebfb143a1022b791285b0d"
+    },
+    {
+      "path": "pages/webinar-august-6-2026.php",
+      "sha256": "89101f17c6d8625f09640aabd86b2f61d7878d54178cc323f921e9f7e699c301",
+      "previous_sha256": "89101f17c6d8625f09640aabd86b2f61d7878d54178cc323f921e9f7e699c301",
+      "git_blob": "92ce37f8691e8d147408633050536a4dd1466688"
+    },
+    {
+      "path": "pages/webinar-feb-25-2025.php",
+      "sha256": "a65cdf51277e44953f9ed6ddeeacb7709d98f0aa2be343a91657230131b64ad9",
+      "previous_sha256": "a65cdf51277e44953f9ed6ddeeacb7709d98f0aa2be343a91657230131b64ad9",
+      "git_blob": "fe2aa8315c14b9aa0661c3f6252d9ccea12fd28b"
+    },
+    {
+      "path": "pages/webinar-may-31-2025.php",
+      "sha256": "7cff0cb0017f99eda7cad8a0bccbfd251c5a8e78174340fb477b36b02d1bc845",
+      "previous_sha256": "7cff0cb0017f99eda7cad8a0bccbfd251c5a8e78174340fb477b36b02d1bc845",
+      "git_blob": "287418766cc3d6f4f92493acdddab456ee64975c"
+    },
+    {
+      "path": "pages/webinar.php",
+      "sha256": "f8f19949e4a31338ea61b642c129edbf67b4a5eb07112e346886510ad1c6cf9a",
+      "previous_sha256": "f8f19949e4a31338ea61b642c129edbf67b4a5eb07112e346886510ad1c6cf9a",
+      "git_blob": "e514e67175b1ab4ff259c71a0c5cbc29a3e3e144"
+    },
+    {
+      "path": "pages/white-house-joins-cancer-fight.php",
+      "sha256": "1ae1fecc2ec54bedfec3754ddb9efe9e9029908184377fa059617212795e36b8",
+      "previous_sha256": "1ae1fecc2ec54bedfec3754ddb9efe9e9029908184377fa059617212795e36b8",
+      "git_blob": "42f6e70453274ecdd9f1fe0ae34bf9f8bbbe2af6"
+    },
+    {
+      "path": "pages/who-shares-important-breast-cancer-info.php",
+      "sha256": "37594b56b0933568e98b37aeb7d5c5d927885c651084bff7639a8c6926318d22",
+      "previous_sha256": "37594b56b0933568e98b37aeb7d5c5d927885c651084bff7639a8c6926318d22",
+      "git_blob": "e50fa1bd81cc00929620f0c11657216877fff47e"
+    },
+    {
+      "path": "pages/winning-research-arms-race.php",
+      "sha256": "ca4f92ca2a51e388cd7ee6105efe3bfb56dd650876e2c23cc99e63da46a0fc85",
+      "previous_sha256": "ca4f92ca2a51e388cd7ee6105efe3bfb56dd650876e2c23cc99e63da46a0fc85",
+      "git_blob": "5d8d651802bccbc5addf3b5a6409a9e947c4b7f6"
+    },
+    {
+      "path": "router.php",
+      "sha256": "15dc4e58da46b2315a3b0373a532af257c6f5f8953b25ed720de6826ba6d5229",
+      "previous_sha256": "15dc4e58da46b2315a3b0373a532af257c6f5f8953b25ed720de6826ba6d5229",
+      "git_blob": "0845ffbe232bd7a39d2850bc5a8795887f0370fd"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
+---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/up51j258kry3/staging.cancervax.com
-    - /bin/cp * $DEPLOYPATH
+    - /usr/local/bin/php .deployment/staging-deploy.php deploy
