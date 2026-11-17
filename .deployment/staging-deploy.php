@@ -8,6 +8,29 @@ umask(0077);
 const STAGING_ROOT = '/home/up51j258kry3/staging.cancervax.com';
 const REPOSITORY_ROOT = '/home/up51j258kry3/cancervax-staging-deploy';
 const BACKUP_ROOT = '/home/up51j258kry3/cancervax-staging-backups';
+// Exact bytes observed on staging, not merely a matching phrase.
+const OBSOLETE_SITEMAP_SHA256 = 'f51321c43f352147a13fa25b8a7c351b70b250c4b7970306af375a427ae2b8e5';
+
+function journalPath($root, $relative) {
+    // Retirement is not added to the ordinary candidate-file allowlist.
+    if ($relative !== 'sitemap.xml') return allowedPath($root, $relative);
+    if (is_link($root) || is_link($root . '/sitemap.xml')) stopDeployment('Symlinked sitemap path refused');
+    return $root . '/sitemap.xml';
+}
+function obsoleteSitemap($path) {
+    if (hashRegularFile($path) !== OBSOLETE_SITEMAP_SHA256) stopDeployment('Sitemap missing or identity differs; no cleanup permitted');
+    $xml = file_get_contents($path);
+    if (strpos($xml, 'Generated for Managed SSL') === false
+        || preg_match('/<!DOCTYPE|<!ENTITY/i', $xml)) stopDeployment('Unexpected sitemap content');
+    $doc = new DOMDocument();
+    if (!$doc->loadXML($xml, LIBXML_NONET)) stopDeployment('Invalid obsolete sitemap XML');
+    $xp = new DOMXPath($doc);
+    $xp->registerNamespace('s', 'http://www.sitemaps.org/schemas/sitemap/0.9');
+    $locs = $xp->query('/s:urlset/s:url/s:loc');
+    if ($locs->length !== 1 || trim($locs->item(0)->textContent) !== 'https://staging.cancervax.com/') {
+        stopDeployment('Unexpected obsolete sitemap URL');
+    }
+}
 
 function stopDeployment($message) { throw new RuntimeException($message); }
 function readJson($file) {
@@ -114,24 +137,26 @@ try {
         $seen = [];
         foreach ($journal['changes'] as $change) {
             $path = $change['path'];
-            $dest = allowedPath(STAGING_ROOT, $path);
-            if (isset($seen[$path]) || !validHash($change['after'])
+            $dest = journalPath(STAGING_ROOT, $path);
+            $retiredSitemap = $path === 'sitemap.xml'
+                && $change['before'] === OBSOLETE_SITEMAP_SHA256 && $change['after'] === null;
+            if (isset($seen[$path]) || (!$retiredSitemap && (!validHash($change['after']) || $path === 'sitemap.xml'))
                 || ($change['before'] !== null && !validHash($change['before']))
                 || !is_int($change['mode']) || $change['mode'] < 0 || $change['mode'] > 0777) stopDeployment('Invalid rollback entry');
             $seen[$path] = true;
             $now = hashRegularFile($dest);
             if ($now !== $change['after'] && $now !== $change['before']) stopDeployment('Newer server edit blocks rollback: ' . $path);
-            if ($change['before'] !== null && hashRegularFile(allowedPath($backup . '/files', $path)) !== $change['before']) stopDeployment('Backup integrity mismatch');
+            if ($change['before'] !== null && hashRegularFile(journalPath($backup . '/files', $path)) !== $change['before']) stopDeployment('Backup integrity mismatch');
         }
         foreach (array_reverse($journal['changes']) as $change) {
-            $dest = allowedPath(STAGING_ROOT, $change['path']);
+            $dest = journalPath(STAGING_ROOT, $change['path']);
             $now = hashRegularFile($dest);
             if ($now === $change['before']) continue;
             if ($now !== $change['after']) stopDeployment('Server file changed during rollback');
             if ($change['before'] === null) {
                 if (!unlink($dest)) stopDeployment('Cannot remove release-added file');
             } else {
-                replaceFile(allowedPath($backup . '/files', $change['path']), $dest, $change['mode'], $change['before']);
+                replaceFile(journalPath($backup . '/files', $change['path']), $dest, $change['mode'], $change['before']);
             }
         }
         if (hashRegularFile(STAGING_ROOT . '/.htaccess') !== $protectionHash) stopDeployment('Protection changed externally during rollback');
@@ -163,8 +188,12 @@ try {
         $changes[] = ['path' => $path, 'before' => $before, 'after' => $entry['sha256'],
             'mode' => $before === null ? 0644 : (fileperms($dest) & 0777)];
     }
+    // Preflight before any website write. Missing or different files deliberately stop.
+    obsoleteSitemap(STAGING_ROOT . '/sitemap.xml');
+    $changes[] = ['path' => 'sitemap.xml', 'before' => OBSOLETE_SITEMAP_SHA256,
+        'after' => null, 'mode' => fileperms(STAGING_ROOT . '/sitemap.xml') & 0777];
     echo count($manifest['files']) . ' candidate files verified; ' . count($changes) . " changes needed.\n";
-    echo "Preserving .htaccess, .env, authentication/configuration files, old .git metadata and all unlisted paths.\n";
+    echo "Preserving .htaccess, .env, authentication/configuration files, old .git metadata and all unlisted paths except the verified obsolete sitemap.\n";
     if ($command === 'check' || !$changes) exit(0);
     $backup = BACKUP_ROOT . '/release-' . gmdate('Y-m-d\TH-i-s\Z') . '-' . bin2hex(random_bytes(4));
     if (!mkdir($backup, 0700)) stopDeployment('Cannot create backup');
@@ -174,17 +203,26 @@ try {
     // All originals are verified and backed up BEFORE the first website write.
     foreach ($changes as $change) {
         if ($change['before'] === null) continue;
-        $dest = allowedPath($backup . '/files', $change['path']);
+        $dest = journalPath($backup . '/files', $change['path']);
         createParents(dirname($dest), 0700);
-        if (!copy(allowedPath(STAGING_ROOT, $change['path']), $dest)
+        if (!copy(journalPath(STAGING_ROOT, $change['path']), $dest)
             || hashRegularFile($dest) !== $change['before'] || !chmod($dest, 0600)) stopDeployment('Backup failed; no website files changed');
     }
     $journal['state'] = 'backed_up';
     writeJournal($backup . '/journal.json', $journal);
     echo 'Backup: ' . basename($backup) . "\n";
     foreach ($changes as $change) {
-        $dest = allowedPath(STAGING_ROOT, $change['path']);
+        $dest = journalPath(STAGING_ROOT, $change['path']);
         if (hashRegularFile($dest) !== $change['before']) stopDeployment('Server file changed during deployment; backup retained');
+        if ($change['path'] === 'sitemap.xml') {
+            obsoleteSitemap($dest);
+            $saved = journalPath($backup . '/files', 'sitemap.xml');
+            obsoleteSitemap($saved);
+            // Copy-and-verify before unlink works even across filesystems.
+            // The complete original is retained privately and journaled for rollback.
+            if (!unlink($dest)) stopDeployment('Cannot retire obsolete sitemap; backup retained');
+            continue;
+        }
         replaceFile(allowedPath($source, $change['path']), $dest, $change['mode'], $change['after']);
     }
     if (hashRegularFile(STAGING_ROOT . '/.htaccess') !== $protectionHash) stopDeployment('Protection changed externally during deployment');

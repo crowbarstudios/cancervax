@@ -15,12 +15,53 @@ or a checkout whose `.git/HEAD` is not `dev-fixed`. Do not repoint the constants
 
 ## Proposed GitHub changes
 
-Only these four staging deployment-support files are needed:
+This one-time sitemap repair changes only two existing files:
 
-1. Modify `.cpanel.yml`.
-2. Add `.deployment/staging-deploy.php`.
-3. Add `.deployment/staging-manifest.json`.
-4. Add `.deployment/STAGING-DEPLOYMENT.md`.
+1. `.deployment/staging-deploy.php`.
+2. `.deployment/STAGING-DEPLOYMENT.md`.
+
+The existing `.cpanel.yml` and `.deployment/staging-manifest.json` remain unchanged.
+The regular cPanel Update from Remote / Deploy HEAD Commit buttons invoke this helper.
+Nothing in this preparation has been pushed or deployed.
+
+## One-time obsolete sitemap retirement
+
+After the ordinary 507-file integrity preflight, the helper requires a regular,
+non-symlink `sitemap.xml` in the exact staging destination. Its bytes must match
+SHA-256 `f51321c43f352147a13fa25b8a7c351b70b250c4b7970306af375a427ae2b8e5`,
+the response observed on staging. It must also parse as XML, contain the
+`Generated for Managed SSL` marker, and contain exactly one sitemap URL:
+`https://staging.cancervax.com/`. DTDs/entities are refused; parsing uses LIBXML_NONET.
+If the server's file differs even by whitespace, is absent, or any check fails,
+deployment stops before changing website files. Do not relax the identity check
+to make an unexpected file pass. Inspect and obtain approval for a new candidate.
+
+The original is copied into the private release backup, verified byte-for-byte
+by SHA-256 and protected with mode 0600, and recorded in the rollback journal.
+Only after all originals are backed up does the helper recheck both sitemap
+copies and remove the public copy. This is a verified copy-and-remove move,
+safe across filesystem boundaries. The journal records the expected absent
+post-deployment state. Rollback verifies the backup and restores the original
+bytes and mode; a new server sitemap or damaged backup blocks rollback.
+
+This cleanup deliberately stops when the sitemap is absent, including on a
+second deployment after success. After actual staging verification, prepare a
+separately approved update retiring the mandatory cleanup preflight before
+future routine deployments. Keep the sitemap-aware rollback handling so the
+original repair release can still be restored. Do not blindly redeploy this
+one-time release or remove backups.
+
+The observed public response fingerprint is not proof of the server file's
+bytes. A mismatch safely stops. A hosting task could recreate the obsolete
+file later; repeated recreation requires hosting investigation, not broader
+deletion permissions.
+
+After manual deployment, verify the actual staging `/sitemap.xml`, both normally
+and with a fresh query string: HTTP 200, XML content type, 334 unique canonical
+URLs, and no Managed SSL comment or HTML. Check listed paths on staging (the
+XML intentionally uses the production canonical origin), then recheck robots,
+404s, menus, legal links and protection. Hosting/cache behavior cannot be proven
+by the local simulation. If only the normal URL is stale, investigate its cache.
 
 No website design/content files are changed by this preparation.
 No production helper or production manifest is modified. Do not merge this staging
@@ -41,8 +82,8 @@ approved GitHub copy. A different existing file stops deployment for review.
 
 The helper never copies `.htaccess`, `.env`, authentication files, Git metadata,
 server configuration, development artifacts or deployment-support files into the
-website. All unlisted files and directories remain untouched. No files are retired
-or broadly deleted by deployment. Existing contact/Jotform/CAPTCHA/Thank You code
+website. All unlisted files and directories remain untouched except the exact
+obsolete sitemap described above. There is no broad deletion. Existing contact/Jotform/CAPTCHA/Thank You code
 is part of the unchanged approved website.
 
 The existing staging `.htaccess` must be present and must not be a symlink.
