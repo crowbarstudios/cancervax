@@ -217,6 +217,13 @@ $isReferenceMarket = $page === 'market';
             </div>
         </div>
  
+        <style>
+            .cv-nav-cares { white-space: nowrap; }
+            @media (min-width: 1024px) and (max-width: 1279.98px) {
+                .cv-nav-logo { max-width: 220px; }
+                .cv-nav-links > a { padding-left: 0.375rem; padding-right: 0.375rem; }
+            }
+        </style>
         <nav class="sm:py-4 bg-white px-2.5 sm:px-8">
             <div class="container-fluid">
                 <div class="relative flex h-16 justify-between">
@@ -238,7 +245,7 @@ $isReferenceMarket = $page === 'market';
                     </div>
                     <div class="flex flex-1 items-center justify-start md:items-stretch md:justify-between">
                         <div class="flex shrink-0 items-center">
-                            <a href="/" class="max-w-[210px] sm:max-w-[300px]">
+                            <a href="/" class="cv-nav-logo max-w-[210px] sm:max-w-[300px]">
                                 <img class="w-auto inline-flex" src="<?php echo $full_url; ?>assets/images/light-logo.png" alt="Cancervax">
                             </a>
  
@@ -261,10 +268,11 @@ $isReferenceMarket = $page === 'market';
                         $baseUrl = $baseUrl ?? (strpos(($_SERVER['HTTP_HOST'] ?? ''), 'localhost') !== false || ($_SERVER['HTTP_HOST'] ?? '') === '127.0.0.1' ? "/cancervax" : "");
                         ?>
                         <div
-                            class="hidden sm:ml-6 lg:flex lg:gap-0 gap-2.5 [&>a]:inline-flex [&>a]:items-center [&>a]:border [&>a]:border-transparent [&>a]:text-[15px] [&>a]:font-medium [&>a]:leading-none [&>a]:text-black [&>a]:lg:px-2 [&>a]:xl:px-4 [&>a]:py-2 [&>a]:rounded-full">
+                            class="cv-nav-links hidden sm:ml-6 lg:flex lg:gap-0 gap-2.5 [&>a]:inline-flex [&>a]:items-center [&>a]:border [&>a]:border-transparent [&>a]:text-[15px] [&>a]:font-medium [&>a]:leading-none [&>a]:text-black [&>a]:lg:px-2 [&>a]:xl:px-4 [&>a]:py-2 [&>a]:rounded-full">
                             <?php foreach ($links as $slug => $name): ?>
                                 <a href="<?= $baseUrl ?>/<?= $slug ?>" class="hover:text-custom-teal-300 last:pr-0 <?php echo ($activeNavPage === $slug) ? '!text-custom-teal-300' : ''; ?>"><?= $name ?></a>
                             <?php endforeach; ?>
+                            <a href="https://cancervaxcares.com" target="_blank" rel="noopener noreferrer" class="cv-nav-cares hover:text-custom-teal-300 last:pr-0">CancerVax Cares</a>
                         </div>
  
                     </div>
@@ -280,6 +288,7 @@ $isReferenceMarket = $page === 'market';
                         <?php foreach ($links as $slug => $name): ?>
                             <a href="<?= $baseUrl ?>/<?= $slug ?>" class="<?php echo ($activeNavPage === $slug) ? '!text-custom-teal-300' : ''; ?>"><?= $name ?></a>
                         <?php endforeach; ?>
+                        <a href="https://cancervaxcares.com" target="_blank" rel="noopener noreferrer">CancerVax Cares</a>
                     </div>
                 </div>
             </div>
