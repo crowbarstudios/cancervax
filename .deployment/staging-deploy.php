@@ -188,12 +188,20 @@ try {
         $changes[] = ['path' => $path, 'before' => $before, 'after' => $entry['sha256'],
             'mode' => $before === null ? 0644 : (fileperms($dest) & 0777)];
     }
-    // Preflight before any website write. Missing or different files deliberately stop.
-    obsoleteSitemap(STAGING_ROOT . '/sitemap.xml');
-    $changes[] = ['path' => 'sitemap.xml', 'before' => OBSOLETE_SITEMAP_SHA256,
-        'after' => null, 'mode' => fileperms(STAGING_ROOT . '/sitemap.xml') & 0777];
+    // Routine deployments: the dynamic sitemap is served by the router, so an absent
+    // static sitemap.xml is the expected state. The verified obsolete file is still
+    // retired (journaled for rollback) if it reappears; any other file stops deployment.
+    $sitemapPath = journalPath(STAGING_ROOT, 'sitemap.xml');
+    $sitemapHash = hashRegularFile($sitemapPath);
+    if ($sitemapHash === OBSOLETE_SITEMAP_SHA256) {
+        obsoleteSitemap($sitemapPath);
+        $changes[] = ['path' => 'sitemap.xml', 'before' => OBSOLETE_SITEMAP_SHA256,
+            'after' => null, 'mode' => fileperms($sitemapPath) & 0777];
+    } elseif ($sitemapHash !== null) {
+        stopDeployment('Unexpected static sitemap.xml on staging; investigate before deploying');
+    }
     echo count($manifest['files']) . ' candidate files verified; ' . count($changes) . " changes needed.\n";
-    echo "Preserving .htaccess, .env, authentication/configuration files, old .git metadata and all unlisted paths except the verified obsolete sitemap.\n";
+    echo "Preserving .htaccess, .env, authentication/configuration files, old .git metadata and all unlisted paths (only a verified obsolete sitemap is ever retired).\n";
     if ($command === 'check' || !$changes) exit(0);
     $backup = BACKUP_ROOT . '/release-' . gmdate('Y-m-d\TH-i-s\Z') . '-' . bin2hex(random_bytes(4));
     if (!mkdir($backup, 0700)) stopDeployment('Cannot create backup');

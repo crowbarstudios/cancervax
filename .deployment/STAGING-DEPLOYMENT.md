@@ -3,7 +3,8 @@
 ## Scope
 
 This configuration is for `crowbarstudios/cancervax`, branch `dev-fixed`, only.
-The approved website snapshot is `ef12a4cc9b62bccda6b28fd1ffccedcbcbcd2a74`.
+The approved website snapshot is `a386f9776a1a25ad6385cd933831698834aabe79`
+(previous: `ef12a4cc9b62bccda6b28fd1ffccedcbcbcd2a74`; only `pages/invest.php` changed).
 
 - Source: `/home/up51j258kry3/cancervax-staging-deploy`
 - Destination: `/home/up51j258kry3/staging.cancervax.com`
@@ -13,43 +14,28 @@ The approved website snapshot is `ef12a4cc9b62bccda6b28fd1ffccedcbcbcd2a74`.
 The helper refuses a different source, working directory, destination alias or symlink,
 or a checkout whose `.git/HEAD` is not `dev-fixed`. Do not repoint the constants.
 
-## Proposed GitHub changes
+## Current release
 
-This one-time sitemap repair changes only two existing files:
+This routine release updates `pages/invest.php` (accredited investor link) and its
+manifest entry, and retires the mandatory one-time sitemap cleanup preflight.
+`.cpanel.yml` is unchanged. Nothing has been deployed to GoDaddy.
 
-1. `.deployment/staging-deploy.php`.
-2. `.deployment/STAGING-DEPLOYMENT.md`.
+## Obsolete sitemap handling (one-time cleanup retired)
 
-The existing `.cpanel.yml` and `.deployment/staging-manifest.json` remain unchanged.
-The regular cPanel Update from Remote / Deploy HEAD Commit buttons invoke this helper.
-Nothing in this preparation has been pushed or deployed.
+The one-time retirement of the obsolete Managed SSL `sitemap.xml` has completed on
+staging; `/sitemap.xml` is now served dynamically by the router. Routine deployments
+no longer require that file:
 
-## One-time obsolete sitemap retirement
+- Absent static `sitemap.xml` (expected): no sitemap action; deployment proceeds.
+- File matching SHA-256 `f51321c43f352147a13fa25b8a7c351b70b250c4b7970306af375a427ae2b8e5`
+  reappears: it is fully re-validated (XML, Managed SSL marker, single staging URL,
+  no DTD/entities, LIBXML_NONET), backed up privately, journaled, and retired as before.
+- Any other static `sitemap.xml`: deployment stops before website writes. Investigate it;
+  do not relax the identity check.
 
-After the ordinary 507-file integrity preflight, the helper requires a regular,
-non-symlink `sitemap.xml` in the exact staging destination. Its bytes must match
-SHA-256 `f51321c43f352147a13fa25b8a7c351b70b250c4b7970306af375a427ae2b8e5`,
-the response observed on staging. It must also parse as XML, contain the
-`Generated for Managed SSL` marker, and contain exactly one sitemap URL:
-`https://staging.cancervax.com/`. DTDs/entities are refused; parsing uses LIBXML_NONET.
-If the server's file differs even by whitespace, is absent, or any check fails,
-deployment stops before changing website files. Do not relax the identity check
-to make an unexpected file pass. Inspect and obtain approval for a new candidate.
-
-The original is copied into the private release backup, verified byte-for-byte
-by SHA-256 and protected with mode 0600, and recorded in the rollback journal.
-Only after all originals are backed up does the helper recheck both sitemap
-copies and remove the public copy. This is a verified copy-and-remove move,
-safe across filesystem boundaries. The journal records the expected absent
-post-deployment state. Rollback verifies the backup and restores the original
-bytes and mode; a new server sitemap or damaged backup blocks rollback.
-
-This cleanup deliberately stops when the sitemap is absent, including on a
-second deployment after success. After actual staging verification, prepare a
-separately approved update retiring the mandatory cleanup preflight before
-future routine deployments. Keep the sitemap-aware rollback handling so the
-original repair release can still be restored. Do not blindly redeploy this
-one-time release or remove backups.
+Sitemap-aware rollback handling is retained, so the original repair release (and any
+release that retires the file) can still be restored from its private backup.
+Do not remove backups.
 
 The observed public response fingerprint is not proof of the server file's
 bytes. A mismatch safely stops. A hosting task could recreate the obsolete
