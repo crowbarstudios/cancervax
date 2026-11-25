@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "approved_commit": "a386f9776a1a25ad6385cd933831698834aabe79",
-  "previous_approved_commit": "ef12a4cc9b62bccda6b28fd1ffccedcbcbcd2a74",
+  "approved_commit": "12e4cbf069e72774a643dacaca7bd4816fce3009",
+  "previous_approved_commit": "a386f9776a1a25ad6385cd933831698834aabe79",
   "repository": "/home/up51j258kry3/cancervax-staging-deploy",
   "target": "/home/up51j258kry3/staging.cancervax.com",
   "file_count": 507,
@@ -2432,9 +2432,9 @@
     },
     {
       "path": "includes/header.php",
-      "sha256": "c02188b4ea6e743df45e0392ee6231a1c303883e544b39ecc59ac7a550d8f38c",
+      "sha256": "e68f538d33fc19565ee1f3021550cc6d584c14bfce6b21940af24faa8a319358",
       "previous_sha256": "c02188b4ea6e743df45e0392ee6231a1c303883e544b39ecc59ac7a550d8f38c",
-      "git_blob": "a61873d5f0b26878c9d17d90598a1497a52c210c"
+      "git_blob": "d1028d6c1145f687c49d07b1d7aa940fff7a4b0d"
     },
     {
       "path": "includes/legacy-public.php",
