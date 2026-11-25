@@ -1,6 +1,6 @@
 {
-  "stage_commit": "2bec0a51e7557a0542b7d1b73eb9bb346a045331",
-  "main_commit": "1c36d79256a98bddb8d61d6652c61430176d4f09",
+  "stage_commit": "f5111b2f47d703c2875fa987a46007ad6d2c2f82",
+  "main_commit": "e1413c4138dbcde5bf8f1807fbf1dbb1d11f887f",
   "files": [
     {
       "path": "assets/css/homepage-reference.css",
@@ -2746,9 +2746,9 @@
     },
     {
       "path": "pages/invest.php",
-      "sha256": "db2153ebc81ccd41376df9a494f998af082bcb903986072b0a16b7886b131a55",
-      "previous_sha256": "a8a8874a1f90f569abc2a83c3da0192d5b06ab1a5e1cbcf57b0c2edf22fb3c32",
-      "git_blob": "c73fe8b548baefad0800fadf78f5d928547321bb"
+      "sha256": "508394184d46ca29301af783e8fc86db74402667d609ceec2263dd9cb81a6171",
+      "previous_sha256": "db2153ebc81ccd41376df9a494f998af082bcb903986072b0a16b7886b131a55",
+      "git_blob": "555c5ec272cb96b9ad4d36292abb7d6cf8e975a7"
     },
     {
       "path": "pages/lifescience-review.php",

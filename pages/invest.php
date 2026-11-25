@@ -17,7 +17,7 @@
     <div class="container">
       <h2 id="offering-title">Investment information</h2>
       <div class="offering-grid">
-        <a class="offering-card" href="https://invest.cancervax.com/" target="_blank" rel="noopener noreferrer">
+        <a class="offering-card" href="https://accredited.cancervax.com" target="_blank" rel="noopener noreferrer">
           <div><h3>Accredited investors</h3><span>CancerVax investor portal</span></div><span class="offering-arrow" aria-hidden="true">↗</span>
         </a>
         <a class="offering-card" href="https://www.startengine.com/offering/cancervax" target="_blank" rel="noopener noreferrer">
